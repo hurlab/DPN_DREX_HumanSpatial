@@ -1,0 +1,5 @@
+"comparison","gene_set","enrich_type","cell_type","n_pathways","mean_neg_log10_padj"
+"EXvsHFD","Overlap_MS","richR_GO","majorSC",171,2.02831279055902
+"EXvsHFD","Overlap_MS","richR_GO","mySC",58,1.82731151453156
+"EXvsHFD","Overlap_MS","richR_KEGG","mySC",2,1.60158115597633
+"HFDvsSD","Overlap_MS","richR_GO","majorSC",5,1.58467491057642

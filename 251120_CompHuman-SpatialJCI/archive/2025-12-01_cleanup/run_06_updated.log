@@ -1,0 +1,28 @@
+Warning message:
+In dplyr::left_join(human, mouse, by = "HID") :
+  Detected an unexpected many-to-many relationship between `x` and `y`.
+ℹ Row 130 of `x` matches multiple rows in `y`.
+ℹ Row 169 of `y` matches multiple rows in `x`.
+ℹ If a many-to-many relationship is expected, set `relationship =
+  "many-to-many"` to silence this warning.
+=== Folder: ../DEG ===
+Processing: DREXvsHFD_ImmSC.csv
+Processing: DREXvsHFD_mySC.csv
+Processing: DREXvsHFD_nmSC.csv
+Processing: DRvsHFD_ImmSC.csv
+Processing: DRvsHFD_mySC.csv
+Processing: DRvsHFD_nmSC.csv
+Processing: EXvsHFD_ImmSC.csv
+Processing: EXvsHFD_mySC.csv
+Processing: EXvsHFD_nmSC.csv
+Processing: HFDvsSD_ImmSC.csv
+Processing: HFDvsSD_mySC.csv
+Processing: HFDvsSD_nmSC.csv
+=== Folder: ../DEG_Major ===
+Processing: DREXvsHFD_majorSC.csv
+Processing: DRvsHFD_majorSC.csv
+Processing: EXvsHFD_majorSC.csv
+Processing: HFDvsSD_majorSC.csv
+There were 50 or more warnings (use warnings() to see the first 50)
+Bioenergetic summary written to Output_JCI/Bioenergetic_Focus
+Bioenergetic analyses complete.

@@ -1,0 +1,46 @@
+=== Human-Mouse Conservation Analysis ===
+
+--- Comparison: HFDvsSD ---
+  mySC: Mouse=27, Conserved in Schwann=2 (7.4%), Conserved in JCI=4 (14.8%)
+  nmSC: Mouse=4, Conserved in Schwann=0 (0%), Conserved in JCI=1 (25%)
+  ImmSC: Mouse=3, Conserved in Schwann=1 (33.3%), Conserved in JCI=1 (33.3%)
+  majorSC: Mouse=69, Conserved in Schwann=5 (7.2%), Conserved in JCI=11 (15.9%)
+
+--- Comparison: DRvsHFD ---
+  mySC: Mouse=47, Conserved in Schwann=3 (6.4%), Conserved in JCI=9 (19.1%)
+  nmSC: Mouse=5, Conserved in Schwann=0 (0%), Conserved in JCI=2 (40%)
+  majorSC: Mouse=55, Conserved in Schwann=1 (1.8%), Conserved in JCI=12 (21.8%)
+
+--- Comparison: EXvsHFD ---
+  mySC: Mouse=186, Conserved in Schwann=5 (2.7%), Conserved in JCI=29 (15.6%)
+  nmSC: Mouse=3, Conserved in Schwann=0 (0%), Conserved in JCI=0 (0%)
+  ImmSC: Mouse=10, Conserved in Schwann=0 (0%), Conserved in JCI=3 (30%)
+  majorSC: Mouse=537, Conserved in Schwann=13 (2.4%), Conserved in JCI=52 (9.7%)
+
+--- Comparison: DREXvsHFD ---
+  mySC: Mouse=90, Conserved in Schwann=2 (2.2%), Conserved in JCI=15 (16.7%)
+  nmSC: Mouse=19, Conserved in Schwann=0 (0%), Conserved in JCI=2 (10.5%)
+  ImmSC: Mouse=26, Conserved in Schwann=0 (0%), Conserved in JCI=5 (19.2%)
+  majorSC: Mouse=164, Conserved in Schwann=2 (1.2%), Conserved in JCI=26 (15.9%)
+
+=== Creating Conservation Visualizations ===
+
+=== Identifying Highly Conserved Genes ===
+
+--- Cell Type: mySC ---
+  Found 1 genes conserved in ≥2 comparisons
+
+--- Cell Type: nmSC ---
+
+--- Cell Type: ImmSC ---
+
+--- Cell Type: majorSC ---
+  Found 1 genes conserved in ≥2 comparisons
+
+=== Species-Specific Pathway Summary ===
+
+=== Creating Summary Report ===
+
+=== Analysis Complete ===
+Output directory: Output_JCI/Conservation_Analysis
+Check for conservation statistics, highly conserved genes, and pathway comparisons

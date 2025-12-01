@@ -1,0 +1,16 @@
+"file","comp_group","cell_type","n_mouse","n_schwann","n_jci","n_overlap_ms","n_overlap_mj","n_overlap_sj","n_overlap_all3"
+"EXvsHFD_majorSC.csv","EXvsHFD","majorSC",537,194,1422,13,52,40,4
+"EXvsHFD_mySC.csv","EXvsHFD","mySC",186,194,1422,5,29,40,2
+"DRvsHFD_mySC.csv","DRvsHFD","mySC",47,194,1422,3,9,40,2
+"HFDvsSD_majorSC.csv","HFDvsSD","majorSC",69,194,1422,5,11,40,1
+"HFDvsSD_mySC.csv","HFDvsSD","mySC",27,194,1422,2,4,40,1
+"DRvsHFD_majorSC.csv","DRvsHFD","majorSC",55,194,1422,1,12,40,1
+"HFDvsSD_ImmSC.csv","HFDvsSD","ImmSC",3,194,1422,1,1,40,1
+"DREXvsHFD_majorSC.csv","DREXvsHFD","majorSC",164,194,1422,2,26,40,0
+"DREXvsHFD_mySC.csv","DREXvsHFD","mySC",90,194,1422,2,15,40,0
+"DREXvsHFD_ImmSC.csv","DREXvsHFD","ImmSC",26,194,1422,0,5,40,0
+"EXvsHFD_ImmSC.csv","EXvsHFD","ImmSC",10,194,1422,0,3,40,0
+"DREXvsHFD_nmSC.csv","DREXvsHFD","nmSC",19,194,1422,0,2,40,0
+"DRvsHFD_nmSC.csv","DRvsHFD","nmSC",5,194,1422,0,2,40,0
+"HFDvsSD_nmSC.csv","HFDvsSD","nmSC",4,194,1422,0,1,40,0
+"EXvsHFD_nmSC.csv","EXvsHFD","nmSC",3,194,1422,0,0,40,0

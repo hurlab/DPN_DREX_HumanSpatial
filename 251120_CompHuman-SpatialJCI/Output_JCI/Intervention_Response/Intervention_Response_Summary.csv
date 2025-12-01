@@ -1,0 +1,9 @@
+"cell_type","gene_set","n_DREX_vs_HFD","n_DR_vs_HFD","n_EX_vs_HFD","n_DREX_specific","n_DR_specific","n_EX_specific","n_DREX_DR_shared","n_DREX_EX_shared","n_DR_EX_shared","n_All_shared"
+"mySC","Mouse_all",90,47,186,68,21,144,4,20,24,2
+"mySC","Overlap_MS",2,3,5,2,2,4,0,0,1,0
+"mySC","Overlap_All3",0,2,2,0,1,1,0,0,1,0
+"nmSC","Mouse_all",19,5,3,18,4,3,1,0,0,0
+"ImmSC","Mouse_all",26,0,10,26,0,10,0,0,0,0
+"majorSC","Mouse_all",164,55,537,119,18,466,7,41,33,3
+"majorSC","Overlap_MS",2,1,13,1,0,11,0,1,1,0
+"majorSC","Overlap_All3",0,1,4,0,0,3,0,0,1,0

@@ -4,7 +4,8 @@
 * the enrichment subdirectories ending with "_enrichment" should be created within this "Enrichment_Analysis" folder; therefore, "Output_JCI/Enrichment_Analysis/"
 * Do not clusterProfiler for enrichment analysis. Just use richR only.
 * For cell type, let's use (c("mySC", "nmSC", "ImmSC", "majorSC")): The first three are from DEG and the last one is from DEG_Major folder. As the name suggests, majorSC include all three SC cells. Let's use these four cell types in our analysis. Do not include SC3
-* For comparison groups, let's use c("HFDvsSD", "DRvsHFD", "EXvsHFD", "DREXvsHFD")
+* For comparison groups, let's use c("HFDvsSD", "DRvsHFD", "EXvsHFD", "DREXvsHFD"). And this applies to all analyses. I don't want to see other comparisons included in my analyses. 
 * In "CellType_Comparison", I only see "majorSC" and "mySC" but missing cell types 
-* According to the run summary, KEGG analysis using richR failed. I need to know exactly why it failed. 
+* According to the run summary, KEGG analysis using richR failed. I need to know exactly why it failed. You must revisit EnrirchmentAnanalysisExample.R script and follow exactly how it did for KEGG analysis, especially using builtin=FALSE parameter. 
+
 

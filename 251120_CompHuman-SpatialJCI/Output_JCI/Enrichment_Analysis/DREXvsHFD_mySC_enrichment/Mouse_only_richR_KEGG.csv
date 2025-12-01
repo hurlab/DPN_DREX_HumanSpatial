@@ -1,0 +1,8 @@
+"Annot","Term","Annotated","Significant","Pvalue","Padj","GeneID"
+"00900","Terpenoid backbone biosynthesis",23,2,0.00331428290820078,0.285028330105267,"Fdps,Hmgcs1"
+"04820","Cytoskeleton in muscle cells",233,4,0.0110320874042635,0.396028977226482,"Snta1,Itgb4,Tmod2,Fmn2"
+"04978","Mineral absorption",55,2,0.0180365849846182,0.396028977226482,"Mt2,Mt1"
+"02010","ABC transporters",58,2,0.0199358510720268,0.396028977226482,"Abcc5,Abca7"
+"04148","Efferocytosis",163,3,0.0230249405364234,0.396028977226482,"Mertk,Atp8a1,Atp11a"
+"05412","Arrhythmogenic right ventricular cardiomyopathy",86,2,0.0412803154005853,0.422800870540646,"Snta1,Itgb4"
+"03320","PPAR signaling pathway",89,2,0.0439193467581297,0.422800870540646,"Slc27a1,Hmgcs1"

@@ -1,0 +1,4 @@
+"Annot","Term","Annotated","Significant","Pvalue","Padj","GeneID"
+"05100","Bacterial invasion of epithelial cells",77,2,0.000307041543335976,0.0089042047567433,"Shc4,Ctnna3"
+"05226","Gastric cancer",150,2,0.0011619131961252,0.0168477413438154,"Shc4,Ctnna3"
+"04517","IgSF CAM signaling",300,2,0.00457536351816738,0.0442285140089514,"Mbp,Kcna1"

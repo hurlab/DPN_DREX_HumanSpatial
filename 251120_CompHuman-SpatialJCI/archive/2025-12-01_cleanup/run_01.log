@@ -1,0 +1,59 @@
+trying URL 'https://cloud.r-project.org/src/contrib/pheatmap_1.0.13.tar.gz'
+Content type 'application/x-gzip' length 15162 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+* installing *source* package ‘pheatmap’ ...
+** this is package ‘pheatmap’ version ‘1.0.13’
+** package ‘pheatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pheatmap)
+
+The downloaded source packages are in
+	‘/tmp/RtmplEsyf2/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+
+pheatmap installed
+=== Cell Type-Specific Enrichment Comparison ===
+
+--- Processing richR_GO ---
+  Found 5 terms for HFDvsSD majorSC Overlap_MS
+  Found 58 terms for EXvsHFD mySC Overlap_MS
+  Found 171 terms for EXvsHFD majorSC Overlap_MS
+
+--- Processing richR_KEGG ---
+  Found 2 terms for EXvsHFD mySC Overlap_MS
+
+Total enrichment terms collected: 236
+
+=== Identifying Shared and Cell-Type-Specific Pathways ===
+  HFDvsSD Overlap_MS richR_GO: 0 shared, 5 cell-type-specific
+  EXvsHFD Overlap_MS richR_GO: 0 shared, 127 cell-type-specific
+  EXvsHFD Overlap_MS richR_KEGG: 0 shared, 2 cell-type-specific
+
+=== Creating Heatmaps ===
+  Error creating heatmap: must have n >= 2 objects to cluster
+  Created heatmap: EXvsHFD_Overlap_MS_richR_GO_Heatmap.png
+  Error creating heatmap: must have n >= 2 objects to cluster
+
+=== Creating Dot Plots ===
+  Created dot plot: HFDvsSD_Overlap_MS_richR_GO_DotPlot
+  Created dot plot: EXvsHFD_Overlap_MS_richR_GO_DotPlot
+  Created dot plot: EXvsHFD_Overlap_MS_richR_KEGG_DotPlot
+
+=== Creating Summary Report ===
+
+=== Analysis Complete ===
+Output directory: Output_JCI/CellType_Comparison
+Total comparisons analyzed: 2
+Total cell types: 2
+Total unique pathways: 183

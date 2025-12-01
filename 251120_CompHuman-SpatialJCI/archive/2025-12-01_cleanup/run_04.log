@@ -1,0 +1,79 @@
+=== Loading Human Datasets ===
+Warning message:
+In dplyr::left_join(human, mouse, by = "HID") :
+  Detected an unexpected many-to-many relationship between `x` and `y`.
+ℹ Row 130 of `x` matches multiple rows in `y`.
+ℹ Row 169 of `y` matches multiple rows in `x`.
+ℹ If a many-to-many relationship is expected, set `relationship =
+  "many-to-many"` to silence this warning.
+Schwann DEGs mapped to mouse: 630
+JCI bulk DEGs mapped to mouse: 15771
+
+=== Direction-of-Change Analysis ===
+
+--- Folder: ../DEG ---
+  Processing: DREXvsHFD_ImmSC.csv
+    Schwann: 7 overlap, 4 concordant, 3 discordant
+    JCI: 10 overlap, 3 concordant, 7 discordant
+  Processing: DREXvsHFD_mySC.csv
+    Schwann: 14 overlap, 7 concordant, 7 discordant
+    JCI: 35 overlap, 11 concordant, 24 discordant
+  Processing: DREXvsHFD_nmSC.csv
+    Schwann: 5 overlap, 3 concordant, 2 discordant
+    JCI: 5 overlap, 2 concordant, 3 discordant
+  Processing: DRvsHFD_ImmSC.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+  Processing: DRvsHFD_mySC.csv
+    Schwann: 15 overlap, 4 concordant, 11 discordant
+    JCI: 24 overlap, 13 concordant, 11 discordant
+  Processing: DRvsHFD_nmSC.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 5 overlap, 5 concordant, 0 discordant
+  Processing: EXvsHFD_ImmSC.csv
+    Schwann: 2 overlap, 0 concordant, 2 discordant
+    JCI: 6 overlap, 6 concordant, 0 discordant
+  Processing: EXvsHFD_mySC.csv
+    Schwann: 21 overlap, 4 concordant, 17 discordant
+    JCI: 76 overlap, 62 concordant, 14 discordant
+  Processing: EXvsHFD_nmSC.csv
+    Schwann: 1 overlap, 0 concordant, 1 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+  Processing: HFDvsSD_ImmSC.csv
+    Schwann: 2 overlap, 2 concordant, 0 discordant
+    JCI: 3 overlap, 1 concordant, 2 discordant
+  Processing: HFDvsSD_mySC.csv
+    Schwann: 7 overlap, 5 concordant, 2 discordant
+    JCI: 17 overlap, 10 concordant, 7 discordant
+  Processing: HFDvsSD_nmSC.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 1 overlap, 0 concordant, 1 discordant
+
+--- Folder: ../DEG_Major ---
+  Processing: DREXvsHFD_majorSC.csv
+    Schwann: 26 overlap, 17 concordant, 9 discordant
+    JCI: 69 overlap, 20 concordant, 49 discordant
+  Processing: DRvsHFD_majorSC.csv
+    Schwann: 13 overlap, 1 concordant, 12 discordant
+    JCI: 31 overlap, 23 concordant, 8 discordant
+  Processing: EXvsHFD_majorSC.csv
+    Schwann: 79 overlap, 20 concordant, 59 discordant
+    JCI: 209 overlap, 175 concordant, 34 discordant
+  Processing: HFDvsSD_majorSC.csv
+    Schwann: 22 overlap, 11 concordant, 11 discordant
+    JCI: 29 overlap, 21 concordant, 8 discordant
+
+=== Creating Visualizations ===
+Warning messages:
+1: Removed 3 rows containing missing values or values outside the scale range
+(`geom_col()`). 
+2: Removed 3 rows containing missing values or values outside the scale range
+(`geom_col()`). 
+3: Removed 2 rows containing missing values or values outside the scale range
+(`geom_col()`). 
+4: Removed 2 rows containing missing values or values outside the scale range
+(`geom_col()`). 
+
+=== Analysis Complete ===
+Output directory: Output_JCI/Direction_Analysis
+Check for concordant/discordant gene lists and summary statistics

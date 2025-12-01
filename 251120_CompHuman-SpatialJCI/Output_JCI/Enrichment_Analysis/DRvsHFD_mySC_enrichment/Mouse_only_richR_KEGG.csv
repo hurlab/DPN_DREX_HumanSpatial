@@ -1,0 +1,7 @@
+"Annot","Term","Annotated","Significant","Pvalue","Padj","GeneID"
+"04974","Protein digestion and absorption",108,4,4.28525402166149e-05,0.00125530709089912,"Col5a1,Col5a3,Col1a2,Col24a1"
+"04820","Cytoskeleton in muscle cells",233,5,5.70594132226871e-05,0.00125530709089912,"Col5a1,Col5a3,Col1a2,Vim,Col24a1"
+"04512","ECM-receptor interaction",89,2,0.0119113621081098,0.174699977585611,"Col1a2,Tnxb"
+"04517","IgSF CAM signaling",300,3,0.0177125925655471,0.194838518221018,"Nfasc,Mpz,Slit2"
+"04360","Axon guidance",181,2,0.044710707936825,0.263770838394316,"Sema3g,Slit2"
+"04514","Cell adhesion molecule (CAM) interaction",181,2,0.044710707936825,0.263770838394316,"Nfasc,Mpz"

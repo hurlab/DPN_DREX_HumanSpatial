@@ -1,0 +1,7 @@
+"Annot","Term","Annotated","Significant","Pvalue","Padj","GeneID"
+"04928","Parathyroid hormone synthesis, secretion and action",116,2,0.00115254191778507,0.0201484543115,"Egr1,Fos"
+"04935","Growth hormone synthesis, secretion and action",117,2,0.00117236457286786,0.0201484543115,"Fos,Junb"
+"04668","TNF signaling pathway",118,2,0.00119235241511972,0.0201484543115,"Fos,Junb"
+"04380","Osteoclast differentiation",136,2,0.00158027092639215,0.0201484543115,"Fos,Junb"
+"05166","Human T-cell leukemia virus 1 infection",247,2,0.00512093940697721,0.0522335819511675,"Egr1,Fos"
+"04010","MAPK signaling pathway",299,2,0.0074354325255207,0.063201176466926,"Fos,Dusp6"

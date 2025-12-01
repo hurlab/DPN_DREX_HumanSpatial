@@ -1,0 +1,8 @@
+"Annot","Term","Annotated","Significant","Pvalue","Padj","GeneID"
+"04974","Protein digestion and absorption",108,3,0.000157992183559223,0.00710964826016505,"Col1a2,Col7a1,Col23a1"
+"04510","Focal adhesion",202,3,0.000992991109427286,0.0223422999621139,"Col1a2,Spp1,Rock2"
+"04512","ECM-receptor interaction",89,2,0.00362041610754924,0.0543062416132386,"Col1a2,Spp1"
+"04611","Platelet activation",126,2,0.00713025782841629,0.0802154005696832,"Col1a2,Rock2"
+"04921","Oxytocin signaling pathway",154,2,0.0104997835411124,0.094498051870012,"Cacnb3,Rock2"
+"04360","Axon guidance",181,2,0.0142990858820855,0.107243144115641,"Sema3g,Rock2"
+"05205","Proteoglycans in cancer",204,2,0.0179412360728161,0.115336517610961,"Col1a2,Rock2"

@@ -1,0 +1,17 @@
+"comparison","cell_type","n_overlap_schwann","n_concordant_schwann","n_discordant_schwann","pct_concordant_schwann","n_overlap_jci","n_concordant_jci","n_discordant_jci","pct_concordant_jci"
+"DREXvsHFD","ImmSC",7,4,3,57.1,10,3,7,30
+"DREXvsHFD","mySC",14,7,7,50,35,11,24,31.4
+"DREXvsHFD","nmSC",5,3,2,60,5,2,3,40
+"DRvsHFD","ImmSC",0,0,0,NA,0,0,0,NA
+"DRvsHFD","mySC",15,4,11,26.7,24,13,11,54.2
+"DRvsHFD","nmSC",0,0,0,NA,5,5,0,100
+"EXvsHFD","ImmSC",2,0,2,0,6,6,0,100
+"EXvsHFD","mySC",21,4,17,19,76,62,14,81.6
+"EXvsHFD","nmSC",1,0,1,0,0,0,0,NA
+"HFDvsSD","ImmSC",2,2,0,100,3,1,2,33.3
+"HFDvsSD","mySC",7,5,2,71.4,17,10,7,58.8
+"HFDvsSD","nmSC",0,0,0,NA,1,0,1,0
+"DREXvsHFD","majorSC",26,17,9,65.4,69,20,49,29
+"DRvsHFD","majorSC",13,1,12,7.7,31,23,8,74.2
+"EXvsHFD","majorSC",79,20,59,25.3,209,175,34,83.7
+"HFDvsSD","majorSC",22,11,11,50,29,21,8,72.4

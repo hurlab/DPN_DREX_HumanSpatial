@@ -1,0 +1,6 @@
+"Term","n_celltypes","celltypes","mean_neg_log10_padj","max_neg_log10_padj","category"
+"response to progesterone",1,"majorSC",2.17166608953385,2.17166608953385,"Cell-type-specific"
+"cell adhesion",1,"majorSC",1.43792711583706,1.43792711583706,"Cell-type-specific"
+"cell-cell adhesion via plasma-membrane adhesion molecules",1,"majorSC",1.43792711583706,1.43792711583706,"Cell-type-specific"
+"response to ketone",1,"majorSC",1.43792711583706,1.43792711583706,"Cell-type-specific"
+"response to steroid hormone",1,"majorSC",1.43792711583706,1.43792711583706,"Cell-type-specific"

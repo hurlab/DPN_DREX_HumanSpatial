@@ -1,0 +1,789 @@
+"comparison","cell_type","gene_set","enrich_type","pathway","gene","pathway_padj"
+"HFDvsSD","majorSC","Overlap_MS","richR_GO","response to progesterone","Mbp",0.00673494278236689
+"HFDvsSD","majorSC","Overlap_MS","richR_GO","response to progesterone","Txnip",0.00673494278236689
+"HFDvsSD","majorSC","Overlap_MS","richR_GO","cell-cell adhesion via plasma-membrane adhesion molecules","Mbp",0.0364815165794576
+"HFDvsSD","majorSC","Overlap_MS","richR_GO","cell-cell adhesion via plasma-membrane adhesion molecules","Cldn19",0.0364815165794576
+"HFDvsSD","majorSC","Overlap_MS","richR_GO","response to ketone","Mbp",0.0364815165794576
+"HFDvsSD","majorSC","Overlap_MS","richR_GO","response to ketone","Txnip",0.0364815165794576
+"HFDvsSD","majorSC","Overlap_MS","richR_GO","response to steroid hormone","Mbp",0.0364815165794576
+"HFDvsSD","majorSC","Overlap_MS","richR_GO","response to steroid hormone","Txnip",0.0364815165794576
+"HFDvsSD","majorSC","Overlap_MS","richR_GO","cell adhesion","Mbp",0.0364815165794576
+"HFDvsSD","majorSC","Overlap_MS","richR_GO","cell adhesion","Adam23",0.0364815165794576
+"HFDvsSD","majorSC","Overlap_MS","richR_GO","cell adhesion","Cldn19",0.0364815165794576
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of myelination","Mag",0.00493479344844206
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of myelination","Egr2",0.00493479344844206
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of nervous system process","Mag",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of nervous system process","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of glial cell differentiation","Mag",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of glial cell differentiation","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of myelination","Mag",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of myelination","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of gliogenesis","Mag",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of gliogenesis","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of glial cell differentiation","Mag",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of glial cell differentiation","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular response to mechanical stimulus","Mag",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular response to mechanical stimulus","Col1a1",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular response to external stimulus","Mag",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular response to external stimulus","Col1a1",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","rhombomere formation","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","rhombomere structural organization","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","rhombomere 3 structural organization","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","rhombomere 3 formation","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","rhombomere 5 morphogenesis","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","rhombomere 5 structural organization","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","rhombomere 5 formation","Egr2",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular response to vitamin E","Col1a1",0.00525893898173403
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of gliogenesis","Mag",0.00827597487979647
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of gliogenesis","Egr2",0.00827597487979647
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of nervous system process","Mag",0.00916524073245924
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of nervous system process","Egr2",0.00916524073245924
+"EXvsHFD","mySC","Overlap_MS","richR_GO","myelination","Mag",0.0102552168943463
+"EXvsHFD","mySC","Overlap_MS","richR_GO","myelination","Egr2",0.0102552168943463
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of cell differentiation","Mag",0.0102552168943463
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of cell differentiation","Egr2",0.0102552168943463
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of cell differentiation","Col1a1",0.0102552168943463
+"EXvsHFD","mySC","Overlap_MS","richR_GO","ensheathment of neurons","Mag",0.0102552168943463
+"EXvsHFD","mySC","Overlap_MS","richR_GO","ensheathment of neurons","Egr2",0.0102552168943463
+"EXvsHFD","mySC","Overlap_MS","richR_GO","axon ensheathment","Mag",0.0102552168943463
+"EXvsHFD","mySC","Overlap_MS","richR_GO","axon ensheathment","Egr2",0.0102552168943463
+"EXvsHFD","mySC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Mfap5",0.0117058913677427
+"EXvsHFD","mySC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Mag",0.0117058913677427
+"EXvsHFD","mySC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Egr2",0.0117058913677427
+"EXvsHFD","mySC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Col1a1",0.0117058913677427
+"EXvsHFD","mySC","Overlap_MS","richR_GO","response to mechanical stimulus","Mag",0.0130978323683494
+"EXvsHFD","mySC","Overlap_MS","richR_GO","response to mechanical stimulus","Col1a1",0.0130978323683494
+"EXvsHFD","mySC","Overlap_MS","richR_GO","anatomical structure formation involved in morphogenesis","Mag",0.0142352777171793
+"EXvsHFD","mySC","Overlap_MS","richR_GO","anatomical structure formation involved in morphogenesis","Egr2",0.0142352777171793
+"EXvsHFD","mySC","Overlap_MS","richR_GO","anatomical structure formation involved in morphogenesis","Col1a1",0.0142352777171793
+"EXvsHFD","mySC","Overlap_MS","richR_GO","glial cell differentiation","Mag",0.0148073981307328
+"EXvsHFD","mySC","Overlap_MS","richR_GO","glial cell differentiation","Egr2",0.0148073981307328
+"EXvsHFD","mySC","Overlap_MS","richR_GO","response to insulin","Egr2",0.0156459998849401
+"EXvsHFD","mySC","Overlap_MS","richR_GO","response to insulin","Col1a1",0.0156459998849401
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of neurogenesis","Mag",0.0156459998849401
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of neurogenesis","Egr2",0.0156459998849401
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cell adhesion","Mag",0.0186273033095466
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cell adhesion","Col1a1",0.0186273033095466
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cell adhesion","Sdc3",0.0186273033095466
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of developmental process","Mag",0.018842058497935
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of developmental process","Egr2",0.018842058497935
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of developmental process","Col1a1",0.018842058497935
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of nervous system development","Mag",0.018842058497935
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of nervous system development","Egr2",0.018842058497935
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular response to abiotic stimulus","Mag",0.018842058497935
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular response to abiotic stimulus","Col1a1",0.018842058497935
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular response to environmental stimulus","Mag",0.018842058497935
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular response to environmental stimulus","Col1a1",0.018842058497935
+"EXvsHFD","mySC","Overlap_MS","richR_GO","gliogenesis","Mag",0.018842058497935
+"EXvsHFD","mySC","Overlap_MS","richR_GO","gliogenesis","Egr2",0.018842058497935
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of cell differentiation","Mag",0.022478825399682
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of cell differentiation","Egr2",0.022478825399682
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of cell differentiation","Col1a1",0.022478825399682
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of neurogenesis","Mag",0.0232703724981465
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of neurogenesis","Egr2",0.0232703724981465
+"EXvsHFD","mySC","Overlap_MS","richR_GO","ossification","Egr2",0.0245349649140559
+"EXvsHFD","mySC","Overlap_MS","richR_GO","ossification","Col1a1",0.0245349649140559
+"EXvsHFD","mySC","Overlap_MS","richR_GO","system development","Mfap5",0.0246293470744071
+"EXvsHFD","mySC","Overlap_MS","richR_GO","system development","Mag",0.0246293470744071
+"EXvsHFD","mySC","Overlap_MS","richR_GO","system development","Egr2",0.0246293470744071
+"EXvsHFD","mySC","Overlap_MS","richR_GO","system development","Col1a1",0.0246293470744071
+"EXvsHFD","mySC","Overlap_MS","richR_GO","axonogenesis","Mag",0.0250602629545559
+"EXvsHFD","mySC","Overlap_MS","richR_GO","axonogenesis","Egr2",0.0250602629545559
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of multicellular organismal process","Mag",0.0250602629545559
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of multicellular organismal process","Egr2",0.0250602629545559
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of multicellular organismal process","Col1a1",0.0250602629545559
+"EXvsHFD","mySC","Overlap_MS","richR_GO","response to peptide hormone","Egr2",0.0250602629545559
+"EXvsHFD","mySC","Overlap_MS","richR_GO","response to peptide hormone","Col1a1",0.0250602629545559
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of cell development","Mag",0.0273223421020104
+"EXvsHFD","mySC","Overlap_MS","richR_GO","positive regulation of cell development","Egr2",0.0273223421020104
+"EXvsHFD","mySC","Overlap_MS","richR_GO","axon development","Mag",0.027752785275048
+"EXvsHFD","mySC","Overlap_MS","richR_GO","axon development","Egr2",0.027752785275048
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of nervous system development","Mag",0.027752785275048
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of nervous system development","Egr2",0.027752785275048
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of system process","Mag",0.0324265141640134
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of system process","Egr2",0.0324265141640134
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cell differentiation","Mfap5",0.0324265141640134
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cell differentiation","Mag",0.0324265141640134
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cell differentiation","Egr2",0.0324265141640134
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cell differentiation","Col1a1",0.0324265141640134
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular developmental process","Mfap5",0.0324265141640134
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular developmental process","Mag",0.0324265141640134
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular developmental process","Egr2",0.0324265141640134
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cellular developmental process","Col1a1",0.0324265141640134
+"EXvsHFD","mySC","Overlap_MS","richR_GO","multicellular organism development","Mfap5",0.033917940735489
+"EXvsHFD","mySC","Overlap_MS","richR_GO","multicellular organism development","Mag",0.033917940735489
+"EXvsHFD","mySC","Overlap_MS","richR_GO","multicellular organism development","Egr2",0.033917940735489
+"EXvsHFD","mySC","Overlap_MS","richR_GO","multicellular organism development","Col1a1",0.033917940735489
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cell morphogenesis involved in neuron differentiation","Mag",0.034082276207627
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cell morphogenesis involved in neuron differentiation","Egr2",0.034082276207627
+"EXvsHFD","mySC","Overlap_MS","richR_GO","neuron projection morphogenesis","Mag",0.0368386218671814
+"EXvsHFD","mySC","Overlap_MS","richR_GO","neuron projection morphogenesis","Egr2",0.0368386218671814
+"EXvsHFD","mySC","Overlap_MS","richR_GO","plasma membrane bounded cell projection morphogenesis","Mag",0.0375793011150875
+"EXvsHFD","mySC","Overlap_MS","richR_GO","plasma membrane bounded cell projection morphogenesis","Egr2",0.0375793011150875
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cell projection morphogenesis","Mag",0.0378558332179863
+"EXvsHFD","mySC","Overlap_MS","richR_GO","cell projection morphogenesis","Egr2",0.0378558332179863
+"EXvsHFD","mySC","Overlap_MS","richR_GO","blood vessel development","Egr2",0.0390548834619826
+"EXvsHFD","mySC","Overlap_MS","richR_GO","blood vessel development","Col1a1",0.0390548834619826
+"EXvsHFD","mySC","Overlap_MS","richR_GO","head development","Egr2",0.0407035802830238
+"EXvsHFD","mySC","Overlap_MS","richR_GO","head development","Col1a1",0.0407035802830238
+"EXvsHFD","mySC","Overlap_MS","richR_GO","nervous system process","Mag",0.0407035802830238
+"EXvsHFD","mySC","Overlap_MS","richR_GO","nervous system process","Egr2",0.0407035802830238
+"EXvsHFD","mySC","Overlap_MS","richR_GO","nervous system process","Col1a1",0.0407035802830238
+"EXvsHFD","mySC","Overlap_MS","richR_GO","vasculature development","Egr2",0.0407035802830238
+"EXvsHFD","mySC","Overlap_MS","richR_GO","vasculature development","Col1a1",0.0407035802830238
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of developmental process","Mag",0.0421224225305747
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of developmental process","Egr2",0.0421224225305747
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of developmental process","Col1a1",0.0421224225305747
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of cell development","Mag",0.0458530544513954
+"EXvsHFD","mySC","Overlap_MS","richR_GO","regulation of cell development","Egr2",0.0458530544513954
+"EXvsHFD","mySC","Overlap_MS","richR_KEGG","Cell adhesion molecule (CAM) interaction","Mag",0.0250275791796112
+"EXvsHFD","mySC","Overlap_MS","richR_KEGG","Cell adhesion molecule (CAM) interaction","Sdc3",0.0250275791796112
+"EXvsHFD","mySC","Overlap_MS","richR_KEGG","Cytoskeleton in muscle cells","Col1a1",0.0250275791796112
+"EXvsHFD","mySC","Overlap_MS","richR_KEGG","Cytoskeleton in muscle cells","Sdc3",0.0250275791796112
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cell differentiation","Col1a1",8.99914458340375e-05
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cell differentiation","Frzb",8.99914458340375e-05
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cell differentiation","Egr2",8.99914458340375e-05
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cell differentiation","Nbl1",8.99914458340375e-05
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cell differentiation","Sema7a",8.99914458340375e-05
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cell differentiation","Mag",8.99914458340375e-05
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cell differentiation","Serpine2",8.99914458340375e-05
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Mfap5",0.000276002289063434
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Col1a1",0.000276002289063434
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Frzb",0.000276002289063434
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Egr2",0.000276002289063434
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Cpe",0.000276002289063434
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Nbl1",0.000276002289063434
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Sema7a",0.000276002289063434
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Mag",0.000276002289063434
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure morphogenesis","Serpine2",0.000276002289063434
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of developmental process","Col1a1",0.00048496962027525
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of developmental process","Frzb",0.00048496962027525
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of developmental process","Egr2",0.00048496962027525
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of developmental process","Nbl1",0.00048496962027525
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of developmental process","Sema7a",0.00048496962027525
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of developmental process","Mag",0.00048496962027525
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of developmental process","Serpine2",0.00048496962027525
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of glial cell differentiation","Egr2",0.00048496962027525
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of glial cell differentiation","Mag",0.00048496962027525
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of glial cell differentiation","Serpine2",0.00048496962027525
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell differentiation","Col1a1",0.000798695551318123
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell differentiation","Frzb",0.000798695551318123
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell differentiation","Egr2",0.000798695551318123
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell differentiation","Nbl1",0.000798695551318123
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell differentiation","Sema7a",0.000798695551318123
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell differentiation","Mag",0.000798695551318123
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell differentiation","Serpine2",0.000798695551318123
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of developmental process","Col1a1",0.000954461370992133
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of developmental process","Frzb",0.000954461370992133
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of developmental process","Egr2",0.000954461370992133
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of developmental process","Cpe",0.000954461370992133
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of developmental process","Nbl1",0.000954461370992133
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of developmental process","Sema7a",0.000954461370992133
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of developmental process","Mag",0.000954461370992133
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of developmental process","Serpine2",0.000954461370992133
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection development","Egr2",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection development","Cpe",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection development","Nbl1",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection development","Sema7a",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection development","Mag",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection development","Serpine2",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of gliogenesis","Egr2",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of gliogenesis","Mag",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of gliogenesis","Serpine2",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of neurogenesis","Egr2",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of neurogenesis","Sema7a",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of neurogenesis","Mag",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of neurogenesis","Serpine2",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of glial cell differentiation","Egr2",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of glial cell differentiation","Mag",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of glial cell differentiation","Serpine2",0.000975527493345445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection morphogenesis","Egr2",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection morphogenesis","Cpe",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection morphogenesis","Nbl1",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection morphogenesis","Sema7a",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection morphogenesis","Mag",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","plasma membrane bounded cell projection morphogenesis","Egr2",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","plasma membrane bounded cell projection morphogenesis","Cpe",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","plasma membrane bounded cell projection morphogenesis","Nbl1",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","plasma membrane bounded cell projection morphogenesis","Sema7a",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","plasma membrane bounded cell projection morphogenesis","Mag",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell projection morphogenesis","Egr2",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell projection morphogenesis","Cpe",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell projection morphogenesis","Nbl1",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell projection morphogenesis","Sema7a",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell projection morphogenesis","Mag",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","system development","Mfap5",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","system development","Col1a1",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","system development","Frzb",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","system development","Egr2",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","system development","Cpe",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","system development","Nbl1",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","system development","Sema7a",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","system development","Mag",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","system development","Serpine2",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron development","Egr2",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron development","Cpe",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron development","Nbl1",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron development","Sema7a",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron development","Mag",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron development","Serpine2",0.00104543489467276
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of astrocyte differentiation","Mag",0.00115417400052737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of astrocyte differentiation","Serpine2",0.00115417400052737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of nervous system development","Egr2",0.00115417400052737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of nervous system development","Sema7a",0.00115417400052737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of nervous system development","Mag",0.00115417400052737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of nervous system development","Serpine2",0.00115417400052737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell development","Mfap5",0.00150173244712994
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell development","Frzb",0.00150173244712994
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell development","Egr2",0.00150173244712994
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell development","Cpe",0.00150173244712994
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell development","Nbl1",0.00150173244712994
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell development","Sema7a",0.00150173244712994
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell development","Mag",0.00150173244712994
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell development","Serpine2",0.00150173244712994
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell growth","Frzb",0.00162523172773429
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell growth","Sema7a",0.00162523172773429
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell growth","Mag",0.00162523172773429
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell growth","Serpine2",0.00162523172773429
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of gliogenesis","Egr2",0.00162523172773429
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of gliogenesis","Mag",0.00162523172773429
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of gliogenesis","Serpine2",0.00162523172773429
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell development","Frzb",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell development","Egr2",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell development","Sema7a",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell development","Mag",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell development","Serpine2",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell migration","Sdc3",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell migration","Col1a1",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell migration","Cpe",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell migration","Nbl1",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell migration","Sema7a",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell migration","Chst2",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of neurogenesis","Egr2",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of neurogenesis","Sema7a",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of neurogenesis","Mag",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of neurogenesis","Serpine2",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron differentiation","Egr2",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron differentiation","Cpe",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron differentiation","Nbl1",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron differentiation","Sema7a",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron differentiation","Mag",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron differentiation","Serpine2",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell differentiation","Mfap5",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell differentiation","Col1a1",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell differentiation","Frzb",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell differentiation","Egr2",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell differentiation","Cpe",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell differentiation","Nbl1",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell differentiation","Sema7a",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell differentiation","Mag",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell differentiation","Serpine2",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular developmental process","Mfap5",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular developmental process","Col1a1",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular developmental process","Frzb",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular developmental process","Egr2",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular developmental process","Cpe",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular developmental process","Nbl1",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular developmental process","Sema7a",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular developmental process","Mag",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular developmental process","Serpine2",0.00184188933355198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organism development","Mfap5",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organism development","Col1a1",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organism development","Frzb",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organism development","Egr2",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organism development","Cpe",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organism development","Nbl1",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organism development","Sema7a",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organism development","Mag",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organism development","Serpine2",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell migration","Sdc3",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell migration","Col1a1",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell migration","Nbl1",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell migration","Sema7a",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell migration","Chst2",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of myelination","Egr2",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of myelination","Mag",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","generation of neurons","Egr2",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","generation of neurons","Cpe",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","generation of neurons","Nbl1",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","generation of neurons","Sema7a",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","generation of neurons","Mag",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","generation of neurons","Serpine2",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","plasma membrane bounded cell projection organization","Egr2",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","plasma membrane bounded cell projection organization","Cpe",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","plasma membrane bounded cell projection organization","Nbl1",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","plasma membrane bounded cell projection organization","Sema7a",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","plasma membrane bounded cell projection organization","Mag",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","plasma membrane bounded cell projection organization","Serpine2",0.00202979998419184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of cell growth","Frzb",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of cell growth","Mag",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of cell growth","Serpine2",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell growth","Frzb",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell growth","Sema7a",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell growth","Mag",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell growth","Serpine2",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell projection organization","Egr2",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell projection organization","Cpe",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell projection organization","Nbl1",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell projection organization","Sema7a",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell projection organization","Mag",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell projection organization","Serpine2",0.00212481232242826
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell motility","Sdc3",0.00213010917280153
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell motility","Col1a1",0.00213010917280153
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell motility","Nbl1",0.00213010917280153
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell motility","Sema7a",0.00213010917280153
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell motility","Chst2",0.00213010917280153
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cell development","Egr2",0.00226268734073306
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cell development","Sema7a",0.00226268734073306
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cell development","Mag",0.00226268734073306
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cell development","Serpine2",0.00226268734073306
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell morphogenesis","Egr2",0.00244825855551932
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell morphogenesis","Cpe",0.00244825855551932
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell morphogenesis","Nbl1",0.00244825855551932
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell morphogenesis","Sema7a",0.00244825855551932
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell morphogenesis","Mag",0.00244825855551932
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of locomotion","Sdc3",0.00244825855551932
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of locomotion","Col1a1",0.00244825855551932
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of locomotion","Nbl1",0.00244825855551932
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of locomotion","Sema7a",0.00244825855551932
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of locomotion","Chst2",0.00244825855551932
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of nervous system development","Egr2",0.00251792229124603
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of nervous system development","Sema7a",0.00251792229124603
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of nervous system development","Mag",0.00251792229124603
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of nervous system development","Serpine2",0.00251792229124603
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell motility","Sdc3",0.00261036813061906
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell motility","Col1a1",0.00261036813061906
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell motility","Cpe",0.00261036813061906
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell motility","Nbl1",0.00261036813061906
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell motility","Sema7a",0.00261036813061906
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell motility","Chst2",0.00261036813061906
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of astrocyte differentiation","Mag",0.00293752345591415
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of astrocyte differentiation","Serpine2",0.00293752345591415
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neurogenesis","Egr2",0.00344184201686143
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neurogenesis","Cpe",0.00344184201686143
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neurogenesis","Nbl1",0.00344184201686143
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neurogenesis","Sema7a",0.00344184201686143
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neurogenesis","Mag",0.00344184201686143
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neurogenesis","Serpine2",0.00344184201686143
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of growth","Frzb",0.00345168816632481
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of growth","Mag",0.00345168816632481
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of growth","Serpine2",0.00345168816632481
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of growth","Frzb",0.0036536898545147
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of growth","Sema7a",0.0036536898545147
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of growth","Mag",0.0036536898545147
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of growth","Serpine2",0.0036536898545147
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","mesenchymal cell differentiation","Col1a1",0.00405729583042337
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","mesenchymal cell differentiation","Frzb",0.00405729583042337
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","mesenchymal cell differentiation","Sema7a",0.00405729583042337
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to mechanical stimulus","Col1a1",0.00410270617212005
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to mechanical stimulus","Mag",0.00410270617212005
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to mechanical stimulus","Serpine2",0.00410270617212005
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","locomotion","Sdc3",0.00415510142725717
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","locomotion","Col1a1",0.00415510142725717
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","locomotion","Nbl1",0.00415510142725717
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","locomotion","Sema7a",0.00415510142725717
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","locomotion","Chst2",0.00415510142725717
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal process","Col1a1",0.00497989481876851
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal process","Frzb",0.00497989481876851
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal process","Egr2",0.00497989481876851
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal process","Cpe",0.00497989481876851
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal process","Sema7a",0.00497989481876851
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal process","Mag",0.00497989481876851
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal process","Serpine2",0.00497989481876851
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of nervous system process","Egr2",0.00508579184017825
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of nervous system process","Mag",0.00508579184017825
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","glial cell differentiation","Egr2",0.00551714144132174
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","glial cell differentiation","Mag",0.00551714144132174
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","glial cell differentiation","Serpine2",0.00551714144132174
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","animal organ development","Mfap5",0.00575425292745307
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","animal organ development","Col1a1",0.00575425292745307
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","animal organ development","Frzb",0.00575425292745307
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","animal organ development","Egr2",0.00575425292745307
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","animal organ development","Cpe",0.00575425292745307
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","animal organ development","Sema7a",0.00575425292745307
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","animal organ development","Serpine2",0.00575425292745307
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cellular process","Col1a1",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cellular process","Frzb",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cellular process","Egr2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cellular process","Nbl1",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cellular process","Sema7a",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cellular process","Mag",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cellular process","Serpine2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cellular process","Chst2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of cellular process","Fxyd3",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of myelination","Egr2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of myelination","Mag",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","mesenchyme development","Col1a1",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","mesenchyme development","Frzb",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","mesenchyme development","Sema7a",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell adhesion","Sdc3",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell adhesion","Col1a1",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell adhesion","Mag",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell adhesion","Serpine2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell adhesion","Chst2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","head development","Col1a1",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","head development","Egr2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","head development","Sema7a",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","head development","Serpine2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","rhombomere formation","Egr2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","rhombomere structural organization","Egr2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","rhombomere 3 structural organization","Egr2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","rhombomere 3 formation","Egr2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","rhombomere 5 morphogenesis","Egr2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","rhombomere 5 structural organization","Egr2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","rhombomere 5 formation","Egr2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","seminal vesicle epithelium development","Serpine2",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of hepatocyte differentiation","Frzb",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to vitamin E","Col1a1",0.00581563791824121
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure development","Mfap5",0.00631267783084271
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure development","Col1a1",0.00631267783084271
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure development","Frzb",0.00631267783084271
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure development","Egr2",0.00631267783084271
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure development","Cpe",0.00631267783084271
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure development","Nbl1",0.00631267783084271
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure development","Sema7a",0.00631267783084271
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure development","Mag",0.00631267783084271
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","anatomical structure development","Serpine2",0.00631267783084271
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal development","Frzb",0.0068826498417218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal development","Egr2",0.0068826498417218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal development","Sema7a",0.0068826498417218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal development","Mag",0.0068826498417218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of multicellular organismal development","Serpine2",0.0068826498417218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of sodium ion transport","Serpine2",0.00700268571871401
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of sodium ion transport","Fxyd3",0.00700268571871401
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of biological process","Col1a1",0.00736599490266238
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of biological process","Frzb",0.00736599490266238
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of biological process","Egr2",0.00736599490266238
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of biological process","Nbl1",0.00736599490266238
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of biological process","Sema7a",0.00736599490266238
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of biological process","Mag",0.00736599490266238
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of biological process","Serpine2",0.00736599490266238
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of biological process","Chst2",0.00736599490266238
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of biological process","Fxyd3",0.00736599490266238
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","gliogenesis","Egr2",0.00953263938574703
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","gliogenesis","Mag",0.00953263938574703
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","gliogenesis","Serpine2",0.00953263938574703
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","nervous system development","Egr2",0.00963278092661127
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","nervous system development","Cpe",0.00963278092661127
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","nervous system development","Nbl1",0.00963278092661127
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","nervous system development","Sema7a",0.00963278092661127
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","nervous system development","Mag",0.00963278092661127
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","nervous system development","Serpine2",0.00963278092661127
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","astrocyte differentiation","Mag",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","astrocyte differentiation","Serpine2",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neural crest cell differentiation","Frzb",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neural crest cell differentiation","Sema7a",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental process","Mfap5",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental process","Col1a1",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental process","Frzb",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental process","Egr2",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental process","Cpe",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental process","Nbl1",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental process","Sema7a",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental process","Mag",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental process","Serpine2",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of axon extension","Sema7a",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of axon extension","Mag",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to mechanical stimulus","Col1a1",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to mechanical stimulus","Mag",0.0104969450800927
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to external stimulus","Col1a1",0.010770307812198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to external stimulus","Mag",0.010770307812198
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","nerve development","Egr2",0.010840749241094
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","nerve development","Serpine2",0.010840749241094
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell surface receptor signaling pathway","Col1a1",0.0113970160605272
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell surface receptor signaling pathway","Frzb",0.0113970160605272
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell surface receptor signaling pathway","Cpe",0.0113970160605272
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell surface receptor signaling pathway","Nbl1",0.0113970160605272
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell surface receptor signaling pathway","Sema7a",0.0113970160605272
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell surface receptor signaling pathway","Serpine2",0.0113970160605272
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","Wnt signaling pathway","Col1a1",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","Wnt signaling pathway","Frzb",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","Wnt signaling pathway","Cpe",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","central nervous system development","Egr2",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","central nervous system development","Sema7a",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","central nervous system development","Mag",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","central nervous system development","Serpine2",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of multicellular organismal process","Col1a1",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of multicellular organismal process","Egr2",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of multicellular organismal process","Sema7a",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of multicellular organismal process","Mag",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","positive regulation of multicellular organismal process","Serpine2",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","growth","Frzb",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","growth","Sema7a",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","growth","Mag",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","growth","Serpine2",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of extent of cell growth","Sema7a",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of extent of cell growth","Mag",0.0122447241358492
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to hydrogen peroxide","Col1a1",0.0123594599204711
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to hydrogen peroxide","Cpe",0.0123594599204711
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axonogenesis","Egr2",0.0137349923750179
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axonogenesis","Sema7a",0.0137349923750179
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axonogenesis","Mag",0.0137349923750179
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","animal organ morphogenesis","Mfap5",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","animal organ morphogenesis","Col1a1",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","animal organ morphogenesis","Frzb",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","animal organ morphogenesis","Cpe",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axon extension","Sema7a",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axon extension","Mag",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signal transduction","Col1a1",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signal transduction","Frzb",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signal transduction","Cpe",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signal transduction","Nbl1",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signal transduction","Sema7a",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signal transduction","Serpine2",0.0139485823625048
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization","Mfap5",0.0152186227219218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization","Col1a1",0.0152186227219218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization","Frzb",0.0152186227219218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization","Egr2",0.0152186227219218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization","Cpe",0.0152186227219218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization","Nbl1",0.0152186227219218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization","Sema7a",0.0152186227219218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization","Mag",0.0152186227219218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization","Serpine2",0.0152186227219218
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of neuron projection development","Sema7a",0.0157480339288206
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of neuron projection development","Mag",0.0157480339288206
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of neuron projection development","Serpine2",0.0157480339288206
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axon development","Egr2",0.0165485736971114
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axon development","Sema7a",0.0165485736971114
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axon development","Mag",0.0165485736971114
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of multicellular organismal process","Frzb",0.0167097274420623
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of multicellular organismal process","Cpe",0.0167097274420623
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of multicellular organismal process","Mag",0.0167097274420623
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of multicellular organismal process","Serpine2",0.0167097274420623
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization or biogenesis","Mfap5",0.0176990924235737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization or biogenesis","Col1a1",0.0176990924235737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization or biogenesis","Frzb",0.0176990924235737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization or biogenesis","Egr2",0.0176990924235737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization or biogenesis","Cpe",0.0176990924235737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization or biogenesis","Nbl1",0.0176990924235737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization or biogenesis","Sema7a",0.0176990924235737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization or biogenesis","Mag",0.0176990924235737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular component organization or biogenesis","Serpine2",0.0176990924235737
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","tissue development","Col1a1",0.0179698254265272
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","tissue development","Frzb",0.0179698254265272
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","tissue development","Egr2",0.0179698254265272
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","tissue development","Sema7a",0.0179698254265272
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","tissue development","Serpine2",0.0179698254265272
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of nervous system process","Egr2",0.0187035152587341
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of nervous system process","Mag",0.0187035152587341
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of axonogenesis","Sema7a",0.0194819509016234
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of axonogenesis","Mag",0.0194819509016234
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular process","Sdc3",0.0207116249973498
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular process","Col1a1",0.0207116249973498
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular process","Frzb",0.0207116249973498
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular process","Egr2",0.0207116249973498
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular process","Cpe",0.0207116249973498
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular process","Nbl1",0.0207116249973498
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular process","Sema7a",0.0207116249973498
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular process","Mag",0.0207116249973498
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular process","Serpine2",0.0207116249973498
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular process","Chst2",0.0207116249973498
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular process","Fxyd3",0.0207116249973498
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to glucose stimulus","Col1a1",0.0230161795189205
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to glucose stimulus","Cpe",0.0230161795189205
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to hexose stimulus","Col1a1",0.0230161795189205
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to hexose stimulus","Cpe",0.0230161795189205
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","hindbrain development","Egr2",0.0230161795189205
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","hindbrain development","Serpine2",0.0230161795189205
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","myelination","Egr2",0.0230161795189205
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","myelination","Mag",0.0230161795189205
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell morphogenesis involved in neuron differentiation","Egr2",0.0230161795189205
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell morphogenesis involved in neuron differentiation","Sema7a",0.0230161795189205
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell morphogenesis involved in neuron differentiation","Mag",0.0230161795189205
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to monosaccharide stimulus","Col1a1",0.0230344972917328
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to monosaccharide stimulus","Cpe",0.0230344972917328
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","ensheathment of neurons","Egr2",0.0233669115090454
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","ensheathment of neurons","Mag",0.0233669115090454
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axon ensheathment","Egr2",0.0233669115090454
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axon ensheathment","Mag",0.0233669115090454
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of signal transduction","Frzb",0.0233823864940862
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of signal transduction","Cpe",0.0233823864940862
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of signal transduction","Nbl1",0.0233823864940862
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of signal transduction","Serpine2",0.0233823864940862
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection extension","Sema7a",0.023698798608746
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection extension","Mag",0.023698798608746
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to carbohydrate stimulus","Col1a1",0.0242858214401248
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to carbohydrate stimulus","Cpe",0.0242858214401248
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of biological process","Sdc3",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of biological process","Col1a1",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of biological process","Frzb",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of biological process","Egr2",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of biological process","Cpe",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of biological process","Nbl1",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of biological process","Sema7a",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of biological process","Mag",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of biological process","Serpine2",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of biological process","Chst2",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of biological process","Fxyd3",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","intracellular glucose homeostasis","Col1a1",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","intracellular glucose homeostasis","Cpe",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell size","Sema7a",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell size","Mag",0.0248615871445476
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signaling","Col1a1",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signaling","Frzb",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signaling","Cpe",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signaling","Nbl1",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signaling","Sema7a",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of signaling","Serpine2",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell communication","Col1a1",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell communication","Frzb",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell communication","Cpe",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell communication","Nbl1",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell communication","Sema7a",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell communication","Serpine2",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to reactive oxygen species","Col1a1",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to reactive oxygen species","Cpe",0.0254037788519103
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of neuron apoptotic process","Cpe",0.0256790805370104
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of neuron apoptotic process","Mag",0.0256790805370104
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","brain development","Egr2",0.0258474729674116
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","brain development","Sema7a",0.0258474729674116
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","brain development","Serpine2",0.0258474729674116
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of plasma membrane bounded cell projection organization","Sema7a",0.0258474729674116
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of plasma membrane bounded cell projection organization","Mag",0.0258474729674116
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of plasma membrane bounded cell projection organization","Serpine2",0.0258474729674116
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell projection organization","Sema7a",0.0266016822719516
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell projection organization","Mag",0.0266016822719516
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell projection organization","Serpine2",0.0266016822719516
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cartilage development","Col1a1",0.0266016822719516
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cartilage development","Frzb",0.0266016822719516
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of signaling","Frzb",0.0270304034724721
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of signaling","Cpe",0.0270304034724721
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of signaling","Nbl1",0.0270304034724721
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of signaling","Serpine2",0.0270304034724721
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of cell communication","Frzb",0.0270304034724721
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of cell communication","Cpe",0.0270304034724721
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of cell communication","Nbl1",0.0270304034724721
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of cell communication","Serpine2",0.0270304034724721
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of leukocyte migration","Nbl1",0.0277938455917585
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of leukocyte migration","Chst2",0.0277938455917585
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of neuron differentiation","Nbl1",0.0278023896725139
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of neuron differentiation","Mag",0.0278023896725139
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organismal process","Mfap5",0.0278023896725139
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organismal process","Col1a1",0.0278023896725139
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organismal process","Frzb",0.0278023896725139
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organismal process","Egr2",0.0278023896725139
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organismal process","Cpe",0.0278023896725139
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organismal process","Nbl1",0.0278023896725139
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organismal process","Sema7a",0.0278023896725139
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organismal process","Mag",0.0278023896725139
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","multicellular organismal process","Serpine2",0.0278023896725139
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","biological regulation","Sdc3",0.0279608746426818
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","biological regulation","Col1a1",0.0279608746426818
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","biological regulation","Frzb",0.0279608746426818
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","biological regulation","Egr2",0.0279608746426818
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","biological regulation","Cpe",0.0279608746426818
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","biological regulation","Nbl1",0.0279608746426818
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","biological regulation","Sema7a",0.0279608746426818
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","biological regulation","Mag",0.0279608746426818
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","biological regulation","Serpine2",0.0279608746426818
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","biological regulation","Chst2",0.0279608746426818
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","biological regulation","Fxyd3",0.0279608746426818
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to glucose","Col1a1",0.0282132827552654
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to glucose","Cpe",0.0282132827552654
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to endogenous stimulus","Col1a1",0.0282132827552654
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to endogenous stimulus","Egr2",0.0282132827552654
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to endogenous stimulus","Cpe",0.0282132827552654
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to endogenous stimulus","Nbl1",0.0282132827552654
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of canonical Wnt signaling pathway","Col1a1",0.0282132827552654
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of canonical Wnt signaling pathway","Frzb",0.0282132827552654
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell adhesion","Col1a1",0.0282132827552654
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell adhesion","Serpine2",0.0282132827552654
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cell adhesion","Chst2",0.0282132827552654
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to hexose","Col1a1",0.0286630697398184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to hexose","Cpe",0.0286630697398184
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axon guidance","Egr2",0.0286749635760316
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","axon guidance","Sema7a",0.0286749635760316
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection guidance","Egr2",0.0286749635760316
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron projection guidance","Sema7a",0.0286749635760316
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","sodium ion transport","Serpine2",0.0287310769972595
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","sodium ion transport","Fxyd3",0.0287310769972595
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to monosaccharide","Col1a1",0.0292058741700591
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to monosaccharide","Cpe",0.0292058741700591
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to external stimulus","Col1a1",0.0294373329795807
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to external stimulus","Nbl1",0.0294373329795807
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to external stimulus","Sema7a",0.0294373329795807
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to external stimulus","Mag",0.0294373329795807
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to external stimulus","Serpine2",0.0294373329795807
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","protein processing","Cpe",0.0294373329795807
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","protein processing","Serpine2",0.0294373329795807
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","fat cell differentiation","Frzb",0.0315939513982136
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","fat cell differentiation","Egr2",0.0315939513982136
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental growth involved in morphogenesis","Sema7a",0.0319129512726445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental growth involved in morphogenesis","Mag",0.0319129512726445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to stress","Col1a1",0.0319129512726445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to stress","Cpe",0.0319129512726445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to stress","Sema7a",0.0319129512726445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to stress","Mag",0.0319129512726445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to stress","Serpine2",0.0319129512726445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to stress","Chst2",0.0319129512726445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental cell growth","Sema7a",0.0319129512726445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","developmental cell growth","Mag",0.0319129512726445
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to carbohydrate","Col1a1",0.0321763892432482
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to carbohydrate","Cpe",0.0321763892432482
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of response to stimulus","Col1a1",0.0324508238675061
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of response to stimulus","Frzb",0.0324508238675061
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of response to stimulus","Cpe",0.0324508238675061
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of response to stimulus","Nbl1",0.0324508238675061
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of response to stimulus","Sema7a",0.0324508238675061
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of response to stimulus","Serpine2",0.0324508238675061
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","stem cell differentiation","Frzb",0.0331768538325022
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","stem cell differentiation","Sema7a",0.0331768538325022
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of anatomical structure morphogenesis","Cpe",0.0339477121859072
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of anatomical structure morphogenesis","Sema7a",0.0339477121859072
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of anatomical structure morphogenesis","Mag",0.0339477121859072
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of cell development","Frzb",0.0343841900743597
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of cell development","Mag",0.0343841900743597
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","canonical Wnt signaling pathway","Col1a1",0.0347455463681546
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","canonical Wnt signaling pathway","Frzb",0.0347455463681546
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","sensory perception of mechanical stimulus","Col1a1",0.0347455463681546
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","sensory perception of mechanical stimulus","Serpine2",0.0347455463681546
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of response to stimulus","Frzb",0.0347455463681546
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of response to stimulus","Cpe",0.0347455463681546
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of response to stimulus","Nbl1",0.0347455463681546
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of response to stimulus","Serpine2",0.0347455463681546
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to insulin","Col1a1",0.0347455463681546
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to insulin","Egr2",0.0347455463681546
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell-cell adhesion","Mag",0.0352391601885921
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell-cell adhesion","Serpine2",0.0352391601885921
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cell-cell adhesion","Chst2",0.0352391601885921
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of cell adhesion","Col1a1",0.0357361242830726
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of cell adhesion","Serpine2",0.0357361242830726
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of neuron apoptotic process","Cpe",0.0368272463026084
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of neuron apoptotic process","Mag",0.0368272463026084
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of Wnt signaling pathway","Col1a1",0.0368771879808704
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of Wnt signaling pathway","Frzb",0.0368771879808704
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","glucose homeostasis","Col1a1",0.0374954507086669
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","glucose homeostasis","Cpe",0.0374954507086669
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","carbohydrate homeostasis","Col1a1",0.0374954507086669
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","carbohydrate homeostasis","Cpe",0.0374954507086669
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","connective tissue development","Col1a1",0.0375950455807405
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","connective tissue development","Frzb",0.0375950455807405
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","sensory organ morphogenesis","Mfap5",0.0375950455807405
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","sensory organ morphogenesis","Frzb",0.0375950455807405
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","embryonic organ morphogenesis","Mfap5",0.0380365454880044
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","embryonic organ morphogenesis","Frzb",0.0380365454880044
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to hormone","Col1a1",0.0393367775383761
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to hormone","Egr2",0.0393367775383761
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to hormone","Cpe",0.0393367775383761
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to steroid hormone","Col1a1",0.0398694716950145
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","response to steroid hormone","Cpe",0.0398694716950145
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of developmental process","Frzb",0.0433246769215307
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of developmental process","Cpe",0.0433246769215307
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","negative regulation of developmental process","Mag",0.0433246769215307
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","export from cell","Cpe",0.0433631416249857
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","export from cell","Serpine2",0.0433631416249857
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","export from cell","Fxyd3",0.0433631416249857
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron apoptotic process","Cpe",0.0447049884079722
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","neuron apoptotic process","Mag",0.0447049884079722
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of developmental growth","Sema7a",0.0451250925442401
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of developmental growth","Mag",0.0451250925442401
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to abiotic stimulus","Col1a1",0.0455281670859172
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to abiotic stimulus","Mag",0.0455281670859172
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to environmental stimulus","Col1a1",0.0455281670859172
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","cellular response to environmental stimulus","Mag",0.0455281670859172
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular component size","Sema7a",0.0455281670859172
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of cellular component size","Mag",0.0455281670859172
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of metal ion transport","Serpine2",0.0463584591342281
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","regulation of metal ion transport","Fxyd3",0.0463584591342281
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","leukocyte migration","Nbl1",0.0463584591342281
+"EXvsHFD","majorSC","Overlap_MS","richR_GO","leukocyte migration","Chst2",0.0463584591342281

@@ -1,0 +1,312 @@
+also installing the dependencies ‘tweenr’, ‘polyclip’, ‘RcppArmadillo’, ‘ggforce’, ‘viridis’, ‘tidygraph’, ‘graphlayouts’
+
+trying URL 'https://cloud.r-project.org/src/contrib/tweenr_2.0.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/polyclip_1.10-7.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/RcppArmadillo_15.2.2-1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ggforce_0.5.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/viridis_0.6.5.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/tidygraph_1.3.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/graphlayouts_1.2.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ggraph_2.2.2.tar.gz'
+* installing *source* package ‘tweenr’ ...
+** this is package ‘tweenr’ version ‘2.0.3’
+** package ‘tweenr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c along.cpp -o along.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c at.cpp -o at.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c cpp11.cpp -o cpp11.o
+x86_64-conda-linux-gnu-cc -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix  -c easing.c -o easing.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c element.cpp -o element.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c element_at.cpp -o element_at.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c fill.cpp -o fill.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c state.cpp -o state.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o tweenr.so along.o at.o cpp11.o easing.o element.o element_at.o fill.o state.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-tweenr/00new/tweenr/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (tweenr)
+* installing *source* package ‘polyclip’ ...
+** this is package ‘polyclip’ version ‘1.10-7’
+** package ‘polyclip’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether /home/juhur/miniconda3/envs/openai/bin/x86_64-conda-linux-gnu-c++ accepts -g... yes
+Using PKG_CONFIG: pkgconf
+Compiling against bundled copy of clipper library.
+checking for int64_t... yes
+     In the clipper library, signed 64-bit integers (cInt)
+     will be declared as 'int64_t'
+checking for uint64_t... yes
+     In the clipper library, unsigned 64-bit integers (cUInt)
+     will be declared as 'uint64_t'
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+x86_64-conda-linux-gnu-cc -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="int64_t" -DPOLYCLIP_ULONG64="uint64_t"  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix  -c init.c -o init.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="int64_t" -DPOLYCLIP_ULONG64="uint64_t"  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c interface.cpp -o interface.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DPOLYCLIP_LONG64="int64_t" -DPOLYCLIP_ULONG64="uint64_t"  -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c clipper.cpp -o clipper.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o polyclip.so init.o interface.o clipper.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-polyclip/00new/polyclip/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (polyclip)
+* installing *source* package ‘RcppArmadillo’ ...
+** this is package ‘RcppArmadillo’ version ‘15.2.2-1’
+** package ‘RcppArmadillo’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... x86_64-conda-linux-gnu-c++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... (cached) yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking what system we are on... running Linux on x86_64
+checking whether we have a suitable tempdir... /tmp
+checking whether on Linux... yes
+checking whether R CMD SHLIB can already compile OpenMP programs... yes
+checking whether on macOS... no
+checking for OpenMP... found and suitable
+configure: creating ./config.status
+config.status: creating inst/include/RcppArmadillo/config/RcppArmadilloConfigGenerated.h
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -I../inst/include -DARMA_USE_CURRENT -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fopenmp -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c RcppArmadillo.cpp -o RcppArmadillo.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -I../inst/include -DARMA_USE_CURRENT -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fopenmp -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c RcppExports.cpp -o RcppExports.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -I../inst/include -DARMA_USE_CURRENT -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fopenmp -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c fastLm.cpp -o fastLm.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o RcppArmadillo.so RcppArmadillo.o RcppExports.o fastLm.o -fopenmp -llapack -lblas -lgfortran -lm -lquadmath -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-RcppArmadillo/00new/RcppArmadillo/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (RcppArmadillo)
+* installing *source* package ‘viridis’ ...
+** this is package ‘viridis’ version ‘0.6.5’
+** package ‘viridis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (viridis)
+* installing *source* package ‘tidygraph’ ...
+** this is package ‘tidygraph’ version ‘1.3.1’
+** package ‘tidygraph’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c cpp11.cpp -o cpp11.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c get_paths.cpp -o get_paths.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o tidygraph.so cpp11.o get_paths.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-tidygraph/00new/tidygraph/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (tidygraph)
+* installing *source* package ‘ggforce’ ...
+** this is package ‘ggforce’ version ‘0.5.0’
+** package ‘ggforce’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c bSpline.cpp -o bSpline.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c bezier.cpp -o bezier.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c concaveman.cpp -o concaveman.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c cpp11.cpp -o cpp11.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c deBoor.cpp -o deBoor.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c ellipseEnclose.cpp -o ellipseEnclose.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c enclose.cpp -o enclose.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c pointPath.cpp -o pointPath.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o ggforce.so bSpline.o bezier.o concaveman.o cpp11.o deBoor.o ellipseEnclose.o enclose.o pointPath.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-ggforce/00new/ggforce/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ggforce)
+* installing *source* package ‘graphlayouts’ ...
+** this is package ‘graphlayouts’ version ‘1.2.2’
+** package ‘graphlayouts’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c RcppExports.cpp -o RcppExports.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c constrained_stress.cpp -o constrained_stress.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c constrained_stress3D.cpp -o constrained_stress3D.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c metroLayout.cpp -o metroLayout.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c reweight.cpp -o reweight.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c sparseStress.cpp -o sparseStress.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c stress.cpp -o stress.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c stress3D.cpp -o stress3D.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o graphlayouts.so RcppExports.o constrained_stress.o constrained_stress3D.o metroLayout.o reweight.o sparseStress.o stress.o stress3D.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-graphlayouts/00new/graphlayouts/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (graphlayouts)
+* installing *source* package ‘ggraph’ ...
+** this is package ‘ggraph’ version ‘2.2.2’
+** package ‘ggraph’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c cactusTree.cpp -o cactusTree.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c circlePack.cpp -o circlePack.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c cpp11.cpp -o cpp11.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c dendrogram.cpp -o dendrogram.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c forceBundle.cpp -o forceBundle.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c hTree.cpp -o hTree.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c iciclePlot.cpp -o iciclePlot.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c lineCutter.cpp -o lineCutter.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c nodes.cpp -o nodes.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c pathAttr.cpp -o pathAttr.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c treemap.cpp -o treemap.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c unrooted.cpp -o unrooted.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o ggraph.so cactusTree.o circlePack.o cpp11.o dendrogram.o forceBundle.o hTree.o iciclePlot.o lineCutter.o nodes.o pathAttr.o treemap.o unrooted.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-ggraph/00new/ggraph/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ggraph)
+
+The downloaded source packages are in
+	‘/tmp/RtmpvfKUjT/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+
+ggraph installed
+=== Leading Edge Gene Analysis ===
+
+--- Comparison: HFDvsSD ---
+  Cell Type: mySC
+  Cell Type: nmSC
+  Cell Type: ImmSC
+  Cell Type: majorSC
+    Overlap_MS richR_GO: 5 pathways
+
+--- Comparison: DRvsHFD ---
+  Cell Type: mySC
+  Cell Type: nmSC
+  Cell Type: ImmSC
+  Cell Type: majorSC
+
+--- Comparison: EXvsHFD ---
+  Cell Type: mySC
+    Overlap_MS richR_GO: 58 pathways
+    Overlap_MS richR_KEGG: 2 pathways
+  Cell Type: nmSC
+  Cell Type: ImmSC
+  Cell Type: majorSC
+    Overlap_MS richR_GO: 171 pathways
+
+--- Comparison: DREXvsHFD ---
+  Cell Type: mySC
+  Cell Type: nmSC
+  Cell Type: ImmSC
+  Cell Type: majorSC
+
+Total pathway-gene associations: 788
+Unique genes: 16
+Unique pathways: 183
+
+=== Identifying Hub Genes ===
+Genes in ≥3 pathways: 14
+  mySC: 5 hub genes
+  majorSC: 14 hub genes
+
+=== Creating Hub Gene Visualizations ===
+
+=== Creating Pathway Networks ===
+
+=== Analyzing Cross-Cell-Type Consistency ===
+Genes that are hubs in ≥2 cell types: 5
+
+=== Creating Summary Report ===
+
+=== Analysis Complete ===
+Output directory: Output_JCI/Leading_Edge_Analysis
+Hub genes identified: 14
+Cross-cell-type hub genes: 5
+Check for network diagrams and hub gene lists

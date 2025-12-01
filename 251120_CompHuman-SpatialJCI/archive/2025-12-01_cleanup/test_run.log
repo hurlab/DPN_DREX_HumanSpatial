@@ -1,0 +1,1127 @@
+also installing the dependencies ‘rematch’, ‘cellranger’
+
+trying URL 'https://cloud.r-project.org/src/contrib/rematch_2.0.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/cellranger_1.1.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/readxl_1.4.5.tar.gz'
+* installing *source* package ‘rematch’ ...
+** this is package ‘rematch’ version ‘2.0.0’
+** package ‘rematch’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (rematch)
+* installing *source* package ‘cellranger’ ...
+** this is package ‘cellranger’ version ‘1.1.0’
+** package ‘cellranger’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (cellranger)
+* installing *source* package ‘readxl’ ...
+** this is package ‘readxl’ version ‘1.4.5’
+** package ‘readxl’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -Iunix -I. -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/progress/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c cpp11.cpp -o cpp11.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -Iunix -I. -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/progress/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c XlsWorkBook.cpp -o XlsWorkBook.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -Iunix -I. -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/progress/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c XlsxWorkBook.cpp -o XlsxWorkBook.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -Iunix -I. -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/progress/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c zip.cpp -o zip.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -Iunix -I. -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/progress/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility=hidden -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c Read.cpp -o Read.o
+x86_64-conda-linux-gnu-cc -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -Iunix -I. -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/progress/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix  -c cran.c -o cran.o
+x86_64-conda-linux-gnu-cc -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -Iunix -I. -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/progress/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix  -c libxls/xlstool.c -o libxls/xlstool.o
+x86_64-conda-linux-gnu-cc -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -Iunix -I. -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/progress/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix  -c libxls/endian.c -o libxls/endian.o
+x86_64-conda-linux-gnu-cc -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -Iunix -I. -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/progress/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix  -c libxls/ole.c -o libxls/ole.o
+x86_64-conda-linux-gnu-cc -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -Iunix -I. -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/progress/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix  -c libxls/xls.c -o libxls/xls.o
+x86_64-conda-linux-gnu-cc -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -Iunix -I. -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/progress/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fvisibility=hidden -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix  -c libxls/locale.c -o libxls/locale.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o readxl.so cpp11.o XlsWorkBook.o XlsxWorkBook.o zip.o Read.o cran.o libxls/xlstool.o libxls/endian.o libxls/ole.o libxls/xls.o libxls/locale.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-readxl/00new/readxl/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (readxl)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxubYgE/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+
+readxl installed
+also installing the dependencies ‘R.oo’, ‘R.methodsS3’, ‘R.utils’
+
+trying URL 'https://cloud.r-project.org/src/contrib/R.oo_1.27.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/R.methodsS3_1.8.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/R.utils_2.13.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/homologene_1.4.68.19.3.27.tar.gz'
+* installing *source* package ‘R.methodsS3’ ...
+** this is package ‘R.methodsS3’ version ‘1.8.2’
+** package ‘R.methodsS3’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (R.methodsS3)
+* installing *source* package ‘R.oo’ ...
+** this is package ‘R.oo’ version ‘1.27.1’
+** package ‘R.oo’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function getClasses to getClasses.default, which was defined in environment R.oo.
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (R.oo)
+* installing *source* package ‘R.utils’ ...
+** this is package ‘R.utils’ version ‘2.13.0’
+** package ‘R.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning in setGenericS3.default(name, export = exportGeneric, envir = envir,  :
+  Renamed the preexisting function warnings to warnings.default, which was defined in environment R.utils.
+Warning in setGenericS3.default("use") :
+  Renamed the preexisting function use to use.default, which was defined in environment R.utils.
+Warning in setMethodS3.default("use", "default", function(pkg = "R.utils",  :
+  Method already existed and was overwritten: use.default
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (R.utils)
+* installing *source* package ‘homologene’ ...
+** this is package ‘homologene’ version ‘1.4.68.19.3.27’
+** package ‘homologene’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (homologene)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxubYgE/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+
+homologene installed
+trying URL 'https://cloud.r-project.org/src/contrib/openxlsx_4.2.8.1.tar.gz'
+Content type 'application/x-gzip' length 1412047 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+* installing *source* package ‘openxlsx’ ...
+** this is package ‘openxlsx’ version ‘4.2.8.1’
+** package ‘openxlsx’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (Anaconda gcc) 11.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c RcppExports.cpp -o RcppExports.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c helper_functions.cpp -o helper_functions.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c load_workbook.cpp -o load_workbook.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c read_workbook.cpp -o read_workbook.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c write_data.cpp -o write_data.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c write_file.cpp -o write_file.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c write_file_2.cpp -o write_file_2.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o openxlsx.so RcppExports.o helper_functions.o load_workbook.o read_workbook.o write_data.o write_file.o write_file_2.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-openxlsx/00new/openxlsx/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (openxlsx)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxubYgE/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+
+openxlsx installed
+also installing the dependencies ‘gridGraphics’, ‘ggfun’, ‘ggplotify’, ‘admisc’, ‘aplot’, ‘venn’, ‘yulab.utils’
+
+trying URL 'https://cloud.r-project.org/src/contrib/gridGraphics_0.5-1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ggfun_0.2.0.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ggplotify_0.1.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/admisc_0.39.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/aplot_0.2.9.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/venn_1.12.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/yulab.utils_0.2.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ggVennDiagram_1.5.4.tar.gz'
+* installing *source* package ‘gridGraphics’ ...
+** this is package ‘gridGraphics’ version ‘0.5-1’
+** package ‘gridGraphics’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (gridGraphics)
+* installing *source* package ‘admisc’ ...
+** this is package ‘admisc’ version ‘0.39’
+** package ‘admisc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘x86_64-conda-linux-gnu-cc (Anaconda gcc) 11.2.0’
+x86_64-conda-linux-gnu-cc -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix  -c admisc.c -o admisc.o
+x86_64-conda-linux-gnu-cc -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG   -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1762368743844/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix  -c registerDynamicSymbol.c -o registerDynamicSymbol.o
+x86_64-conda-linux-gnu-cc -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o admisc.so admisc.o registerDynamicSymbol.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-admisc/00new/admisc/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (admisc)
+* installing *source* package ‘yulab.utils’ ...
+** this is package ‘yulab.utils’ version ‘0.2.2’
+** package ‘yulab.utils’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (yulab.utils)
+* installing *source* package ‘ggfun’ ...
+** this is package ‘ggfun’ version ‘0.2.0’
+** package ‘ggfun’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ggfun)
+* installing *source* package ‘ggplotify’ ...
+** this is package ‘ggplotify’ version ‘0.1.3’
+** package ‘ggplotify’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ggplotify)
+* installing *source* package ‘venn’ ...
+** this is package ‘venn’ version ‘1.12’
+** package ‘venn’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (venn)
+* installing *source* package ‘aplot’ ...
+** this is package ‘aplot’ version ‘0.2.9’
+** package ‘aplot’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (aplot)
+* installing *source* package ‘ggVennDiagram’ ...
+** this is package ‘ggVennDiagram’ version ‘1.5.4’
+** package ‘ggVennDiagram’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ggVennDiagram)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxubYgE/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+
+ggVennDiagram installed
+Warning messages:
+1: package ‘org.Mm.eg.db’ is not available for this version of R
+
+A version of this package for your version of R might be available elsewhere,
+see the ideas at
+https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages 
+2: 'BiocManager' not available.  Could not check Bioconductor.
+
+Please use `install.packages('BiocManager')` and then retry. 
+3: In p_install(package, character.only = TRUE, ...) : 
+4: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called ‘org.Mm.eg.db’
+5: In pacman::p_load(dplyr, tidyr, readxl, tibble, purrr, stringr,  :
+  Failed to install/load:
+org.Mm.eg.db
+Warning message:
+In dplyr::left_join(human, mouse, by = "HID") :
+  Detected an unexpected many-to-many relationship between `x` and `y`.
+ℹ Row 130 of `x` matches multiple rows in `y`.
+ℹ Row 169 of `y` matches multiple rows in `x`.
+ℹ If a many-to-many relationship is expected, set `relationship =
+  "many-to-many"` to silence this warning.
+Building richR annotations for mouse (GO and KEGG)...
+Loading required package: org.Mm.eg.db
+Loading required package: BiocManager
+trying URL 'https://cloud.r-project.org/src/contrib/BiocManager_1.30.27.tar.gz'
+Content type 'application/x-gzip' length 752490 bytes (734 KB)
+==================================================
+downloaded 734 KB
+
+* installing *source* package ‘BiocManager’ ...
+** this is package ‘BiocManager’ version ‘1.30.27’
+** package ‘BiocManager’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (BiocManager)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxubYgE/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+  ✗ Failed to build GO annotations: object 'org.Mm.eg.db' not found
+  ✗ Failed to build KEGG annotations: object 'org.Mm.eg.db' not found
+Warning messages:
+1: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called ‘org.Mm.eg.db’
+2: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called ‘BiocManager’
+3: In library(package, lib.loc = lib.loc, character.only = TRUE, logical.return = TRUE,  :
+  there is no package called ‘org.Mm.eg.db’
+=== Folder: ../DEG (filtering for cells: mySC, nmSC, ImmSC, majorSC; comparisons: HFDvsSD, DRvsHFD, EXvsHFD, DREXvsHFD) ===
+  Processing 12 file(s)...
+  - Processing: DREXvsHFD_ImmSC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: BiocManager
+Loading required package: org.Mm.eg.db
+Loading required package: BiocManager
+Loading required package: org.Mm.eg.db
+Loading required package: BiocManager
+Loading required package: org.Mm.eg.db
+Loading required package: BiocManager
+Loading required package: org.Mm.eg.db
+Loading required package: BiocManager
+Loading required package: org.Mm.eg.db
+Loading required package: BiocManager
+Loading required package: org.Mm.eg.db
+Loading required package: BiocManager
+Loading required package: org.Mm.eg.db
+Loading required package: BiocManager
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://cloud.r-project.org
+Bioconductor version 3.22 (BiocManager 1.30.27), R 4.5.2 (2025-10-31)
+Installing package(s) 'BiocVersion', 'org.Mm.eg.db'
+trying URL 'https://bioconductor.org/packages/3.22/bioc/src/contrib/BiocVersion_3.22.0.tar.gz'
+trying URL 'https://bioconductor.org/packages/3.22/data/annotation/src/contrib/org.Mm.eg.db_3.22.0.tar.gz'
+* installing *source* package ‘BiocVersion’ ...
+** this is package ‘BiocVersion’ version ‘3.22.0’
+** package ‘BiocVersion’ successfully unpacked and MD5 sums checked
+** using staged installation
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (BiocVersion)
+* installing *source* package ‘org.Mm.eg.db’ ...
+** this is package ‘org.Mm.eg.db’ version ‘3.22.0’
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (org.Mm.eg.db)
+
+The downloaded source packages are in
+	‘/tmp/RtmpxubYgE/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+Old packages: 'future', 'gert', 'ggplot2', 'hms', 'igraph', 'listenv', 'readr',
+  'RSQLite', 'S7', 'testthat', 'textshaping', 'vroom', 'xml2', 'yaml'
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: DREXvsHFD_mySC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+Loading required package: GO.db
+
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: DREXvsHFD_nmSC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+Loading required package: GO.db
+
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: DRvsHFD_ImmSC.csv
+  - Processing: DRvsHFD_mySC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+Loading required package: GO.db
+
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: DRvsHFD_nmSC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+Loading required package: GO.db
+
+
+Loading required package: GO.db
+Loading required package: GO.db
+
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: EXvsHFD_ImmSC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+Loading required package: GO.db
+
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+'select()' returned 1:many mapping between keys and columns
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: EXvsHFD_mySC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+'select()' returned 1:many mapping between keys and columns
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: EXvsHFD_nmSC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: HFDvsSD_ImmSC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: HFDvsSD_mySC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: HFDvsSD_nmSC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+=== Folder: ../DEG_Major (filtering for cells: mySC, nmSC, ImmSC, majorSC; comparisons: HFDvsSD, DRvsHFD, EXvsHFD, DREXvsHFD) ===
+  Processing 4 file(s)...
+  - Processing: DREXvsHFD_majorSC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: DRvsHFD_majorSC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+'select()' returned 1:many mapping between keys and columns
+
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: EXvsHFD_majorSC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+'select()' returned 1:many mapping between keys and columns
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+
+Loading required package: GO.db
+Loading required package: GO.db
+Loading required package: GO.db
+
+
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+  - Processing: HFDvsSD_majorSC.csv
+    Running enrichment in parallel (15 cores)...
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+Loading required package: org.Mm.eg.db
+
+
+
+
+
+
+
+
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+'select()' returned 1:many mapping between keys and columns
+Loading required package: GO.db
+
+Loading required package: GO.db
+Loading required package: GO.db
+Loading required package: GO.db
+
+
+
+Loading required package: GO.db
+
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+'select()' returned 1:1 mapping between keys and columns
+Warning messages:
+1: In parallel::mclapply(names(set_list), function(nm) { :
+  7 function calls resulted in an error
+2:     Skipping (no usable genes): DRvsHFD_ImmSC.csv 
+
+Enrichment summary written to Output_JCI
+Enrichment analysis results saved to Output_JCI/Enrichment_Analysis/
+All enrichment analyses complete.
