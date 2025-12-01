@@ -1,0 +1,4 @@
+* Rename the main output directory from "Output_JCI_Schwann_enrichment" to "Output_JCI"
+* A new subdirectory "Enrichment_Analysis" should be created within "Output_JCI"
+* the enrichment subdirectories ending with "_enrichment" should be created within this "Enrichment_Analysis" folder; therefore, "Output_JCI/Enrichment_Analysis/"
+* I don't want to use clusterProfiler for enrichment analysis. Just use richR only.
