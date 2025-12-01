@@ -1,0 +1,2 @@
+"Mouse_Symbol","Mouse_log2FC","Mouse_padj","Human_Symbol","Human_log2FC","Human_padj","Mouse_direction","Human_direction","concordance"
+"Aldh1a1",0.452458443382748,0.00220297067411237,"ALDH1A1",-0.336274976047292,0.00201995951565405,"Up","Down","Discordant"

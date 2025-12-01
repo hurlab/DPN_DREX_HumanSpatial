@@ -1,0 +1,3 @@
+"Mouse_Symbol","Mouse_log2FC","Mouse_padj","Human_Symbol","Human_log2FC","Human_padj","Mouse_direction","Human_direction","concordance"
+"Kcna1",0.472279446533732,1.38585397149502e-08,"KCNA1",1.77994603376021,0.000672740015383392,"Up","Up","Concordant"
+"Dbp",-0.604579925930603,3.96257750474132e-07,"DBP",-1.24920220507366,0.000906717305914943,"Down","Down","Concordant"

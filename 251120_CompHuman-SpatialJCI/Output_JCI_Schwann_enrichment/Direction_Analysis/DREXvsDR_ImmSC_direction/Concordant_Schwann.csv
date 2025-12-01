@@ -1,0 +1,3 @@
+"Mouse_Symbol","Mouse_log2FC","Mouse_padj","Human_Symbol","Human_log2FC","Human_padj","Mouse_direction","Human_direction","concordance"
+"Paqr8",-0.320565257261834,0.0281254978300141,"PAQR8",-0.974450764607794,1.45270406235891e-08,"Down","Down","Concordant"
+"Hspa8",-0.365431461435531,0.0434367489442081,"HSPA8",-0.543620602493133,6.99785512556195e-11,"Down","Down","Concordant"

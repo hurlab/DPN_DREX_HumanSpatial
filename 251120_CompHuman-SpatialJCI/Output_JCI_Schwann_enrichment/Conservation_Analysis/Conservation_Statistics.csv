@@ -1,0 +1,2 @@
+"comparison","cell_type","n_mouse_total","n_schwann_total","n_jci_total","n_conserved_schwann","n_conserved_jci","n_conserved_both","n_mouse_only","conservation_rate_schwann","conservation_rate_jci","conservation_rate_any_human","conservation_rate_both_human"
+"DREXvsDR","ImmSC",19,194,1422,0,6,0,13,0,0.315789473684211,0.315789473684211,0

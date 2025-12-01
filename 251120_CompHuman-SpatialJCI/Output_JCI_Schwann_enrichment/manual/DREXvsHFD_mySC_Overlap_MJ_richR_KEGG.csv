@@ -1,0 +1,6 @@
+"Annot","Term","Annotated","Significant","RichFactor","FoldEnrichment","zscore","Pvalue","Padj","GeneID","ko","Level3","Level2","Level1"
+"04144","Endocytosis",218,2,0.00917431192660551,10.0993883792049,4.11938216120551,0.0148997655447834,0.0881183148942956,"Arrb2,Ldlr","04144","Endocytosis","Transport and catabolism","Cellular Processes"
+"04710","Circadian rhythm",22,1,0.0454545454545455,50.0378787878788,6.94658224524013,0.0198266260059303,0.0881183148942956,"Per2","04710","Circadian rhythm","Environmental adaptation","Organismal Systems"
+"04010","MAPK signaling pathway",267,2,0.00749063670411985,8.24594257178527,3.64430313166004,0.0219245732202071,0.0881183148942956,"Arrb2,Mapk8ip1","04010","MAPK signaling pathway","Signal transduction","Environmental Information Processing"
+"04744","Phototransduction",28,1,0.0357142857142857,39.3154761904762,6.12603417777237,0.0251766613983702,0.0881183148942956,"Arrb2","04744","Phototransduction","Sensory system","Organismal Systems"
+"04960","Aldosterone-regulated sodium reabsorption",44,1,0.0227272727272727,25.0189393939394,4.81986904826039,0.0393245846058973,0.110108836896512,"Sgk1","04960","Aldosterone-regulated sodium reabsorption","Excretory system","Organismal Systems"

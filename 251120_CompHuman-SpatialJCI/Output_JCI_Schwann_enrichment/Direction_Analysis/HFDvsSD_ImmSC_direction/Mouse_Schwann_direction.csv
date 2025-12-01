@@ -1,0 +1,3 @@
+"Mouse_Symbol","Mouse_log2FC","Mouse_padj","Human_Symbol","Human_log2FC","Human_padj","Mouse_direction","Human_direction","concordance"
+"Mpz",-0.233089180926665,0.00059762230008893,"MPZ",-0.884917878908733,1.25053568141596e-97,"Down","Down","Concordant"
+"Col1a1",-0.357890181342797,0.0124607947070367,"COL1A1",-1.16644022107065,2.37264383302555e-67,"Down","Down","Concordant"

@@ -1,0 +1,5 @@
+"Annot","Term","Annotated","Significant","RichFactor","FoldEnrichment","zscore","Pvalue","Padj","GeneID","ko","Level3","Level2","Level1"
+"00533","Glycosaminoglycan biosynthesis - keratan sulfate",15,1,0.0666666666666667,220.166666666667,14.7885401979818,0.0045371992566613,0.0226859962833065,"Chst2","00533","Glycosaminoglycan biosynthesis - keratan sulfate","Glycan biosynthesis and metabolism","Metabolism"
+"04974","Protein digestion and absorption",78,1,0.0128205128205128,42.3397435897436,6.39154947592876,0.0234807798911586,0.0431221536951511,"Col1a1","04974","Protein digestion and absorption","Digestive system","Organismal Systems"
+"04512","ECM-receptor interaction",86,1,0.0116279069767442,38.4011627906977,6.07563564068598,0.0258732922170907,0.0431221536951511,"Col1a1","04512","ECM-receptor interaction","Signaling molecules and interaction","Environmental Information Processing"
+"05146","Amoebiasis",116,1,0.00862068965517241,28.4698275862069,5.19450205735916,0.034819078291275,0.0435238478640937,"Col1a1","05146","Amoebiasis","Infectious disease: parasitic","Human Diseases"

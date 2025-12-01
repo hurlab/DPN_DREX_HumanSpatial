@@ -1,0 +1,4 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Organismal Systems","Environmental adaptation","mmu04710","Circadian rhythm","3/10","34/10644",0.0882352941176471,93.9176470588235,16.6403966183394,3.51952199153217e-06,9.85466157629008e-05,8.52094797949894e-05,"18626/18627/18628",3
+"Organismal Systems","Environmental adaptation","mmu04713","Circadian entrainment","3/10","100/10644",0.03,31.932,9.52991453714422,9.204897815494e-05,0.00128868569416916,0.00111427710398085,"18626/18627/18628",3
+"Human Diseases","Infectious disease: bacterial","mmu05134","Legionellosis","2/10","60/10644",0.0333333333333333,35.48,8.21299710686034,0.0013658948321593,0.0127483517668202,0.0110230109261979,"12747/15481",2

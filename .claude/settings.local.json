@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:\\Program Files\\R\\R-4.5.2\\bin\\Rscript.exe\":*)",
+      "Bash(timeout /t 30 /nobreak)",
+      "Bash(timeout /t 60 /nobreak)",
+      "Bash(timeout /t 180 /nobreak)",
+      "Bash(timeout /t 120 /nobreak)",
+      "Bash(timeout /t 90 /nobreak)",
+      "Bash(timeout /t 300 /nobreak)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File AUTONOMOUS_RUNNER.ps1)",
+      "Bash(dir:*)",
+      "Bash(powershell.exe -ExecutionPolicy Bypass -File RERUN_FAILED.ps1)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

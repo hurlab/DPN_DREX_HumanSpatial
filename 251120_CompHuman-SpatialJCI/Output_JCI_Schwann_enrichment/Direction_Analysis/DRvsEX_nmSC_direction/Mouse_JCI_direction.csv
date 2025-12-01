@@ -1,0 +1,4 @@
+"Mouse_Symbol","Mouse_log2FC","Mouse_padj","Human_Symbol","Human_log2FC","Human_padj","Mouse_direction","Human_direction","concordance"
+"Egr1",1.54059818407343,4.75099648834977e-07,"EGR1",1.25937497766124,0.00323379676374362,"Up","Up","Concordant"
+"Fos",1.17739529052164,0.000542613989474943,"FOS",1.26700067297776,0.00272521173937634,"Up","Up","Concordant"
+"Junb",1.09687116305177,0.0209619954160226,"JUNB",2.95524455565762,2.85124120522295e-12,"Up","Up","Concordant"
