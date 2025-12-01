@@ -1,3 +1,9 @@
+
+
+
+
+
+
 if (!require("BiocManager", quietly = TRUE)) install.packages("BiocManager", quiet=TRUE)
 if (!require("reactome.db", quietly = TRUE)) BiocManager::install("reactome.db", dependencies = TRUE, ask = FALSE)
 if (!require("org.Hs.eg.db", quietly = TRUE)) BiocManager::install("org.Hs.eg.db", dependencies = TRUE, ask = FALSE)
@@ -11,8 +17,55 @@ if (!require("richR", quietly = TRUE)) devtools::install_github("guokai8/richR")
 # ---------------------------------------------------
 
 
+
+setwd_to_script <- function() {
+  # 1) RStudio active document, if available
+  if (requireNamespace("rstudioapi", quietly = TRUE)) {
+    if (tryCatch(rstudioapi::isAvailable(), error = function(e) FALSE)) {
+      p <- tryCatch(rstudioapi::getActiveDocumentContext()$path, error = function(e) "")
+      if (nzchar(p)) {
+        dir <- normalizePath(dirname(p), winslash = "/", mustWork = FALSE)
+        setwd(dir)
+        return(dir)
+      }
+    }
+  }
+  
+  # 2) Rscript execution
+  args <- commandArgs(trailingOnly = FALSE)
+  m <- grep("^--file=", args)
+  if (length(m) == 1) {
+    p <- sub("^--file=", "", args[m])
+    if (nzchar(p)) {
+      dir <- normalizePath(dirname(p), winslash = "/", mustWork = FALSE)
+      setwd(dir)
+      return(dir)
+    }
+  }
+  
+  # 3) Sourced script
+  ofile <- tryCatch(sys.frame(1)$ofile, error = function(e) NULL)
+  if (!is.null(ofile) && nzchar(ofile)) {
+    dir <- normalizePath(dirname(ofile), winslash = "/", mustWork = FALSE)
+    setwd(dir)
+    return(dir)
+  }
+  
+  # 4) Fallback
+  dir <- normalizePath(getwd(), winslash = "/", mustWork = FALSE)
+  message("Could not detect script path. Using current working directory: ", dir)
+  return(dir)
+}
+
+# Use it
+current_path <- setwd_to_script()
+
+# Example: create an output folder under the script directory
+outputdir <- "output"
+dir.create(file.path(current_path, outputdir), showWarnings = FALSE, recursive = TRUE)
+
+
 outputdir = "output/"        # directory to save output files
-dir.create(paste(dirname(current_path),outputdir,sep="/"), showWarnings = FALSE)
 filebase  = "RegenDegen"     # base file name
 top       = 25               # number of top significant terms to be included in the output
 
@@ -28,7 +81,7 @@ hsa_ro <- buildAnnot(species="human", keytype="SYMBOL", anntype = "Reactome")
 
 
 # Load the example data
-dat <- read.table ("../allResultRegen.Degen.txt", header=T, sep="\t")
+dat <- read.table ("./allResultRegen.Degen.txt", header=T, sep="\t")
 colnames(dat)[1] <- "gene"
 dat.sig <- dat[which(dat$padj<0.05),]
 head(dat.sig)

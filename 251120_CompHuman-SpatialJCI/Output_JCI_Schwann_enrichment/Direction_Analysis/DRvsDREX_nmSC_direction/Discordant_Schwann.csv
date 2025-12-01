@@ -1,4 +1,0 @@
-"Mouse_Symbol","Mouse_log2FC","Mouse_padj","Human_Symbol","Human_log2FC","Human_padj","Mouse_direction","Human_direction","concordance"
-"Cst3",0.707602712559253,5.98755447838829e-10,"CST3",-0.218818234737092,8.06606770719687e-09,"Up","Down","Discordant"
-"Matn2",0.610347765841704,1.12442495433138e-07,"MATN2",-0.506887953536937,4.85976775236512e-10,"Up","Down","Discordant"
-"Prnp",0.459194975225203,0.00774820231294694,"PRNP",-0.294385360434167,0.0104156275004854,"Up","Down","Discordant"

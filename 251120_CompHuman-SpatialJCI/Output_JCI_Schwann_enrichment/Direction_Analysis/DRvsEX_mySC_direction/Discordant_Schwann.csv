@@ -1,4 +1,0 @@
-"Mouse_Symbol","Mouse_log2FC","Mouse_padj","Human_Symbol","Human_log2FC","Human_padj","Mouse_direction","Human_direction","concordance"
-"Qk",0.238918193742113,2.15998192760031e-08,"QKI",-0.324267583096405,0.000306334977383979,"Up","Down","Discordant"
-"Tsc22d3",-0.40636653276385,0.00193278078655025,"TSC22D3",0.879953045600486,1.39651604335522e-10,"Down","Up","Discordant"
-"Col5a3",0.194265258169231,0.015912495764275,"COL5A3",-0.537714507117596,3.04158998458971e-05,"Up","Down","Discordant"

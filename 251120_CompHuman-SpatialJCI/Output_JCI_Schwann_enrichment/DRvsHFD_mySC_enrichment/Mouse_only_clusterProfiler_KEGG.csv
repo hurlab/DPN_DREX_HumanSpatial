@@ -1,3 +1,0 @@
-"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
-"Organismal Systems","Digestive system","mmu04974","Protein digestion and absorption","4/20","108/10644",0.037037037037037,19.7111111111111,8.47962355112118,4.28525402166149e-05,0.00122677738428777,0.00105109445410213,"12831/53867/12843/71355",4
-"Cellular Processes","Cell motility","mmu04820","Cytoskeleton in muscle cells","5/20","233/10644",0.0214592274678112,11.4206008583691,6.97794426926713,5.70594132226871e-05,0.00122677738428777,0.00105109445410213,"12831/53867/12843/22352/71355",5

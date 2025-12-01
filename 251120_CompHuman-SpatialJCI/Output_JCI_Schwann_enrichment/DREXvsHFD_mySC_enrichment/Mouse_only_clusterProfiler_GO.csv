@@ -1,2 +1,0 @@
-"ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
-"GO:0071276","cellular response to cadmium ion","3/66","24/25730",0.125,48.7310606060606,11.863441741914,3.13927266101833e-05,0.0392723009893393,0.0321527610439035,"Mt2/Gsn/Mt1",3

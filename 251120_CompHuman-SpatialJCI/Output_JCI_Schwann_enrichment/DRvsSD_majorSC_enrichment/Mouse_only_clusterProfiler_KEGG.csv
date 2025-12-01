@@ -1,3 +1,0 @@
-"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
-"Environmental Information Processing","Signaling molecules and interaction","mmu04517","IgSF CAM signaling","9/43","300/10644",0.03,7.42604651162791,7.19040044601291,2.41631712186667e-06,0.000144987463653407,0.000141396442881805,"18213/17528/17967/11735/269116/140721/20742/244654/19280",9
-"Organismal Systems","Digestive system","mmu04974","Protein digestion and absorption","6/43","108/10644",0.0555555555555556,13.7519379844961,8.48287427518191,4.26433716627666e-06,0.000144987463653407,0.000141396442881805,"246049/107581/373864/67760/98660/17254",6

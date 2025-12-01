@@ -1,4 +1,0 @@
-"Mouse_Symbol","Mouse_log2FC","Mouse_padj","Human_Symbol","Human_log2FC","Human_padj","Mouse_direction","Human_direction","concordance"
-"Prx",-0.189517904030103,4.14973226368165e-05,"PRX",2.22445309625055,0.00036502813705074,"Down","Up","Discordant"
-"Mal",-0.21614080566571,0.019776980608914,"MAL",1.03220087595097,0.00607270508940302,"Down","Up","Discordant"
-"Ddit4",-0.359020328882151,0.0359663406631458,"DDIT4",0.774687726686025,0.00446078167606851,"Down","Up","Discordant"

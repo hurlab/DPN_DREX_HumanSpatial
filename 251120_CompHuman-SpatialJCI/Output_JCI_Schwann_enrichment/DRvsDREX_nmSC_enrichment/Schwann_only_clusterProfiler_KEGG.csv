@@ -1,3 +1,0 @@
-"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
-"Environmental Information Processing","Signaling molecules and interaction","mmu04514","Cell adhesion molecule (CAM) interaction","7/73","181/10644",0.0386740331491713,5.63899190191478,5.23082527903948,0.000231656362928788,0.0338533703784177,0.032784316576994,"14969/20970/12741/21367/242653/17136/12562",7
-"Organismal Systems","Immune system","mmu04610","Complement and coagulation cascades","5/73","94/10644",0.0531914893617021,7.75575633925969,5.46697514131584,0.000451378271712236,0.0338533703784177,0.032784316576994,"11537/22371/50702/20720/268591",5
