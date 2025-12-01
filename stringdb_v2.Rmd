@@ -1,0 +1,168 @@
+---
+title: "stringdb_v2"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#####################################################
+## Install required packages
+#####################################################
+```{r}
+
+if (!require("STRINGdb", quietly = TRUE)) BiocManager::install("STRINGdb", dependencies = TRUE, ask = FALSE)
+
+```
+
+
+```{r}
+library(rstudioapi) # make sure you have it installed
+current_path <- getActiveDocumentContext()$path 
+setwd(dirname(current_path ))
+print(current_path)
+
+require("knitr")
+opts_knit$set(root.dir = dirname(current_path))
+
+outputdir = "output/"        # directory to save output files
+dir.create(paste(dirname(current_path),outputdir,sep="/"), showWarnings = FALSE)
+filebase  = "RegenDegen"     # base file name
+
+```
+
+
+```{r}
+
+library(STRINGdb)
+
+# check other functions in STRINGdb
+lsf.str("package:STRINGdb")
+
+```
+
+
+```{r}
+
+# initialize= string_db dataframe
+string_db <- STRINGdb$new(version="12", species=9606, score_threshold=400, input_directory="" )
+
+```
+
+```{r}
+
+# list of available methods
+STRINGdb$methods()
+STRINGdb$help("get_graph")
+
+```
+
+
+```{r}
+
+# use the sample data provided by STRINGdb
+data(diff_exp_example1)
+head(diff_exp_example1)
+
+```
+
+
+```{r}
+  # # Or, Load the example data
+  # dat <- read.table ("allResultRegen.Degen.txt", header=T, sep="\t")
+  # colnames(dat)[1] <- "gene"
+  # dat.sig <- dat[which(dat$padj<0.01),]
+  # head(dat.sig)  
+  # 
+  # # Prepare NCBI Entrez ID. You may also use just symbols. 
+  # library(biomaRt)
+  # ensembl = useMart("ensembl")  # or ensembl=useMart("ENSEMBL_MART_ENSEMBL")
+  # ensembl = useDataset("hsapiens_gene_ensembl", mart=ensembl)
+  # retrievedGeneInfo = getBM(attributes=c('external_gene_name','entrezgene_id', 'hgnc_id', 'hgnc_symbol'),
+  #                           filters = c('external_gene_name'),
+  #                           values = dat.sig$gene,
+  #                           mart = ensembl)
+  # entrezGeneIDs = retrievedGeneInfo$entrezgene[!is.na(retrievedGeneInfo$entrezgene)]
+
+```
+
+
+
+```{r}
+
+# map against the string identifiers
+STRINGdb$help("map")
+
+# run mapping process
+example1_mapped <- string_db$map( diff_exp_example1, "gene", removeUnmappedRows = TRUE )
+
+# check the first 200 hits
+hits <- example1_mapped$STRING_id[1:200]
+head(hits)
+
+```
+
+
+```{r}
+
+  # createa a network
+  pdf(paste(outputdir,"String-Example1-Network-Original.pdf", sep=""))
+  string_db$plot_network(hits)
+  dev.off()
+
+```
+
+
+
+```{r}
+
+  # changing the color of the nodes based on the expression 
+  # filter by p-value and add a color column
+  # (i.e. green down-regulated gened and red for up-regulated genes)
+  example1_mapped_pval05 <- string_db$add_diff_exp_color(subset(example1_mapped, pvalue<0.05), logFcColStr="logFC" )
+
+  # post payload information to the STRING server
+  payload_id <- string_db$post_payload( example1_mapped_pval05$STRING_id, colors=example1_mapped_pval05$color )
+
+  
+  # display a STRING network png with the "halo"
+  pdf(paste(outputdir,"String-Example1-Network-Halo.pdf", sep=""))
+  string_db$plot_network(hits, payload_id=payload_id )
+  dev.off()
+
+```
+
+
+```{r}
+
+  # functional enrichment using GO/KEGG
+  # needs updates
+  STRINGdb$help("get_enrichment")
+  
+  # cateogyr: "Process", "Component", "Function", "KEGG", "Pfam", "InterPro", "Tissue", "Disease".  default "Process"
+  # methodMT: "fdr", "bonferroni"..  default "fdr"
+  # iea:      specify whether to use Elettronic Inferred Annotations (TRUE/FALSE)
+  
+  # enrichment on GO biological process
+  enrichmentGO <- string_db$get_enrichment(hits, category = "Process", methodMT = "fdr", iea = TRUE)
+  head(enrichmentGO, n=10)
+  
+
+```
+
+
+
+```{r}
+
+# perform enrichment analysis
+# note that this tests enrichment in terms of # of interactions among the genes/proteins 
+# compared to the random sets
+# needs updates
+#string_db$plot_ppi_enrichment(example1_mapped$STRING_id, quiet=TRUE )
+string_db$ppi_enrichment(example1_mapped$STRING_id)
+
+```
+
+
+
