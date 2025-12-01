@@ -1,0 +1,4 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Human Diseases","Infectious disease: bacterial","mmu05100","Bacterial invasion of epithelial cells","2/4","77/10644",0.025974025974026,69.1168831168831,11.6309580407639,0.000307041543335976,0.00859716321340733,0.00323201624564185,"271849/216033",2
+"Human Diseases","Cancer: specific types","mmu05226","Gastric cancer","2/4","150/10644",0.0133333333333333,35.48,8.24581466967235,0.0011619131961252,0.0162667847457528,0.00611533261118525,"271849/216033",2
+"Environmental Information Processing","Signaling molecules and interaction","mmu04517","IgSF CAM signaling","2/4","300/10644",0.00666666666666667,17.74,5.70247037627276,0.00457536351816738,0.0427033928362289,0.0160539070812891,"17196/16485",2

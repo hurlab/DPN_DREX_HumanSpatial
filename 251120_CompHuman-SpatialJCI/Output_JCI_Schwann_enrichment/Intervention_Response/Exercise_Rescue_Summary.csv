@@ -1,0 +1,9 @@
+"cell_type","gene_set","n_EX_total","n_EX_not_DR","n_EX_and_DR","n_DREX_unique"
+"mySC","Mouse_all",186,162,24,68
+"mySC","Overlap_MS",5,4,1,2
+"mySC","Overlap_All3",2,1,1,0
+"nmSC","Mouse_all",3,3,0,18
+"ImmSC","Mouse_all",10,10,0,26
+"majorSC","Mouse_all",537,504,33,119
+"majorSC","Overlap_MS",13,12,1,1
+"majorSC","Overlap_All3",4,3,1,0

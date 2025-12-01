@@ -1,0 +1,5 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Organismal Systems","Endocrine system","mmu04928","Parathyroid hormone synthesis, secretion and action","2/5","116/10644",0.0172413793103448,36.7034482758621,8.38171419735168,0.00115254191778507,0.0197533865799019,0.01039651925258,"13653/14281",2
+"Organismal Systems","Endocrine system","mmu04935","Growth hormone synthesis, secretion and action","2/5","117/10644",0.0170940170940171,36.3897435897436,8.34419921630424,0.00117236457286786,0.0197533865799019,0.01039651925258,"14281/16477",2
+"Environmental Information Processing","Signal transduction","mmu04668","TNF signaling pathway","2/5","118/10644",0.0169491525423729,36.0813559322034,8.30715512825029,0.00119235241511972,0.0197533865799019,0.01039651925258,"14281/16477",2
+"Organismal Systems","Development and regeneration","mmu04380","Osteoclast differentiation","2/5","136/10644",0.0147058823529412,31.3058823529412,7.71086294457622,0.00158027092639215,0.0197533865799019,0.01039651925258,"14281/16477",2

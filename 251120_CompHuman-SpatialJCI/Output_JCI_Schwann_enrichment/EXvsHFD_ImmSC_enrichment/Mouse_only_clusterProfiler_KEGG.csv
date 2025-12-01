@@ -1,0 +1,4 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Metabolism","Lipid metabolism","mmu00100","Steroid biosynthesis","2/5","20/10644",0.1,212.88,20.560210648305,3.34306485834389e-05,0.000334306485834389,0.000140760625614479,"66234/14137",2
+"Metabolism","Metabolism of terpenoids and polyketides","mmu00900","Terpenoid backbone biosynthesis","1/5","23/10644",0.0434782608695652,92.5565217391304,9.52877621797583,0.0107596305365197,0.0420712637119913,0.0177142162997858,"208715",1
+"Metabolism","Carbohydrate metabolism","mmu00650","Butanoate metabolism","1/5","27/10644",0.037037037037037,78.8444444444444,8.77961002524897,0.0126213791135974,0.0420712637119913,0.0177142162997858,"208715",1

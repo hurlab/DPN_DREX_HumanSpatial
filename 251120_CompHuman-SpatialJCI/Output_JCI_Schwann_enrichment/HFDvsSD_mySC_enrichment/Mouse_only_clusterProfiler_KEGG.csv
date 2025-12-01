@@ -1,0 +1,3 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Organismal Systems","Digestive system","mmu04974","Protein digestion and absorption","3/11","108/10644",0.0277777777777778,26.8787878787879,8.69397514563011,0.000157992183559223,0.00679366389304661,0.00565445709580378,"12843/12836/237759",3
+"Cellular Processes","Cellular community - eukaryotes","mmu04510","Focal adhesion","3/11","202/10644",0.0148514851485149,14.3708370837084,6.17082036620949,0.000992991109427286,0.0213493088526867,0.0177693145897514,"12843/20750/19878",3

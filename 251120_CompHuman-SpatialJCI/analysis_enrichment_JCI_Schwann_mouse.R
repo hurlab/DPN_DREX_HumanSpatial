@@ -40,8 +40,8 @@ schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "SC3", "majorSC")
 
 # Parallel processing (set cores = 1 to disable parallelization)
 # Use 75% of available cores (adjust fraction as needed: 0.5 = 50%, 0.8 = 80%, etc.)
-# Temporarily disabled due to Windows parallel processing issues - will run sequentially
-n_cores <- 1  # max(1, floor(parallel::detectCores() * 0.75))
+# Re-enabled for Linux/WSL2 environment (Windows issues don't apply here)
+n_cores <- max(1, floor(parallel::detectCores() * 0.75))
 
 dir.create(output_root, showWarnings = FALSE, recursive = TRUE)
 
@@ -228,11 +228,30 @@ jci_mouse <- map_genes_to_mouse(jci_human, human2mouse)
 
 ################################################################################
 # Pre-build richR annotations (if available) to save time
-# TEMPORARILY DISABLED - richR hanging on Windows, using clusterProfiler only
 ################################################################################
 go_annot <- NULL
 kegg_annot <- NULL
-message("Skipping richR annotations (using clusterProfiler only for reliability)")
+
+if (requireNamespace("richR", quietly = TRUE)) {
+  message("Building richR annotations for mouse (GO and KEGG)...")
+  tryCatch({
+    go_annot <- richR::buildAnnot(species = "mouse", keytype = "SYMBOL", anntype = "GO")
+    message("  ✓ GO annotations built successfully")
+  }, error = function(e) {
+    message("  ✗ Failed to build GO annotations: ", e$message)
+    go_annot <<- NULL
+  })
+
+  tryCatch({
+    kegg_annot <- richR::buildAnnot(species = "mouse", keytype = "SYMBOL", anntype = "KEGG", builtin = FALSE)
+    message("  ✓ KEGG annotations built successfully")
+  }, error = function(e) {
+    message("  ✗ Failed to build KEGG annotations: ", e$message)
+    kegg_annot <<- NULL
+  })
+} else {
+  message("richR not available - will use clusterProfiler only")
+}
 
 ################################################################################
 # Per-mouse-file enrichment

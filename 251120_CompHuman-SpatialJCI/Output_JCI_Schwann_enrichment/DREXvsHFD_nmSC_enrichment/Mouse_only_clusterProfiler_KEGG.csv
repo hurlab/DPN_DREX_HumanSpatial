@@ -1,0 +1,2 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Organismal Systems","Immune system","mmu04610","Complement and coagulation cascades","2/9","94/10644",0.0212765957446809,25.1631205673759,6.84502843485128,0.00266813319774121,0.0453582643616006,0.0393198576509231,"14066/50908",2

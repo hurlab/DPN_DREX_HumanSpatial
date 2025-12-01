@@ -1,0 +1,2 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Human Diseases","Infectious disease: bacterial","mmu05100","Bacterial invasion of epithelial cells","2/6","77/10644",0.025974025974026,46.0779220779221,9.42781519061007,0.000760417175807104,0.0281354355048629,0.0192105391782847,"216033/271849",2

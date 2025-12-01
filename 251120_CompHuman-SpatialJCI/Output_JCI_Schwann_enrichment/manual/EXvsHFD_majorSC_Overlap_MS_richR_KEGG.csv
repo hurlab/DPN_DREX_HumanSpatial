@@ -1,5 +1,0 @@
-"Annot","Term","Annotated","Significant","RichFactor","FoldEnrichment","zscore","Pvalue","Padj","GeneID","ko","Level3","Level2","Level1"
-"04512","ECM-receptor interaction",86,2,0.0232558139534884,25.6007751937985,6.92384952357354,0.00242970903444645,0.0218673813100181,"Col1a1,Sdc3","04512","ECM-receptor interaction","Signaling molecules and interaction","Environmental Information Processing"
-"04514","Cell adhesion molecules",147,2,0.0136054421768707,14.9773242630385,5.16742022780968,0.00695871914519187,0.0313142361533634,"Mag,Sdc3","04514","Cell adhesion molecules","Signaling molecules and interaction","Environmental Information Processing"
-"00533","Glycosaminoglycan biosynthesis - keratan sulfate",15,1,0.0666666666666667,73.3888888888889,8.46281653926234,0.0135540146499818,0.0406620439499455,"Chst2","00533","Glycosaminoglycan biosynthesis - keratan sulfate","Glycan biosynthesis and metabolism","Metabolism"
-"05144","Malaria",46,1,0.0217391304347826,23.9311594202899,4.70572135560347,0.0410809802242538,0.0912481117819861,"Sdc3","05144","Malaria","Infectious disease: parasitic","Human Diseases"

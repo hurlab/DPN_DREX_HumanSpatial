@@ -1,0 +1,7 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Environmental Information Processing","Signaling molecules and interaction","mmu04512","ECM-receptor interaction","1/2","89/10644",0.0112359550561798,59.7977528089888,7.63593133146942,0.0166539005317711,0.0433033616052639,NA,"20971",1
+"Human Diseases","Cardiovascular disease","mmu05418","Fluid shear stress and atherosclerosis","1/2","149/10644",0.00671140939597315,35.7181208053691,5.85050728357796,0.0278023325640461,0.0433033616052639,NA,"20971",1
+"Environmental Information Processing","Signaling molecules and interaction","mmu04514","Cell adhesion molecule (CAM) interaction","1/2","181/10644",0.00552486187845304,29.4033149171271,5.28342571216352,0.0337221752194474,0.0433033616052639,NA,"20971",1
+"Cellular Processes","Cellular community - eukaryotes","mmu04510","Focal adhesion","1/2","202/10644",0.00495049504950495,26.3465346534653,4.98583421311411,0.0375972471050923,0.0433033616052639,NA,"13730",1
+"Human Diseases","Cancer: overview","mmu05205","Proteoglycans in cancer","1/2","204/10644",0.00490196078431373,26.0882352941176,4.95987064520826,0.0379658955116133,0.0433033616052639,NA,"20971",1
+"Cellular Processes","Cell motility","mmu04820","Cytoskeleton in muscle cells","1/2","233/10644",0.00429184549356223,22.8412017167382,4.62108193291775,0.0433033616052639,0.0433033616052639,NA,"20971",1

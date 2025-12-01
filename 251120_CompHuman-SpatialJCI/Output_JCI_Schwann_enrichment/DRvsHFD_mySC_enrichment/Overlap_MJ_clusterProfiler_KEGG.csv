@@ -1,0 +1,2 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Environmental Information Processing","Signaling molecules and interaction","mmu04517","IgSF CAM signaling","5/8","300/10644",0.0166666666666667,22.175,10.2029944559585,8.9885218835636e-07,1.97747481438399e-05,1.70308835688574e-05,"640524/18858/94332/17196/235379",5

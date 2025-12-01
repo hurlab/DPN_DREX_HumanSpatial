@@ -1,0 +1,3 @@
+"Term","n_celltypes","celltypes","mean_neg_log10_padj","max_neg_log10_padj","category"
+"Cell adhesion molecule (CAM) interaction",1,"mySC",1.60158115597633,1.60158115597633,"Cell-type-specific"
+"Cytoskeleton in muscle cells",1,"mySC",1.60158115597633,1.60158115597633,"Cell-type-specific"

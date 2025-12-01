@@ -1,0 +1,698 @@
+"Term","padj","comparison","cell_type","gene_set","enrich_type","neg_log10_padj"
+"regulation of neuron differentiation",0.0198317463438663,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.70263904100847
+"response to steroid hormone",0.0296278118258136,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.52830042233252
+"positive regulation of neuron differentiation",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"visual perception",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"sensory perception of light stimulus",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"myelination",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"ensheathment of neurons",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"axon ensheathment",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"negative regulation of cell projection organization",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"sequestering of extracellular ligand from receptor",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"response to vitamin E",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"negative regulation of heterotypic cell-cell adhesion",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"determination of dorsal/ventral asymmetry",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"determination of dorsal identity",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"regulation of cell-cell adhesion involved in gastrulation",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"extracellular regulation of signal transduction",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"extracellular negative regulation of signal transduction",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"sensory perception of sound",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"cell-cell adhesion via plasma-membrane adhesion molecules",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"neuronal action potential propagation",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"collagen-activated tyrosine kinase receptor signaling pathway",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"cell-cell adhesion involved in gastrulation",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"retinal pigment epithelium development",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"regulation of microvillus assembly",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"skin morphogenesis",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"bone trabecula formation",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"action potential propagation",0.0457236665199527,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.33985895138399
+"sensory perception of mechanical stimulus",0.0482347261002298,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.31664018326383
+"positive regulation of chemokine (C-X-C motif) ligand 2 production",0.0482347261002298,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.31664018326383
+"negative regulation of cell adhesion",0.0482347261002298,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.31664018326383
+"negative regulation of cell migration",0.0482347261002298,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.31664018326383
+"collagen-activated signaling pathway",0.0482403544067225,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.31658951023112
+"response to hyperoxia",0.0482403544067225,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.31658951023112
+"negative regulation of cell motility",0.0482403544067225,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.31658951023112
+"bone trabecula morphogenesis",0.0486468101790917,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.3129456315937
+"microvillus assembly",0.0486468101790917,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.3129456315937
+"negative regulation of locomotion",0.0486468101790917,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.3129456315937
+"negative regulation of leukocyte chemotaxis",0.0486468101790917,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.3129456315937
+"regulation of microvillus organization",0.0486468101790917,"DREXvsDR","mySC","Overlap_MS","clusterProfiler_GO",1.3129456315937
+"response to steroid hormone",0.00198774754757236,"DREXvsDR","majorSC","Overlap_MS","clusterProfiler_GO",2.70163877369035
+"cellular response to aldehyde",0.0312696365680093,"DREXvsDR","majorSC","Overlap_MS","clusterProfiler_GO",1.50487716632423
+"response to glucocorticoid",0.0312696365680093,"DREXvsDR","majorSC","Overlap_MS","clusterProfiler_GO",1.50487716632423
+"response to corticosteroid",0.0319778153701574,"DREXvsDR","majorSC","Overlap_MS","clusterProfiler_GO",1.4951512092919
+"positive regulation of myelination",0.00233633408067118,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.63146505581559
+"positive regulation of nervous system process",0.00320476533300917,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.49420376593001
+"positive regulation of glial cell differentiation",0.00320476533300917,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.49420376593001
+"regulation of myelination",0.00320476533300917,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.49420376593001
+"positive regulation of gliogenesis",0.00419317423760036,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.37745709112465
+"regulation of glial cell differentiation",0.00419317423760036,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.37745709112465
+"cellular response to mechanical stimulus",0.00419317423760036,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.37745709112465
+"cellular response to external stimulus",0.00419317423760036,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.37745709112465
+"regulation of gliogenesis",0.00740101936260988,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.13070845958419
+"regulation of nervous system process",0.00867840346491521,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.06156016308983
+"myelination",0.00971048250965816,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.01275918965166
+"ensheathment of neurons",0.00971048250965816,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.01275918965166
+"axon ensheathment",0.00971048250965816,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",2.01275918965166
+"response to mechanical stimulus",0.0155026306900209,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.80959459878342
+"glial cell differentiation",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"response to insulin",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"positive regulation of neurogenesis",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"facial nerve structural organization",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"response to vitamin E",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"positive regulation of nervous system development",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"facial nerve development",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"facial nerve morphogenesis",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"collagen-activated tyrosine kinase receptor signaling pathway",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"cellular response to abiotic stimulus",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"cellular response to environmental stimulus",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"gliogenesis",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"cranial nerve structural organization",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"skin morphogenesis",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"bone trabecula formation",0.0178412101250655,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.74857569184249
+"positive regulation of astrocyte differentiation",0.0204604231961598,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.68908538773744
+"collagen-activated signaling pathway",0.0204604231961598,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.68908538773744
+"response to hyperoxia",0.0204604231961598,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.68908538773744
+"regulation of neurogenesis",0.0204604231961598,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.68908538773744
+"preganglionic parasympathetic fiber development",0.0204604231961598,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.68908538773744
+"bone trabecula morphogenesis",0.0204604231961598,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.68908538773744
+"parasympathetic nervous system development",0.0232020129119759,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.6344743358573
+"anatomical structure arrangement",0.0236480898329018,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.6262039335111
+"definitive hemopoiesis",0.0252132923327919,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.59837044077313
+"cellular response to aldehyde",0.0252132923327919,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.59837044077313
+"myelin assembly",0.0252132923327919,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.59837044077313
+"response to increased oxygen levels",0.0252132923327919,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.59837044077313
+"trabecula formation",0.0274465330803765,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.5615125058278
+"cranial nerve morphogenesis",0.0276458312026933,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.55837034798185
+"central nervous system myelination",0.0276458312026933,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.55837034798185
+"axon ensheathment in central nervous system",0.0276458312026933,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.55837034798185
+"cellular response to vitamin",0.0276458312026933,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.55837034798185
+"motor neuron axon guidance",0.0287442541162008,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.54144895636645
+"negative regulation of axon extension",0.0292273822722602,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.53421008014794
+"tooth mineralization",0.0292273822722602,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.53421008014794
+"endochondral ossification",0.0292273822722602,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.53421008014794
+"replacement ossification",0.0292273822722602,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.53421008014794
+"embryonic eye morphogenesis",0.0292273822722602,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.53421008014794
+"regulation of astrocyte differentiation",0.0292273822722602,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.53421008014794
+"face morphogenesis",0.0301525300183516,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.52067624150359
+"cartilage development involved in endochondral bone morphogenesis",0.0317630623691954,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.4980776326326
+"protein sumoylation",0.0334244077328902,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.47593627952197
+"head morphogenesis",0.0334244077328902,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.47593627952197
+"autonomic nervous system development",0.0336316218084559,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.47325218931694
+"cellular response to epidermal growth factor stimulus",0.0336316218084559,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.47325218931694
+"Schwann cell differentiation",0.0346324452331416,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.46051684388889
+"cellular response to nutrient",0.0346324452331416,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.46051684388889
+"trabecula morphogenesis",0.0346324452331416,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.46051684388889
+"response to epidermal growth factor",0.0346324452331416,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.46051684388889
+"oligodendrocyte development",0.0347084571296793,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.45956469128276
+"body morphogenesis",0.0354514538955548,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.45036594931395
+"positive regulation of epithelial to mesenchymal transition",0.0354514538955548,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.45036594931395
+"negative regulation of axonogenesis",0.0355114709467143,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.44963133809516
+"cranial nerve development",0.036149930801048,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.44189252970422
+"face development",0.0361978179801027,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.4413176081343
+"cellular response to retinoic acid",0.0362442491166383,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.44076089323216
+"axon regeneration",0.0362892857436996,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.44022157962591
+"negative regulation of cell-substrate adhesion",0.0363754047432121,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.43919216565509
+"collagen fibril organization",0.0363754047432121,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.43919216565509
+"protein export from nucleus",0.0364165940068298,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.43870067559796
+"collagen biosynthetic process",0.0380328020591875,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.41984167684943
+"endochondral bone morphogenesis",0.0390871027339253,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.40796651972639
+"neuron projection regeneration",0.03909083218102,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.40792508403749
+"aorta development",0.0395959500710512,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.40234923204774
+"rhythmic behavior",0.0395959500710512,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.40234923204774
+"peripheral nervous system development",0.0425424904700521,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.37117708975671
+"response to vitamin",0.0453375831644665,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.34354163476776
+"negative regulation of neuron differentiation",0.0453375831644665,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.34354163476776
+"response to axon injury",0.0461270958895231,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.33604388722692
+"skeletal muscle cell differentiation",0.0461270958895231,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.33604388722692
+"astrocyte differentiation",0.0467905870740531,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32984150574985
+"response to cAMP",0.0467905870740531,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32984150574985
+"regulation of axon extension",0.0467905870740531,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32984150574985
+"nerve development",0.0475006171827117,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32330074748451
+"regulation of epithelial to mesenchymal transition",0.0475006171827117,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32330074748451
+"peptidyl-lysine modification",0.0477480339352132,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32104450614655
+"cellular response to fibroblast growth factor stimulus",0.0477480339352132,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32104450614655
+"response to retinoic acid",0.0478423662387627,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32018734868888
+"positive regulation of canonical Wnt signaling pathway",0.0478423662387627,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32018734868888
+"bone morphogenesis",0.0478423662387627,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32018734868888
+"response to fibroblast growth factor",0.0478423662387627,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32018734868888
+"transmission of nerve impulse",0.0478423662387627,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32018734868888
+"segmentation",0.0478423662387627,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32018734868888
+"negative regulation of developmental growth",0.0478423662387627,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32018734868888
+"regulation of extent of cell growth",0.0478423662387627,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.32018734868888
+"response to hydrogen peroxide",0.0480561591580028,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.31825094271111
+"response to estradiol",0.0480561591580028,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.31825094271111
+"artery development",0.0491172257161392,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_GO",1.30876617139047
+"positive regulation of glial cell differentiation",0.0011290422751487,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.94728979632121
+"positive regulation of gliogenesis",0.00141943398940604,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.84788479947718
+"positive regulation of neurogenesis",0.00141943398940604,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.84788479947718
+"regulation of glial cell differentiation",0.00141943398940604,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.84788479947718
+"positive regulation of astrocyte differentiation",0.00190328855534516,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.72049536384436
+"positive regulation of nervous system development",0.00190328855534516,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.72049536384436
+"regulation of cell growth",0.00236478128063404,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.62620902110222
+"regulation of gliogenesis",0.00236478128063404,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.62620902110222
+"regulation of neurogenesis",0.00286675223906997,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.5426098396152
+"positive regulation of myelination",0.00358601734871224,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.4453876137053
+"negative regulation of cell growth",0.00367192568747403,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.43510611664469
+"regulation of astrocyte differentiation",0.00584143612299494,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.23348036802166
+"negative regulation of growth",0.00664495945058343,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.17750766490057
+"mesenchymal cell differentiation",0.00732272400133603,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.13532733442189
+"response to mechanical stimulus",0.00732272400133603,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.13532733442189
+"positive regulation of nervous system process",0.00906505318049998,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.04262964375491
+"glial cell differentiation",0.00944432403113828,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",2.02482912086044
+"regulation of myelination",0.0105468108616459,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.97687884222123
+"mesenchyme development",0.0105468108616459,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.97687884222123
+"regulation of sodium ion transport",0.0140611036263194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.85198059112199
+"gliogenesis",0.018758058952142,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.72681210358956
+"astrocyte differentiation",0.0191621866113896,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.71755493476286
+"neural crest cell differentiation",0.0191621866113896,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.71755493476286
+"regulation of axon extension",0.0191621866113896,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.71755493476286
+"cellular response to mechanical stimulus",0.0191621866113896,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.71755493476286
+"cellular response to external stimulus",0.0191621866113896,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.71755493476286
+"nerve development",0.0191621866113896,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.71755493476286
+"Wnt signaling pathway",0.0216772303979801,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.66399620643765
+"regulation of extent of cell growth",0.0227791504123547,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.64246247771552
+"response to hydrogen peroxide",0.0227791504123547,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.64246247771552
+"axon extension",0.0261420689731577,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.58266004383781
+"regulation of nervous system process",0.0405763015881432,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.39172754017747
+"regulation of axonogenesis",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"cellular response to glucose stimulus",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"cellular response to hexose stimulus",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"hindbrain development",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"myelination",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"cellular response to monosaccharide stimulus",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"ensheathment of neurons",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"axon ensheathment",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"neuron projection extension",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"cellular response to carbohydrate stimulus",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"intracellular glucose homeostasis",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"regulation of cell size",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"facial nerve structural organization",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"sequestering of extracellular ligand from receptor",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"positive regulation of sodium ion export across plasma membrane",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"response to reactive oxygen species",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"negative regulation of neuron apoptotic process",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"cerebellar granular layer morphogenesis",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"insulin processing",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"response to vitamin E",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"determination of dorsal/ventral asymmetry",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"determination of dorsal identity",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"negative regulation of platelet aggregation",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"extracellular regulation of signal transduction",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"extracellular negative regulation of signal transduction",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"regulation of sodium ion export across plasma membrane",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"cartilage development",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"facial nerve development",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"facial nerve morphogenesis",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"collagen-activated tyrosine kinase receptor signaling pathway",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"regulation of leukocyte migration",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"regulation of neuron differentiation",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"insemination",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"cranial nerve structural organization",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"skin morphogenesis",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"bone trabecula formation",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"response to glucose",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"regulation of canonical Wnt signaling pathway",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"response to hexose",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"axon guidance",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"negative regulation of sodium ion transport",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"branching morphogenesis of a nerve",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"neuron projection guidance",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"sodium ion transport",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"response to monosaccharide",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"protein processing",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"cerebellar granular layer development",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"negative regulation of homotypic cell-cell adhesion",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"positive regulation of leukocyte tethering or rolling",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"negative regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway",0.0407431776510348,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.38994510242244
+"negative regulation of platelet activation",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"regulation of timing of cell differentiation",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"fat cell differentiation",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"developmental growth involved in morphogenesis",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"regulation of plasminogen activation",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"collagen-activated signaling pathway",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"response to hyperoxia",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"developmental cell growth",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"response to carbohydrate",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"N-acetylglucosamine metabolic process",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"preganglionic parasympathetic fiber development",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"regulation of development, heterochronic",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"convergent extension",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"bone trabecula morphogenesis",0.0417349992500226,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37949958996701
+"stem cell differentiation",0.042202191541919,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.37466499572436
+"hepatocyte differentiation",0.0427561408285231,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36900150113664
+"negative regulation of cell development",0.0427561408285231,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36900150113664
+"canonical Wnt signaling pathway",0.0427561408285231,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36900150113664
+"negative regulation of leukocyte chemotaxis",0.0427561408285231,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36900150113664
+"peptide catabolic process",0.0427561408285231,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36900150113664
+"positive regulation of sodium ion transmembrane transport",0.0427561408285231,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36900150113664
+"sensory perception of mechanical stimulus",0.0427561408285231,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36900150113664
+"response to insulin",0.0427561408285231,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36900150113664
+"parasympathetic nervous system development",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"negative regulation of cell adhesion",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"sodium ion export across plasma membrane",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"anatomical structure arrangement",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"regulation of leukocyte tethering or rolling",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"regulation of neuron apoptotic process",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"regulation of Wnt signaling pathway",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"glucose homeostasis",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"cardiac left ventricle morphogenesis",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"copulation",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"carbohydrate homeostasis",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"connective tissue development",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"sensory organ morphogenesis",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"embryonic organ morphogenesis",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"negative regulation of protein processing",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"neuron intrinsic apoptotic signaling pathway in response to oxidative stress",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"negative regulation of protein maturation",0.0433759177171536,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.36275132360673
+"definitive hemopoiesis",0.0444508214637582,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.3521202087347
+"cellular response to aldehyde",0.0444508214637582,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.3521202087347
+"response to steroid hormone",0.0447858361593879,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.34885931301995
+"myelin assembly",0.0447858361593879,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.34885931301995
+"response to increased oxygen levels",0.0447858361593879,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.34885931301995
+"insulin metabolic process",0.0447858361593879,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.34885931301995
+"plasminogen activation",0.0461407573907396,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.33591528090467
+"positive regulation of leukocyte adhesion to vascular endothelial cell",0.0474742710570563,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.3235416949075
+"trabecula formation",0.0480587018237457,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31822796466816
+"regulation of platelet aggregation",0.0480587018237457,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31822796466816
+"glucosamine-containing compound metabolic process",0.0480587018237457,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31822796466816
+"positive regulation of macrophage cytokine production",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"cochlea morphogenesis",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"neuron apoptotic process",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"regulation of developmental growth",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"cranial nerve morphogenesis",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"regulation of monocyte chemotaxis",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"negative regulation of oxidative stress-induced intrinsic apoptotic signaling pathway",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"cellular response to abiotic stimulus",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"cellular response to environmental stimulus",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"regulation of cellular component size",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"central nervous system myelination",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"axon ensheathment in central nervous system",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"cellular response to vitamin",0.0483095846881194,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31596669607658
+"regulation of metal ion transport",0.0486022782396845,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.3133433726362
+"negative regulation of mononuclear cell migration",0.0486022782396845,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.3133433726362
+"regulation of synapse maturation",0.0486022782396845,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.3133433726362
+"leukocyte migration",0.0486022782396845,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.3133433726362
+"motor neuron axon guidance",0.0489748852856338,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31002657258437
+"innervation",0.0489748852856338,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31002657258437
+"negative regulation of cartilage development",0.0489748852856338,"EXvsHFD","majorSC","Overlap_MS","clusterProfiler_GO",1.31002657258437
+"Cell adhesion molecule (CAM) interaction",0.0250275791796112,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_KEGG",1.60158115597633
+"Cytoskeleton in muscle cells",0.0250275791796112,"EXvsHFD","mySC","Overlap_MS","clusterProfiler_KEGG",1.60158115597633
+"cell adhesion",0.00182649187683662,"DREXvsDR","mySC","Overlap_MS","richR_GO",2.73838225493461
+"regulation of neuron differentiation",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"cell migration",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"response to endogenous stimulus",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"regulation of cell differentiation",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"response to steroid hormone",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"cell motility",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"regulation of cell migration",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"cellular response to vitamin E",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"negative regulation of microvillus assembly",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"regulation of thyroid gland epithelial cell proliferation",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"negative regulation of thyroid gland epithelial cell proliferation",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"thyroid gland epithelial cell proliferation",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"regulation of cell motility",0.0141206596568139,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.85014501442993
+"regulation of locomotion",0.0157547482655612,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.80258853173156
+"positive regulation of neuron differentiation",0.0226251655126978,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.6454082350625
+"locomotion",0.0226251655126978,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.6454082350625
+"positive regulation of cellular process",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"system development",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"regulation of developmental process",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"visual perception",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"sensory perception of light stimulus",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"neuron differentiation",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"neuron projection morphogenesis",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"positive regulation of biological process",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"cellular response to growth factor stimulus",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"plasma membrane bounded cell projection morphogenesis",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"myelination",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"cell projection morphogenesis",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"ensheathment of neurons",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"axon ensheathment",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"negative regulation of cell differentiation",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"response to growth factor",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"generation of neurons",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"plasma membrane bounded cell projection organization",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"regulation of signal transduction",0.0253438614309212,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59612721461517
+"cell projection organization",0.0253455583602207,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59609813686939
+"regulation of cell adhesion",0.0253455583602207,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59609813686939
+"negative regulation of cell projection organization",0.0253455583602207,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.59609813686939
+"multicellular organism development",0.0302751347633606,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.51891391501055
+"cell-cell adhesion",0.0312260712496323,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.50548265368005
+"neurogenesis",0.0312260712496323,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.50548265368005
+"sensory perception of sound",0.0312260712496323,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.50548265368005
+"cell-cell adhesion via plasma-membrane adhesion molecules",0.0312260712496323,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.50548265368005
+"positive regulation of cell differentiation",0.0312541517984487,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.50509228285146
+"cell communication",0.0319750558757671,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.49518868792777
+"response to hormone",0.032809142362059,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.48400512201546
+"cellular component organization",0.0332231222008161,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.47855955638584
+"sensory perception of mechanical stimulus",0.0339053651433545,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.46973157413345
+"negative regulation of cell adhesion",0.0342898305232685,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.46483466137065
+"negative regulation of cell migration",0.0342898305232685,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.46483466137065
+"negative regulation of developmental process",0.0342898305232685,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.46483466137065
+"regulation of signaling",0.0342898305232685,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.46483466137065
+"regulation of cell communication",0.0342898305232685,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.46483466137065
+"cellular component organization or biogenesis",0.0348654664942167,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.45760451963133
+"negative regulation of cellular process",0.0348654664942167,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.45760451963133
+"negative regulation of cell motility",0.0348972776559269,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.45720845112458
+"cell morphogenesis",0.0352171925604112,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.45324526802004
+"response to lipid",0.0352171925604112,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.45324526802004
+"negative regulation of locomotion",0.0367745016266319,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.43445320418222
+"neuron projection development",0.0394468009466354,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.40398821140407
+"negative regulation of biological process",0.0394468009466354,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.40398821140407
+"regulation of response to stimulus",0.0456461530714693,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.34059581769665
+"response to oxygen levels",0.047334813391915,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.32481933066283
+"cellular response to endogenous stimulus",0.047392994184515,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.32428585266935
+"nervous system process",0.0477846280529048,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.32071179011352
+"neuron development",0.0493048667738449,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.3071102103636
+"nervous system development",0.0497163822006745,"DREXvsDR","mySC","Overlap_MS","richR_GO",1.30350048195013
+"multicellular organism development",0.00098478753037608,"DREXvsDR","majorSC","Overlap_MS","richR_GO",3.00665745918635
+"response to steroid hormone",0.00098478753037608,"DREXvsDR","majorSC","Overlap_MS","richR_GO",3.00665745918635
+"cell adhesion",0.00098478753037608,"DREXvsDR","majorSC","Overlap_MS","richR_GO",3.00665745918635
+"system development",0.00098478753037608,"DREXvsDR","majorSC","Overlap_MS","richR_GO",3.00665745918635
+"response to endogenous stimulus",0.00153661016422249,"DREXvsDR","majorSC","Overlap_MS","richR_GO",2.81343629840867
+"anatomical structure development",0.00643297075600473,"DREXvsDR","majorSC","Overlap_MS","richR_GO",2.1915884228783
+"cellular component organization",0.00643297075600473,"DREXvsDR","majorSC","Overlap_MS","richR_GO",2.1915884228783
+"response to hormone",0.00643297075600473,"DREXvsDR","majorSC","Overlap_MS","richR_GO",2.1915884228783
+"cellular component organization or biogenesis",0.00664943798199713,"DREXvsDR","majorSC","Overlap_MS","richR_GO",2.17721506020548
+"anatomical structure morphogenesis",0.00664943798199713,"DREXvsDR","majorSC","Overlap_MS","richR_GO",2.17721506020548
+"cell migration",0.00676932587111874,"DREXvsDR","majorSC","Overlap_MS","richR_GO",2.16945457873445
+"response to lipid",0.00703731746661332,"DREXvsDR","majorSC","Overlap_MS","richR_GO",2.15259285669061
+"developmental process",0.00855514419329498,"DREXvsDR","majorSC","Overlap_MS","richR_GO",2.06777266621352
+"cellular response to aldehyde",0.00855514419329498,"DREXvsDR","majorSC","Overlap_MS","richR_GO",2.06777266621352
+"response to glucocorticoid",0.0108417984442561,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.96489867078361
+"animal organ development",0.0120846782969113,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.91776490634329
+"cell motility",0.0120846782969113,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.91776490634329
+"response to corticosteroid",0.0123192644147459,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.9094152231906
+"response to oxygen-containing compound",0.0129769683670957,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.88682675400882
+"nervous system development",0.0133700626211887,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.87386655863383
+"cell junction assembly",0.0203342401865681,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.69177205089381
+"regulation of cell migration",0.0203342401865681,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.69177205089381
+"regulation of neuron differentiation",0.0203342401865681,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.69177205089381
+"fucose transmembrane transport",0.0203342401865681,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.69177205089381
+"negative regulation of hepatocyte differentiation",0.0203342401865681,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.69177205089381
+"cellular response to vitamin E",0.0203342401865681,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.69177205089381
+"negative regulation of microvillus assembly",0.0203342401865681,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.69177205089381
+"regulation of thyroid gland epithelial cell proliferation",0.0203342401865681,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.69177205089381
+"negative regulation of thyroid gland epithelial cell proliferation",0.0203342401865681,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.69177205089381
+"thyroid gland epithelial cell proliferation",0.0203342401865681,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.69177205089381
+"regulation of cell motility",0.0212493742277361,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.67265385495215
+"negative regulation of developmental process",0.0212493742277361,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.67265385495215
+"neuron differentiation",0.0212493742277361,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.67265385495215
+"cell differentiation",0.0212493742277361,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.67265385495215
+"cellular developmental process",0.0212493742277361,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.67265385495215
+"cell-cell adhesion via plasma-membrane adhesion molecules",0.0218395292755129,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.66075672655569
+"response to ketone",0.0218395292755129,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.66075672655569
+"regulation of locomotion",0.0218395292755129,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.66075672655569
+"negative regulation of cell-substrate adhesion",0.0218395292755129,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.66075672655569
+"generation of neurons",0.0218395292755129,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.66075672655569
+"cellular response to nutrient levels",0.0218395292755129,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.66075672655569
+"regulation of cell differentiation",0.0218395292755129,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.66075672655569
+"animal organ morphogenesis",0.0218395292755129,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.66075672655569
+"cellular response to glucocorticoid stimulus",0.0233760729833585,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.63122844547975
+"embryonic morphogenesis",0.0246473848278269,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.60822915407826
+"cellular response to chemical stimulus",0.024781947639161,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.60586456496151
+"sensory organ development",0.024781947639161,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.60586456496151
+"negative regulation of cell adhesion",0.024781947639161,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.60586456496151
+"cellular response to corticosteroid stimulus",0.024781947639161,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.60586456496151
+"multicellular organismal process",0.0254972536503488,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.59350659559474
+"sensory organ morphogenesis",0.0275959921329337,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.55915398753411
+"neuron projection morphogenesis",0.0275959921329337,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.55915398753411
+"plasma membrane bounded cell projection morphogenesis",0.0288712924221108,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.53953377451111
+"cell projection morphogenesis",0.0288712924221108,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.53953377451111
+"locomotion",0.0288712924221108,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.53953377451111
+"negative regulation of cell differentiation",0.0288712924221108,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.53953377451111
+"regulation of developmental process",0.0288712924221108,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.53953377451111
+"embryo development",0.0288712924221108,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.53953377451111
+"cellular response to endogenous stimulus",0.0288712924221108,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.53953377451111
+"neurogenesis",0.0303067492788123,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.51846064383644
+"cell-substrate junction assembly",0.0303067492788123,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.51846064383644
+"cellular response to mechanical stimulus",0.0303067492788123,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.51846064383644
+"cellular response to external stimulus",0.0304711429270554,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.51611125573452
+"regulation of cell adhesion",0.0304711429270554,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.51611125573452
+"regulation of signaling",0.0304711429270554,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.51611125573452
+"regulation of cell communication",0.0304711429270554,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.51611125573452
+"cell-substrate junction organization",0.0304711429270554,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.51611125573452
+"response to hydrogen peroxide",0.0345219317128532,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.46190491084905
+"positive regulation of neuron differentiation",0.0345219317128532,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.46190491084905
+"response to estradiol",0.0345334093578208,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.46176054322032
+"response to oxygen levels",0.0345334093578208,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.46176054322032
+"collagen metabolic process",0.0349090386924393,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.45706211040431
+"eye development",0.0349090386924393,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.45706211040431
+"regulation of signal transduction",0.0349090386924393,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.45706211040431
+"visual system development",0.0349090386924393,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.45706211040431
+"cell-cell adhesion",0.0349090386924393,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.45706211040431
+"cell junction organization",0.0349090386924393,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.45706211040431
+"Wnt signaling pathway",0.0349090386924393,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.45706211040431
+"sensory system development",0.0356007162671219,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.44854126416956
+"positive regulation of cell differentiation",0.037850355235208,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.42193004018064
+"cellular response to ketone",0.0381105571012944,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.41895470265135
+"positive regulation of cellular process",0.0388862542775021,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.41020388829912
+"visual perception",0.0422764080384065,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.37390191907908
+"cell growth",0.0429181656216976,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.36735884862126
+"sensory perception of light stimulus",0.0435574303382427,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.3609377492753
+"plasma membrane bounded cell projection organization",0.0467356469901035,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.3303517407289
+"cell morphogenesis",0.0477726570786903,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.32082060291758
+"cell projection organization",0.0477726570786903,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.32082060291758
+"response to chemical",0.0478707457304533,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.31992980702613
+"cellular response to glucose stimulus",0.0493686636148572,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.30654862875674
+"cellular response to hexose stimulus",0.0493686636148572,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.30654862875674
+"positive regulation of biological process",0.0493686636148572,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.30654862875674
+"myelination",0.0493686636148572,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.30654862875674
+"cellular response to monosaccharide stimulus",0.0493686636148572,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.30654862875674
+"response to nutrient levels",0.0493686636148572,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.30654862875674
+"eye morphogenesis",0.0493686636148572,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.30654862875674
+"ensheathment of neurons",0.0493686636148572,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.30654862875674
+"axon ensheathment",0.0493686636148572,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.30654862875674
+"gastrulation",0.0493686636148572,"DREXvsDR","majorSC","Overlap_MS","richR_GO",1.30654862875674
+"positive regulation of myelination",0.00493479344844206,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.30673102051798
+"positive regulation of nervous system process",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"positive regulation of glial cell differentiation",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"regulation of myelination",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"positive regulation of gliogenesis",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"regulation of glial cell differentiation",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"cellular response to mechanical stimulus",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"cellular response to external stimulus",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"rhombomere formation",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"rhombomere structural organization",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"rhombomere 3 structural organization",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"rhombomere 3 formation",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"rhombomere 5 morphogenesis",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"rhombomere 5 structural organization",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"rhombomere 5 formation",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"cellular response to vitamin E",0.00525893898173403,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.27910186817683
+"regulation of gliogenesis",0.00827597487979647,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.08218083622553
+"regulation of nervous system process",0.00916524073245924,"EXvsHFD","mySC","Overlap_MS","richR_GO",2.0378561234562
+"myelination",0.0102552168943463,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.98905515001803
+"positive regulation of cell differentiation",0.0102552168943463,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.98905515001803
+"ensheathment of neurons",0.0102552168943463,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.98905515001803
+"axon ensheathment",0.0102552168943463,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.98905515001803
+"anatomical structure morphogenesis",0.0117058913677427,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.93159551051475
+"response to mechanical stimulus",0.0130978323683494,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.88280057215784
+"anatomical structure formation involved in morphogenesis",0.0142352777171793,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.84663405574836
+"glial cell differentiation",0.0148073981307328,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.82952124645759
+"response to insulin",0.0156459998849401,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.80559667728377
+"positive regulation of neurogenesis",0.0156459998849401,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.80559667728377
+"cell adhesion",0.0186273033095466,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.72985001373253
+"positive regulation of developmental process",0.018842058497935,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.72487165220886
+"positive regulation of nervous system development",0.018842058497935,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.72487165220886
+"cellular response to abiotic stimulus",0.018842058497935,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.72487165220886
+"cellular response to environmental stimulus",0.018842058497935,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.72487165220886
+"gliogenesis",0.018842058497935,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.72487165220886
+"regulation of cell differentiation",0.022478825399682,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.64822638597505
+"regulation of neurogenesis",0.0232703724981465,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.6331966647324
+"ossification",0.0245349649140559,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.61021455874045
+"system development",0.0246293470744071,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.60854710118325
+"axonogenesis",0.0250602629545559,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.6010143763142
+"positive regulation of multicellular organismal process",0.0250602629545559,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.6010143763142
+"response to peptide hormone",0.0250602629545559,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.6010143763142
+"positive regulation of cell development",0.0273223421020104,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.56348207518151
+"axon development",0.027752785275048,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.55669342447346
+"regulation of nervous system development",0.027752785275048,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.55669342447346
+"regulation of system process",0.0324265141640134,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.48909973528329
+"cell differentiation",0.0324265141640134,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.48909973528329
+"cellular developmental process",0.0324265141640134,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.48909973528329
+"multicellular organism development",0.033917940735489,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.46957052299439
+"cell morphogenesis involved in neuron differentiation",0.034082276207627,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.46747140828911
+"neuron projection morphogenesis",0.0368386218671814,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.43369662512756
+"plasma membrane bounded cell projection morphogenesis",0.0375793011150875,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.42505130099663
+"cell projection morphogenesis",0.0378558332179863,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.42186719042568
+"blood vessel development",0.0390548834619826,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.4083246537716
+"head development",0.0407035802830238,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.39036738859359
+"nervous system process",0.0407035802830238,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.39036738859359
+"vasculature development",0.0407035802830238,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.39036738859359
+"regulation of developmental process",0.0421224225305747,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.37548665977035
+"regulation of cell development",0.0458530544513954,"EXvsHFD","mySC","Overlap_MS","richR_GO",1.33863172897537
+"positive regulation of cell differentiation",8.99914458340375e-05,"EXvsHFD","majorSC","Overlap_MS","richR_GO",4.04579877060107
+"anatomical structure morphogenesis",0.000276002289063434,"EXvsHFD","majorSC","Overlap_MS","richR_GO",3.55908731603806
+"positive regulation of developmental process",0.00048496962027525,"EXvsHFD","majorSC","Overlap_MS","richR_GO",3.31428546585146
+"positive regulation of glial cell differentiation",0.00048496962027525,"EXvsHFD","majorSC","Overlap_MS","richR_GO",3.31428546585146
+"regulation of cell differentiation",0.000798695551318123,"EXvsHFD","majorSC","Overlap_MS","richR_GO",3.09761873455259
+"regulation of developmental process",0.000954461370992133,"EXvsHFD","majorSC","Overlap_MS","richR_GO",3.02024164370242
+"neuron projection development",0.000975527493345445,"EXvsHFD","majorSC","Overlap_MS","richR_GO",3.01076048635151
+"positive regulation of gliogenesis",0.000975527493345445,"EXvsHFD","majorSC","Overlap_MS","richR_GO",3.01076048635151
+"positive regulation of neurogenesis",0.000975527493345445,"EXvsHFD","majorSC","Overlap_MS","richR_GO",3.01076048635151
+"regulation of glial cell differentiation",0.000975527493345445,"EXvsHFD","majorSC","Overlap_MS","richR_GO",3.01076048635151
+"neuron projection morphogenesis",0.00104543489467276,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.98070300805412
+"plasma membrane bounded cell projection morphogenesis",0.00104543489467276,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.98070300805412
+"cell projection morphogenesis",0.00104543489467276,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.98070300805412
+"system development",0.00104543489467276,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.98070300805412
+"neuron development",0.00104543489467276,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.98070300805412
+"positive regulation of astrocyte differentiation",0.00115417400052737,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.93772871304128
+"positive regulation of nervous system development",0.00115417400052737,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.93772871304128
+"cell development",0.00150173244712994,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.8234074355645
+"regulation of cell growth",0.00162523172773429,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.78908470797655
+"regulation of gliogenesis",0.00162523172773429,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.78908470797655
+"regulation of cell development",0.00184188933355198,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.73473646712046
+"cell migration",0.00184188933355198,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.73473646712046
+"regulation of neurogenesis",0.00184188933355198,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.73473646712046
+"neuron differentiation",0.00184188933355198,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.73473646712046
+"cell differentiation",0.00184188933355198,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.73473646712046
+"cellular developmental process",0.00184188933355198,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.73473646712046
+"multicellular organism development",0.00202979998419184,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.69254675521068
+"regulation of cell migration",0.00202979998419184,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.69254675521068
+"positive regulation of myelination",0.00202979998419184,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.69254675521068
+"generation of neurons",0.00202979998419184,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.69254675521068
+"plasma membrane bounded cell projection organization",0.00202979998419184,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.69254675521068
+"negative regulation of cell growth",0.00212481232242826,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.67267942369993
+"cell growth",0.00212481232242826,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.67267942369993
+"cell projection organization",0.00212481232242826,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.67267942369993
+"regulation of cell motility",0.00213010917280153,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.67159813743908
+"positive regulation of cell development",0.00226268734073306,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.64537545292791
+"cell morphogenesis",0.00244825855551932,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.611142719163
+"regulation of locomotion",0.00244825855551932,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.611142719163
+"regulation of nervous system development",0.00251792229124603,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.59895767732737
+"cell motility",0.00261036813061906,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.58329824138873
+"regulation of astrocyte differentiation",0.00293752345591415,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.53201865689607
+"neurogenesis",0.00344184201686143,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.4632090679945
+"negative regulation of growth",0.00345168816632481,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.46196844637561
+"regulation of growth",0.0036536898545147,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.43726832074634
+"mesenchymal cell differentiation",0.00405729583042337,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.39176332534066
+"response to mechanical stimulus",0.00410270617212005,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.38692958525007
+"locomotion",0.00415510142725717,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.38141837049348
+"regulation of multicellular organismal process",0.00497989481876851,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.3027798299533
+"positive regulation of nervous system process",0.00508579184017825,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.29364141932979
+"glial cell differentiation",0.00551714144132174,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.25828588202048
+"animal organ development",0.00575425292745307,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.24001105266762
+"positive regulation of cellular process",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"regulation of myelination",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"mesenchyme development",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"cell adhesion",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"head development",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"rhombomere formation",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"rhombomere structural organization",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"rhombomere 3 structural organization",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"rhombomere 3 formation",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"rhombomere 5 morphogenesis",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"rhombomere 5 structural organization",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"rhombomere 5 formation",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"seminal vesicle epithelium development",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"negative regulation of hepatocyte differentiation",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"cellular response to vitamin E",0.00581563791824121,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.23540264049237
+"anatomical structure development",0.00631267783084271,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.19978637443908
+"regulation of multicellular organismal development",0.0068826498417218,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.16224432483481
+"regulation of sodium ion transport",0.00700268571871401,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.15473536439756
+"positive regulation of biological process",0.00736599490266238,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.13276858601686
+"gliogenesis",0.00953263938574703,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.02078683577701
+"nervous system development",0.00963278092661127,"EXvsHFD","majorSC","Overlap_MS","richR_GO",2.01624831653785
+"astrocyte differentiation",0.0104969450800927,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.97893707501569
+"neural crest cell differentiation",0.0104969450800927,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.97893707501569
+"developmental process",0.0104969450800927,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.97893707501569
+"regulation of axon extension",0.0104969450800927,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.97893707501569
+"cellular response to mechanical stimulus",0.0104969450800927,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.97893707501569
+"cellular response to external stimulus",0.010770307812198,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.96777188451736
+"nerve development",0.010840749241094,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.96494070118988
+"cell surface receptor signaling pathway",0.0113970160605272,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.94320883972304
+"Wnt signaling pathway",0.0122447241358492,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.91205099474735
+"central nervous system development",0.0122447241358492,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.91205099474735
+"positive regulation of multicellular organismal process",0.0122447241358492,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.91205099474735
+"growth",0.0122447241358492,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.91205099474735
+"regulation of extent of cell growth",0.0122447241358492,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.91205099474735
+"response to hydrogen peroxide",0.0123594599204711,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.908000506487
+"axonogenesis",0.0137349923750179,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.86217157734197
+"animal organ morphogenesis",0.0139485823625048,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.85546992883675
+"axon extension",0.0139485823625048,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.85546992883675
+"regulation of signal transduction",0.0139485823625048,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.85546992883675
+"cellular component organization",0.0152186227219218,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.81762464923
+"regulation of neuron projection development",0.0157480339288206,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.80277365820212
+"axon development",0.0165485736971114,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.78123943162648
+"negative regulation of multicellular organismal process",0.0167097274420623,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.77703063397098
+"cellular component organization or biogenesis",0.0176990924235737,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.75204900287771
+"tissue development",0.0179698254265272,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.74545614195971
+"regulation of nervous system process",0.0187035152587341,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.72807676169897
+"regulation of axonogenesis",0.0194819509016234,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.71036755549713
+"regulation of cellular process",0.0207116249973498,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.68378582579528
+"cellular response to glucose stimulus",0.0230161795189205,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.63796676374492
+"cellular response to hexose stimulus",0.0230161795189205,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.63796676374492
+"hindbrain development",0.0230161795189205,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.63796676374492
+"myelination",0.0230161795189205,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.63796676374492
+"cell morphogenesis involved in neuron differentiation",0.0230161795189205,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.63796676374492
+"cellular response to monosaccharide stimulus",0.0230344972917328,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.63762126141472
+"ensheathment of neurons",0.0233669115090454,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.63139868611947
+"axon ensheathment",0.0233669115090454,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.63139868611947
+"negative regulation of signal transduction",0.0233823864940862,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.63111116518789
+"neuron projection extension",0.023698798608746,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.62527366963618
+"cellular response to carbohydrate stimulus",0.0242858214401248,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.61464720242854
+"regulation of biological process",0.0248615871445476,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.60447114978461
+"intracellular glucose homeostasis",0.0248615871445476,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.60447114978461
+"regulation of cell size",0.0248615871445476,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.60447114978461
+"regulation of signaling",0.0254037788519103,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.59510167659007
+"regulation of cell communication",0.0254037788519103,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.59510167659007
+"response to reactive oxygen species",0.0254037788519103,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.59510167659007
+"negative regulation of neuron apoptotic process",0.0256790805370104,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.59042053063635
+"brain development",0.0258474729674116,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.58758191020855
+"regulation of plasma membrane bounded cell projection organization",0.0258474729674116,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.58758191020855
+"regulation of cell projection organization",0.0266016822719516,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.57509089801841
+"cartilage development",0.0266016822719516,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.57509089801841
+"negative regulation of signaling",0.0270304034724721,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.56814747170562
+"negative regulation of cell communication",0.0270304034724721,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.56814747170562
+"regulation of leukocyte migration",0.0277938455917585,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.55605135952939
+"regulation of neuron differentiation",0.0278023896725139,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.5559178739746
+"multicellular organismal process",0.0278023896725139,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.5559178739746
+"biological regulation",0.0279608746426818,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.55344924757052
+"response to glucose",0.0282132827552654,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.54954637858936
+"response to endogenous stimulus",0.0282132827552654,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.54954637858936
+"regulation of canonical Wnt signaling pathway",0.0282132827552654,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.54954637858936
+"regulation of cell adhesion",0.0282132827552654,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.54954637858936
+"response to hexose",0.0286630697398184,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.54267729964447
+"axon guidance",0.0286749635760316,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.54249712508279
+"neuron projection guidance",0.0286749635760316,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.54249712508279
+"sodium ion transport",0.0287310769972595,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.5416480939802
+"response to monosaccharide",0.0292058741700591,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.53452979022719
+"response to external stimulus",0.0294373329795807,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.53110153960354
+"protein processing",0.0294373329795807,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.53110153960354
+"fat cell differentiation",0.0315939513982136,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.50039605427457
+"developmental growth involved in morphogenesis",0.0319129512726445,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.49603303090031
+"response to stress",0.0319129512726445,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.49603303090031
+"developmental cell growth",0.0319129512726445,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.49603303090031
+"response to carbohydrate",0.0321763892432482,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.49246269298141
+"regulation of response to stimulus",0.0324508238675061,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.48877427277518
+"stem cell differentiation",0.0331768538325022,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.47916480058916
+"regulation of anatomical structure morphogenesis",0.0339477121859072,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.46918948849733
+"negative regulation of cell development",0.0343841900743597,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.46364120108433
+"canonical Wnt signaling pathway",0.0347455463681546,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.45910085471963
+"sensory perception of mechanical stimulus",0.0347455463681546,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.45910085471963
+"negative regulation of response to stimulus",0.0347455463681546,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.45910085471963
+"response to insulin",0.0347455463681546,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.45910085471963
+"cell-cell adhesion",0.0352391601885921,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.45297445014099
+"negative regulation of cell adhesion",0.0357361242830726,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.44689255014449
+"regulation of neuron apoptotic process",0.0368272463026084,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.43383075359397
+"regulation of Wnt signaling pathway",0.0368771879808704,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.43324220288283
+"glucose homeostasis",0.0374954507086669,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.42602142165827
+"carbohydrate homeostasis",0.0374954507086669,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.42602142165827
+"connective tissue development",0.0375950455807405,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.42486938429354
+"sensory organ morphogenesis",0.0375950455807405,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.42486938429354
+"embryonic organ morphogenesis",0.0380365454880044,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.41979893294449
+"response to hormone",0.0393367775383761,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.40520122028407
+"response to steroid hormone",0.0398694716950145,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.39935951907701
+"negative regulation of developmental process",0.0433246769215307,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.36326466719961
+"export from cell",0.0433631416249857,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.3628792610414
+"neuron apoptotic process",0.0447049884079722,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.34964401339647
+"regulation of developmental growth",0.0451250925442401,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.34558189441788
+"cellular response to abiotic stimulus",0.0455281670859172,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.34171983355949
+"cellular response to environmental stimulus",0.0455281670859172,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.34171983355949
+"regulation of cellular component size",0.0455281670859172,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.34171983355949
+"regulation of metal ion transport",0.0463584591342281,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.33387100757952
+"leukocyte migration",0.0463584591342281,"EXvsHFD","majorSC","Overlap_MS","richR_GO",1.33387100757952

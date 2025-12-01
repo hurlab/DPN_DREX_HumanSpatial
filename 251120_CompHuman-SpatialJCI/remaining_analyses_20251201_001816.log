@@ -1,0 +1,718 @@
+===========================================
+Remaining Analyses Runner
+Started: Mon Dec  1 00:18:16 CST 2025
+===========================================
+
+Waiting for main enrichment to complete...
+Looking for: Output_JCI_Schwann_enrichment/Master_Enrichment_Summary.csv
+  [00:18:16] Still waiting... (checking every 60 seconds)
+  [00:19:16] Still waiting... (checking every 60 seconds)
+  [00:20:16] Still waiting... (checking every 60 seconds)
+  [00:21:16] Still waiting... (checking every 60 seconds)
+  [00:22:16] Still waiting... (checking every 60 seconds)
+  [00:23:16] Still waiting... (checking every 60 seconds)
+  [00:24:16] Still waiting... (checking every 60 seconds)
+  [00:25:16] Still waiting... (checking every 60 seconds)
+  [00:26:16] Still waiting... (checking every 60 seconds)
+  [00:27:16] Still waiting... (checking every 60 seconds)
+  [00:28:16] Still waiting... (checking every 60 seconds)
+  [00:29:16] Still waiting... (checking every 60 seconds)
+  [00:30:16] Still waiting... (checking every 60 seconds)
+  [00:31:16] Still waiting... (checking every 60 seconds)
+  [00:32:16] Still waiting... (checking every 60 seconds)
+  [00:33:16] Still waiting... (checking every 60 seconds)
+  [00:34:16] Still waiting... (checking every 60 seconds)
+  [00:35:16] Still waiting... (checking every 60 seconds)
+  [00:36:16] Still waiting... (checking every 60 seconds)
+  [00:37:16] Still waiting... (checking every 60 seconds)
+  [00:38:16] Still waiting... (checking every 60 seconds)
+  [00:39:16] Still waiting... (checking every 60 seconds)
+  [00:40:16] Still waiting... (checking every 60 seconds)
+  [00:41:16] Still waiting... (checking every 60 seconds)
+  [00:42:16] Still waiting... (checking every 60 seconds)
+  [00:43:16] Still waiting... (checking every 60 seconds)
+  [00:44:16] Still waiting... (checking every 60 seconds)
+  [00:45:16] Still waiting... (checking every 60 seconds)
+  [00:46:16] Still waiting... (checking every 60 seconds)
+
+✓ Main enrichment complete! Master summary found.
+Starting remaining analyses...
+
+===========================================
+Analysis 1 of 5: analysis_01_celltype_enrichment_comparison.R
+Started: Mon Dec  1 00:47:16 CST 2025
+===========================================
+trying URL 'https://cloud.r-project.org/src/contrib/pheatmap_1.0.13.tar.gz'
+Content type 'application/x-gzip' length 15162 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+* installing *source* package ‘pheatmap’ ...
+** this is package ‘pheatmap’ version ‘1.0.13’
+** package ‘pheatmap’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (pheatmap)
+
+The downloaded source packages are in
+	‘/tmp/RtmpPkWBlL/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+
+pheatmap installed
+=== Cell Type-Specific Enrichment Comparison ===
+
+--- Processing clusterProfiler_GO ---
+  Found 39 terms for DREXvsDR mySC Overlap_MS
+  Found 4 terms for DREXvsDR majorSC Overlap_MS
+  Found 102 terms for EXvsHFD mySC Overlap_MS
+  Found 154 terms for EXvsHFD majorSC Overlap_MS
+
+--- Processing clusterProfiler_KEGG ---
+  Found 2 terms for EXvsHFD mySC Overlap_MS
+
+--- Processing richR_GO ---
+  Found 68 terms for DREXvsDR mySC Overlap_MS
+  Found 99 terms for DREXvsDR majorSC Overlap_MS
+  Found 58 terms for EXvsHFD mySC Overlap_MS
+  Found 171 terms for EXvsHFD majorSC Overlap_MS
+
+--- Processing richR_KEGG ---
+
+Total enrichment terms collected: 697
+
+=== Identifying Shared and Cell-Type-Specific Pathways ===
+  DREXvsDR Overlap_MS clusterProfiler_GO: 0 shared, 41 cell-type-specific
+  DREXvsDR Overlap_MS richR_GO: 0 shared, 61 cell-type-specific
+  EXvsHFD Overlap_MS clusterProfiler_GO: 0 shared, 150 cell-type-specific
+  EXvsHFD Overlap_MS clusterProfiler_KEGG: 0 shared, 2 cell-type-specific
+  EXvsHFD Overlap_MS richR_GO: 0 shared, 127 cell-type-specific
+
+=== Creating Heatmaps ===
+  Created heatmap: DREXvsDR_Overlap_MS_clusterProfiler_GO_Heatmap.png
+  Created heatmap: DREXvsDR_Overlap_MS_richR_GO_Heatmap.png
+  Created heatmap: EXvsHFD_Overlap_MS_clusterProfiler_GO_Heatmap.png
+  Error creating heatmap: must have n >= 2 objects to cluster
+  Created heatmap: EXvsHFD_Overlap_MS_richR_GO_Heatmap.png
+
+=== Creating Dot Plots ===
+  Created dot plot: DREXvsDR_Overlap_MS_clusterProfiler_GO_DotPlot
+  Created dot plot: DREXvsDR_Overlap_MS_richR_GO_DotPlot
+  Created dot plot: EXvsHFD_Overlap_MS_clusterProfiler_GO_DotPlot
+  Created dot plot: EXvsHFD_Overlap_MS_clusterProfiler_KEGG_DotPlot
+  Created dot plot: EXvsHFD_Overlap_MS_richR_GO_DotPlot
+
+=== Creating Summary Report ===
+
+=== Analysis Complete ===
+Output directory: Output_JCI_Schwann_enrichment/CellType_Comparison
+Total comparisons analyzed: 2
+Total cell types: 2
+Total unique pathways: 358
+✓ Analysis 1 completed successfully
+
+===========================================
+Analysis 2 of 5: analysis_02_intervention_response.R
+Started: Mon Dec  1 00:47:22 CST 2025
+===========================================
+=== Intervention Response Analysis ===
+
+--- Cell Type: mySC ---
+  DREXvsDR Mouse_all: 455 genes
+  DREXvsHFD Mouse_all: 90 genes
+  DREXvsDR Overlap_MS: 9 genes
+  DREXvsHFD Overlap_MS: 2 genes
+  DREXvsDR Overlap_All3: 2 genes
+  DRvsHFD Mouse_all: 47 genes
+  DRvsSD Mouse_all: 6 genes
+  DRvsHFD Overlap_MS: 3 genes
+  DRvsHFD Overlap_All3: 2 genes
+  EXvsHFD Mouse_all: 186 genes
+  EXvsDREX Mouse_all: 751 genes
+  EXvsHFD Overlap_MS: 5 genes
+  EXvsDREX Overlap_MS: 10 genes
+  EXvsHFD Overlap_All3: 2 genes
+  EXvsDREX Overlap_All3: 2 genes
+
+--- Cell Type: nmSC ---
+  DREXvsDR Mouse_all: 25 genes
+  DREXvsHFD Mouse_all: 19 genes
+  DREXvsDR Overlap_MS: 3 genes
+  DREXvsDR Overlap_All3: 1 genes
+  DRvsHFD Mouse_all: 5 genes
+  DRvsSD Mouse_all: 6 genes
+  EXvsHFD Mouse_all: 3 genes
+  EXvsDREX Mouse_all: 109 genes
+  EXvsDREX Overlap_MS: 2 genes
+
+--- Cell Type: ImmSC ---
+  DREXvsDR Mouse_all: 19 genes
+  DREXvsHFD Mouse_all: 26 genes
+  DRvsSD Mouse_all: 4 genes
+  EXvsHFD Mouse_all: 10 genes
+  EXvsDREX Mouse_all: 50 genes
+
+--- Cell Type: SC3 ---
+  DREXvsDR Mouse_all: 1 genes
+  EXvsDREX Mouse_all: 1 genes
+
+--- Cell Type: majorSC ---
+  DREXvsDR Mouse_all: 854 genes
+  DREXvsHFD Mouse_all: 164 genes
+  DREXvsDR Overlap_MS: 18 genes
+  DREXvsHFD Overlap_MS: 2 genes
+  DREXvsDR Overlap_All3: 3 genes
+  DRvsHFD Mouse_all: 55 genes
+  DRvsSD Mouse_all: 106 genes
+  DRvsHFD Overlap_MS: 1 genes
+  DRvsSD Overlap_MS: 4 genes
+  DRvsHFD Overlap_All3: 1 genes
+  DRvsSD Overlap_All3: 1 genes
+  EXvsHFD Mouse_all: 537 genes
+  EXvsDREX Mouse_all: 2206 genes
+  EXvsHFD Overlap_MS: 13 genes
+  EXvsDREX Overlap_MS: 31 genes
+  EXvsHFD Overlap_All3: 4 genes
+  EXvsDREX Overlap_All3: 7 genes
+
+=== Creating Intervention-Specific Venn Diagrams ===
+  Created DREX Venn: mySC Mouse_all
+  Created DR Venn: mySC Mouse_all
+  Created EX Venn: mySC Mouse_all
+  Created DREX Venn: mySC Overlap_MS
+  Created EX Venn: mySC Overlap_MS
+  Created EX Venn: mySC Overlap_All3
+  Created DREX Venn: nmSC Mouse_all
+  Created DR Venn: nmSC Mouse_all
+  Created EX Venn: nmSC Mouse_all
+  Created DREX Venn: ImmSC Mouse_all
+  Created EX Venn: ImmSC Mouse_all
+  Created DREX Venn: majorSC Mouse_all
+  Created DR Venn: majorSC Mouse_all
+  Created EX Venn: majorSC Mouse_all
+  Created DREX Venn: majorSC Overlap_MS
+  Created DR Venn: majorSC Overlap_MS
+  Created EX Venn: majorSC Overlap_MS
+  Created DR Venn: majorSC Overlap_All3
+  Created EX Venn: majorSC Overlap_All3
+
+=== Identifying Intervention-Specific vs Shared Genes ===
+  mySC Mouse_all: DREX-specific=68, DR-specific=21, EX-specific=144, All-shared=2
+  mySC Overlap_MS: DREX-specific=2, DR-specific=2, EX-specific=4, All-shared=0
+  mySC Overlap_All3: DREX-specific=0, DR-specific=1, EX-specific=1, All-shared=0
+  nmSC Mouse_all: DREX-specific=18, DR-specific=4, EX-specific=3, All-shared=0
+  ImmSC Mouse_all: DREX-specific=26, DR-specific=0, EX-specific=10, All-shared=0
+  majorSC Mouse_all: DREX-specific=119, DR-specific=18, EX-specific=466, All-shared=3
+  majorSC Overlap_MS: DREX-specific=1, DR-specific=0, EX-specific=11, All-shared=0
+  majorSC Overlap_All3: DREX-specific=0, DR-specific=0, EX-specific=3, All-shared=0
+
+=== Exercise-Specific Rescue Analysis ===
+  mySC Mouse_all: EX-specific=162, EX+DR synergy=24, DREX-unique=68
+  mySC Overlap_MS: EX-specific=4, EX+DR synergy=1, DREX-unique=2
+  mySC Overlap_All3: EX-specific=1, EX+DR synergy=1, DREX-unique=0
+  nmSC Mouse_all: EX-specific=3, EX+DR synergy=0, DREX-unique=18
+  ImmSC Mouse_all: EX-specific=10, EX+DR synergy=0, DREX-unique=26
+  majorSC Mouse_all: EX-specific=504, EX+DR synergy=33, DREX-unique=119
+  majorSC Overlap_MS: EX-specific=12, EX+DR synergy=1, DREX-unique=1
+  majorSC Overlap_All3: EX-specific=3, EX+DR synergy=1, DREX-unique=0
+
+=== Creating Summary Report ===
+
+=== Analysis Complete ===
+Output directory: Output_JCI_Schwann_enrichment/Intervention_Response
+Check for Venn diagrams, gene lists, and summary statistics
+✓ Analysis 2 completed successfully
+
+===========================================
+Analysis 3 of 5: analysis_03_conservation_analysis.R
+Started: Mon Dec  1 00:47:29 CST 2025
+===========================================
+=== Human-Mouse Conservation Analysis ===
+
+--- Comparison: DREXvsDR ---
+  mySC: Mouse=455, Conserved in Schwann=9 (2%), Conserved in JCI=46 (10.1%)
+  nmSC: Mouse=25, Conserved in Schwann=3 (12%), Conserved in JCI=4 (16%)
+  ImmSC: Mouse=19, Conserved in Schwann=0 (0%), Conserved in JCI=6 (31.6%)
+  SC3: Mouse=1, Conserved in Schwann=0 (0%), Conserved in JCI=0 (0%)
+  majorSC: Mouse=854, Conserved in Schwann=18 (2.1%), Conserved in JCI=84 (9.8%)
+
+--- Comparison: DREXvsHFD ---
+  mySC: Mouse=90, Conserved in Schwann=2 (2.2%), Conserved in JCI=15 (16.7%)
+  nmSC: Mouse=19, Conserved in Schwann=0 (0%), Conserved in JCI=2 (10.5%)
+  ImmSC: Mouse=26, Conserved in Schwann=0 (0%), Conserved in JCI=5 (19.2%)
+  majorSC: Mouse=164, Conserved in Schwann=2 (1.2%), Conserved in JCI=26 (15.9%)
+
+--- Comparison: EXvsHFD ---
+  mySC: Mouse=186, Conserved in Schwann=5 (2.7%), Conserved in JCI=29 (15.6%)
+  nmSC: Mouse=3, Conserved in Schwann=0 (0%), Conserved in JCI=0 (0%)
+  ImmSC: Mouse=10, Conserved in Schwann=0 (0%), Conserved in JCI=3 (30%)
+  majorSC: Mouse=537, Conserved in Schwann=13 (2.4%), Conserved in JCI=52 (9.7%)
+
+--- Comparison: DRvsHFD ---
+  mySC: Mouse=47, Conserved in Schwann=3 (6.4%), Conserved in JCI=9 (19.1%)
+  nmSC: Mouse=5, Conserved in Schwann=0 (0%), Conserved in JCI=2 (40%)
+  majorSC: Mouse=55, Conserved in Schwann=1 (1.8%), Conserved in JCI=12 (21.8%)
+
+--- Comparison: DRvsSD ---
+  mySC: Mouse=6, Conserved in Schwann=0 (0%), Conserved in JCI=0 (0%)
+  nmSC: Mouse=6, Conserved in Schwann=0 (0%), Conserved in JCI=1 (16.7%)
+  ImmSC: Mouse=4, Conserved in Schwann=0 (0%), Conserved in JCI=0 (0%)
+  majorSC: Mouse=106, Conserved in Schwann=4 (3.8%), Conserved in JCI=16 (15.1%)
+
+--- Comparison: HFDvsSD ---
+  mySC: Mouse=27, Conserved in Schwann=2 (7.4%), Conserved in JCI=4 (14.8%)
+  nmSC: Mouse=4, Conserved in Schwann=0 (0%), Conserved in JCI=1 (25%)
+  ImmSC: Mouse=3, Conserved in Schwann=1 (33.3%), Conserved in JCI=1 (33.3%)
+  majorSC: Mouse=69, Conserved in Schwann=5 (7.2%), Conserved in JCI=11 (15.9%)
+
+=== Creating Conservation Visualizations ===
+
+=== Identifying Highly Conserved Genes ===
+
+--- Cell Type: mySC ---
+  Found 2 genes conserved in ≥2 comparisons
+
+--- Cell Type: nmSC ---
+
+--- Cell Type: ImmSC ---
+
+--- Cell Type: SC3 ---
+
+--- Cell Type: majorSC ---
+  Found 2 genes conserved in ≥2 comparisons
+
+=== Species-Specific Pathway Summary ===
+
+=== Creating Summary Report ===
+
+=== Analysis Complete ===
+Output directory: Output_JCI_Schwann_enrichment/Conservation_Analysis
+Check for conservation statistics, highly conserved genes, and pathway comparisons
+✓ Analysis 3 completed successfully
+
+===========================================
+Analysis 4 of 5: analysis_04_direction_of_change.R
+Started: Mon Dec  1 00:47:33 CST 2025
+===========================================
+=== Loading Human Datasets ===
+Warning message:
+In dplyr::left_join(human, mouse, by = "HID") :
+  Detected an unexpected many-to-many relationship between `x` and `y`.
+ℹ Row 130 of `x` matches multiple rows in `y`.
+ℹ Row 169 of `y` matches multiple rows in `x`.
+ℹ If a many-to-many relationship is expected, set `relationship =
+  "many-to-many"` to silence this warning.
+Schwann DEGs mapped to mouse: 630
+JCI bulk DEGs mapped to mouse: 15771
+
+=== Direction-of-Change Analysis ===
+
+--- Folder: ../DEG ---
+  Processing: DREXvsDR_ImmSC.csv
+    Schwann: 6 overlap, 2 concordant, 4 discordant
+    JCI: 10 overlap, 3 concordant, 7 discordant
+  Processing: DREXvsDR_mySC.csv
+    Schwann: 64 overlap, 41 concordant, 23 discordant
+    JCI: 188 overlap, 72 concordant, 116 discordant
+  Processing: DREXvsDR_nmSC.csv
+    Schwann: 8 overlap, 3 concordant, 5 discordant
+    JCI: 12 overlap, 3 concordant, 9 discordant
+  Processing: DREXvsDR_SC3.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+  Processing: DREXvsHFD_ImmSC.csv
+    Schwann: 7 overlap, 4 concordant, 3 discordant
+    JCI: 10 overlap, 3 concordant, 7 discordant
+  Processing: DREXvsHFD_mySC.csv
+    Schwann: 14 overlap, 7 concordant, 7 discordant
+    JCI: 35 overlap, 11 concordant, 24 discordant
+  Processing: DREXvsHFD_nmSC.csv
+    Schwann: 5 overlap, 3 concordant, 2 discordant
+    JCI: 5 overlap, 2 concordant, 3 discordant
+  Processing: DREXvsHFD_SC3.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+  Processing: DRvsDREX_ImmSC.csv
+    Schwann: 6 overlap, 4 concordant, 2 discordant
+    JCI: 10 overlap, 7 concordant, 3 discordant
+  Processing: DRvsDREX_mySC.csv
+    Schwann: 64 overlap, 23 concordant, 41 discordant
+    JCI: 188 overlap, 116 concordant, 72 discordant
+  Processing: DRvsDREX_nmSC.csv
+    Schwann: 8 overlap, 5 concordant, 3 discordant
+    JCI: 12 overlap, 9 concordant, 3 discordant
+  Processing: DRvsDREX_SC3.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+  Processing: DRvsEX_ImmSC.csv
+    Schwann: 2 overlap, 2 concordant, 0 discordant
+    JCI: 3 overlap, 0 concordant, 3 discordant
+  Processing: DRvsEX_mySC.csv
+    Schwann: 11 overlap, 8 concordant, 3 discordant
+    JCI: 24 overlap, 2 concordant, 22 discordant
+  Processing: DRvsEX_nmSC.csv
+    Schwann: 1 overlap, 1 concordant, 0 discordant
+    JCI: 3 overlap, 3 concordant, 0 discordant
+  Processing: DRvsEX_SC3.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+  Processing: DRvsHFD_ImmSC.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+  Processing: DRvsHFD_mySC.csv
+    Schwann: 15 overlap, 4 concordant, 11 discordant
+    JCI: 24 overlap, 13 concordant, 11 discordant
+  Processing: DRvsHFD_nmSC.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 5 overlap, 5 concordant, 0 discordant
+  Processing: DRvsHFD_SC3.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+  Processing: DRvsSD_ImmSC.csv
+    Schwann: 2 overlap, 1 concordant, 1 discordant
+    JCI: 2 overlap, 0 concordant, 2 discordant
+  Processing: DRvsSD_mySC.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 2 overlap, 1 concordant, 1 discordant
+  Processing: DRvsSD_nmSC.csv
+    Schwann: 1 overlap, 1 concordant, 0 discordant
+    JCI: 3 overlap, 3 concordant, 0 discordant
+  Processing: DRvsSD_SC3.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+  Processing: EXvsDREX_ImmSC.csv
+    Schwann: 8 overlap, 2 concordant, 6 discordant
+    JCI: 22 overlap, 20 concordant, 2 discordant
+  Processing: EXvsDREX_mySC.csv
+    Schwann: 71 overlap, 21 concordant, 50 discordant
+    JCI: 299 overlap, 208 concordant, 91 discordant
+  Processing: EXvsDREX_nmSC.csv
+    Schwann: 29 overlap, 7 concordant, 22 discordant
+    JCI: 44 overlap, 40 concordant, 4 discordant
+  Processing: EXvsDREX_SC3.csv
+    Schwann: 1 overlap, 1 concordant, 0 discordant
+    JCI: 1 overlap, 0 concordant, 1 discordant
+  Processing: EXvsHFD_ImmSC.csv
+    Schwann: 2 overlap, 0 concordant, 2 discordant
+    JCI: 6 overlap, 6 concordant, 0 discordant
+  Processing: EXvsHFD_mySC.csv
+    Schwann: 21 overlap, 4 concordant, 17 discordant
+    JCI: 76 overlap, 62 concordant, 14 discordant
+  Processing: EXvsHFD_nmSC.csv
+    Schwann: 1 overlap, 0 concordant, 1 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+  Processing: EXvsHFD_SC3.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+  Processing: HFDvsSD_ImmSC.csv
+    Schwann: 2 overlap, 2 concordant, 0 discordant
+    JCI: 3 overlap, 1 concordant, 2 discordant
+  Processing: HFDvsSD_mySC.csv
+    Schwann: 7 overlap, 5 concordant, 2 discordant
+    JCI: 17 overlap, 10 concordant, 7 discordant
+  Processing: HFDvsSD_nmSC.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 1 overlap, 0 concordant, 1 discordant
+  Processing: HFDvsSD_SC3.csv
+    Schwann: 0 overlap, 0 concordant, 0 discordant
+    JCI: 0 overlap, 0 concordant, 0 discordant
+
+--- Folder: ../DEG_Major ---
+  Processing: DREXvsDR_majorSC.csv
+    Schwann: 92 overlap, 61 concordant, 31 discordant
+    JCI: 336 overlap, 114 concordant, 222 discordant
+  Processing: DREXvsHFD_majorSC.csv
+    Schwann: 26 overlap, 17 concordant, 9 discordant
+    JCI: 69 overlap, 20 concordant, 49 discordant
+  Processing: DRvsDREX_majorSC.csv
+    Schwann: 92 overlap, 31 concordant, 61 discordant
+    JCI: 336 overlap, 222 concordant, 114 discordant
+  Processing: DRvsEX_majorSC.csv
+    Schwann: 23 overlap, 18 concordant, 5 discordant
+    JCI: 57 overlap, 9 concordant, 48 discordant
+  Processing: DRvsHFD_majorSC.csv
+    Schwann: 13 overlap, 1 concordant, 12 discordant
+    JCI: 31 overlap, 23 concordant, 8 discordant
+  Processing: DRvsSD_majorSC.csv
+    Schwann: 22 overlap, 10 concordant, 12 discordant
+    JCI: 47 overlap, 42 concordant, 5 discordant
+  Processing: EXvsDREX_majorSC.csv
+    Schwann: 179 overlap, 62 concordant, 117 discordant
+    JCI: 875 overlap, 573 concordant, 302 discordant
+  Processing: EXvsHFD_majorSC.csv
+    Schwann: 79 overlap, 20 concordant, 59 discordant
+    JCI: 209 overlap, 175 concordant, 34 discordant
+  Processing: HFDvsSD_majorSC.csv
+    Schwann: 22 overlap, 11 concordant, 11 discordant
+    JCI: 29 overlap, 21 concordant, 8 discordant
+
+=== Creating Visualizations ===
+Warning messages:
+1: Removed 12 rows containing missing values or values outside the scale range
+(`geom_col()`). 
+2: Removed 12 rows containing missing values or values outside the scale range
+(`geom_col()`). 
+3: Removed 10 rows containing missing values or values outside the scale range
+(`geom_col()`). 
+4: Removed 10 rows containing missing values or values outside the scale range
+(`geom_col()`). 
+
+=== Analysis Complete ===
+Output directory: Output_JCI_Schwann_enrichment/Direction_Analysis
+Check for concordant/discordant gene lists and summary statistics
+✓ Analysis 4 completed successfully
+
+===========================================
+Analysis 5 of 5: analysis_05_leading_edge_genes.R
+Started: Mon Dec  1 00:47:37 CST 2025
+===========================================
+also installing the dependencies ‘gridExtra’, ‘RcppArmadillo’, ‘viridis’, ‘tidygraph’, ‘graphlayouts’
+
+trying URL 'https://cloud.r-project.org/src/contrib/gridExtra_2.3.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/RcppArmadillo_15.2.2-1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/viridis_0.6.5.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/tidygraph_1.3.1.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/graphlayouts_1.2.2.tar.gz'
+trying URL 'https://cloud.r-project.org/src/contrib/ggraph_2.2.2.tar.gz'
+* installing *source* package ‘gridExtra’ ...
+** this is package ‘gridExtra’ version ‘2.3’
+** package ‘gridExtra’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (gridExtra)
+* installing *source* package ‘RcppArmadillo’ ...
+** this is package ‘RcppArmadillo’ version ‘15.2.2-1’
+** package ‘RcppArmadillo’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... x86_64-conda-linux-gnu-c++ -std=gnu++17 -E
+checking whether the compiler supports GNU C++... (cached) yes
+checking whether x86_64-conda-linux-gnu-c++ -std=gnu++17 accepts -g... (cached) yes
+checking for x86_64-conda-linux-gnu-c++ -std=gnu++17 option to enable C++11 features... (cached) none needed
+checking what system we are on... running Linux on x86_64
+checking whether we have a suitable tempdir... /tmp
+checking whether on Linux... yes
+checking whether R CMD SHLIB can already compile OpenMP programs... yes
+checking whether on macOS... no
+checking for OpenMP... found and suitable
+configure: creating ./config.status
+config.status: creating inst/include/RcppArmadillo/config/RcppArmadilloConfigGenerated.h
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (conda-forge gcc 15.2.0-7) 15.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -I../inst/include -DARMA_USE_CURRENT -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fopenmp -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c RcppArmadillo.cpp -o RcppArmadillo.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -I../inst/include -DARMA_USE_CURRENT -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fopenmp -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c RcppExports.cpp -o RcppExports.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -I../inst/include -DARMA_USE_CURRENT -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib   -fopenmp -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c fastLm.cpp -o fastLm.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o RcppArmadillo.so RcppArmadillo.o RcppExports.o fastLm.o -fopenmp -llapack -lblas -lgfortran -lm -lquadmath -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-RcppArmadillo/00new/RcppArmadillo/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (RcppArmadillo)
+* installing *source* package ‘tidygraph’ ...
+** this is package ‘tidygraph’ version ‘1.3.1’
+** package ‘tidygraph’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (conda-forge gcc 15.2.0-7) 15.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c cpp11.cpp -o cpp11.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c get_paths.cpp -o get_paths.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o tidygraph.so cpp11.o get_paths.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-tidygraph/00new/tidygraph/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (tidygraph)
+* installing *source* package ‘viridis’ ...
+** this is package ‘viridis’ version ‘0.6.5’
+** package ‘viridis’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (viridis)
+* installing *source* package ‘graphlayouts’ ...
+** this is package ‘graphlayouts’ version ‘1.2.2’
+** package ‘graphlayouts’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (conda-forge gcc 15.2.0-7) 15.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c RcppExports.cpp -o RcppExports.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c constrained_stress.cpp -o constrained_stress.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c constrained_stress3D.cpp -o constrained_stress3D.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c metroLayout.cpp -o metroLayout.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c reweight.cpp -o reweight.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c sparseStress.cpp -o sparseStress.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c stress.cpp -o stress.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG -DARMA_64BIT_WORD=1 -I'/home/juhur/miniconda3/envs/openai/lib/R/library/Rcpp/include' -I'/home/juhur/miniconda3/envs/openai/lib/R/library/RcppArmadillo/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c stress3D.cpp -o stress3D.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o graphlayouts.so RcppExports.o constrained_stress.o constrained_stress3D.o metroLayout.o reweight.o sparseStress.o stress.o stress3D.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-graphlayouts/00new/graphlayouts/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (graphlayouts)
+* installing *source* package ‘ggraph’ ...
+** this is package ‘ggraph’ version ‘2.2.2’
+** package ‘ggraph’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘x86_64-conda-linux-gnu-c++ (conda-forge gcc 15.2.0-7) 15.2.0’
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c cactusTree.cpp -o cactusTree.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c circlePack.cpp -o circlePack.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c cpp11.cpp -o cpp11.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c dendrogram.cpp -o dendrogram.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c forceBundle.cpp -o forceBundle.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c hTree.cpp -o hTree.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c iciclePlot.cpp -o iciclePlot.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c lineCutter.cpp -o lineCutter.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c nodes.cpp -o nodes.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c pathAttr.cpp -o pathAttr.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c treemap.cpp -o treemap.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -I"/home/juhur/miniconda3/envs/openai/lib/R/include" -DNDEBUG  -I'/home/juhur/miniconda3/envs/openai/lib/R/library/cpp11/include' -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/juhur/miniconda3/envs/openai/include -I/home/juhur/miniconda3/envs/openai/include -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib    -fpic  -fvisibility-inlines-hidden  -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/juhur/miniconda3/envs/openai/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/r-base-split_1763744870449/work=/usr/local/src/conda/r-base-4.5.2 -fdebug-prefix-map=/home/juhur/miniconda3/envs/openai=/usr/local/src/conda-prefix   -c unrooted.cpp -o unrooted.o
+x86_64-conda-linux-gnu-c++ -std=gnu++17 -shared -L/home/juhur/miniconda3/envs/openai/lib/R/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/juhur/miniconda3/envs/openai/lib -Wl,-rpath-link,/home/juhur/miniconda3/envs/openai/lib -L/home/juhur/miniconda3/envs/openai/lib -o ggraph.so cactusTree.o circlePack.o cpp11.o dendrogram.o forceBundle.o hTree.o iciclePlot.o lineCutter.o nodes.o pathAttr.o treemap.o unrooted.o -L/home/juhur/miniconda3/envs/openai/lib/R/lib -lR
+installing to /home/juhur/miniconda3/envs/openai/lib/R/library/00LOCK-ggraph/00new/ggraph/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (ggraph)
+
+The downloaded source packages are in
+	‘/tmp/RtmpU89vBS/downloaded_packages’
+Updating HTML index of packages in '.Library'
+Making 'packages.html' ... done
+
+ggraph installed
+=== Leading Edge Gene Analysis ===
+
+--- Comparison: DREXvsDR ---
+  Cell Type: mySC
+    Overlap_MS clusterProfiler_GO: 39 pathways
+  Cell Type: nmSC
+  Cell Type: ImmSC
+  Cell Type: SC3
+  Cell Type: majorSC
+    Overlap_MS clusterProfiler_GO: 4 pathways
+
+--- Comparison: DREXvsHFD ---
+  Cell Type: mySC
+  Cell Type: nmSC
+  Cell Type: ImmSC
+  Cell Type: SC3
+  Cell Type: majorSC
+
+--- Comparison: EXvsHFD ---
+  Cell Type: mySC
+    Overlap_MS clusterProfiler_GO: 102 pathways
+    Overlap_MS clusterProfiler_KEGG: 2 pathways
+  Cell Type: nmSC
+  Cell Type: ImmSC
+  Cell Type: SC3
+  Cell Type: majorSC
+    Overlap_MS clusterProfiler_GO: 154 pathways
+
+--- Comparison: DRvsHFD ---
+  Cell Type: mySC
+  Cell Type: nmSC
+  Cell Type: ImmSC
+  Cell Type: SC3
+  Cell Type: majorSC
+
+Total pathway-gene associations: 454
+Unique genes: 20
+Unique pathways: 226
+
+=== Identifying Hub Genes ===
+Genes in ≥3 pathways: 16
+  mySC: 8 hub genes
+  majorSC: 13 hub genes
+
+=== Creating Hub Gene Visualizations ===
+
+=== Creating Pathway Networks ===
+
+=== Analyzing Cross-Cell-Type Consistency ===
+Genes that are hubs in ≥2 cell types: 7
+
+=== Creating Summary Report ===
+
+=== Analysis Complete ===
+Output directory: Output_JCI_Schwann_enrichment/Leading_Edge_Analysis
+Hub genes identified: 16
+Cross-cell-type hub genes: 7
+Check for network diagrams and hub gene lists
+✓ Analysis 5 completed successfully
+
+===========================================
+All analyses complete!
+Finished: Mon Dec  1 00:48:18 CST 2025
+Log file: remaining_analyses_20251201_001816.log
+===========================================

@@ -1,0 +1,2 @@
+"category","subcategory","ID","Description","GeneRatio","BgRatio","RichFactor","FoldEnrichment","zScore","pvalue","p.adjust","qvalue","geneID","Count"
+"Organismal Systems","Environmental adaptation","mmu04710","Circadian rhythm","5/79","34/10644",0.147058823529412,19.8138495904691,9.50102061218191,4.65899760101325e-06,0.000936458517803663,0.00090237427219625,"18626/18627/18628/12953/13170",5
