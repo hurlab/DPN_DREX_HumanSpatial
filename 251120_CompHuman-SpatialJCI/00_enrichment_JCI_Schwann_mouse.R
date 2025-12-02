@@ -38,7 +38,7 @@ lfc_extra_cutoff  <- 1
 min_genes_for_enrichment <- 5
 
 # Schwann cell type filter (set to NULL to include all cell types)
-schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC")
+schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC", "aggSC")
 
 # Comparison groups filter (set to NULL to include all comparisons)
 comparison_groups <- c("HFDvsSD", "DRvsHFD", "EXvsHFD", "DREXvsHFD")
@@ -132,7 +132,7 @@ read_jci_bulk_deg <- function(file_path, sheet = "deseq2_results", lfc_cutoff = 
     dplyr::pull()
 }
 
-read_mouse_deg_file <- function(file_path) {
+read_mouse_deg_file <- function(file_path, return_full = FALSE) {
   df <- suppressWarnings(read.csv(file_path, stringsAsFactors = FALSE, check.names = FALSE))
   if (is.na(colnames(df)[1]) || colnames(df)[1] == "" || colnames(df)[1] %in% c("X", "...1")) {
     colnames(df)[1] <- "Gene"
@@ -141,14 +141,24 @@ read_mouse_deg_file <- function(file_path) {
   }
   cn <- tolower(gsub("\\s+", "_", colnames(df)))
   colnames(df) <- cn
-  padj_col <- "p_val_adj"
+  pval_col <- "p_val"  # Changed from p_val_adj to p_val
   lfc_col  <- if ("avg_log2fc" %in% cn) "avg_log2fc" else if ("log2foldchange" %in% cn) "log2foldchange" else NULL
-  if (!padj_col %in% cn || is.null(lfc_col) || !lfc_col %in% cn) return(character(0))
-  df %>%
+  if (!pval_col %in% cn || is.null(lfc_col) || !lfc_col %in% cn) {
+    return(if (return_full) NULL else character(0))
+  }
+
+  # Filter by p_val < 0.01 (changed from padj < 0.05)
+  df_filtered <- df %>%
     dplyr::filter(!is.na(gene), gene != "") %>%
-    dplyr::filter(.data[[padj_col]] < 0.05) %>%
-    dplyr::distinct(gene) %>%
-    dplyr::pull()
+    dplyr::filter(.data[[pval_col]] < 0.01)
+
+  if (return_full) {
+    return(df_filtered)
+  } else {
+    df_filtered %>%
+      dplyr::distinct(gene) %>%
+      dplyr::pull()
+  }
 }
 
 map_to_entrez <- function(symbols) {
@@ -158,6 +168,67 @@ map_to_entrez <- function(symbols) {
       dplyr::distinct(ENTREZID) %>%
       dplyr::pull(ENTREZID)
   })
+}
+
+# Function to create aggSC (aggregate of mySC + nmSC + ImmSC)
+create_aggSC_files <- function(input_dirs, output_dir = "temp_aggSC") {
+  dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
+
+  for (input_dir in input_dirs) {
+    # Find all comparison groups by parsing filenames
+    all_files <- list.files(input_dir, pattern = "\\.csv$", full.names = TRUE)
+    all_files <- all_files[!basename(all_files) %>% startsWith(".")]
+    all_files <- all_files[!grepl("spia", basename(all_files), ignore.case = TRUE)]
+
+    # Extract unique comparison groups
+    comp_groups <- unique(sapply(all_files, function(f) {
+      parts <- strsplit(safe_base(tools::file_path_sans_ext(basename(f))), "_", fixed = TRUE)[[1]]
+      if (length(parts) >= 1) parts[1] else NA_character_
+    }))
+    comp_groups <- comp_groups[!is.na(comp_groups)]
+
+    # Filter to specified comparison groups
+    comp_groups <- comp_groups[comp_groups %in% comparison_groups]
+
+    for (comp_group in comp_groups) {
+      # Find mySC, nmSC, ImmSC files for this comparison
+      my_file <- file.path(input_dir, paste0(comp_group, "_mySC.csv"))
+      nm_file <- file.path(input_dir, paste0(comp_group, "_nmSC.csv"))
+      imm_file <- file.path(input_dir, paste0(comp_group, "_ImmSC.csv"))
+
+      # Read all three with full data
+      df_list <- list()
+      if (file.exists(my_file)) {
+        df_my <- read_mouse_deg_file(my_file, return_full = TRUE)
+        if (!is.null(df_my)) df_list[[length(df_list) + 1]] <- df_my %>% dplyr::mutate(source = "mySC")
+      }
+      if (file.exists(nm_file)) {
+        df_nm <- read_mouse_deg_file(nm_file, return_full = TRUE)
+        if (!is.null(df_nm)) df_list[[length(df_list) + 1]] <- df_nm %>% dplyr::mutate(source = "nmSC")
+      }
+      if (file.exists(imm_file)) {
+        df_imm <- read_mouse_deg_file(imm_file, return_full = TRUE)
+        if (!is.null(df_imm)) df_list[[length(df_imm) + 1]] <- df_imm %>% dplyr::mutate(source = "ImmSC")
+      }
+
+      if (length(df_list) == 0) next
+
+      # Combine and keep most significant (lowest p-value) for duplicates
+      df_combined <- dplyr::bind_rows(df_list) %>%
+        dplyr::arrange(gene, p_val) %>%
+        dplyr::group_by(gene) %>%
+        dplyr::slice(1) %>%  # Keep first occurrence (lowest p-value)
+        dplyr::ungroup() %>%
+        dplyr::select(-source)  # Remove source column
+
+      # Save aggregated file
+      out_file <- file.path(output_dir, paste0(comp_group, "_aggSC.csv"))
+      write.csv(df_combined, out_file, row.names = FALSE)
+      message("  Created aggSC file: ", basename(out_file), " (", nrow(df_combined), " genes)")
+    }
+  }
+
+  invisible(output_dir)
 }
 
 run_enrichment <- function(genes, set_name, out_dir, organism = "mmu", go_annot = NULL, kegg_annot = NULL) {
@@ -229,11 +300,20 @@ if (requireNamespace("richR", quietly = TRUE)) {
 }
 
 ################################################################################
+# Create aggSC files (aggregate of mySC + nmSC + ImmSC)
+################################################################################
+message("Creating aggSC (aggregate Schwann cell) files...")
+aggSC_dir <- create_aggSC_files(mouse_deg_dirs, output_dir = "temp_aggSC")
+
+# Add aggSC directory to processing list
+mouse_deg_dirs_with_agg <- c(mouse_deg_dirs, aggSC_dir)
+
+################################################################################
 # Per-mouse-file enrichment
 ################################################################################
 all_summaries <- list()
 
-for (input_dir in mouse_deg_dirs) {
+for (input_dir in mouse_deg_dirs_with_agg) {
   files <- list.files(input_dir, pattern = "\\.csv$", full.names = TRUE, recursive = FALSE)
   files <- files[!basename(files) %>% startsWith(".")]
   files <- files[!grepl("spia", basename(files), ignore.case = TRUE)]

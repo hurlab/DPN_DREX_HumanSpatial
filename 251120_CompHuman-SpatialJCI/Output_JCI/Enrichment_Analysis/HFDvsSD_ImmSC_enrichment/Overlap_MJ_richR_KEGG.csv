@@ -1,0 +1,6 @@
+"Annot","Term","Annotated","Significant","Pvalue","Padj","GeneID"
+"04611","Platelet activation",126,2,0.00473992994926834,0.155856878468632,"Col1a1,Ppp1cb"
+"04510","Focal adhesion",202,2,0.011817559807657,0.155856878468632,"Col1a1,Ppp1cb"
+"05205","Proteoglycans in cancer",204,2,0.0120427181320781,0.155856878468632,"Col1a1,Ppp1cb"
+"05415","Diabetic cardiomyopathy",217,2,0.0135527720407506,0.155856878468632,"Col1a1,Ppp1cb"
+"04517","IgSF CAM signaling",300,2,0.0250057789829311,0.184578473129684,"Pmp22,Gldn"

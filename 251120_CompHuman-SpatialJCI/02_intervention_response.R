@@ -28,7 +28,7 @@ output_dir <- "Output_JCI/Intervention_Response"
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 # Cell types to analyze
-schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC")
+schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC", "aggSC")
 
 # Intervention comparisons (using available comparison groups)
 intervention_comparisons <- list(

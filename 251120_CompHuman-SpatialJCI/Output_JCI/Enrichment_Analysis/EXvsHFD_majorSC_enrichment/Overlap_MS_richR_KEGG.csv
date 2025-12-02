@@ -1,3 +1,5 @@
 "Annot","Term","Annotated","Significant","Pvalue","Padj","GeneID"
-"04514","Cell adhesion molecule (CAM) interaction",181,2,0.0118304687361612,0.152985467472071,"Sdc3,Mag"
-"04820","Cytoskeleton in muscle cells",233,2,0.0191231834340089,0.152985467472071,"Sdc3,Col1a1"
+"04974","Protein digestion and absorption",108,3,0.00118281431586599,0.0650547873726293,"Col1a1,Col14a1,Kcnk5"
+"04976","Bile secretion",101,2,0.0166482825644536,0.33322440228109,"Slc2a1,Ephx1"
+"04517","IgSF CAM signaling",300,3,0.0202424722637302,0.33322440228109,"Mag,Kcna2,Pmp2"
+"04514","Cell adhesion molecule (CAM) interaction",181,2,0.0488767060182369,0.33322440228109,"Sdc3,Mag"

@@ -29,17 +29,25 @@ jci_deg_path     <- "./DEGs_JCI_DPN/JCI184075.sdd3_BulkRNAseqDEGs.xlsx"
 jci_deg_sheet    <- "deseq2_results"
 
 mouse_deg_dirs <- c("../DEG", "../DEG_Major")
+
+# Add aggSC directory if it exists
+aggSC_dir <- "temp_aggSC"
+if (dir.exists(aggSC_dir)) {
+  mouse_deg_dirs <- c(mouse_deg_dirs, aggSC_dir)
+}
+
 output_dir <- "Output_JCI/Direction_Analysis"
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 # Schwann cell types
-schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC")
+schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC", "aggSC")
 
 # Comparison groups filter
 comparison_groups <- c("HFDvsSD", "DRvsHFD", "EXvsHFD", "DREXvsHFD")
 
 # Thresholds
-padj_cutoff <- 0.05
+pval_mouse_cutoff <- 0.01   # Mouse uses raw p-value
+padj_human_cutoff <- 0.05   # Human uses adjusted p-value
 lfc_cutoff <- 0  # Use 0 to include all significant genes, or 1 for stringent
 
 ################################################################################
@@ -118,7 +126,7 @@ read_jci_bulk_deg_with_lfc <- function(file_path, sheet = "deseq2_results") {
     dplyr::distinct(Human_Symbol, .keep_all = TRUE)
 }
 
-# Read mouse DEG files with log2FC
+# Read mouse DEG files with log2FC (using raw p-value, not adjusted)
 read_mouse_deg_with_lfc <- function(file_path) {
   df <- suppressWarnings(read.csv(file_path, stringsAsFactors = FALSE, check.names = FALSE))
   if (is.na(colnames(df)[1]) || colnames(df)[1] == "" || colnames(df)[1] %in% c("X", "...1")) {
@@ -129,17 +137,17 @@ read_mouse_deg_with_lfc <- function(file_path) {
   cn <- tolower(gsub("\\s+", "_", colnames(df)))
   colnames(df) <- cn
 
-  padj_col <- "p_val_adj"
+  pval_col <- "p_val"  # Changed from p_val_adj to p_val
   lfc_col  <- if ("avg_log2fc" %in% cn) "avg_log2fc" else if ("log2foldchange" %in% cn) "log2foldchange" else NULL
 
-  if (!padj_col %in% cn || is.null(lfc_col) || !lfc_col %in% cn) return(NULL)
+  if (!pval_col %in% cn || is.null(lfc_col) || !lfc_col %in% cn) return(NULL)
 
   df %>%
     dplyr::filter(!is.na(gene), gene != "") %>%
     dplyr::transmute(
       Mouse_Symbol = as.character(gene),
       Mouse_log2FC = .data[[lfc_col]],
-      Mouse_padj = .data[[padj_col]]
+      Mouse_pval = .data[[pval_col]]  # Changed from Mouse_padj
     ) %>%
     dplyr::distinct(Mouse_Symbol, .keep_all = TRUE)
 }
@@ -205,13 +213,13 @@ for (input_dir in mouse_deg_dirs) {
       next
     }
 
-    # Filter by padj
-    mouse_deg <- mouse_deg %>% dplyr::filter(Mouse_padj < padj_cutoff)
+    # Filter by p-value (raw, not adjusted)
+    mouse_deg <- mouse_deg %>% dplyr::filter(Mouse_pval < pval_mouse_cutoff)
 
     # Merge with Schwann data
     merged_schwann <- mouse_deg %>%
       dplyr::inner_join(schwann_deg, by = "Mouse_Symbol") %>%
-      dplyr::filter(Human_padj < padj_cutoff) %>%
+      dplyr::filter(Human_padj < padj_human_cutoff) %>%
       dplyr::mutate(
         Mouse_direction = dplyr::case_when(
           Mouse_log2FC > lfc_cutoff ~ "Up",
@@ -233,7 +241,7 @@ for (input_dir in mouse_deg_dirs) {
     # Merge with JCI data
     merged_jci <- mouse_deg %>%
       dplyr::inner_join(jci_bulk_deg, by = "Mouse_Symbol") %>%
-      dplyr::filter(Human_padj < padj_cutoff) %>%
+      dplyr::filter(Human_padj < padj_human_cutoff) %>%
       dplyr::mutate(
         Mouse_direction = dplyr::case_when(
           Mouse_log2FC > lfc_cutoff ~ "Up",

@@ -28,13 +28,20 @@ jci_deg_path     <- "./DEGs_JCI_DPN/JCI184075.sdd3_BulkRNAseqDEGs.xlsx"
 jci_deg_sheet    <- "deseq2_results"
 
 mouse_deg_dirs <- c("../DEG", "../DEG_Major")
+
+# Add aggSC directory if it exists
+aggSC_dir <- "temp_aggSC"
+if (dir.exists(aggSC_dir)) {
+  mouse_deg_dirs <- c(mouse_deg_dirs, aggSC_dir)
+}
+
 output_root    <- "Output_JCI/Bioenergetic_Focus"
 
 # Cell type and comparison filters
-schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC")
+schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC", "aggSC")
 comparison_groups <- c("HFDvsSD", "DRvsHFD", "EXvsHFD", "DREXvsHFD")
 
-padj_mouse_cutoff    <- 0.05
+pval_mouse_cutoff    <- 0.01   # Mouse uses raw p-value (not adjusted)
 padj_human_cutoff    <- 0.001
 lfc_human_cutoff     <- 1
 min_genes_enrich     <- 5
@@ -111,7 +118,7 @@ read_jci_bulk_deg <- function(file_path, sheet = "deseq2_results", lfc_cutoff = 
                      padj = .data[[padj_col]])
 }
 
-read_mouse_deg_file <- function(file_path, padj_cutoff = 0.05) {
+read_mouse_deg_file <- function(file_path, pval_cutoff = 0.01) {
   df <- suppressWarnings(read.csv(file_path, stringsAsFactors = FALSE, check.names = FALSE))
   if (is.na(colnames(df)[1]) || colnames(df)[1] == "" || colnames(df)[1] %in% c("X", "...1")) {
     colnames(df)[1] <- "Gene"
@@ -120,13 +127,13 @@ read_mouse_deg_file <- function(file_path, padj_cutoff = 0.05) {
   }
   cn <- tolower(gsub("\\s+", "_", colnames(df)))
   colnames(df) <- cn
-  padj_col <- "p_val_adj"
+  pval_col <- "p_val"  # Changed from p_val_adj to p_val
   lfc_col  <- if ("avg_log2fc" %in% cn) "avg_log2fc" else if ("log2foldchange" %in% cn) "log2foldchange" else NULL
-  if (!padj_col %in% cn || is.null(lfc_col) || !lfc_col %in% cn) return(NULL)
+  if (!pval_col %in% cn || is.null(lfc_col) || !lfc_col %in% cn) return(NULL)
   df %>%
     dplyr::filter(!is.na(gene), gene != "") %>%
-    dplyr::filter(.data[[padj_col]] < padj_cutoff) %>%
-    dplyr::transmute(Gene = gene, log2FC = .data[[lfc_col]], padj = .data[[padj_col]])
+    dplyr::filter(.data[[pval_col]] < pval_cutoff) %>%
+    dplyr::transmute(Gene = gene, log2FC = .data[[lfc_col]], pval = .data[[pval_col]])  # Changed from padj
 }
 
 ################################################################################
@@ -229,8 +236,8 @@ for (input_dir in mouse_deg_dirs) {
     parts <- strsplit(base, "_", fixed = TRUE)[[1]]
     comp_group <- if (length(parts) >= 1) parts[1] else NA_character_
     cell_type  <- if (length(parts) >= 2) parts[2] else NA_character_
-    
-    m_df <- read_mouse_deg_file(mouse_file, padj_cutoff = padj_mouse_cutoff)
+
+    m_df <- read_mouse_deg_file(mouse_file, pval_cutoff = pval_mouse_cutoff)
     if (is.null(m_df) || nrow(m_df) == 0) {
       warning("Skipping (no usable genes): ", basename(mouse_file))
       next

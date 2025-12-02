@@ -1,0 +1,6 @@
+"Annot","Term","Annotated","Significant","Pvalue","Padj","GeneID"
+"04920","Adipocytokine signaling pathway",72,2,0.00123067101190768,0.0268143644764424,"Irs2,Adipor1"
+"04211","Longevity regulating pathway",90,2,0.00191531174831732,0.0268143644764424,"Irs2,Adipor1"
+"04152","AMPK signaling pathway",127,2,0.00377333670230446,0.0352178092215083,"Irs2,Adipor1"
+"04932","Non-alcoholic fatty liver disease",162,2,0.00606958863074031,0.0424871204151822,"Irs2,Adipor1"
+"04081","Hormone signaling",220,2,0.0109692068136595,0.0614275581564932,"Irs2,Adipor1"

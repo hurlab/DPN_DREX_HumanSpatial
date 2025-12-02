@@ -28,7 +28,7 @@ output_dir <- "Output_JCI/Conservation_Analysis"
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 # Cell types to analyze
-schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC")
+schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC", "aggSC")
 
 # Comparison groups to analyze
 comparison_groups <- c("HFDvsSD", "DRvsHFD", "EXvsHFD", "DREXvsHFD")

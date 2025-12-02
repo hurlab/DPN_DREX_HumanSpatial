@@ -1,0 +1,4 @@
+"Annot","Term","Annotated","Significant","Pvalue","Padj","GeneID"
+"04514","Cell adhesion molecule (CAM) interaction",181,3,0.00189282837049851,0.0416422241509672,"Cldn19,Mag,Sdc3"
+"04517","IgSF CAM signaling",300,3,0.00784184686531514,0.0862603155184666,"Kcna2,Mag,Mbp"
+"04382","Cornified envelope formation",223,2,0.0383511926238391,0.281242079241487,"Cldn19,Ppl"

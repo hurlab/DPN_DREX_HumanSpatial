@@ -1,0 +1,4 @@
+"Annot","Term","Annotated","Significant","Pvalue","Padj","GeneID"
+"00900","Terpenoid backbone biosynthesis",23,2,0.00034339215341614,0.014765862596894,"Hmgcr,Idi1"
+"04517","IgSF CAM signaling",300,3,0.00513899590869052,0.0931066413003157,"Pmp22,Gldn,Ly9"
+"04976","Bile secretion",101,2,0.00649581218374295,0.0931066413003157,"Ldlr,Hmgcr"

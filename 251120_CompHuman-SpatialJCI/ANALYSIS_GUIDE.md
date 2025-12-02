@@ -8,7 +8,7 @@ This document provides detailed descriptions of each analysis script in the DPN/
 **File:** `00_enrichment_JCI_Schwann_mouse.R`
 **Output:** `Output_JCI/Enrichment_Analysis/`
 
-This is the foundational analysis that must be run first, as all downstream analyses (scripts 01-05) depend on its outputs. The script reads mouse scRNA-seq DEG files from multiple diet/exercise intervention comparisons (HFDvsSD, DRvsHFD, EXvsHFD, DREXvsHFD) across Schwann cell subtypes (mySC, nmSC, ImmSC, majorSC). It maps human DEGs from two independent datasets—JCI_SC (Schwann cell spatial transcriptomics) and JCI_Bulk (bulk RNA-seq from diabetic nerve biopsies)—to mouse orthologs using homologene. For each mouse comparison/cell-type combination, the script calculates overlap gene sets (Mouse∩JCI_SC, Mouse∩JCI_Bulk, JCI_SC∩JCI_Bulk, and all three), as well as unique gene sets for each dataset. It then performs GO and KEGG pathway enrichment analysis using richR (with builtin=FALSE for KEGG) on all gene sets that contain ≥5 genes. The output includes gene lists, Venn diagrams showing three-way overlaps, and enrichment results tables for each comparison, providing a comprehensive view of shared and unique biological processes between mouse intervention models and human diabetic neuropathy.
+This is the foundational analysis that must be run first, as all downstream analyses (scripts 01-08) depend on its outputs. The script reads mouse scRNA-seq DEG files from multiple diet/exercise intervention comparisons (HFDvsSD, DRvsHFD, EXvsHFD, DREXvsHFD) across Schwann cell subtypes (mySC, nmSC, ImmSC, majorSC, and aggSC). Mouse DEGs are filtered using raw p-value < 0.01 (not adjusted p-value) to capture early intervention responses. The script first creates aggSC (aggregated Schwann cell) files by combining mySC, nmSC, and ImmSC DEGs, keeping only the most significant gene (lowest p-value) when duplicates exist across subtypes. It maps human DEGs from two independent datasets—JCI_SC (Schwann cell spatial transcriptomics) and JCI_Bulk (bulk RNA-seq from diabetic nerve biopsies)—to mouse orthologs using homologene. Human DEGs are filtered more stringently (padj < 0.001, |log2FC| > 1) to ensure high-confidence human disease genes. For each mouse comparison/cell-type combination, the script calculates overlap gene sets (Mouse∩JCI_SC, Mouse∩JCI_Bulk, JCI_SC∩JCI_Bulk, and all three), as well as unique gene sets for each dataset. It then performs GO and KEGG pathway enrichment analysis using richR (with builtin=FALSE for KEGG) on all gene sets that contain ≥5 genes. The output includes gene lists, Venn diagrams showing three-way overlaps, and enrichment results tables for each comparison, providing a comprehensive view of shared and unique biological processes between mouse intervention models and human diabetic neuropathy.
 
 ---
 
@@ -56,7 +56,23 @@ This analysis identifies "hub genes"—genes that appear repeatedly across multi
 **File:** `06_bioenergetic_focus.R`
 **Output:** `Output_JCI/Bioenergetic_Focus/`
 
-This specialized analysis focuses specifically on metabolic and bioenergetic pathways, which are particularly relevant to diabetic neuropathy where Schwann cell energy metabolism and lactate support for axons are known to be disrupted. Unlike Script 00 which performs broad enrichment across all pathways, this script performs targeted enrichment analysis on curated metabolic gene sets including glycolysis, oxidative phosphorylation, fatty acid metabolism, lactate metabolism, and mitochondrial function. It reads the same mouse DEG files and human datasets but applies bioenergetics-focused filters and annotations, calculates metabolic pathway scores for each comparison, and identifies genes specifically involved in Schwann cell metabolic support of axons. The analysis generates enrichment results emphasizing KEGG metabolic pathways, creates detailed gene lists of dysregulated metabolic genes with their fold changes across species, and produces summary statistics quantifying metabolic dysfunction in each intervention group. The outputs include specialized visualizations showing how different interventions (DR, EX, DREX) affect specific branches of cellular metabolism and whether metabolic gene expression patterns are conserved between mouse and human. This focused analysis complements the broader pathway analysis from Script 00 by providing deep insight into a disease mechanism that is central to diabetic neuropathy pathogenesis and may be particularly amenable to intervention through diet and exercise.
+This specialized analysis focuses specifically on metabolic and bioenergetic pathways, which are particularly relevant to diabetic neuropathy where Schwann cell energy metabolism and lactate support for axons are known to be disrupted. Unlike Script 00 which performs broad enrichment across all pathways, this script performs targeted enrichment analysis on curated metabolic gene sets including glycolysis, oxidative phosphorylation, fatty acid metabolism, lactate metabolism, and mitochondrial function. It reads the same mouse DEG files (using p < 0.01 cutoff) and human datasets but applies bioenergetics-focused filters and annotations, calculates metabolic pathway scores for each comparison, and identifies genes specifically involved in Schwann cell metabolic support of axons. The analysis generates enrichment results emphasizing KEGG metabolic pathways, creates detailed gene lists of dysregulated metabolic genes with their fold changes across species, and produces summary statistics quantifying metabolic dysfunction in each intervention group. The outputs include specialized visualizations showing how different interventions (DR, EX, DREX) affect specific branches of cellular metabolism and whether metabolic gene expression patterns are conserved between mouse and human. This focused analysis complements the broader pathway analysis from Script 00 by providing deep insight into a disease mechanism that is central to diabetic neuropathy pathogenesis and may be particularly amenable to intervention through diet and exercise.
+
+---
+
+## Script 07: PPI Network Analysis
+**File:** `07_ppi_network_analysis.R`
+**Output:** `Output_JCI/PPI_Network_Analysis/`
+
+This analysis uses the STRING database to identify protein-protein interaction (PPI) networks among differentially expressed genes, revealing functional modules and highly connected hub proteins that may be central to disease mechanisms. The script focuses on majorSC and aggSC mouse cell types as well as human JCI_SC DEGs, initializing separate STRING database connections for mouse (species ID 10090) and human (species ID 9606) with medium confidence interaction scores (≥400). For each dataset, it maps gene symbols to STRING protein IDs, performs PPI enrichment analysis to test whether the DEG proteins show more interactions than would be expected by chance (indicating functional coherence), and generates network visualizations showing the top 200 proteins and their interaction patterns. The analysis also performs functional enrichment (GO Biological Process and KEGG) specifically on the PPI network members to identify which biological pathways are represented in highly connected protein modules. The outputs include network plots as PDF files showing protein interaction topologies, PPI enrichment statistics with p-values indicating network significance, STRING-based GO and KEGG enrichment results for network members, and summary tables comparing PPI enrichment across interventions and cell types. Significant PPI enrichment (p < 0.05) indicates that the DEGs form functional modules rather than random gene sets, validating biological coherence. Highly connected proteins in these networks represent priority therapeutic targets, as they likely coordinate multiple disease-relevant processes.
+
+---
+
+## Script 08: Pathway Overlap Heatmaps
+**File:** `08_pathway_overlap_heatmaps.R`
+**Output:** `Output_JCI/Pathway_Overlap_Heatmaps/`
+
+This analysis creates comprehensive heatmap visualizations showing which enriched pathways are shared versus unique across four key datasets: mouse majorSC, mouse aggSC, human JCI_SC (Schwann cell spatial), and human JCI_Bulk (nerve bulk RNA-seq). The script reads enrichment results from Script 00 for all comparison groups and creates binary pathway matrices indicating presence (1) or absence (0) of each significantly enriched pathway (padj < 0.05) in each of the four datasets. For both GO and KEGG enrichment types, it generates heatmaps with pathways sorted by conservation level (most shared pathways at top), identifies "conserved pathways" appearing in ≥3 datasets that represent core disease mechanisms, and creates separate gene lists for dataset-specific pathways that may reveal unique molecular features. The analysis produces separate heatmaps for each comparison group (HFDvsSD, DRvsHFD, EXvsHFD, DREXvsHFD) and enrichment type (GO/KEGG), with pathway names truncated to 80 characters for readability and limited to top 50 pathways per heatmap when total exceeds this threshold. Summary statistics quantify the number of conserved pathways, mouse-specific pathways (present in majorSC/aggSC but not in human datasets), and human-specific pathways (present in JCI_SC/JCI_Bulk but not in mouse datasets). The master summary Excel file compiles these statistics across all comparisons, enabling quick identification of intervention effects that are well-conserved versus those showing species divergence. This analysis is crucial for prioritizing pathways with strong translational relevance and understanding the limitations of mouse models for specific biological processes.
 
 ---
 
@@ -68,13 +84,15 @@ All analyses output to a unified directory structure:
 Output_JCI/
 ├── Master_Enrichment_Summary.csv        # Overall summary from Script 00
 ├── Master_Enrichment_Summary.xlsx       # Excel version with multiple sheets
-├── Enrichment_Analysis/                 # Script 00: Raw enrichment results (15 subdirectories)
+├── Enrichment_Analysis/                 # Script 00: Raw enrichment results (20 subdirectories)
 ├── CellType_Comparison/                 # Script 01: Cell-type comparisons
 ├── Intervention_Response/               # Script 02: Intervention-specific effects
 ├── Conservation_Analysis/               # Script 03: Cross-species conservation
 ├── Direction_Analysis/                  # Script 04: Concordance/discordance
 ├── Leading_Edge_Analysis/               # Script 05: Hub genes and networks
-└── Bioenergetic_Focus/                  # Script 06: Metabolic pathways
+├── Bioenergetic_Focus/                  # Script 06: Metabolic pathways
+├── PPI_Network_Analysis/                # Script 07: STRING PPI networks
+└── Pathway_Overlap_Heatmaps/            # Script 08: Pathway conservation heatmaps
 ```
 
 ---
@@ -82,24 +100,27 @@ Output_JCI/
 ## Analysis Workflow
 
 **Required Execution Order:**
-1. **First:** Run Script 00 (generates enrichment data)
-2. **Then:** Run Scripts 01-05 in any order (all depend on Script 00 output)
-3. **Independent:** Script 06 can run anytime (reads DEG files directly)
+1. **First:** Run Script 00 (generates enrichment data and aggSC files)
+2. **Then:** Run Scripts 01-08 in any order (all depend on Script 00 output)
+   - Scripts 01-05, 08: Read from enrichment results
+   - Scripts 04, 06, 07: Read DEG files directly (including aggSC)
 
 **Typical Analysis Session:**
 ```bash
-# Step 1: Generate primary enrichment data
+# Step 1: Generate primary enrichment data and aggSC files
 Rscript 00_enrichment_JCI_Schwann_mouse.R
 
-# Step 2: Run all downstream analyses (can be parallel or sequential)
+# Step 2: Run downstream analyses (can be parallel or sequential)
 Rscript 01_celltype_enrichment_comparison.R
 Rscript 02_intervention_response.R
 Rscript 03_conservation_analysis.R
 Rscript 04_direction_of_change.R
 Rscript 05_leading_edge_genes.R
 
-# Step 3: Run specialized metabolic analysis
+# Step 3: Run specialized analyses
 Rscript 06_bioenergetic_focus.R
+Rscript 07_ppi_network_analysis.R
+Rscript 08_pathway_overlap_heatmaps.R
 ```
 
 ---
@@ -111,6 +132,7 @@ Rscript 06_bioenergetic_focus.R
 - `nmSC` - Non-myelinating Schwann cells
 - `ImmSC` - Immature Schwann cells
 - `majorSC` - Combined major Schwann cell population
+- `aggSC` - Aggregated Schwann cells (mySC + nmSC + ImmSC, most significant genes only)
 
 **Intervention Comparisons:**
 - `HFDvsSD` - High-fat diet vs. standard diet (disease model)
@@ -122,11 +144,16 @@ Rscript 06_bioenergetic_focus.R
 - `JCI_SC` - Human Schwann cell spatial transcriptomics DEGs (Severe vs. Moderate DPN)
 - `JCI_Bulk` - Human bulk RNA-seq DEGs from diabetic nerve biopsies
 
+**Significance Thresholds:**
+- Mouse DEGs: p-value < 0.01 (raw p-value, not adjusted)
+- Human DEGs: padj < 0.001 and |log2FC| > 1 (stringent filtering for high-confidence genes)
+- Pathway enrichment: padj < 0.05
+- Minimum gene set size for enrichment: 5 genes
+
 **Enrichment Methods:**
 - GO Biological Process (GO:BP) via richR
 - KEGG Pathways via richR (with builtin=FALSE)
-- Significance threshold: padj < 0.05
-- Minimum gene set size for enrichment: 5 genes
+- PPI networks via STRINGdb (v12.0, score threshold 400)
 
 ---
 
@@ -156,5 +183,5 @@ Rscript 06_bioenergetic_focus.R
 
 ---
 
-*Last Updated: December 1, 2025*
-*Analysis Pipeline Version: 2.0 (Numbered scripts with unified Output_JCI structure)*
+*Last Updated: December 2, 2025*
+*Analysis Pipeline Version: 2.1 (Added aggSC aggregation, updated p-value thresholds, PPI networks, pathway overlap heatmaps)*

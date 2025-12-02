@@ -1,0 +1,5 @@
+"Annot","Term","Annotated","Significant","Pvalue","Padj","GeneID"
+"04510","Focal adhesion",202,2,0.024361528576889,0.238689883890253,"Cav1,Col1a1"
+"05205","Proteoglycans in cancer",204,2,0.0248134316657734,0.238689883890253,"Cav1,Col1a1"
+"04820","Cytoskeleton in muscle cells",233,2,0.0317510830437831,0.238689883890253,"Col1a1,Sdc3"
+"04810","Regulation of actin cytoskeleton",235,2,0.032255389714899,0.238689883890253,"Fgf1,Rgcc"

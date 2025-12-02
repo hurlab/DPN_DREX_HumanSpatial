@@ -27,7 +27,7 @@ output_dir <- "Output_JCI/CellType_Comparison"
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 # Cell types to compare
-schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC")
+schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC", "aggSC")
 
 # Which comparison groups to analyze (set to NULL for all)
 comparison_groups <- c("HFDvsSD", "DRvsHFD", "EXvsHFD", "DREXvsHFD")
