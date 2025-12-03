@@ -1,0 +1,110 @@
+=== Initializing STRING databases ===
+
+=== Loading Human JCI_SC DEGs ===
+Warning message:
+In dplyr::left_join(human, mouse, by = "HID") :
+  Detected an unexpected many-to-many relationship between `x` and `y`.
+ℹ Row 130 of `x` matches multiple rows in `y`.
+ℹ Row 169 of `y` matches multiple rows in `x`.
+ℹ If a many-to-many relationship is expected, set `relationship =
+  "many-to-many"` to silence this warning.
+Human JCI_SC DEGs: 228 genes
+trying URL 'https://stringdb-downloads.org/download/protein.aliases.v12.0/9606.protein.aliases.v12.0.txt.gz'
+Content type 'application/octet-stream' length 19777800 bytes (18.9 MB)
+==================================================
+downloaded 18.9 MB
+
+trying URL 'https://stringdb-downloads.org/download/protein.info.v12.0/9606.protein.info.v12.0.txt.gz'
+Content type 'application/octet-stream' length 1970090 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+  Mapped to STRING: 217 proteins
+  Running PPI enrichment...
+  Generating network plot (200 proteins)...
+  Running functional enrichment on network...
+    Process: 236 terms
+
+=== Processing Mouse DEG files ===
+
+--- Folder: ../DEG_Major ---
+Processing: DREXvsHFD_majorSC.csv
+  Mouse DEGs: 1023 genes
+trying URL 'https://stringdb-downloads.org/download/protein.aliases.v12.0/10090.protein.aliases.v12.0.txt.gz'
+Content type 'application/octet-stream' length 11695521 bytes (11.2 MB)
+==================================================
+downloaded 11.2 MB
+
+trying URL 'https://stringdb-downloads.org/download/protein.info.v12.0/10090.protein.info.v12.0.txt.gz'
+Content type 'application/octet-stream' length 1922919 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+  Mapped to STRING: 1022 proteins
+  Running PPI enrichment...
+  Generating network plot (200 proteins)...
+  Running functional enrichment on network...
+    Process: 4 terms
+Processing: DRvsHFD_majorSC.csv
+  Mouse DEGs: 825 genes
+  Mapped to STRING: 825 proteins
+  Running PPI enrichment...
+  Generating network plot (200 proteins)...
+  Running functional enrichment on network...
+    Process: 210 terms
+    KEGG: 11 terms
+Processing: EXvsHFD_majorSC.csv
+  Mouse DEGs: 2371 genes
+  Mapped to STRING: 2371 proteins
+  Running PPI enrichment...
+No encoding supplied: defaulting to UTF-8.
+  Generating network plot (200 proteins)...
+  Running functional enrichment on network...
+    Process: 277 terms
+    KEGG: 8 terms
+Processing: HFDvsSD_majorSC.csv
+  Mouse DEGs: 416 genes
+  Mapped to STRING: 416 proteins
+  Running PPI enrichment...
+  Generating network plot (200 proteins)...
+  Running functional enrichment on network...
+    Process: 138 terms
+    KEGG: 9 terms
+
+--- Folder: temp_aggSC ---
+Processing: DREXvsHFD_aggSC.csv
+  Mouse DEGs: 1006 genes
+  Mapped to STRING: 1006 proteins
+  Running PPI enrichment...
+  Generating network plot (200 proteins)...
+  Running functional enrichment on network...
+    Process: 11 terms
+    KEGG: 4 terms
+Processing: DRvsHFD_aggSC.csv
+  Mouse DEGs: 919 genes
+  Mapped to STRING: 919 proteins
+  Running PPI enrichment...
+  Generating network plot (200 proteins)...
+  Running functional enrichment on network...
+    Process: 7 terms
+    KEGG: 2 terms
+Processing: EXvsHFD_aggSC.csv
+  Mouse DEGs: 1600 genes
+  Mapped to STRING: 1599 proteins
+  Running PPI enrichment...
+  Generating network plot (200 proteins)...
+  Running functional enrichment on network...
+    Process: 169 terms
+    KEGG: 5 terms
+Processing: HFDvsSD_aggSC.csv
+  Mouse DEGs: 806 genes
+  Mapped to STRING: 806 proteins
+  Running PPI enrichment...
+  Generating network plot (200 proteins)...
+  Running functional enrichment on network...
+    Process: 24 terms
+    KEGG: 15 terms
+
+=== PPI Network Analysis Complete ===
+Summary saved to: Output_JCI/PPI_Network_Analysis/PPI_Analysis_Summary.csv
+Output directory: Output_JCI/PPI_Network_Analysis
