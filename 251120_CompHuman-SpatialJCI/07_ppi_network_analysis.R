@@ -8,8 +8,8 @@
 # For each gene set:
 # - Maps genes to STRING protein IDs
 # - Generates PPI network visualizations
-# - Performs PPI enrichment analysis (tests if proteins have more interactions than expected)
-# - Performs functional enrichment on network (GO/KEGG)
+# - Performs PPI enrichment analysis
+# - Performs functional enrichment on network (GO and KEGG)
 ################################################################################
 
 if (requireNamespace("rstudioapi", quietly = TRUE) && rstudioapi::isAvailable()) {
@@ -58,6 +58,10 @@ lfc_human_cutoff <- 1
 ################################################################################
 # Helper functions
 ################################################################################
+read_csv_utf8 <- function(path) {
+  suppressWarnings(utils::read.csv(path, stringsAsFactors = FALSE, check.names = FALSE, fileEncoding = "UTF-8"))
+}
+
 safe_base <- function(x, limit = 150) {
   x <- gsub("[^A-Za-z0-9._-]+", "_", x)
   if (nchar(x) > limit) substr(x, 1, limit) else x
@@ -86,7 +90,7 @@ build_human_to_mouse_map <- function() {
 }
 
 read_schwann_deg <- function(file_path, lfc_cutoff = 1, padj_cutoff = 0.001) {
-  df <- suppressWarnings(read.csv(file_path, stringsAsFactors = FALSE, check.names = FALSE))
+  df <- suppressWarnings(read_csv_utf8(file_path))
   if (!"Gene" %in% colnames(df)) colnames(df)[1] <- "Gene"
   cn <- tolower(gsub("\\s+", "_", colnames(df)))
   colnames(df) <- cn
@@ -101,7 +105,7 @@ read_schwann_deg <- function(file_path, lfc_cutoff = 1, padj_cutoff = 0.001) {
 }
 
 read_mouse_deg_file <- function(file_path, pval_cutoff = 0.01, return_full = FALSE) {
-  df <- suppressWarnings(read.csv(file_path, stringsAsFactors = FALSE, check.names = FALSE))
+  df <- suppressWarnings(read_csv_utf8(file_path))
   if (is.na(colnames(df)[1]) || colnames(df)[1] == "" || colnames(df)[1] %in% c("X", "...1")) {
     colnames(df)[1] <- "Gene"
   } else {
@@ -109,16 +113,16 @@ read_mouse_deg_file <- function(file_path, pval_cutoff = 0.01, return_full = FAL
   }
   cn <- tolower(gsub("\\s+", "_", colnames(df)))
   colnames(df) <- cn
-
+  
   pval_col <- "p_val"
   lfc_col  <- if ("avg_log2fc" %in% cn) "avg_log2fc" else if ("log2foldchange" %in% cn) "log2foldchange" else NULL
-
+  
   if (!pval_col %in% cn || is.null(lfc_col)) return(NULL)
-
+  
   df_filtered <- df %>%
     dplyr::filter(!is.na(gene), gene != "") %>%
     dplyr::filter(.data[[pval_col]] < pval_cutoff)
-
+  
   if (return_full) {
     df_filtered %>%
       dplyr::transmute(gene = gene, log2FC = .data[[lfc_col]], pval = .data[[pval_col]])
@@ -127,14 +131,50 @@ read_mouse_deg_file <- function(file_path, pval_cutoff = 0.01, return_full = FAL
   }
 }
 
+# Robust handling of ppi_enrichment output
+.scalar_chr <- function(x) {
+  if (is.null(x) || length(x) == 0) return(NA_character_)
+  as.character(x[[1]])
+}
+
+.normalize_ppi <- function(ppi_enrich) {
+  if (is.null(ppi_enrich)) return(list())
+  # Some versions use expected_number_of_edges instead of number_of_expected_edges
+  if (is.null(ppi_enrich$number_of_expected_edges) && !is.null(ppi_enrich$expected_number_of_edges)) {
+    ppi_enrich$number_of_expected_edges <- ppi_enrich$expected_number_of_edges
+  }
+  ppi_enrich
+}
+
+.ppi_to_df <- function(ppi_enrich) {
+  ppi_enrich <- .normalize_ppi(ppi_enrich)
+  tibble::tibble(
+    metric = c("p_value", "number_of_edges", "number_of_expected_edges",
+               "average_node_degree", "local_clustering_coefficient"),
+    value  = c(
+      .scalar_chr(ppi_enrich[["p_value"]]),
+      .scalar_chr(ppi_enrich[["number_of_edges"]]),
+      .scalar_chr(ppi_enrich[["number_of_expected_edges"]]),
+      .scalar_chr(ppi_enrich[["average_node_degree"]]),
+      .scalar_chr(ppi_enrich[["local_clustering_coefficient"]])
+    )
+  ) %>% dplyr::filter(!is.na(value))
+}
+
+.get_exp_edges <- function(ppi_enrich) {
+  ppi_enrich <- .normalize_ppi(ppi_enrich)
+  if (!is.null(ppi_enrich$number_of_expected_edges)) return(ppi_enrich$number_of_expected_edges)
+  NA_real_
+}
+
 ################################################################################
 # Initialize STRING databases
 ################################################################################
 message("=== Initializing STRING databases ===")
 string_mouse <- STRINGdb$new(version = "12.0", species = mouse_species,
-                              score_threshold = score_threshold, input_directory = "")
+                             score_threshold = score_threshold, input_directory = "")
 string_human <- STRINGdb$new(version = "12.0", species = human_species,
-                              score_threshold = score_threshold, input_directory = "")
+                             score_threshold = score_threshold, input_directory = "")
 
 ################################################################################
 # Load human JCI_SC DEGs
@@ -155,10 +195,10 @@ message("  Mapped to STRING: ", nrow(schwann_mapped), " proteins")
 if (nrow(schwann_mapped) >= 5) {
   out_dir <- file.path(output_root, "JCI_SC")
   dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
-
+  
   # Save mapped genes
   save_df(schwann_mapped, file.path(out_dir, "JCI_SC_STRING_mapped.csv"))
-
+  
   # PPI enrichment test
   message("  Running PPI enrichment...")
   ppi_enrich <- tryCatch({
@@ -167,23 +207,19 @@ if (nrow(schwann_mapped) >= 5) {
     warning("PPI enrichment failed: ", conditionMessage(e))
     NULL
   })
-
+  
   if (!is.null(ppi_enrich) && length(ppi_enrich) > 0) {
-    ppi_df <- data.frame(
-      metric = names(ppi_enrich),
-      value = as.character(unlist(ppi_enrich)),
-      stringsAsFactors = FALSE
-    )
-    save_df(ppi_df, file.path(out_dir, "JCI_SC_PPI_enrichment.csv"))
+    ppi_df <- .ppi_to_df(ppi_enrich)
+    if (nrow(ppi_df)) save_df(ppi_df, file.path(out_dir, "JCI_SC_PPI_enrichment.csv"))
     if (!is.null(ppi_enrich$p_value)) {
       message("    PPI enrichment p-value: ", ppi_enrich$p_value)
     }
   }
-
-  # Generate network visualization (limit to top genes)
+  
+  # Generate network visualization
   n_plot <- min(network_limit, nrow(schwann_mapped))
   plot_ids <- schwann_mapped$STRING_id[1:n_plot]
-
+  
   message("  Generating network plot (", n_plot, " proteins)...")
   pdf(file.path(out_dir, "JCI_SC_PPI_network.pdf"), width = 12, height = 12)
   tryCatch({
@@ -192,7 +228,7 @@ if (nrow(schwann_mapped) >= 5) {
     warning("Network plot failed: ", conditionMessage(e))
   })
   dev.off()
-
+  
   # Functional enrichment on the network
   message("  Running functional enrichment on network...")
   for (category in c("Process", "KEGG")) {
@@ -202,7 +238,7 @@ if (nrow(schwann_mapped) >= 5) {
       warning("Enrichment (", category, ") failed: ", conditionMessage(e))
       NULL
     })
-
+    
     if (!is.null(enrich_res) && is.data.frame(enrich_res) && nrow(enrich_res) > 0) {
       save_df(enrich_res, file.path(out_dir, paste0("JCI_SC_STRING_", category, ".csv")))
       message("    ", category, ": ", nrow(enrich_res), " terms")
@@ -222,56 +258,56 @@ for (input_dir in mouse_deg_dirs) {
     message("Skipping (directory not found): ", input_dir)
     next
   }
-
+  
   files <- list.files(input_dir, pattern = "\\.csv$", full.names = TRUE, recursive = FALSE)
   files <- files[!basename(files) %>% startsWith(".")]
-
+  
   # Filter for specific cell types and comparisons
   files <- files[sapply(files, function(f) {
     parts <- strsplit(safe_base(tools::file_path_sans_ext(basename(f))), "_", fixed = TRUE)[[1]]
     comp_group <- if (length(parts) >= 1) parts[1] else NA_character_
     cell_type <- if (length(parts) >= 2) parts[2] else NA_character_
-
+    
     cell_pass <- !is.na(cell_type) && cell_type %in% mouse_cell_types
     comp_pass <- !is.na(comp_group) && comp_group %in% comparison_groups
-
+    
     cell_pass && comp_pass
   })]
-
+  
   message("\n--- Folder: ", input_dir, " ---")
-
+  
   for (mouse_file in files) {
     message("Processing: ", basename(mouse_file))
     base <- safe_base(tools::file_path_sans_ext(basename(mouse_file)))
     parts <- strsplit(base, "_", fixed = TRUE)[[1]]
     comp_group <- if (length(parts) >= 1) parts[1] else NA_character_
     cell_type  <- if (length(parts) >= 2) parts[2] else NA_character_
-
+    
     mouse_genes <- read_mouse_deg_file(mouse_file, pval_cutoff = pval_mouse_cutoff)
     if (is.null(mouse_genes) || length(mouse_genes) == 0) {
       warning("  Skipping (no genes): ", basename(mouse_file))
       next
     }
-
+    
     message("  Mouse DEGs: ", length(mouse_genes), " genes")
-
+    
     # Map to STRING
     mouse_df <- data.frame(gene = mouse_genes, stringsAsFactors = FALSE)
     mouse_mapped <- string_mouse$map(mouse_df, "gene", removeUnmappedRows = TRUE)
     message("  Mapped to STRING: ", nrow(mouse_mapped), " proteins")
-
+    
     if (nrow(mouse_mapped) < 5) {
       warning("  Skipping (too few mapped proteins)")
       next
     }
-
+    
     # Create output directory
     out_dir <- file.path(output_root, paste0(comp_group, "_", cell_type))
     dir.create(out_dir, showWarnings = FALSE, recursive = TRUE)
-
+    
     # Save mapped genes
     save_df(mouse_mapped, file.path(out_dir, "Mouse_STRING_mapped.csv"))
-
+    
     # PPI enrichment test
     message("  Running PPI enrichment...")
     ppi_enrich <- tryCatch({
@@ -280,34 +316,30 @@ for (input_dir in mouse_deg_dirs) {
       warning("  PPI enrichment failed: ", conditionMessage(e))
       NULL
     })
-
+    
     if (!is.null(ppi_enrich) && length(ppi_enrich) > 0) {
-      ppi_df <- data.frame(
-        metric = names(ppi_enrich),
-        value = as.character(unlist(ppi_enrich)),
-        stringsAsFactors = FALSE
-      )
-      save_df(ppi_df, file.path(out_dir, "Mouse_PPI_enrichment.csv"))
-
+      ppi_df <- .ppi_to_df(ppi_enrich)
+      if (nrow(ppi_df)) save_df(ppi_df, file.path(out_dir, "Mouse_PPI_enrichment.csv"))
+      
       if (!is.null(ppi_enrich$p_value)) {
         message("    PPI enrichment p-value: ", ppi_enrich$p_value)
       }
-
-      all_results[[length(all_results) + 1]] <- tibble(
+      
+      all_results[[length(all_results) + 1]] <- tibble::tibble(
         comparison = comp_group,
         cell_type = cell_type,
         n_genes = length(mouse_genes),
         n_mapped = nrow(mouse_mapped),
-        ppi_pvalue = if (!is.null(ppi_enrich$p_value)) ppi_enrich$p_value else NA,
-        ppi_n_expected_edges = if (!is.null(ppi_enrich$number_of_expected_edges)) ppi_enrich$number_of_expected_edges else NA,
-        ppi_n_edges = if (!is.null(ppi_enrich$number_of_edges)) ppi_enrich$number_of_edges else NA
+        ppi_pvalue = if (!is.null(ppi_enrich$p_value)) ppi_enrich$p_value else NA_real_,
+        ppi_n_expected_edges = .get_exp_edges(ppi_enrich),
+        ppi_n_edges = if (!is.null(ppi_enrich$number_of_edges)) ppi_enrich$number_of_edges else NA_real_
       )
     }
-
+    
     # Generate network visualization
     n_plot <- min(network_limit, nrow(mouse_mapped))
     plot_ids <- mouse_mapped$STRING_id[1:n_plot]
-
+    
     message("  Generating network plot (", n_plot, " proteins)...")
     pdf(file.path(out_dir, "Mouse_PPI_network.pdf"), width = 12, height = 12)
     tryCatch({
@@ -316,7 +348,7 @@ for (input_dir in mouse_deg_dirs) {
       warning("  Network plot failed: ", conditionMessage(e))
     })
     dev.off()
-
+    
     # Functional enrichment on the network
     message("  Running functional enrichment on network...")
     for (category in c("Process", "KEGG")) {
@@ -326,7 +358,7 @@ for (input_dir in mouse_deg_dirs) {
         warning("  Enrichment (", category, ") failed: ", conditionMessage(e))
         NULL
       })
-
+      
       if (!is.null(enrich_res) && is.data.frame(enrich_res) && nrow(enrich_res) > 0) {
         save_df(enrich_res, file.path(out_dir, paste0("Mouse_STRING_", category, ".csv")))
         message("    ", category, ": ", nrow(enrich_res), " terms")
@@ -341,14 +373,14 @@ for (input_dir in mouse_deg_dirs) {
 if (length(all_results) > 0) {
   summary_df <- dplyr::bind_rows(all_results) %>%
     dplyr::arrange(ppi_pvalue)
-
+  
   save_df(summary_df, file.path(output_root, "PPI_Analysis_Summary.csv"))
-
+  
   wb <- openxlsx::createWorkbook()
   openxlsx::addWorksheet(wb, "Summary")
   openxlsx::writeData(wb, "Summary", summary_df)
   openxlsx::saveWorkbook(wb, file.path(output_root, "PPI_Analysis_Summary.xlsx"), overwrite = TRUE)
-
+  
   message("\n=== PPI Network Analysis Complete ===")
   message("Summary saved to: ", file.path(output_root, "PPI_Analysis_Summary.csv"))
 } else {

@@ -1,0 +1,9 @@
+"comparison","cell_type","n_genes","n_mapped","ppi_pvalue","ppi_n_expected_edges","ppi_n_edges"
+"DREXvsHFD","majorSC",1023,1022,NA,NA,NA
+"DRvsHFD","majorSC",825,825,NA,NA,NA
+"EXvsHFD","majorSC",2371,2371,NA,NA,NA
+"HFDvsSD","majorSC",416,416,NA,NA,NA
+"DREXvsHFD","aggSC",1006,1006,NA,NA,NA
+"DRvsHFD","aggSC",919,919,NA,NA,NA
+"EXvsHFD","aggSC",1600,1599,NA,NA,NA
+"HFDvsSD","aggSC",806,806,NA,NA,NA
