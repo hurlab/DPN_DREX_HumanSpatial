@@ -1,0 +1,93 @@
+=== Leading Edge Gene Analysis ===
+
+--- Comparison: HFDvsSD ---
+  Cell Type: mySC
+    Overlap_MS richR_GO: 62 pathways
+    Overlap_All3 richR_GO: 105 pathways
+  Cell Type: nmSC
+  Cell Type: ImmSC
+  Cell Type: majorSC
+    Overlap_MS richR_GO: 80 pathways
+    Overlap_MS richR_KEGG: 7 pathways
+    Overlap_All3 richR_GO: 55 pathways
+    Overlap_All3 richR_KEGG: 7 pathways
+  Cell Type: aggSC
+    Overlap_MS richR_GO: 203 pathways
+    Overlap_All3 richR_GO: 105 pathways
+
+--- Comparison: DRvsHFD ---
+  Cell Type: mySC
+    Overlap_MS richR_GO: 62 pathways
+    Overlap_MS richR_KEGG: 7 pathways
+    Overlap_All3 richR_GO: 93 pathways
+    Overlap_All3 richR_KEGG: 8 pathways
+  Cell Type: nmSC
+  Cell Type: ImmSC
+  Cell Type: majorSC
+    Overlap_MS richR_GO: 60 pathways
+    Overlap_All3 richR_GO: 26 pathways
+  Cell Type: aggSC
+    Overlap_MS richR_GO: 86 pathways
+    Overlap_MS richR_KEGG: 6 pathways
+    Overlap_All3 richR_GO: 93 pathways
+    Overlap_All3 richR_KEGG: 8 pathways
+
+--- Comparison: EXvsHFD ---
+  Cell Type: mySC
+    Overlap_MS richR_GO: 139 pathways
+  Cell Type: nmSC
+  Cell Type: ImmSC
+  Cell Type: majorSC
+    Overlap_MS richR_GO: 213 pathways
+    Overlap_All3 richR_GO: 97 pathways
+  Cell Type: aggSC
+    Overlap_MS richR_GO: 169 pathways
+
+--- Comparison: DREXvsHFD ---
+  Cell Type: mySC
+    Overlap_MS richR_GO: 37 pathways
+    Overlap_MS richR_KEGG: 1 pathways
+  Cell Type: nmSC
+    Overlap_MS richR_GO: 68 pathways
+    Overlap_MS richR_KEGG: 1 pathways
+  Cell Type: ImmSC
+    Overlap_MS richR_GO: 15 pathways
+  Cell Type: majorSC
+    Overlap_MS richR_GO: 79 pathways
+  Cell Type: aggSC
+    Overlap_MS richR_GO: 97 pathways
+    Overlap_MS richR_KEGG: 1 pathways
+
+Total pathway-gene associations: 8840
+Unique genes: 54
+Unique pathways: 462
+
+=== Identifying Hub Genes ===
+Genes in ≥3 pathways: 54
+  mySC: 30 hub genes
+  nmSC: 10 hub genes
+  ImmSC: 4 hub genes
+  majorSC: 48 hub genes
+  aggSC: 40 hub genes
+
+=== Creating Hub Gene Visualizations ===
+
+=== Creating Pathway Networks ===
+  Created network: HFDvsSD mySC
+  Created network: HFDvsSD majorSC
+  Created network: HFDvsSD aggSC
+  Created network: DRvsHFD mySC
+  Created network: DRvsHFD majorSC
+  Created network: DRvsHFD aggSC
+  Created network: EXvsHFD majorSC
+
+=== Analyzing Cross-Cell-Type Consistency ===
+Genes that are hubs in ≥2 cell types: 40
+
+=== Creating Summary Report ===
+
+=== Analysis Complete ===
+Output directory: Output_JCI/Leading_Edge_Analysis
+Hub genes identified: 54
+Cross-cell-type hub genes: 40
+Check for network diagrams and hub gene lists

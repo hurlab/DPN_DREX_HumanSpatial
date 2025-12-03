@@ -1,0 +1,8 @@
+"Term","n_celltypes","celltypes","mean_neg_log10_padj","max_neg_log10_padj","category"
+"Protein digestion and absorption",2,"aggSC, mySC",2.66766320618509,2.84603371349677,"Partially shared"
+"Cytoskeleton in muscle cells",2,"aggSC, mySC",1.98348961986626,2.15802127100576,"Partially shared"
+"AGE-RAGE signaling pathway in diabetic complications",2,"aggSC, mySC",1.64444928589876,1.76006692736038,"Partially shared"
+"Amoebiasis",2,"aggSC, mySC",1.64444928589876,1.76006692736038,"Partially shared"
+"Platelet activation",2,"aggSC, mySC",1.64444928589876,1.76006692736038,"Partially shared"
+"Relaxin signaling pathway",2,"aggSC, mySC",1.64444928589876,1.76006692736038,"Partially shared"
+"Diabetic cardiomyopathy",1,"mySC",1.4594025400139,1.4594025400139,"Cell-type-specific"

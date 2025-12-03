@@ -147,7 +147,7 @@ schwann_genes <- read_schwann_deg(schwann_deg_path,
 message("Human JCI_SC DEGs: ", length(schwann_genes), " genes")
 
 # Map human genes to STRING IDs
-schwann_df <- tibble(gene = schwann_genes)
+schwann_df <- data.frame(gene = schwann_genes, stringsAsFactors = FALSE)
 schwann_mapped <- string_human$map(schwann_df, "gene", removeUnmappedRows = TRUE)
 message("  Mapped to STRING: ", nrow(schwann_mapped), " proteins")
 
@@ -168,9 +168,16 @@ if (nrow(schwann_mapped) >= 5) {
     NULL
   })
 
-  if (!is.null(ppi_enrich)) {
-    save_df(as.data.frame(ppi_enrich), file.path(out_dir, "JCI_SC_PPI_enrichment.csv"))
-    message("    PPI enrichment p-value: ", ppi_enrich$p_value)
+  if (!is.null(ppi_enrich) && length(ppi_enrich) > 0) {
+    ppi_df <- data.frame(
+      metric = names(ppi_enrich),
+      value = as.character(unlist(ppi_enrich)),
+      stringsAsFactors = FALSE
+    )
+    save_df(ppi_df, file.path(out_dir, "JCI_SC_PPI_enrichment.csv"))
+    if (!is.null(ppi_enrich$p_value)) {
+      message("    PPI enrichment p-value: ", ppi_enrich$p_value)
+    }
   }
 
   # Generate network visualization (limit to top genes)
@@ -190,13 +197,13 @@ if (nrow(schwann_mapped) >= 5) {
   message("  Running functional enrichment on network...")
   for (category in c("Process", "KEGG")) {
     enrich_res <- tryCatch({
-      string_human$get_enrichment(plot_ids, category = category, methodMT = "fdr", iea = TRUE)
+      suppressWarnings(string_human$get_enrichment(plot_ids, category = category))
     }, error = function(e) {
       warning("Enrichment (", category, ") failed: ", conditionMessage(e))
       NULL
     })
 
-    if (!is.null(enrich_res) && nrow(enrich_res) > 0) {
+    if (!is.null(enrich_res) && is.data.frame(enrich_res) && nrow(enrich_res) > 0) {
       save_df(enrich_res, file.path(out_dir, paste0("JCI_SC_STRING_", category, ".csv")))
       message("    ", category, ": ", nrow(enrich_res), " terms")
     }
@@ -249,7 +256,7 @@ for (input_dir in mouse_deg_dirs) {
     message("  Mouse DEGs: ", length(mouse_genes), " genes")
 
     # Map to STRING
-    mouse_df <- tibble(gene = mouse_genes)
+    mouse_df <- data.frame(gene = mouse_genes, stringsAsFactors = FALSE)
     mouse_mapped <- string_mouse$map(mouse_df, "gene", removeUnmappedRows = TRUE)
     message("  Mapped to STRING: ", nrow(mouse_mapped), " proteins")
 
@@ -274,18 +281,26 @@ for (input_dir in mouse_deg_dirs) {
       NULL
     })
 
-    if (!is.null(ppi_enrich)) {
-      save_df(as.data.frame(ppi_enrich), file.path(out_dir, "Mouse_PPI_enrichment.csv"))
-      message("    PPI enrichment p-value: ", ppi_enrich$p_value)
+    if (!is.null(ppi_enrich) && length(ppi_enrich) > 0) {
+      ppi_df <- data.frame(
+        metric = names(ppi_enrich),
+        value = as.character(unlist(ppi_enrich)),
+        stringsAsFactors = FALSE
+      )
+      save_df(ppi_df, file.path(out_dir, "Mouse_PPI_enrichment.csv"))
+
+      if (!is.null(ppi_enrich$p_value)) {
+        message("    PPI enrichment p-value: ", ppi_enrich$p_value)
+      }
 
       all_results[[length(all_results) + 1]] <- tibble(
         comparison = comp_group,
         cell_type = cell_type,
         n_genes = length(mouse_genes),
         n_mapped = nrow(mouse_mapped),
-        ppi_pvalue = ppi_enrich$p_value,
-        ppi_n_expected_edges = ppi_enrich$number_of_expected_edges,
-        ppi_n_edges = ppi_enrich$number_of_edges
+        ppi_pvalue = if (!is.null(ppi_enrich$p_value)) ppi_enrich$p_value else NA,
+        ppi_n_expected_edges = if (!is.null(ppi_enrich$number_of_expected_edges)) ppi_enrich$number_of_expected_edges else NA,
+        ppi_n_edges = if (!is.null(ppi_enrich$number_of_edges)) ppi_enrich$number_of_edges else NA
       )
     }
 
@@ -306,13 +321,13 @@ for (input_dir in mouse_deg_dirs) {
     message("  Running functional enrichment on network...")
     for (category in c("Process", "KEGG")) {
       enrich_res <- tryCatch({
-        string_mouse$get_enrichment(plot_ids, category = category, methodMT = "fdr", iea = TRUE)
+        suppressWarnings(string_mouse$get_enrichment(plot_ids, category = category))
       }, error = function(e) {
         warning("  Enrichment (", category, ") failed: ", conditionMessage(e))
         NULL
       })
 
-      if (!is.null(enrich_res) && nrow(enrich_res) > 0) {
+      if (!is.null(enrich_res) && is.data.frame(enrich_res) && nrow(enrich_res) > 0) {
         save_df(enrich_res, file.path(out_dir, paste0("Mouse_STRING_", category, ".csv")))
         message("    ", category, ": ", nrow(enrich_res), " terms")
       }

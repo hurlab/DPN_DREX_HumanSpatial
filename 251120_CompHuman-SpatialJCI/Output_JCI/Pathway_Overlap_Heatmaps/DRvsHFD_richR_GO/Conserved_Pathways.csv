@@ -1,0 +1,77 @@
+"Pathway","Mouse_majorSC","Mouse_aggSC","Human_JCI_SC","Human_JCI_Bulk","n_datasets"
+"cell adhesion",1,1,1,1,4
+"regulation of cell growth",1,1,1,1,4
+"cell growth",1,1,1,1,4
+"negative regulation of cell adhesion",1,1,1,1,4
+"response to steroid hormone",1,1,1,1,4
+"system development",1,1,1,1,4
+"regulation of cell adhesion",1,1,1,1,4
+"anatomical structure morphogenesis",1,1,1,1,4
+"regulation of cell migration",1,1,1,1,4
+"cell migration",1,1,1,1,4
+"multicellular organism development",1,1,1,1,4
+"regulation of cell motility",1,1,1,1,4
+"growth",1,1,1,1,4
+"regulation of multicellular organismal process",1,1,1,1,4
+"regulation of locomotion",1,1,1,1,4
+"animal organ development",1,1,1,1,4
+"extracellular matrix organization",1,1,1,1,4
+"external encapsulating structure organization",1,1,1,1,4
+"extracellular structure organization",1,1,1,1,4
+"cell motility",1,1,1,1,4
+"regulation of developmental process",1,1,1,1,4
+"locomotion",1,1,1,1,4
+"cell differentiation",1,1,1,1,4
+"cellular developmental process",1,1,1,1,4
+"regulation of multicellular organismal development",1,1,1,1,4
+"cell-cell adhesion",1,1,1,1,4
+"regulation of neurogenesis",1,1,1,1,4
+"response to hormone",1,1,1,1,4
+"regulation of growth",1,0,1,1,3
+"seminal vesicle epithelium development",1,1,1,0,3
+"cellular response to vitamin E",1,1,1,0,3
+"response to ketone",1,0,1,1,3
+"animal organ morphogenesis",1,0,1,1,3
+"collagen fibril organization",1,1,1,0,3
+"mesenchyme development",1,0,1,1,3
+"negative regulation of multicellular organismal process",1,0,1,1,3
+"cellular response to corticosteroid stimulus",1,0,1,1,3
+"sensory organ morphogenesis",1,0,1,1,3
+"response to hydrogen peroxide",1,1,0,1,3
+"cardiac muscle hypertrophy",1,1,0,1,3
+"striated muscle hypertrophy",1,1,0,1,3
+"regulation of cell development",1,0,1,1,3
+"muscle hypertrophy",1,1,0,1,3
+"positive regulation of cell differentiation",1,0,1,1,3
+"anatomical structure development",1,1,1,0,3
+"neuron differentiation",1,0,1,1,3
+"cell development",1,0,1,1,3
+"tissue development",0,1,1,1,3
+"response to abiotic stimulus",0,1,1,1,3
+"regulation of cell division",0,1,1,1,3
+"developmental growth",0,1,1,1,3
+"nervous system development",0,1,1,1,3
+"neurogenesis",0,1,1,1,3
+"muscle tissue development",0,1,1,1,3
+"positive regulation of cell communication",0,1,1,1,3
+"positive regulation of signaling",0,1,1,1,3
+"regulation of nervous system development",0,1,1,1,3
+"response to mechanical stimulus",0,1,1,1,3
+"response to endogenous stimulus",0,1,1,1,3
+"positive regulation of signal transduction",0,1,1,1,3
+"endochondral bone morphogenesis",0,1,1,1,3
+"generation of neurons",0,1,1,1,3
+"response to stress",0,1,1,1,3
+"intracellular signaling cassette",0,1,1,1,3
+"positive regulation of multicellular organismal process",0,1,1,1,3
+"astrocyte differentiation",0,1,1,1,3
+"head development",0,1,1,1,3
+"gliogenesis",0,1,1,1,3
+"bone morphogenesis",0,1,1,1,3
+"wound healing",0,1,1,1,3
+"cell surface receptor signaling pathway",0,1,1,1,3
+"cytokine production",0,1,1,1,3
+"regulation of anatomical structure morphogenesis",0,1,1,1,3
+"positive regulation of developmental process",0,1,1,1,3
+"regulation of monoatomic ion transport",0,1,1,1,3
+"striated muscle tissue development",0,1,1,1,3

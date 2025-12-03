@@ -1,0 +1,82 @@
+=== Pathway Overlap Heatmap Analysis ===
+
+--- Comparison: HFDvsSD ---
+  Enrichment type: richR_GO
+    Mouse_majorSC: 80 pathways
+    Mouse_aggSC: 203 pathways
+    Human_JCI_SC: 832 pathways
+    Human_JCI_Bulk: 2016 pathways
+    Total unique pathways: 2379
+    Conserved pathways (≥3 datasets): 169
+    Generating heatmap...
+  Enrichment type: richR_KEGG
+    Mouse_majorSC: 7 pathways
+    Mouse_aggSC: 3 pathways
+    Human_JCI_SC: 5 pathways
+    Human_JCI_Bulk: 71 pathways
+    Total unique pathways: 78
+    Conserved pathways (≥3 datasets): 1
+    Generating heatmap...
+
+--- Comparison: DRvsHFD ---
+  Enrichment type: richR_GO
+    Mouse_majorSC: 60 pathways
+    Mouse_aggSC: 86 pathways
+    Human_JCI_SC: 832 pathways
+    Human_JCI_Bulk: 2016 pathways
+    Total unique pathways: 2372
+    Conserved pathways (≥3 datasets): 76
+    Generating heatmap...
+  Enrichment type: richR_KEGG
+    Mouse_majorSC: 3 pathways
+    Mouse_aggSC: 6 pathways
+    Human_JCI_SC: 5 pathways
+    Human_JCI_Bulk: 71 pathways
+    Total unique pathways: 78
+    Conserved pathways (≥3 datasets): 1
+    Generating heatmap...
+
+--- Comparison: EXvsHFD ---
+  Enrichment type: richR_GO
+    Mouse_majorSC: 213 pathways
+    Mouse_aggSC: 169 pathways
+    Human_JCI_SC: 832 pathways
+    Human_JCI_Bulk: 2016 pathways
+    Total unique pathways: 2384
+    Conserved pathways (≥3 datasets): 183
+    Generating heatmap...
+  Enrichment type: richR_KEGG
+    Mouse_majorSC: 9 pathways
+    Mouse_aggSC: 0 pathways
+    Human_JCI_SC: 5 pathways
+    Human_JCI_Bulk: 71 pathways
+    Total unique pathways: 77
+    Conserved pathways (≥3 datasets): 1
+    Generating heatmap...
+
+--- Comparison: DREXvsHFD ---
+  Enrichment type: richR_GO
+    Mouse_majorSC: 79 pathways
+    Mouse_aggSC: 97 pathways
+    Human_JCI_SC: 832 pathways
+    Human_JCI_Bulk: 2016 pathways
+    Total unique pathways: 2374
+    Conserved pathways (≥3 datasets): 80
+    Generating heatmap...
+  Enrichment type: richR_KEGG
+    Mouse_majorSC: 1 pathways
+    Mouse_aggSC: 1 pathways
+    Human_JCI_SC: 5 pathways
+    Human_JCI_Bulk: 71 pathways
+    Total unique pathways: 75
+    Conserved pathways (≥3 datasets): 0
+    Generating heatmap...
+Warning message:
+In value[[3L]](cond) :
+      Heatmap generation failed: 'breaks' are not unique
+
+=== Creating Master Summary ===
+Master summary saved to: Output_JCI/Pathway_Overlap_Heatmaps/Master_Pathway_Summary.csv
+
+=== Pathway Overlap Analysis Complete ===
+Output directory: Output_JCI/Pathway_Overlap_Heatmaps

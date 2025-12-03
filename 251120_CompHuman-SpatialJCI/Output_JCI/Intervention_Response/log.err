@@ -1,0 +1,120 @@
+=== Intervention Response Analysis ===
+
+--- Cell Type: mySC ---
+  DREXvsHFD Mouse_all: 529 genes
+  DREXvsHFD Overlap_MS: 11 genes
+  DRvsHFD Mouse_all: 770 genes
+  HFDvsSD Mouse_all: 510 genes
+  DRvsHFD Overlap_MS: 16 genes
+  HFDvsSD Overlap_MS: 14 genes
+  DRvsHFD Overlap_All3: 6 genes
+  HFDvsSD Overlap_All3: 5 genes
+  EXvsHFD Mouse_all: 1337 genes
+  EXvsHFD Overlap_MS: 18 genes
+  EXvsHFD Overlap_All3: 3 genes
+
+--- Cell Type: nmSC ---
+  DREXvsHFD Mouse_all: 238 genes
+  DREXvsHFD Overlap_MS: 10 genes
+  DREXvsHFD Overlap_All3: 1 genes
+  DRvsHFD Mouse_all: 66 genes
+  HFDvsSD Mouse_all: 215 genes
+  DRvsHFD Overlap_MS: 2 genes
+  HFDvsSD Overlap_MS: 5 genes
+  EXvsHFD Mouse_all: 242 genes
+  EXvsHFD Overlap_MS: 1 genes
+
+--- Cell Type: ImmSC ---
+  DREXvsHFD Mouse_all: 444 genes
+  DREXvsHFD Overlap_MS: 6 genes
+  DREXvsHFD Overlap_All3: 1 genes
+  DRvsHFD Mouse_all: 114 genes
+  HFDvsSD Mouse_all: 138 genes
+  DRvsHFD Overlap_MS: 1 genes
+  HFDvsSD Overlap_MS: 4 genes
+  HFDvsSD Overlap_All3: 1 genes
+  EXvsHFD Mouse_all: 240 genes
+  EXvsHFD Overlap_MS: 4 genes
+  EXvsHFD Overlap_All3: 1 genes
+
+--- Cell Type: majorSC ---
+  DREXvsHFD Mouse_all: 1023 genes
+  DREXvsHFD Overlap_MS: 16 genes
+  DREXvsHFD Overlap_All3: 4 genes
+  DRvsHFD Mouse_all: 825 genes
+  HFDvsSD Mouse_all: 416 genes
+  DRvsHFD Overlap_MS: 17 genes
+  HFDvsSD Overlap_MS: 13 genes
+  DRvsHFD Overlap_All3: 5 genes
+  HFDvsSD Overlap_All3: 5 genes
+  EXvsHFD Mouse_all: 2371 genes
+  EXvsHFD Overlap_MS: 37 genes
+  EXvsHFD Overlap_All3: 11 genes
+
+--- Cell Type: aggSC ---
+  DREXvsHFD Mouse_all: 1006 genes
+  DREXvsHFD Overlap_MS: 21 genes
+  DREXvsHFD Overlap_All3: 1 genes
+  DRvsHFD Mouse_all: 919 genes
+  HFDvsSD Mouse_all: 806 genes
+  DRvsHFD Overlap_MS: 19 genes
+  HFDvsSD Overlap_MS: 21 genes
+  DRvsHFD Overlap_All3: 6 genes
+  HFDvsSD Overlap_All3: 5 genes
+  EXvsHFD Mouse_all: 1600 genes
+  EXvsHFD Overlap_MS: 20 genes
+  EXvsHFD Overlap_All3: 3 genes
+
+=== Creating Intervention-Specific Venn Diagrams ===
+  Created DR Venn: mySC Mouse_all
+  Created DR Venn: mySC Overlap_MS
+  Created DR Venn: mySC Overlap_All3
+  Created DR Venn: nmSC Mouse_all
+  Created DR Venn: nmSC Overlap_MS
+  Created DR Venn: ImmSC Mouse_all
+  Created DR Venn: ImmSC Overlap_MS
+  Created DR Venn: majorSC Mouse_all
+  Created DR Venn: majorSC Overlap_MS
+  Created DR Venn: majorSC Overlap_All3
+  Created DR Venn: aggSC Mouse_all
+  Created DR Venn: aggSC Overlap_MS
+  Created DR Venn: aggSC Overlap_All3
+
+=== Identifying Intervention-Specific vs Shared Genes ===
+  mySC Mouse_all: DREX-specific=327, DR-specific=243, EX-specific=738, All-shared=80
+  mySC Overlap_MS: DREX-specific=6, DR-specific=6, EX-specific=5, All-shared=2
+  mySC Overlap_All3: DREX-specific=0, DR-specific=4, EX-specific=1, All-shared=0
+  nmSC Mouse_all: DREX-specific=189, DR-specific=32, EX-specific=200, All-shared=3
+  nmSC Overlap_MS: DREX-specific=8, DR-specific=1, EX-specific=0, All-shared=0
+  nmSC Overlap_All3: DREX-specific=1, DR-specific=0, EX-specific=0, All-shared=0
+  ImmSC Mouse_all: DREX-specific=375, DR-specific=68, EX-specific=185, All-shared=6
+  ImmSC Overlap_MS: DREX-specific=5, DR-specific=0, EX-specific=3, All-shared=1
+  ImmSC Overlap_All3: DREX-specific=1, DR-specific=0, EX-specific=1, All-shared=0
+  majorSC Mouse_all: DREX-specific=561, DR-specific=157, EX-specific=1437, All-shared=116
+  majorSC Overlap_MS: DREX-specific=5, DR-specific=1, EX-specific=15, All-shared=3
+  majorSC Overlap_All3: DREX-specific=0, DR-specific=0, EX-specific=4, All-shared=0
+  aggSC Mouse_all: DREX-specific=563, DR-specific=277, EX-specific=820, All-shared=163
+  aggSC Overlap_MS: DREX-specific=10, DR-specific=6, EX-specific=5, All-shared=5
+  aggSC Overlap_All3: DREX-specific=0, DR-specific=3, EX-specific=1, All-shared=0
+
+=== Exercise-Specific Rescue Analysis ===
+  mySC Mouse_all: EX-specific=835, EX+DR synergy=502, DREX-unique=327
+  mySC Overlap_MS: EX-specific=8, EX+DR synergy=10, DREX-unique=6
+  mySC Overlap_All3: EX-specific=1, EX+DR synergy=2, DREX-unique=0
+  nmSC Mouse_all: EX-specific=227, EX+DR synergy=15, DREX-unique=189
+  nmSC Overlap_MS: EX-specific=1, EX+DR synergy=0, DREX-unique=8
+  ImmSC Mouse_all: EX-specific=221, EX+DR synergy=19, DREX-unique=375
+  ImmSC Overlap_MS: EX-specific=3, EX+DR synergy=1, DREX-unique=5
+  ImmSC Overlap_All3: EX-specific=1, EX+DR synergy=0, DREX-unique=1
+  majorSC Mouse_all: EX-specific=1743, EX+DR synergy=628, DREX-unique=561
+  majorSC Overlap_MS: EX-specific=22, EX+DR synergy=15, DREX-unique=5
+  majorSC Overlap_All3: EX-specific=7, EX+DR synergy=4, DREX-unique=0
+  aggSC Mouse_all: EX-specific=1029, EX+DR synergy=571, DREX-unique=563
+  aggSC Overlap_MS: EX-specific=9, EX+DR synergy=11, DREX-unique=10
+  aggSC Overlap_All3: EX-specific=1, EX+DR synergy=2, DREX-unique=0
+
+=== Creating Summary Report ===
+
+=== Analysis Complete ===
+Output directory: Output_JCI/Intervention_Response
+Check for Venn diagrams, gene lists, and summary statistics

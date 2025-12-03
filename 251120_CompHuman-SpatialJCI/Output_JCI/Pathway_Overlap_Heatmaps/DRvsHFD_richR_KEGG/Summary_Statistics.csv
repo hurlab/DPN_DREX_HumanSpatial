@@ -1,0 +1,2 @@
+"comparison","enrichment_type","n_pathways_total","n_pathways_conserved","n_pathways_mouse_only","n_pathways_human_only","n_majorSC","n_aggSC","n_JCI_SC","n_JCI_Bulk"
+"DRvsHFD","richR_KEGG",78,1,4,69,3,6,5,71

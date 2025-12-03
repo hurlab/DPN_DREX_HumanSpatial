@@ -1,0 +1,5 @@
+"Gene","n_comparisons_conserved","comparisons"
+"Col1a1",3,"HFDvsSD, DRvsHFD, EXvsHFD"
+"Fgf1",3,"HFDvsSD, DRvsHFD, EXvsHFD"
+"Mbp",3,"HFDvsSD, DRvsHFD, DREXvsHFD"
+"Chst2",2,"HFDvsSD, DRvsHFD"

@@ -1,0 +1,170 @@
+"Pathway","Mouse_majorSC","Mouse_aggSC","Human_JCI_SC","Human_JCI_Bulk","n_datasets"
+"response to steroid hormone",1,1,1,1,4
+"response to hormone",1,1,1,1,4
+"intracellular signal transduction",1,1,1,1,4
+"response to ketone",1,1,1,1,4
+"cell adhesion",1,1,1,1,4
+"cell migration",1,1,1,1,4
+"response to endogenous stimulus",1,1,1,1,4
+"regulation of cell migration",1,1,1,1,4
+"regulation of cell motility",1,1,1,1,4
+"intracellular signaling cassette",1,1,1,1,4
+"cell motility",1,1,1,1,4
+"response to lipid",1,1,1,1,4
+"regulation of locomotion",1,1,1,1,4
+"localization",1,1,1,1,4
+"response to chemical",1,1,1,1,4
+"response to calcium ion",1,1,1,1,4
+"locomotion",1,1,1,1,4
+"transport",1,1,1,1,4
+"tissue development",1,1,1,1,4
+"animal organ development",1,1,1,1,4
+"neuron projection morphogenesis",1,1,1,1,4
+"plasma membrane bounded cell projection morphogenesis",1,1,1,1,4
+"cell projection morphogenesis",1,1,1,1,4
+"response to mechanical stimulus",1,1,1,1,4
+"protein localization to nucleus",1,1,0,1,3
+"response to hydrogen peroxide",1,1,0,1,3
+"response to progesterone",1,1,1,0,3
+"response to hexose",1,0,1,1,3
+"response to monosaccharide",1,0,1,1,3
+"response to carbohydrate",1,0,1,1,3
+"cellular response to vitamin E",1,1,1,0,3
+"endochondral bone morphogenesis",1,0,1,1,3
+"skin development",1,1,0,1,3
+"cell communication",1,1,1,0,3
+"bone morphogenesis",1,0,1,1,3
+"regulation of cellular process",1,1,1,0,3
+"response to estradiol",1,1,1,0,3
+"homeostatic process",1,0,1,1,3
+"signal transduction",1,1,1,0,3
+"response to oxygen-containing compound",1,0,1,1,3
+"response to stimulus",1,1,1,0,3
+"regulation of biological process",1,1,1,0,3
+"nitrogen compound transport",1,1,0,1,3
+"biological regulation",1,1,1,0,3
+"regulation of axonogenesis",1,1,1,0,3
+"signaling",1,1,1,0,3
+"establishment of localization",1,0,1,1,3
+"positive regulation of cellular process",1,1,1,0,3
+"neuron migration",1,0,1,1,3
+"cartilage development",1,0,1,1,3
+"mesenchymal cell differentiation",1,1,0,1,3
+"head development",1,0,1,1,3
+"positive regulation of biological process",1,1,1,0,3
+"regulation of response to stimulus",0,1,1,1,3
+"anatomical structure morphogenesis",0,1,1,1,3
+"regulation of response to external stimulus",0,1,1,1,3
+"system development",0,1,1,1,3
+"regulation of signal transduction",0,1,1,1,3
+"extracellular matrix organization",0,1,1,1,3
+"external encapsulating structure organization",0,1,1,1,3
+"extracellular structure organization",0,1,1,1,3
+"neurogenesis",0,1,1,1,3
+"positive regulation of signaling",0,1,1,1,3
+"enzyme-linked receptor protein signaling pathway",0,1,1,1,3
+"cell differentiation",0,1,1,1,3
+"cellular developmental process",0,1,1,1,3
+"nervous system development",0,1,1,1,3
+"response to stress",0,1,1,1,3
+"regulation of developmental process",0,1,1,1,3
+"multicellular organism development",0,1,1,1,3
+"response to external stimulus",0,1,1,1,3
+"neuron differentiation",0,1,1,1,3
+"positive regulation of signal transduction",0,1,1,1,3
+"cellular response to growth factor stimulus",0,1,1,1,3
+"regulation of immune system process",0,1,1,1,3
+"response to growth factor",0,1,1,1,3
+"response to oxygen levels",0,1,1,1,3
+"generation of neurons",0,1,1,1,3
+"regulation of signaling",0,1,1,1,3
+"regulation of cell differentiation",0,1,1,1,3
+"regulation of cell communication",0,1,1,1,3
+"blood vessel development",0,1,1,1,3
+"regulation of cell adhesion",0,1,1,1,3
+"vasculature development",0,1,1,1,3
+"anatomical structure formation involved in morphogenesis",0,1,1,1,3
+"response to abiotic stimulus",0,1,1,1,3
+"positive regulation of response to stimulus",0,1,1,1,3
+"positive regulation of multicellular organismal process",0,1,1,1,3
+"regulation of multicellular organismal process",0,1,1,1,3
+"regulation of anatomical structure morphogenesis",0,1,1,1,3
+"cell-cell adhesion",0,1,1,1,3
+"potassium ion transport",0,1,1,1,3
+"positive regulation of cell communication",0,1,1,1,3
+"positive regulation of epithelial to mesenchymal transition",0,1,1,1,3
+"positive regulation of cell differentiation",0,1,1,1,3
+"angiogenesis",0,1,1,1,3
+"negative regulation of BMP signaling pathway",0,1,1,1,3
+"positive regulation of developmental process",0,1,1,1,3
+"response to wounding",0,1,1,1,3
+"positive regulation of cell migration",0,1,1,1,3
+"positive regulation of cell population proliferation",0,1,1,1,3
+"cell surface receptor signaling pathway",0,1,1,1,3
+"cellular response to transforming growth factor beta stimulus",0,1,1,1,3
+"regulation of multicellular organismal development",0,1,1,1,3
+"negative regulation of developmental process",0,1,1,1,3
+"positive regulation of cell motility",0,1,1,1,3
+"response to transforming growth factor beta",0,1,1,1,3
+"positive regulation of apoptotic process",0,1,1,1,3
+"positive regulation of locomotion",0,1,1,1,3
+"regulation of ERK1 and ERK2 cascade",0,1,1,1,3
+"blood vessel morphogenesis",0,1,1,1,3
+"negative regulation of cell adhesion",0,1,1,1,3
+"negative regulation of cell migration",0,1,1,1,3
+"mesenchyme development",0,1,1,1,3
+"response to hypoxia",0,1,1,1,3
+"regulation of cellular response to growth factor stimulus",0,1,1,1,3
+"plasma membrane bounded cell projection organization",0,1,1,1,3
+"positive regulation of intracellular signal transduction",0,1,1,1,3
+"regulation of cell population proliferation",0,1,1,1,3
+"negative regulation of cell motility",0,1,1,1,3
+"neuron projection development",0,1,1,1,3
+"ERK1 and ERK2 cascade",0,1,1,1,3
+"cell projection organization",0,1,1,1,3
+"negative regulation of locomotion",0,1,1,1,3
+"positive regulation of macromolecule metabolic process",0,1,1,1,3
+"regulation of transport",0,1,1,1,3
+"cellular response to mechanical stimulus",0,1,1,1,3
+"cellular response to external stimulus",0,1,1,1,3
+"response to decreased oxygen levels",0,1,1,1,3
+"regulation of plasma membrane bounded cell projection organization",0,1,1,1,3
+"regulation of epithelial to mesenchymal transition",0,1,1,1,3
+"transforming growth factor beta receptor superfamily signaling pathway",0,1,1,1,3
+"response to metal ion",0,1,1,1,3
+"circulatory system development",0,1,1,1,3
+"regulation of cell projection organization",0,1,1,1,3
+"cellular response to chemical stimulus",0,1,1,1,3
+"negative regulation of cellular response to growth factor stimulus",0,1,1,1,3
+"MAPK cascade",0,1,1,1,3
+"cellular response to endogenous stimulus",0,1,1,1,3
+"wound healing",0,1,1,1,3
+"cell surface receptor protein serine/threonine kinase signaling pathway",0,1,1,1,3
+"neuron development",0,1,1,1,3
+"regulation of epithelial cell proliferation",0,1,1,1,3
+"regulation of intracellular signal transduction",0,1,1,1,3
+"positive regulation of macromolecule biosynthetic process",0,1,1,1,3
+"regulation of cytokine production",0,1,1,1,3
+"cytokine production",0,1,1,1,3
+"positive regulation of metabolic process",0,1,1,1,3
+"regulation of defense response",0,1,1,1,3
+"metal ion transport",0,1,1,1,3
+"regulation of endothelial cell proliferation",0,1,1,1,3
+"regulation of macromolecule biosynthetic process",0,1,1,1,3
+"chemotaxis",0,1,1,1,3
+"taxis",0,1,1,1,3
+"positive regulation of biosynthetic process",0,1,1,1,3
+"cell population proliferation",0,1,1,1,3
+"regulation of response to stress",0,1,1,1,3
+"striated muscle tissue development",0,1,1,1,3
+"negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway",0,1,1,1,3
+"cellular response to hypoxia",0,1,1,1,3
+"tube morphogenesis",0,1,1,1,3
+"epithelial cell proliferation",0,1,1,1,3
+"muscle tissue development",0,1,1,1,3
+"regulation of localization",0,1,1,1,3
+"endothelial cell proliferation",0,1,1,1,3
+"adaptive thermogenesis",0,1,1,1,3
+"BMP signaling pathway",0,1,1,1,3
+"cell growth",0,1,1,1,3
+"positive regulation of transport",0,1,1,1,3

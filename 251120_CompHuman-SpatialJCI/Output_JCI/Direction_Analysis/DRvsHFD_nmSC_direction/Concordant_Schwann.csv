@@ -1,0 +1,2 @@
+"Mouse_Symbol","Mouse_log2FC","Mouse_pval","Human_Symbol","Human_log2FC","Human_padj","Mouse_direction","Human_direction","concordance"
+"Txnip",0.360078116398799,1.52362649512095e-05,"TXNIP",1.06445803228047,6.78608611883923e-68,"Up","Up","Concordant"

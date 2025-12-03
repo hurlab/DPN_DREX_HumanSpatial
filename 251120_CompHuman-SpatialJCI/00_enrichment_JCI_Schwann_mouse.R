@@ -69,9 +69,22 @@ save_venn <- function(set_list, title, out_path) {
     return(NULL)
   }
   dir.create(dirname(out_path), showWarnings = FALSE, recursive = TRUE)
-  p <- ggVennDiagram::ggVennDiagram(set_list, label_alpha = 0) +
+
+  # Use brighter color gradient for better readability
+  # Light colors make the black text numbers more readable
+  p <- ggVennDiagram::ggVennDiagram(set_list, label_alpha = 0,
+                                     set_color = "black", set_size = 4,
+                                     edge_size = 1) +
+    ggplot2::scale_fill_gradient(low = "#FFFFCC", high = "#87CEEB") +  # Light yellow to sky blue
+    ggplot2::scale_color_manual(values = rep("grey30", length(set_list))) +  # Dark grey edges
     ggplot2::ggtitle(title) +
-    ggplot2::theme(plot.title = ggplot2::element_text(hjust = 0.5, size = 14, face = "bold"))
+    ggplot2::theme(
+      plot.title = ggplot2::element_text(hjust = 0.5, size = 14, face = "bold"),
+      text = ggplot2::element_text(size = 12, color = "black"),
+      legend.title = ggplot2::element_text(size = 10),
+      legend.text = ggplot2::element_text(size = 9)
+    )
+
   ggplot2::ggsave(paste0(out_path, ".png"), plot = p, width = 8, height = 6, dpi = 300)
   ggplot2::ggsave(paste0(out_path, ".pdf"), plot = p, width = 8, height = 6, dpi = 300)
   invisible(p)

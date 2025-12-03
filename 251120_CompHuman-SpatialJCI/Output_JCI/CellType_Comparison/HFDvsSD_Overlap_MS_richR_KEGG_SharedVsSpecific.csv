@@ -1,0 +1,8 @@
+"Term","n_celltypes","celltypes","mean_neg_log10_padj","max_neg_log10_padj","category"
+"AGE-RAGE signaling pathway in diabetic complications",1,"majorSC",1.87486805585904,1.87486805585904,"Cell-type-specific"
+"Amoebiasis",1,"majorSC",1.87486805585904,1.87486805585904,"Cell-type-specific"
+"Platelet activation",1,"majorSC",1.87486805585904,1.87486805585904,"Cell-type-specific"
+"Protein digestion and absorption",1,"majorSC",1.87486805585904,1.87486805585904,"Cell-type-specific"
+"Relaxin signaling pathway",1,"majorSC",1.87486805585904,1.87486805585904,"Cell-type-specific"
+"Cytoskeleton in muscle cells",1,"majorSC",1.53332101216567,1.53332101216567,"Cell-type-specific"
+"Diabetic cardiomyopathy",1,"majorSC",1.53332101216567,1.53332101216567,"Cell-type-specific"

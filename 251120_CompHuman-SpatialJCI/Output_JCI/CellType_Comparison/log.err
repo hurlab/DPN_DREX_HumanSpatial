@@ -1,0 +1,87 @@
+=== Cell Type-Specific Enrichment Comparison ===
+
+--- Processing richR_GO ---
+  Found 62 terms for HFDvsSD mySC Overlap_MS
+  Found 105 terms for HFDvsSD mySC Overlap_All3
+  Found 80 terms for HFDvsSD majorSC Overlap_MS
+  Found 55 terms for HFDvsSD majorSC Overlap_All3
+  Found 203 terms for HFDvsSD aggSC Overlap_MS
+  Found 105 terms for HFDvsSD aggSC Overlap_All3
+  Found 62 terms for DRvsHFD mySC Overlap_MS
+  Found 93 terms for DRvsHFD mySC Overlap_All3
+  Found 60 terms for DRvsHFD majorSC Overlap_MS
+  Found 26 terms for DRvsHFD majorSC Overlap_All3
+  Found 86 terms for DRvsHFD aggSC Overlap_MS
+  Found 93 terms for DRvsHFD aggSC Overlap_All3
+  Found 139 terms for EXvsHFD mySC Overlap_MS
+  Found 213 terms for EXvsHFD majorSC Overlap_MS
+  Found 97 terms for EXvsHFD majorSC Overlap_All3
+  Found 169 terms for EXvsHFD aggSC Overlap_MS
+  Found 37 terms for DREXvsHFD mySC Overlap_MS
+  Found 68 terms for DREXvsHFD nmSC Overlap_MS
+  Found 15 terms for DREXvsHFD ImmSC Overlap_MS
+  Found 79 terms for DREXvsHFD majorSC Overlap_MS
+  Found 97 terms for DREXvsHFD aggSC Overlap_MS
+
+--- Processing richR_KEGG ---
+  Found 7 terms for HFDvsSD majorSC Overlap_MS
+  Found 7 terms for HFDvsSD majorSC Overlap_All3
+  Found 7 terms for DRvsHFD mySC Overlap_MS
+  Found 8 terms for DRvsHFD mySC Overlap_All3
+  Found 6 terms for DRvsHFD aggSC Overlap_MS
+  Found 8 terms for DRvsHFD aggSC Overlap_All3
+  Found 1 terms for DREXvsHFD mySC Overlap_MS
+  Found 1 terms for DREXvsHFD nmSC Overlap_MS
+  Found 1 terms for DREXvsHFD aggSC Overlap_MS
+
+Total enrichment terms collected: 1990
+
+=== Identifying Shared and Cell-Type-Specific Pathways ===
+  HFDvsSD Overlap_MS richR_GO: 13 shared, 160 cell-type-specific
+  HFDvsSD Overlap_MS richR_KEGG: 0 shared, 7 cell-type-specific
+  HFDvsSD Overlap_All3 richR_GO: 23 shared, 32 cell-type-specific
+  HFDvsSD Overlap_All3 richR_KEGG: 0 shared, 7 cell-type-specific
+  DRvsHFD Overlap_MS richR_GO: 33 shared, 39 cell-type-specific
+  DRvsHFD Overlap_MS richR_KEGG: 0 shared, 1 cell-type-specific
+  DRvsHFD Overlap_All3 richR_GO: 20 shared, 6 cell-type-specific
+  DRvsHFD Overlap_All3 richR_KEGG: 0 shared, 0 cell-type-specific
+  EXvsHFD Overlap_MS richR_GO: 119 shared, 92 cell-type-specific
+  EXvsHFD Overlap_All3 richR_GO: 0 shared, 97 cell-type-specific
+  DREXvsHFD Overlap_MS richR_GO: 47 shared, 66 cell-type-specific
+  DREXvsHFD Overlap_MS richR_KEGG: 0 shared, 1 cell-type-specific
+
+=== Creating Heatmaps ===
+  Created heatmap: HFDvsSD_Overlap_MS_richR_GO_Heatmap.png
+  Error creating heatmap: must have n >= 2 objects to cluster
+  Created heatmap: HFDvsSD_Overlap_All3_richR_GO_Heatmap.png
+  Error creating heatmap: must have n >= 2 objects to cluster
+  Created heatmap: DRvsHFD_Overlap_MS_richR_GO_Heatmap.png
+  Created heatmap: DRvsHFD_Overlap_MS_richR_KEGG_Heatmap.png
+  Created heatmap: DRvsHFD_Overlap_All3_richR_GO_Heatmap.png
+  Created heatmap: DRvsHFD_Overlap_All3_richR_KEGG_Heatmap.png
+  Created heatmap: EXvsHFD_Overlap_MS_richR_GO_Heatmap.png
+  Error creating heatmap: must have n >= 2 objects to cluster
+  Created heatmap: DREXvsHFD_Overlap_MS_richR_GO_Heatmap.png
+  Created heatmap: DREXvsHFD_Overlap_MS_richR_KEGG_Heatmap.png
+
+=== Creating Dot Plots ===
+  Created dot plot: HFDvsSD_Overlap_MS_richR_GO_DotPlot
+  Created dot plot: HFDvsSD_Overlap_MS_richR_KEGG_DotPlot
+  Created dot plot: HFDvsSD_Overlap_All3_richR_GO_DotPlot
+  Created dot plot: HFDvsSD_Overlap_All3_richR_KEGG_DotPlot
+  Created dot plot: DRvsHFD_Overlap_MS_richR_GO_DotPlot
+  Created dot plot: DRvsHFD_Overlap_MS_richR_KEGG_DotPlot
+  Created dot plot: DRvsHFD_Overlap_All3_richR_GO_DotPlot
+  Created dot plot: DRvsHFD_Overlap_All3_richR_KEGG_DotPlot
+  Created dot plot: EXvsHFD_Overlap_MS_richR_GO_DotPlot
+  Created dot plot: EXvsHFD_Overlap_All3_richR_GO_DotPlot
+  Created dot plot: DREXvsHFD_Overlap_MS_richR_GO_DotPlot
+  Created dot plot: DREXvsHFD_Overlap_MS_richR_KEGG_DotPlot
+
+=== Creating Summary Report ===
+
+=== Analysis Complete ===
+Output directory: Output_JCI/CellType_Comparison
+Total comparisons analyzed: 4
+Total cell types: 5
+Total unique pathways: 462

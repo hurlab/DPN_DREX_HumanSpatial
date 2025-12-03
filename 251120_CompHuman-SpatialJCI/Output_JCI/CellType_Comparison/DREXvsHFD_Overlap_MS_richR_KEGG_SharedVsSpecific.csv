@@ -1,0 +1,3 @@
+"Term","n_celltypes","celltypes","mean_neg_log10_padj","max_neg_log10_padj","category"
+"Cell adhesion molecule (CAM) interaction",2,"aggSC, mySC",1.93054762228305,2.48062916210718,"Partially shared"
+"IgSF CAM signaling",1,"nmSC",1.91041501831974,1.91041501831974,"Cell-type-specific"

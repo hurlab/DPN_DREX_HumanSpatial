@@ -1,0 +1,55 @@
+=== Human-Mouse Conservation Analysis ===
+
+--- Comparison: HFDvsSD ---
+  mySC: Mouse=510, Conserved in Schwann=14 (2.7%), Conserved in JCI=38 (7.5%)
+  nmSC: Mouse=215, Conserved in Schwann=5 (2.3%), Conserved in JCI=18 (8.4%)
+  ImmSC: Mouse=138, Conserved in Schwann=4 (2.9%), Conserved in JCI=12 (8.7%)
+  majorSC: Mouse=416, Conserved in Schwann=13 (3.1%), Conserved in JCI=37 (8.9%)
+  aggSC: Mouse=806, Conserved in Schwann=21 (2.6%), Conserved in JCI=62 (7.7%)
+
+--- Comparison: DRvsHFD ---
+  mySC: Mouse=770, Conserved in Schwann=16 (2.1%), Conserved in JCI=67 (8.7%)
+  nmSC: Mouse=66, Conserved in Schwann=2 (3%), Conserved in JCI=10 (15.2%)
+  ImmSC: Mouse=114, Conserved in Schwann=1 (0.9%), Conserved in JCI=5 (4.4%)
+  majorSC: Mouse=825, Conserved in Schwann=17 (2.1%), Conserved in JCI=71 (8.6%)
+  aggSC: Mouse=919, Conserved in Schwann=19 (2.1%), Conserved in JCI=76 (8.3%)
+
+--- Comparison: EXvsHFD ---
+  mySC: Mouse=1337, Conserved in Schwann=18 (1.3%), Conserved in JCI=105 (7.9%)
+  nmSC: Mouse=242, Conserved in Schwann=1 (0.4%), Conserved in JCI=26 (10.7%)
+  ImmSC: Mouse=240, Conserved in Schwann=4 (1.7%), Conserved in JCI=21 (8.8%)
+  majorSC: Mouse=2371, Conserved in Schwann=37 (1.6%), Conserved in JCI=169 (7.1%)
+  aggSC: Mouse=1600, Conserved in Schwann=20 (1.2%), Conserved in JCI=130 (8.1%)
+
+--- Comparison: DREXvsHFD ---
+  mySC: Mouse=529, Conserved in Schwann=11 (2.1%), Conserved in JCI=47 (8.9%)
+  nmSC: Mouse=238, Conserved in Schwann=10 (4.2%), Conserved in JCI=22 (9.2%)
+  ImmSC: Mouse=444, Conserved in Schwann=6 (1.4%), Conserved in JCI=48 (10.8%)
+  majorSC: Mouse=1023, Conserved in Schwann=16 (1.6%), Conserved in JCI=81 (7.9%)
+  aggSC: Mouse=1006, Conserved in Schwann=21 (2.1%), Conserved in JCI=90 (8.9%)
+
+=== Creating Conservation Visualizations ===
+
+=== Identifying Highly Conserved Genes ===
+
+--- Cell Type: mySC ---
+  Found 4 genes conserved in ≥2 comparisons
+
+--- Cell Type: nmSC ---
+
+--- Cell Type: ImmSC ---
+  Found 1 genes conserved in ≥2 comparisons
+
+--- Cell Type: majorSC ---
+  Found 8 genes conserved in ≥2 comparisons
+
+--- Cell Type: aggSC ---
+  Found 4 genes conserved in ≥2 comparisons
+
+=== Species-Specific Pathway Summary ===
+
+=== Creating Summary Report ===
+
+=== Analysis Complete ===
+Output directory: Output_JCI/Conservation_Analysis
+Check for conservation statistics, highly conserved genes, and pathway comparisons

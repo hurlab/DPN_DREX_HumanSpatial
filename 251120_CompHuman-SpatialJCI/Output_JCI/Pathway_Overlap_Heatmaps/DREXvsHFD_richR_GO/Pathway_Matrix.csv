@@ -1,0 +1,2375 @@
+"Pathway","Mouse_majorSC","Mouse_aggSC","Human_JCI_SC","Human_JCI_Bulk","n_datasets"
+"neuron projection morphogenesis",1,1,1,1,4
+"plasma membrane bounded cell projection morphogenesis",1,1,1,1,4
+"cell projection morphogenesis",1,1,1,1,4
+"neuron differentiation",1,1,1,1,4
+"cell morphogenesis",1,1,1,1,4
+"generation of neurons",1,1,1,1,4
+"plasma membrane bounded cell projection organization",1,1,1,1,4
+"neuron projection development",1,1,1,1,4
+"cell projection organization",1,1,1,1,4
+"nervous system development",1,1,1,1,4
+"neuron development",1,1,1,1,4
+"neurogenesis",1,1,1,1,4
+"anatomical structure morphogenesis",1,1,1,1,4
+"multicellular organism development",1,1,1,1,4
+"cell migration",1,1,1,1,4
+"response to endogenous stimulus",1,1,1,1,4
+"system development",1,1,1,1,4
+"cell motility",1,1,1,1,4
+"response to steroid hormone",1,1,1,1,4
+"cell adhesion",1,1,1,1,4
+"regulation of multicellular organismal process",1,1,1,1,4
+"animal organ development",1,1,1,1,4
+"transport",1,1,1,1,4
+"regulation of cell differentiation",1,1,1,1,4
+"negative regulation of developmental process",1,1,1,1,4
+"response to lipid",1,1,1,1,4
+"regulation of developmental process",1,1,1,1,4
+"regulation of nervous system development",1,1,1,1,4
+"cell differentiation",1,1,1,1,4
+"cellular developmental process",1,1,1,1,4
+"positive regulation of myelination",1,1,1,0,3
+"myelination",1,1,1,0,3
+"ensheathment of neurons",1,1,1,0,3
+"axon ensheathment",1,1,1,0,3
+"cellular component organization",1,1,1,0,3
+"cellular component organization or biogenesis",1,1,1,0,3
+"regulation of neuron differentiation",1,1,1,0,3
+"positive regulation of nervous system process",1,1,1,0,3
+"negative regulation of microvillus assembly",1,1,1,0,3
+"regulation of thyroid gland epithelial cell proliferation",1,1,1,0,3
+"negative regulation of thyroid gland epithelial cell proliferation",1,1,1,0,3
+"thyroid gland epithelial cell proliferation",1,1,1,0,3
+"regulation of myelination",1,1,1,0,3
+"anatomical structure development",1,1,1,0,3
+"localization",1,0,1,1,3
+"response to hormone",1,0,1,1,3
+"developmental process",1,1,1,0,3
+"response to glucocorticoid",1,0,1,1,3
+"establishment of localization",1,0,1,1,3
+"cell junction assembly",1,0,1,1,3
+"response to corticosteroid",1,0,1,1,3
+"response to oxygen-containing compound",1,0,1,1,3
+"multicellular organismal process",1,1,1,0,3
+"skeletal muscle tissue development",1,0,1,1,3
+"neuron migration",1,0,1,1,3
+"negative regulation of cell projection organization",1,1,1,0,3
+"skeletal muscle organ development",1,0,1,1,3
+"regulation of plasma membrane bounded cell projection organization",0,1,1,1,3
+"regulation of cell projection organization",0,1,1,1,3
+"regulation of anatomical structure morphogenesis",0,1,1,1,3
+"cell growth",0,1,1,1,3
+"cell-cell adhesion",0,1,1,1,3
+"regulation of response to stimulus",0,1,1,1,3
+"regulation of neuron projection development",0,1,1,1,3
+"axon development",0,1,1,1,3
+"response to ketone",0,1,1,1,3
+"regulation of cell motility",0,1,1,1,3
+"regulation of signaling",0,1,1,1,3
+"regulation of cell communication",0,1,1,1,3
+"regulation of locomotion",0,1,1,1,3
+"regulation of response to external stimulus",0,1,1,1,3
+"regulation of signal transduction",0,1,1,1,3
+"astrocyte differentiation",0,1,1,1,3
+"negative regulation of cellular component organization",0,1,1,1,3
+"negative regulation of cell differentiation",0,1,1,1,3
+"intracellular signaling cassette",0,1,1,1,3
+"locomotion",0,1,1,1,3
+"regulation of cell growth",0,1,1,1,3
+"response to external stimulus",0,1,1,1,3
+"regulation of neurogenesis",0,1,1,1,3
+"cranial nerve structural organization",1,0,1,0,2
+"cranial nerve morphogenesis",1,0,0,1,2
+"rhombomere formation",1,0,1,0,2
+"rhombomere structural organization",1,0,1,0,2
+"rhombomere 3 structural organization",1,0,1,0,2
+"rhombomere 3 formation",1,0,1,0,2
+"rhombomere 5 morphogenesis",1,0,1,0,2
+"rhombomere 5 structural organization",1,0,1,0,2
+"rhombomere 5 formation",1,0,1,0,2
+"skeletal muscle cell differentiation",1,0,0,1,2
+"transmission of nerve impulse",1,1,0,0,2
+"positive regulation of neuron differentiation",1,1,0,0,2
+"regulation of nervous system process",1,0,1,0,2
+"action potential",1,0,1,0,2
+"gastrulation",1,0,0,1,2
+"retina development in camera-type eye",1,0,1,0,2
+"regulation of plasma membrane bounded cell projection assembly",1,0,1,0,2
+"regulation of cell projection assembly",1,0,1,0,2
+"cell-cell adhesion via plasma-membrane adhesion molecules",0,1,1,0,2
+"negative regulation of neuron projection development",0,1,1,0,2
+"regulation of axonogenesis",0,1,1,0,2
+"response to progesterone",0,1,1,0,2
+"cell communication",0,1,1,0,2
+"negative regulation of axonogenesis",0,1,1,0,2
+"regulation of biological process",0,1,1,0,2
+"axon regeneration",0,1,1,0,2
+"developmental growth involved in morphogenesis",0,1,1,0,2
+"neuron projection regeneration",0,1,1,0,2
+"biological regulation",0,1,1,0,2
+"negative regulation of neuron differentiation",0,1,1,0,2
+"response to axon injury",0,1,1,0,2
+"negative regulation of cellular process",0,1,1,0,2
+"regulation of axon extension",0,1,1,0,2
+"regulation of cellular process",0,1,1,0,2
+"negative regulation of biological process",0,1,1,0,2
+"response to hydrogen peroxide",0,1,0,1,2
+"response to estradiol",0,1,1,0,2
+"response to stimulus",0,1,1,0,2
+"regulation of cell migration",0,0,1,1,2
+"regulation of multicellular organismal development",0,0,1,1,2
+"positive regulation of developmental process",0,0,1,1,2
+"positive regulation of multicellular organismal process",0,0,1,1,2
+"tissue development",0,0,1,1,2
+"positive regulation of cell differentiation",0,0,1,1,2
+"response to stress",0,0,1,1,2
+"regulation of cell population proliferation",0,0,1,1,2
+"regulation of biological quality",0,0,1,1,2
+"positive regulation of cell migration",0,0,1,1,2
+"cell surface receptor signaling pathway",0,0,1,1,2
+"regulation of cellular component organization",0,0,1,1,2
+"positive regulation of cell motility",0,0,1,1,2
+"response to wounding",0,0,1,1,2
+"glial cell differentiation",0,0,1,1,2
+"positive regulation of locomotion",0,0,1,1,2
+"gliogenesis",0,0,1,1,2
+"anatomical structure formation involved in morphogenesis",0,0,1,1,2
+"vasculature development",0,0,1,1,2
+"response to mechanical stimulus",0,0,1,1,2
+"blood vessel development",0,0,1,1,2
+"cell population proliferation",0,0,1,1,2
+"central nervous system development",0,0,1,1,2
+"cell-substrate adhesion",0,0,1,1,2
+"tube development",0,0,1,1,2
+"behavior",0,0,1,1,2
+"circulatory system development",0,0,1,1,2
+"blood vessel morphogenesis",0,0,1,1,2
+"cellular response to growth factor stimulus",0,0,1,1,2
+"cell development",0,0,1,1,2
+"regulation of cell development",0,0,1,1,2
+"positive regulation of angiogenesis",0,0,1,1,2
+"regulation of angiogenesis",0,0,1,1,2
+"positive regulation of vasculature development",0,0,1,1,2
+"regulation of vasculature development",0,0,1,1,2
+"tube morphogenesis",0,0,1,1,2
+"negative regulation of cell migration",0,0,1,1,2
+"response to growth factor",0,0,1,1,2
+"positive regulation of nervous system development",0,0,1,1,2
+"negative regulation of cell motility",0,0,1,1,2
+"regulation of leukocyte migration",0,0,1,1,2
+"regulation of glial cell differentiation",0,0,1,1,2
+"cell junction organization",0,0,1,1,2
+"leukocyte migration",0,0,1,1,2
+"enzyme-linked receptor protein signaling pathway",0,0,1,1,2
+"cognition",0,0,1,1,2
+"negative regulation of locomotion",0,0,1,1,2
+"angiogenesis",0,0,1,1,2
+"wound healing",0,0,1,1,2
+"cellular response to endogenous stimulus",0,0,1,1,2
+"regulation of actin filament-based process",0,0,1,1,2
+"learning or memory",0,0,1,1,2
+"positive regulation of cell population proliferation",0,0,1,1,2
+"negative regulation of signaling",0,0,1,1,2
+"memory",0,0,1,1,2
+"regulation of system process",0,0,1,1,2
+"extracellular matrix organization",0,0,1,1,2
+"negative regulation of cell communication",0,0,1,1,2
+"external encapsulating structure organization",0,0,1,1,2
+"positive regulation of neurogenesis",0,0,1,1,2
+"extracellular structure organization",0,0,1,1,2
+"response to abiotic stimulus",0,0,1,1,2
+"positive regulation of cell development",0,0,1,1,2
+"positive regulation of glial cell differentiation",0,0,1,1,2
+"inflammatory response",0,0,1,1,2
+"negative regulation of response to stimulus",0,0,1,1,2
+"positive regulation of cellular component organization",0,0,1,1,2
+"negative regulation of signal transduction",0,0,1,1,2
+"positive regulation of leukocyte migration",0,0,1,1,2
+"defense response",0,0,1,1,2
+"supramolecular fiber organization",0,0,1,1,2
+"regulation of transport",0,0,1,1,2
+"telencephalon development",0,0,1,1,2
+"transforming growth factor beta receptor superfamily signaling pathway",0,0,1,1,2
+"actin filament-based process",0,0,1,1,2
+"regulation of hemostasis",0,0,1,1,2
+"regulation of response to wounding",0,0,1,1,2
+"regulation of programmed cell death",0,0,1,1,2
+"positive regulation of response to stimulus",0,0,1,1,2
+"positive regulation of signaling",0,0,1,1,2
+"regulation of localization",0,0,1,1,2
+"glial cell development",0,0,1,1,2
+"regulation of apoptotic process",0,0,1,1,2
+"regulation of cell-substrate adhesion",0,0,1,1,2
+"negative regulation of programmed cell death",0,0,1,1,2
+"response to chemical",0,0,1,1,2
+"blood coagulation",0,0,1,1,2
+"negative regulation of cell population proliferation",0,0,1,1,2
+"cell surface receptor protein serine/threonine kinase signaling pathway",0,0,1,1,2
+"coagulation",0,0,1,1,2
+"circulatory system process",0,0,1,1,2
+"hemostasis",0,0,1,1,2
+"negative regulation of apoptotic process",0,0,1,1,2
+"cell death",0,0,1,1,2
+"programmed cell death",0,0,1,1,2
+"positive regulation of cell communication",0,0,1,1,2
+"ossification",0,0,1,1,2
+"protein processing",0,0,1,1,2
+"epithelium development",0,0,1,1,2
+"animal organ morphogenesis",0,0,1,1,2
+"negative regulation of neuron apoptotic process",0,0,1,1,2
+"regulation of chemotaxis",0,0,1,1,2
+"blood circulation",0,0,1,1,2
+"cell chemotaxis",0,0,1,1,2
+"regulation of body fluid levels",0,0,1,1,2
+"positive regulation of gliogenesis",0,0,1,1,2
+"neuron apoptotic process",0,0,1,1,2
+"axonogenesis",0,0,1,1,2
+"regulation of supramolecular fiber organization",0,0,1,1,2
+"regulation of cellular response to growth factor stimulus",0,0,1,1,2
+"regulation of cellular component biogenesis",0,0,1,1,2
+"cellular response to transforming growth factor beta stimulus",0,0,1,1,2
+"actin cytoskeleton organization",0,0,1,1,2
+"connective tissue development",0,0,1,1,2
+"apoptotic process",0,0,1,1,2
+"negative regulation of multicellular organismal process",0,0,1,1,2
+"cartilage development",0,0,1,1,2
+"response to transforming growth factor beta",0,0,1,1,2
+"chemotaxis",0,0,1,1,2
+"taxis",0,0,1,1,2
+"regulation of gliogenesis",0,0,1,1,2
+"regulation of mononuclear cell migration",0,0,1,1,2
+"cell-cell signaling",0,0,1,1,2
+"regulation of blood coagulation",0,0,1,1,2
+"modulation of chemical synaptic transmission",0,0,1,1,2
+"cellular response to chemical stimulus",0,0,1,1,2
+"regulation of trans-synaptic signaling",0,0,1,1,2
+"regulation of cell adhesion",0,0,1,1,2
+"regulation of cytoskeleton organization",0,0,1,1,2
+"cell morphogenesis involved in neuron differentiation",0,0,1,1,2
+"regulation of coagulation",0,0,1,1,2
+"negative regulation of cellular response to growth factor stimulus",0,0,1,1,2
+"cytoskeleton organization",0,0,1,1,2
+"positive regulation of chemotaxis",0,0,1,1,2
+"positive regulation of signal transduction",0,0,1,1,2
+"negative regulation of protein-containing complex assembly",0,0,1,1,2
+"growth",0,0,1,1,2
+"skeletal system development",0,0,1,1,2
+"vascular process in circulatory system",0,0,1,1,2
+"negative regulation of cell adhesion",0,0,1,1,2
+"chemical synaptic transmission",0,0,1,1,2
+"anterograde trans-synaptic signaling",0,0,1,1,2
+"trans-synaptic signaling",0,0,1,1,2
+"regulation of anatomical structure size",0,0,1,1,2
+"leukocyte migration involved in inflammatory response",0,0,1,1,2
+"regulation of neuron apoptotic process",0,0,1,1,2
+"fatty acid transport",0,0,1,1,2
+"regulation of transmembrane receptor protein serine/threonine kinase signaling pathway",0,0,1,1,2
+"regulation of intracellular signal transduction",0,0,1,1,2
+"mononuclear cell migration",0,0,1,1,2
+"regulation of immune system process",0,0,1,1,2
+"positive regulation of response to wounding",0,0,1,1,2
+"lipid transport",0,0,1,1,2
+"regulation of membrane potential",0,0,1,1,2
+"import into cell",0,0,1,1,2
+"head development",0,0,1,1,2
+"regulation of leukocyte chemotaxis",0,0,1,1,2
+"negative regulation of supramolecular fiber organization",0,0,1,1,2
+"forebrain development",0,0,1,1,2
+"regulation of long-term synaptic potentiation",0,0,1,1,2
+"intracellular signal transduction",0,0,1,1,2
+"regulation of synapse organization",0,0,1,1,2
+"regeneration",0,0,1,1,2
+"brain development",0,0,1,1,2
+"leukocyte chemotaxis",0,0,1,1,2
+"synaptic signaling",0,0,1,1,2
+"regulation of wound healing",0,0,1,1,2
+"regulation of synapse structure or activity",0,0,1,1,2
+"regulation of cell division",0,0,1,1,2
+"lipid localization",0,0,1,1,2
+"muscle structure development",0,0,1,1,2
+"developmental growth",0,0,1,1,2
+"response to ischemia",0,0,1,1,2
+"potassium ion transport",0,0,1,1,2
+"regulation of actin cytoskeleton organization",0,0,1,1,2
+"positive regulation of mononuclear cell migration",0,0,1,1,2
+"myeloid leukocyte migration",0,0,1,1,2
+"negative regulation of BMP signaling pathway",0,0,1,1,2
+"positive regulation of leukocyte chemotaxis",0,0,1,1,2
+"cellular response to mechanical stimulus",0,0,1,1,2
+"cellular response to external stimulus",0,0,1,1,2
+"regulation of lipid transport",0,0,1,1,2
+"macrophage migration",0,0,1,1,2
+"carboxylic acid transport",0,0,1,1,2
+"organic acid transport",0,0,1,1,2
+"postsynapse organization",0,0,1,1,2
+"positive regulation of cell projection organization",0,0,1,1,2
+"positive regulation of lipid localization",0,0,1,1,2
+"negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway",0,0,1,1,2
+"cellular response to abiotic stimulus",0,0,1,1,2
+"cellular response to environmental stimulus",0,0,1,1,2
+"actin filament organization",0,0,1,1,2
+"positive regulation of gene expression",0,0,1,1,2
+"regulation of plasminogen activation",0,0,1,1,2
+"transforming growth factor beta receptor signaling pathway",0,0,1,1,2
+"positive regulation of transport",0,0,1,1,2
+"regulation of neuronal synaptic plasticity",0,0,1,1,2
+"organic anion transport",0,0,1,1,2
+"sensory organ development",0,0,1,1,2
+"response to nutrient",0,0,1,1,2
+"BMP signaling pathway",0,0,1,1,2
+"regulation of inflammatory response",0,0,1,1,2
+"homeostatic process",0,0,1,1,2
+"phosphatidylinositol 3-kinase/protein kinase B signal transduction",0,0,1,1,2
+"tissue morphogenesis",0,0,1,1,2
+"response to toxic substance",0,0,1,1,2
+"chondrocyte differentiation",0,0,1,1,2
+"regulation of lipid localization",0,0,1,1,2
+"osteoblast differentiation",0,0,1,1,2
+"muscle tissue development",0,0,1,1,2
+"endothelial cell migration",0,0,1,1,2
+"negative regulation of cell development",0,0,1,1,2
+"response to metal ion",0,0,1,1,2
+"response to BMP",0,0,1,1,2
+"cellular response to BMP stimulus",0,0,1,1,2
+"monocarboxylic acid transport",0,0,1,1,2
+"muscle organ development",0,0,1,1,2
+"canonical Wnt signaling pathway",0,0,1,1,2
+"negative regulation of hemostasis",0,0,1,1,2
+"lipid metabolic process",0,0,1,1,2
+"morphogenesis of a branching structure",0,0,1,1,2
+"regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",0,0,1,1,2
+"positive regulation of cell junction assembly",0,0,1,1,2
+"response to vitamin",0,0,1,1,2
+"positive regulation of cell division",0,0,1,1,2
+"response to pain",0,0,1,1,2
+"regulation of actin filament-based movement",0,0,1,1,2
+"biomineral tissue development",0,0,1,1,2
+"regulation of vascular permeability",0,0,1,1,2
+"regulation of organelle organization",0,0,1,1,2
+"protein maturation",0,0,1,1,2
+"axon guidance",0,0,1,1,2
+"neuron projection guidance",0,0,1,1,2
+"negative regulation of response to wounding",0,0,1,1,2
+"positive regulation of cell activation",0,0,1,1,2
+"potassium ion transmembrane transport",0,0,1,1,2
+"regulation of response to stress",0,0,1,1,2
+"fibroblast proliferation",0,0,1,1,2
+"positive regulation of immune system process",0,0,1,1,2
+"learning",0,0,1,1,2
+"regulation of endothelial cell apoptotic process",0,0,1,1,2
+"positive regulation of blood coagulation",0,0,1,1,2
+"positive regulation of hemostasis",0,0,1,1,2
+"sensory organ morphogenesis",0,0,1,1,2
+"positive regulation of response to external stimulus",0,0,1,1,2
+"striated muscle tissue development",0,0,1,1,2
+"regulation of endothelial tube morphogenesis",0,0,1,1,2
+"cytokine production",0,0,1,1,2
+"regulation of neuron migration",0,0,1,1,2
+"regulation of actin filament organization",0,0,1,1,2
+"lipid storage",0,0,1,1,2
+"hormone metabolic process",0,0,1,1,2
+"proteolysis",0,0,1,1,2
+"import across plasma membrane",0,0,1,1,2
+"MAPK cascade",0,0,1,1,2
+"positive regulation of cellular component biogenesis",0,0,1,1,2
+"response to bacterium",0,0,1,1,2
+"ameboidal-type cell migration",0,0,1,1,2
+"regulation of protein processing",0,0,1,1,2
+"regulation of epithelial cell proliferation",0,0,1,1,2
+"complement activation",0,0,1,1,2
+"endothelial cell apoptotic process",0,0,1,1,2
+"export from cell",0,0,1,1,2
+"positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction",0,0,1,1,2
+"negative regulation of plasminogen activation",0,0,1,1,2
+"ureteric bud development",0,0,1,1,2
+"nutrient storage",0,0,1,1,2
+"cell surface receptor protein tyrosine kinase signaling pathway",0,0,1,1,2
+"metal ion transport",0,0,1,1,2
+"positive regulation of wound healing",0,0,1,1,2
+"regulation of protein maturation",0,0,1,1,2
+"regulation of cell activation",0,0,1,1,2
+"endocytosis",0,0,1,1,2
+"positive regulation of coagulation",0,0,1,1,2
+"positive regulation of intracellular signal transduction",0,0,1,1,2
+"negative regulation of angiogenesis",0,0,1,1,2
+"vasoconstriction",0,0,1,1,2
+"bone morphogenesis",0,0,1,1,2
+"mesonephric epithelium development",0,0,1,1,2
+"mesonephric tubule development",0,0,1,1,2
+"morphogenesis of a branching epithelium",0,0,1,1,2
+"hepatocyte proliferation",0,0,1,1,2
+"epithelial cell proliferation involved in liver morphogenesis",0,0,1,1,2
+"production of molecular mediator involved in inflammatory response",0,0,1,1,2
+"negative regulation of blood vessel morphogenesis",0,0,1,1,2
+"kidney epithelium development",0,0,1,1,2
+"positive regulation of inflammatory response",0,0,1,1,2
+"negative regulation of vasculature development",0,0,1,1,2
+"regulation of blood pressure",0,0,1,1,2
+"positive regulation of cell adhesion",0,0,1,1,2
+"mesonephros development",0,0,1,1,2
+"positive regulation of protein metabolic process",0,0,1,1,2
+"positive regulation of fat cell differentiation",0,0,1,1,2
+"kidney development",0,0,1,1,2
+"response to auditory stimulus",0,0,1,1,2
+"acute inflammatory response",0,0,1,1,2
+"negative regulation of muscle cell apoptotic process",0,0,1,1,2
+"cell-matrix adhesion",0,0,1,1,2
+"macromolecule localization",0,0,1,1,2
+"negative regulation of organelle organization",0,0,1,1,2
+"endochondral bone morphogenesis",0,0,1,1,2
+"calcium-mediated signaling",0,0,1,1,2
+"cellular response to stress",0,0,1,1,2
+"liver morphogenesis",0,0,1,1,2
+"regulation of protein metabolic process",0,0,1,1,2
+"regulation of endothelial cell migration",0,0,1,1,2
+"negative regulation of growth",0,0,1,1,2
+"regulation of morphogenesis of an epithelium",0,0,1,1,2
+"regulation of fibroblast proliferation",0,0,1,1,2
+"synapse assembly",0,0,1,1,2
+"positive regulation of fibroblast proliferation",0,0,1,1,2
+"renal system development",0,0,1,1,2
+"regulation of MAPK cascade",0,0,1,1,2
+"phagocytosis",0,0,1,1,2
+"regulation of ERK1 and ERK2 cascade",0,0,1,1,2
+"chemical homeostasis",0,0,1,1,2
+"eye development",0,0,1,1,2
+"regulation of cytokine production",0,0,1,1,2
+"cellular extravasation",0,0,1,1,2
+"negative regulation of cell growth",0,0,1,1,2
+"multicellular organismal response to stress",0,0,1,1,2
+"visual system development",0,0,1,1,2
+"cellular response to corticosteroid stimulus",0,0,1,1,2
+"mesenchyme development",0,0,1,1,2
+"hepaticobiliary system development",0,0,1,1,2
+"regulation of cellular component size",0,0,1,1,2
+"response to biotic stimulus",0,0,1,1,2
+"secretion",0,0,1,1,2
+"sensory system development",0,0,1,1,2
+"response to hexose",0,0,1,1,2
+"negative regulation of interleukin-1 production",0,0,1,1,2
+"amyloid-beta clearance",0,0,1,1,2
+"branching morphogenesis of an epithelial tube",0,0,1,1,2
+"response to hypoxia",0,0,1,1,2
+"protein metabolic process",0,0,1,1,2
+"placenta development",0,0,1,1,2
+"response to monosaccharide",0,0,1,1,2
+"secretion by cell",0,0,1,1,2
+"bone trabecula formation",0,0,1,1,2
+"regulation of tube diameter",0,0,1,1,2
+"blood vessel diameter maintenance",0,0,1,1,2
+"immune system process",0,0,1,1,2
+"regulation of tube size",0,0,1,1,2
+"negative regulation of striated muscle cell apoptotic process",0,0,1,1,2
+"cartilage development involved in endochondral bone morphogenesis",0,0,1,1,2
+"regulation of growth",0,0,1,1,2
+"bone mineralization",0,0,1,1,2
+"long-term memory",0,0,1,1,2
+"positive regulation of molecular function",0,0,1,1,2
+"positive regulation of biosynthetic process",0,0,1,1,2
+"extracellular matrix assembly",0,0,1,1,2
+"ERK1 and ERK2 cascade",0,0,1,1,2
+"response to other organism",0,0,1,1,2
+"response to external biotic stimulus",0,0,1,1,2
+"positive regulation of macromolecule metabolic process",0,0,1,1,2
+"regulation of cellular extravasation",0,0,1,1,2
+"regulation of endothelial cell proliferation",0,0,1,1,2
+"tissue regeneration",0,0,1,1,2
+"response to oxygen levels",0,0,1,1,2
+"epithelial cell proliferation",0,0,1,1,2
+"negative regulation of response to cytokine stimulus",0,0,1,1,2
+"endothelium development",0,0,1,1,2
+"response to calcium ion",0,0,1,1,2
+"fat cell differentiation",0,0,1,1,2
+"negative regulation of response to external stimulus",0,0,1,1,2
+"cell activation",0,0,1,1,2
+"regulation of sprouting angiogenesis",0,0,1,1,2
+"biological process involved in interspecies interaction between organisms",0,0,1,1,2
+"positive regulation of ERK1 and ERK2 cascade",0,0,1,1,2
+"regulation of catalytic activity",0,0,1,1,2
+"cellular response to tumor necrosis factor",0,0,1,1,2
+"positive regulation of G protein-coupled receptor signaling pathway",0,0,1,1,2
+"response to nutrient levels",0,0,1,1,2
+"positive regulation of astrocyte differentiation",0,0,1,1,2
+"morphogenesis of an epithelium",0,0,1,1,2
+"response to carbohydrate",0,0,1,1,2
+"negative regulation of blood coagulation",0,0,1,1,2
+"regulation of extrinsic apoptotic signaling pathway via death domain receptors",0,0,1,1,2
+"negative regulation of intracellular signal transduction",0,0,1,1,2
+"response to decreased oxygen levels",0,0,1,1,2
+"receptor-mediated endocytosis",0,0,1,1,2
+"protein polymerization",0,0,1,1,2
+"positive regulation of phosphorus metabolic process",0,0,1,1,2
+"positive regulation of phosphate metabolic process",0,0,1,1,2
+"positive regulation of macromolecule biosynthetic process",0,0,1,1,2
+"negative regulation of coagulation",0,0,1,1,2
+"monoatomic cation transport",0,0,1,1,2
+"cellular response to hypoxia",0,0,1,1,2
+"monoatomic ion transport",0,0,1,1,2
+"cellular localization",0,0,1,1,2
+"positive regulation of leukocyte activation",0,0,1,1,2
+"regulation of cellular localization",0,0,1,1,2
+"regulation of intracellular transport",0,0,1,1,2
+"leukocyte adhesion to vascular endothelial cell",0,0,1,1,2
+"regulation of protein-containing complex assembly",0,0,1,1,2
+"platelet activation",0,0,1,1,2
+"bone trabecula morphogenesis",0,0,1,1,2
+"leukocyte aggregation",0,0,1,1,2
+"granulocyte migration",0,0,1,1,2
+"regulation of epithelial to mesenchymal transition",0,0,1,1,2
+"regulation of osteoblast differentiation",0,0,1,1,2
+"regulation of vesicle-mediated transport",0,0,1,1,2
+"regulation of acute inflammatory response",0,0,1,1,2
+"muscle system process",0,0,1,1,2
+"morphogenesis of an endothelium",0,0,1,1,2
+"endothelial tube morphogenesis",0,0,1,1,2
+"postsynapse assembly",0,0,1,1,2
+"establishment of localization in cell",0,0,1,1,2
+"regulation of smooth muscle cell migration",0,0,1,1,2
+"response to tumor necrosis factor",0,0,1,1,2
+"endothelial cell proliferation",0,0,1,1,2
+"positive regulation of epithelial to mesenchymal transition",0,0,1,1,2
+"positive regulation of apoptotic process",0,0,1,1,2
+"regulation of defense response",0,0,1,1,2
+"adaptive thermogenesis",0,0,1,1,2
+"positive regulation of metabolic process",0,0,1,1,2
+"regulation of monoatomic ion transport",0,0,1,1,2
+"regulation of macromolecule biosynthetic process",0,0,1,1,2
+"regulation of cell junction assembly",0,0,1,1,2
+"muscle cell differentiation",0,0,1,1,2
+"epithelial tube morphogenesis",0,0,1,1,2
+"nephron tubule development",0,0,1,1,2
+"anatomical structure arrangement",1,0,0,0,1
+"cranial nerve development",1,0,0,0,1
+"rhythmic behavior",1,0,0,0,1
+"nerve development",1,0,0,0,1
+"regulation of presynaptic membrane potential",0,1,0,0,1
+"neuron projection extension",0,1,0,0,1
+"developmental cell growth",0,1,0,0,1
+"regulation of extent of cell growth",0,1,0,0,1
+"axon extension",0,1,0,0,1
+"positive regulation of biological process",0,0,1,0,1
+"positive regulation of cellular process",0,0,1,0,1
+"cellular response to stimulus",0,0,1,0,1
+"signaling",0,0,1,0,1
+"cellular process",0,0,1,0,1
+"system process",0,0,1,0,1
+"signal transduction",0,0,1,0,1
+"negative regulation of cell-substrate adhesion",0,0,1,0,1
+"synapse organization",0,0,1,0,1
+"oligodendrocyte differentiation",0,0,1,0,1
+"regulation of synaptic plasticity",0,0,1,0,1
+"negative regulation of canonical Wnt signaling pathway",0,0,1,0,1
+"cerebral cortex development",0,0,1,0,1
+"regulation of hippocampal neuron apoptotic process",0,0,1,0,1
+"long-term synaptic potentiation",0,0,1,0,1
+"humoral immune response",0,0,1,0,1
+"pallium development",0,0,1,0,1
+"regulation of macrophage migration",0,0,1,0,1
+"negative regulation of Wnt signaling pathway",0,0,1,0,1
+"positive regulation of synaptic transmission",0,0,1,0,1
+"hippocampal neuron apoptotic process",0,0,1,0,1
+"regulation of muscle filament sliding speed",0,0,1,0,1
+"positive regulation of macrophage migration",0,0,1,0,1
+"positive regulation of lipid transport",0,0,1,0,1
+"regulation of resting membrane potential",0,0,1,0,1
+"central nervous system myelination",0,0,1,0,1
+"axon ensheathment in central nervous system",0,0,1,0,1
+"positive regulation of oligodendrocyte differentiation",0,0,1,0,1
+"regulation of ossification",0,0,1,0,1
+"regulation of canonical Wnt signaling pathway",0,0,1,0,1
+"response to vitamin A",0,0,1,0,1
+"negative regulation of long-term synaptic potentiation",0,0,1,0,1
+"positive regulation of hepatocyte proliferation",0,0,1,0,1
+"collagen fibril organization",0,0,1,0,1
+"enkephalin processing",0,0,1,0,1
+"regulation of BMP signaling pathway",0,0,1,0,1
+"cerebellar granular layer development",0,0,1,0,1
+"sensory perception of pain",0,0,1,0,1
+"regulation of astrocyte differentiation",0,0,1,0,1
+"regulation of Wnt signaling pathway",0,0,1,0,1
+"positive regulation of glial cell migration",0,0,1,0,1
+"response to estrogen",0,0,1,0,1
+"apoptotic cell clearance",0,0,1,0,1
+"regulation of actin filament bundle assembly",0,0,1,0,1
+"negative regulation of neurogenesis",0,0,1,0,1
+"Wnt signaling pathway",0,0,1,0,1
+"glial cell migration",0,0,1,0,1
+"actomyosin structure organization",0,0,1,0,1
+"membrane organization",0,0,1,0,1
+"regulation of muscle filament sliding",0,0,1,0,1
+"negative regulation of nervous system development",0,0,1,0,1
+"negative regulation of cytoskeleton organization",0,0,1,0,1
+"actin filament bundle assembly",0,0,1,0,1
+"actin filament bundle organization",0,0,1,0,1
+"long-chain fatty acid import into cell",0,0,1,0,1
+"microglial cell activation involved in immune response",0,0,1,0,1
+"regulation of antigen processing and presentation of peptide or polysaccharide antigen via MHC class II",0,0,1,0,1
+"negative regulation of hippocampal neuron apoptotic process",0,0,1,0,1
+"regulation of synaptic transmission, glutamatergic",0,0,1,0,1
+"radial glial cell differentiation",0,0,1,0,1
+"antimicrobial humoral response",0,0,1,0,1
+"regulation of endothelial cell chemotaxis",0,0,1,0,1
+"synapse maturation",0,0,1,0,1
+"regulation of endocytic recycling",0,0,1,0,1
+"positive regulation of neuron migration",0,0,1,0,1
+"eye morphogenesis",0,0,1,0,1
+"oligodendrocyte development",0,0,1,0,1
+"vitamin A metabolic process",0,0,1,0,1
+"activation of protein kinase B activity",0,0,1,0,1
+"carbohydrate import across plasma membrane",0,0,1,0,1
+"hexose import across plasma membrane",0,0,1,0,1
+"positive regulation of microglial cell migration",0,0,1,0,1
+"regulation of hepatocyte proliferation",0,0,1,0,1
+"vasculogenesis",0,0,1,0,1
+"regulation of stress fiber assembly",0,0,1,0,1
+"striated muscle adaptation",0,0,1,0,1
+"regulation of oligodendrocyte differentiation",0,0,1,0,1
+"positive regulation of cell-substrate adhesion",0,0,1,0,1
+"positive regulation of fibroblast migration",0,0,1,0,1
+"lipid import into cell",0,0,1,0,1
+"antigen processing and presentation of peptide or polysaccharide antigen via MHC class II",0,0,1,0,1
+"plasminogen activation",0,0,1,0,1
+"non-canonical Wnt signaling pathway",0,0,1,0,1
+"neural retina development",0,0,1,0,1
+"regulation of axon diameter",0,0,1,0,1
+"maintenance of protein location in extracellular region",0,0,1,0,1
+"regulation of microglial cell migration",0,0,1,0,1
+"regulation of glial cell migration",0,0,1,0,1
+"regulation of substrate adhesion-dependent cell spreading",0,0,1,0,1
+"trabecula formation",0,0,1,0,1
+"appendage development",0,0,1,0,1
+"limb development",0,0,1,0,1
+"cellular response to fibroblast growth factor stimulus",0,0,1,0,1
+"amide metabolic process",0,0,1,0,1
+"regulation of biomineral tissue development",0,0,1,0,1
+"positive regulation of catalytic activity",0,0,1,0,1
+"amyloid-beta metabolic process",0,0,1,0,1
+"antibacterial humoral response",0,0,1,0,1
+"response to retinoic acid",0,0,1,0,1
+"nervous system process",0,0,1,0,1
+"leukocyte chemotaxis involved in inflammatory response",0,0,1,0,1
+"autocrine signaling",0,0,1,0,1
+"amyloid-beta clearance by cellular catabolic process",0,0,1,0,1
+"positive regulation of endothelial cell development",0,0,1,0,1
+"positive regulation of establishment of endothelial barrier",0,0,1,0,1
+"microglial cell migration",0,0,1,0,1
+"regulation of actomyosin structure organization",0,0,1,0,1
+"negative regulation of epithelial cell proliferation",0,0,1,0,1
+"endothelial cell chemotaxis",0,0,1,0,1
+"positive regulation of actin filament bundle assembly",0,0,1,0,1
+"response to fibroblast growth factor",0,0,1,0,1
+"regulation of synapse maturation",0,0,1,0,1
+"telencephalon cell migration",0,0,1,0,1
+"zymogen activation",0,0,1,0,1
+"positive regulation of endocytic recycling",0,0,1,0,1
+"contractile actin filament bundle assembly",0,0,1,0,1
+"stress fiber assembly",0,0,1,0,1
+"negative regulation of stress fiber assembly",0,0,1,0,1
+"cellular response to glucocorticoid stimulus",0,0,1,0,1
+"positive regulation of neuron projection development",0,0,1,0,1
+"regulation of postsynaptic membrane potential",0,0,1,0,1
+"regulation of fibroblast growth factor receptor signaling pathway",0,0,1,0,1
+"long-chain fatty acid transport",0,0,1,0,1
+"forebrain cell migration",0,0,1,0,1
+"fibroblast migration",0,0,1,0,1
+"postsynaptic specialization organization",0,0,1,0,1
+"sequestering of extracellular ligand from receptor",0,0,1,0,1
+"dehydroascorbic acid transport",0,0,1,0,1
+"positive regulation of inhibitory postsynaptic potential",0,0,1,0,1
+"positive regulation of chondrocyte proliferation",0,0,1,0,1
+"muscle cell development",0,0,1,0,1
+"maintenance of protein location",0,0,1,0,1
+"peptide hormone processing",0,0,1,0,1
+"negative regulation of blood vessel endothelial cell migration",0,0,1,0,1
+"positive regulation of supramolecular fiber organization",0,0,1,0,1
+"regulation of cartilage development",0,0,1,0,1
+"negative regulation of axon extension",0,0,1,0,1
+"cellular hyperosmotic response",0,0,1,0,1
+"insulin processing",0,0,1,0,1
+"postsynaptic density protein 95 clustering",0,0,1,0,1
+"extracellular regulation of signal transduction",0,0,1,0,1
+"extracellular negative regulation of signal transduction",0,0,1,0,1
+"liver development",0,0,1,0,1
+"synaptic transmission, glutamatergic",0,0,1,0,1
+"negative regulation of protein polymerization",0,0,1,0,1
+"regulation of long-term neuronal synaptic plasticity",0,0,1,0,1
+"regulation of small GTPase mediated signal transduction",0,0,1,0,1
+"monocarboxylic acid metabolic process",0,0,1,0,1
+"cardiac ventricle morphogenesis",0,0,1,0,1
+"negative regulation of cell-matrix adhesion",0,0,1,0,1
+"negative regulation of actin filament bundle assembly",0,0,1,0,1
+"long-chain fatty acid import across plasma membrane",0,0,1,0,1
+"neuronal action potential propagation",0,0,1,0,1
+"negative regulation of glial cell apoptotic process",0,0,1,0,1
+"engulfment of apoptotic cell",0,0,1,0,1
+"cellular response to X-ray",0,0,1,0,1
+"fatty acid metabolic process",0,0,1,0,1
+"fibroblast growth factor receptor signaling pathway",0,0,1,0,1
+"negative regulation of cardiac muscle cell apoptotic process",0,0,1,0,1
+"positive regulation of synaptic transmission, glutamatergic",0,0,1,0,1
+"regulation of calcineurin-NFAT signaling cascade",0,0,1,0,1
+"signaling receptor ligand precursor processing",0,0,1,0,1
+"regulation of systemic arterial blood pressure",0,0,1,0,1
+"insemination",0,0,1,0,1
+"cyclooxygenase pathway",0,0,1,0,1
+"action potential propagation",0,0,1,0,1
+"negative regulation of motor neuron apoptotic process",0,0,1,0,1
+"positive regulation of cytoskeleton organization",0,0,1,0,1
+"regulation of calcineurin-mediated signaling",0,0,1,0,1
+"positive regulation of excitatory postsynaptic potential",0,0,1,0,1
+"hyperosmotic response",0,0,1,0,1
+"negative regulation of cytokine-mediated signaling pathway",0,0,1,0,1
+"regulation of bone mineralization",0,0,1,0,1
+"muscle filament sliding",0,0,1,0,1
+"neuronal ion channel clustering",0,0,1,0,1
+"negative regulation of substrate adhesion-dependent cell spreading",0,0,1,0,1
+"negative regulation of endothelial cell proliferation",0,0,1,0,1
+"postsynaptic specialization assembly",0,0,1,0,1
+"protein localization to membrane",0,0,1,0,1
+"cellular response to oxygen levels",0,0,1,0,1
+"antimicrobial humoral immune response mediated by antimicrobial peptide",0,0,1,0,1
+"renal system process",0,0,1,0,1
+"retinoid metabolic process",0,0,1,0,1
+"regulation of dendrite development",0,0,1,0,1
+"camera-type eye photoreceptor cell differentiation",0,0,1,0,1
+"respiratory burst involved in defense response",0,0,1,0,1
+"regulation of cell projection size",0,0,1,0,1
+"short-chain fatty acid metabolic process",0,0,1,0,1
+"cellular response to UV-B",0,0,1,0,1
+"vascular associated smooth muscle cell development",0,0,1,0,1
+"negative regulation of anoikis",0,0,1,0,1
+"cellular response to ketone",0,0,1,0,1
+"olefinic compound metabolic process",0,0,1,0,1
+"diterpenoid metabolic process",0,0,1,0,1
+"positive regulation of axonogenesis",0,0,1,0,1
+"macrophage chemotaxis",0,0,1,0,1
+"renal absorption",0,0,1,0,1
+"cardiac chamber morphogenesis",0,0,1,0,1
+"negative regulation of microtubule polymerization",0,0,1,0,1
+"actin-myosin filament sliding",0,0,1,0,1
+"negative regulation of calcineurin-NFAT signaling cascade",0,0,1,0,1
+"modulation of inhibitory postsynaptic potential",0,0,1,0,1
+"negative regulation of calcineurin-mediated signaling",0,0,1,0,1
+"regulation of macromolecule metabolic process",0,0,1,0,1
+"regulation of fibroblast migration",0,0,1,0,1
+"negative regulation of microtubule polymerization or depolymerization",0,0,1,0,1
+"layer formation in cerebral cortex",0,0,1,0,1
+"regulation of glial cell apoptotic process",0,0,1,0,1
+"response to hyperoxia",0,0,1,0,1
+"interneuron migration",0,0,1,0,1
+"regulation of microtubule polymerization or depolymerization",0,0,1,0,1
+"neuron recognition",0,0,1,0,1
+"calcineurin-NFAT signaling cascade",0,0,1,0,1
+"postsynaptic membrane organization",0,0,1,0,1
+"retinol metabolic process",0,0,1,0,1
+"establishment of endothelial barrier",0,0,1,0,1
+"negative regulation of exit from mitosis",0,0,1,0,1
+"negative regulation of chronic inflammatory response to non-antigenic stimulus",0,0,1,0,1
+"1,2-diacyl-sn-glycero-3-phosphocholine metabolic process",0,0,1,0,1
+"fucose transmembrane transport",0,0,1,0,1
+"spinal cord anterior/posterior patterning",0,0,1,0,1
+"commissural neuron differentiation in spinal cord",0,0,1,0,1
+"toll-like receptor 6 signaling pathway",0,0,1,0,1
+"regulation of toll-like receptor 6 signaling pathway",0,0,1,0,1
+"islet amyloid polypeptide processing",0,0,1,0,1
+"positive regulation of complement activation, classical pathway",0,0,1,0,1
+"2-oxobutyrate biosynthetic process",0,0,1,0,1
+"seminal vesicle epithelium development",0,0,1,0,1
+"negative regulation of dermatome development",0,0,1,0,1
+"neuropeptide processing",0,0,1,0,1
+"negative regulation of hepatocyte differentiation",0,0,1,0,1
+"detection of lipoteichoic acid",0,0,1,0,1
+"establishment of protein localization to juxtaparanode region of axon",0,0,1,0,1
+"cellular response to vitamin E",0,0,1,0,1
+"proximal straight tubule development",0,0,1,0,1
+"descending thin limb development",0,0,1,0,1
+"proximal convoluted tubule segment 2 development",0,0,1,0,1
+"metanephric descending thin limb development",0,0,1,0,1
+"metanephric proximal straight tubule development",0,0,1,0,1
+"metanephric proximal convoluted tubule segment 2 development",0,0,1,0,1
+"multiple spine synapse organization",0,0,1,0,1
+"multiple spine synapse organization, single dendrite",0,0,1,0,1
+"leukotriene D4 biosynthetic process",0,0,1,0,1
+"regulation of lateral motor column neuron migration",0,0,1,0,1
+"positive regulation of lateral motor column neuron migration",0,0,1,0,1
+"positive regulation of early endosome to recycling endosome transport",0,0,1,0,1
+"negative regulation of neurofibrillary tangle assembly",0,0,1,0,1
+"regulation of C-C chemokine receptor CCR7 signaling pathway",0,0,1,0,1
+"positive regulation of C-C chemokine receptor CCR7 signaling pathway",0,0,1,0,1
+"negative regulation of microglial cell mediated cytotoxicity",0,0,1,0,1
+"regulation of motor neuron migration",0,0,1,0,1
+"positive regulation of motor neuron migration",0,0,1,0,1
+"positive regulation of synapse pruning",0,0,1,0,1
+"fructose import across plasma membrane",0,0,1,0,1
+"positive regulation of CD40 signaling pathway",0,0,1,0,1
+"negative regulation of renal albumin absorption",0,0,1,0,1
+"hippocampus development",0,0,1,0,1
+"substrate adhesion-dependent cell spreading",0,0,1,0,1
+"estrous cycle",0,0,1,0,1
+"convergent extension",0,0,1,0,1
+"cellular response to nitric oxide",0,0,1,0,1
+"activation of GTPase activity",0,0,1,0,1
+"Schwann cell differentiation",0,0,1,0,1
+"trabecula morphogenesis",0,0,1,0,1
+"tight junction organization",0,0,1,0,1
+"regulation of microtubule cytoskeleton organization",0,0,1,0,1
+"cerebral cortex cell migration",0,0,1,0,1
+"camera-type eye morphogenesis",0,0,1,0,1
+"short-term memory",0,0,1,0,1
+"negative regulation of vasoconstriction",0,0,1,0,1
+"positive regulation of digestive system process",0,0,1,0,1
+"synapse pruning",0,0,1,0,1
+"regulation of endothelial cell development",0,0,1,0,1
+"regulation of establishment of endothelial barrier",0,0,1,0,1
+"negative regulation of endothelial cell migration",0,0,1,0,1
+"terpenoid metabolic process",0,0,1,0,1
+"regulation of calcium-mediated signaling",0,0,1,0,1
+"regulation of chondrocyte differentiation",0,0,1,0,1
+"positive regulation of stress fiber assembly",0,0,1,0,1
+"regulation of hydrolase activity",0,0,1,0,1
+"regulation of biosynthetic process",0,0,1,0,1
+"postsynaptic density organization",0,0,1,0,1
+"negative regulation of fibroblast growth factor receptor signaling pathway",0,0,1,0,1
+"peptide catabolic process",0,0,1,0,1
+"fatty acid transmembrane transport",0,0,1,0,1
+"cellular response to reactive nitrogen species",0,0,1,0,1
+"negative regulation of amyloid-beta formation",0,0,1,0,1
+"regulation of motor neuron apoptotic process",0,0,1,0,1
+"cellular detoxification",0,0,1,0,1
+"integrin-mediated signaling pathway",0,0,1,0,1
+"peptide metabolic process",0,0,1,0,1
+"actin-mediated cell contraction",0,0,1,0,1
+"regulation of microtubule polymerization",0,0,1,0,1
+"calcineurin-mediated signaling",0,0,1,0,1
+"macrophage activation involved in immune response",0,0,1,0,1
+"activation of protein kinase activity",0,0,1,0,1
+"negative regulation of vascular permeability",0,0,1,0,1
+"negative regulation of amyloid precursor protein catabolic process",0,0,1,0,1
+"leukocyte activation",0,0,0,1,1
+"immune response",0,0,0,1,1
+"regulation of gene expression",0,0,0,1,1
+"regulation of immune response",0,0,0,1,1
+"regulation of primary metabolic process",0,0,0,1,1
+"positive regulation of cytokine production",0,0,0,1,1
+"lymphocyte activation",0,0,0,1,1
+"immune effector process",0,0,0,1,1
+"response to cytokine",0,0,0,1,1
+"positive regulation of immune response",0,0,0,1,1
+"hemopoiesis",0,0,0,1,1
+"response to peptide",0,0,0,1,1
+"innate immune response",0,0,0,1,1
+"defense response to other organism",0,0,0,1,1
+"T cell activation",0,0,0,1,1
+"immune response-regulating signaling pathway",0,0,0,1,1
+"regulation of leukocyte activation",0,0,0,1,1
+"defense response to symbiont",0,0,0,1,1
+"regulation of cell-cell adhesion",0,0,0,1,1
+"positive regulation of programmed cell death",0,0,0,1,1
+"leukocyte differentiation",0,0,0,1,1
+"response to molecule of bacterial origin",0,0,0,1,1
+"positive regulation of nucleobase-containing compound metabolic process",0,0,0,1,1
+"activation of immune response",0,0,0,1,1
+"positive regulation of DNA-templated transcription",0,0,0,1,1
+"positive regulation of RNA biosynthetic process",0,0,0,1,1
+"positive regulation of RNA metabolic process",0,0,0,1,1
+"immune response-activating signaling pathway",0,0,0,1,1
+"myeloid leukocyte activation",0,0,0,1,1
+"regulation of immune effector process",0,0,0,1,1
+"positive regulation of defense response",0,0,0,1,1
+"response to lipopolysaccharide",0,0,0,1,1
+"regulation of lymphocyte activation",0,0,0,1,1
+"regulation of nucleobase-containing compound metabolic process",0,0,0,1,1
+"cellular response to cytokine stimulus",0,0,0,1,1
+"leukocyte cell-cell adhesion",0,0,0,1,1
+"positive regulation of transcription by RNA polymerase II",0,0,0,1,1
+"leukocyte activation involved in immune response",0,0,0,1,1
+"cell activation involved in immune response",0,0,0,1,1
+"regulation of response to biotic stimulus",0,0,0,1,1
+"regulation of RNA metabolic process",0,0,0,1,1
+"cytokine-mediated signaling pathway",0,0,0,1,1
+"DNA-templated transcription",0,0,0,1,1
+"regulation of leukocyte cell-cell adhesion",0,0,0,1,1
+"immune response-regulating cell surface receptor signaling pathway",0,0,0,1,1
+"regulation of DNA-templated transcription",0,0,0,1,1
+"regulation of RNA biosynthetic process",0,0,0,1,1
+"cellular response to oxygen-containing compound",0,0,0,1,1
+"regulation of innate immune response",0,0,0,1,1
+"positive regulation of cell-cell adhesion",0,0,0,1,1
+"regulation of transcription by RNA polymerase II",0,0,0,1,1
+"transcription by RNA polymerase II",0,0,0,1,1
+"leukocyte mediated immunity",0,0,0,1,1
+"positive regulation of leukocyte cell-cell adhesion",0,0,0,1,1
+"mononuclear cell differentiation",0,0,0,1,1
+"response to nitrogen compound",0,0,0,1,1
+"alpha-beta T cell activation",0,0,0,1,1
+"positive regulation of lymphocyte activation",0,0,0,1,1
+"immune response-activating cell surface receptor signaling pathway",0,0,0,1,1
+"positive regulation of response to biotic stimulus",0,0,0,1,1
+"lymphocyte activation involved in immune response",0,0,0,1,1
+"apoptotic signaling pathway",0,0,0,1,1
+"regulation of T cell activation",0,0,0,1,1
+"positive regulation of innate immune response",0,0,0,1,1
+"canonical NF-kappaB signal transduction",0,0,0,1,1
+"phosphorylation",0,0,0,1,1
+"interleukin-1 production",0,0,0,1,1
+"regulation of interleukin-1 production",0,0,0,1,1
+"regulation of leukocyte mediated immunity",0,0,0,1,1
+"T cell activation involved in immune response",0,0,0,1,1
+"regulation of apoptotic signaling pathway",0,0,0,1,1
+"regulation of hemopoiesis",0,0,0,1,1
+"positive regulation of T cell activation",0,0,0,1,1
+"lymphocyte differentiation",0,0,0,1,1
+"negative regulation of immune system process",0,0,0,1,1
+"positive regulation of immune effector process",0,0,0,1,1
+"T cell differentiation",0,0,0,1,1
+"positive regulation of MAPK cascade",0,0,0,1,1
+"regulation of secretion",0,0,0,1,1
+"regulation of secretion by cell",0,0,0,1,1
+"embryo development",0,0,0,1,1
+"myeloid cell differentiation",0,0,0,1,1
+"response to interleukin-1",0,0,0,1,1
+"interleukin-1 beta production",0,0,0,1,1
+"regulation of interleukin-1 beta production",0,0,0,1,1
+"cellular response to interleukin-1",0,0,0,1,1
+"adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains",0,0,0,1,1
+"cellular response to biotic stimulus",0,0,0,1,1
+"cellular response to molecule of bacterial origin",0,0,0,1,1
+"negative regulation of metabolic process",0,0,0,1,1
+"myeloid leukocyte mediated immunity",0,0,0,1,1
+"regulation of leukocyte differentiation",0,0,0,1,1
+"protein phosphorylation",0,0,0,1,1
+"phosphate-containing compound metabolic process",0,0,0,1,1
+"adaptive immune response",0,0,0,1,1
+"regulation of canonical NF-kappaB signal transduction",0,0,0,1,1
+"phosphorus metabolic process",0,0,0,1,1
+"interleukin-6 production",0,0,0,1,1
+"regulation of interleukin-6 production",0,0,0,1,1
+"transmembrane transport",0,0,0,1,1
+"cellular response to lipopolysaccharide",0,0,0,1,1
+"CD4-positive, alpha-beta T cell activation",0,0,0,1,1
+"pattern recognition receptor signaling pathway",0,0,0,1,1
+"production of molecular mediator of immune response",0,0,0,1,1
+"leukocyte proliferation",0,0,0,1,1
+"cellular response to lipid",0,0,0,1,1
+"T cell differentiation involved in immune response",0,0,0,1,1
+"neutrophil migration",0,0,0,1,1
+"myeloid leukocyte differentiation",0,0,0,1,1
+"granulocyte chemotaxis",0,0,0,1,1
+"antigen receptor-mediated signaling pathway",0,0,0,1,1
+"innate immune response-activating signaling pathway",0,0,0,1,1
+"lymphocyte proliferation",0,0,0,1,1
+"activation of innate immune response",0,0,0,1,1
+"nitrogen compound transport",0,0,0,1,1
+"alpha-beta T cell differentiation",0,0,0,1,1
+"tumor necrosis factor superfamily cytokine production",0,0,0,1,1
+"regulation of tumor necrosis factor superfamily cytokine production",0,0,0,1,1
+"regulation of adaptive immune response",0,0,0,1,1
+"regulation of leukocyte proliferation",0,0,0,1,1
+"cytokine production involved in immune response",0,0,0,1,1
+"regulation of cytokine production involved in immune response",0,0,0,1,1
+"regulation of production of molecular mediator of immune response",0,0,0,1,1
+"regulation of lymphocyte proliferation",0,0,0,1,1
+"neutrophil mediated immunity",0,0,0,1,1
+"multicellular organismal-level homeostasis",0,0,0,1,1
+"mononuclear cell proliferation",0,0,0,1,1
+"alpha-beta T cell activation involved in immune response",0,0,0,1,1
+"embryonic morphogenesis",0,0,0,1,1
+"regulation of protein modification process",0,0,0,1,1
+"regulation of mononuclear cell proliferation",0,0,0,1,1
+"positive regulation of canonical NF-kappaB signal transduction",0,0,0,1,1
+"positive regulation of leukocyte proliferation",0,0,0,1,1
+"negative regulation of transport",0,0,0,1,1
+"intracellular protein localization",0,0,0,1,1
+"macrophage activation",0,0,0,1,1
+"response to peptide hormone",0,0,0,1,1
+"non-canonical NF-kappaB signal transduction",0,0,0,1,1
+"type II interferon production",0,0,0,1,1
+"regulation of type II interferon production",0,0,0,1,1
+"alpha-beta T cell differentiation involved in immune response",0,0,0,1,1
+"tumor necrosis factor production",0,0,0,1,1
+"regulation of tumor necrosis factor production",0,0,0,1,1
+"ribosome biogenesis",0,0,0,1,1
+"positive regulation of leukocyte differentiation",0,0,0,1,1
+"positive regulation of hemopoiesis",0,0,0,1,1
+"lymphocyte mediated immunity",0,0,0,1,1
+"extrinsic apoptotic signaling pathway",0,0,0,1,1
+"hormone transport",0,0,0,1,1
+"negative regulation of cytokine production",0,0,0,1,1
+"signal release",0,0,0,1,1
+"heterotypic cell-cell adhesion",0,0,0,1,1
+"regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains",0,0,0,1,1
+"negative regulation of macromolecule metabolic process",0,0,0,1,1
+"leukocyte degranulation",0,0,0,1,1
+"regulation of cell cycle",0,0,0,1,1
+"cell cycle",0,0,0,1,1
+"positive regulation of type II interferon production",0,0,0,1,1
+"T-helper 1 type immune response",0,0,0,1,1
+"positive regulation of cytokine production involved in immune response",0,0,0,1,1
+"T-helper cell differentiation",0,0,0,1,1
+"negative regulation of immune response",0,0,0,1,1
+"CD4-positive, alpha-beta T cell differentiation",0,0,0,1,1
+"CD4-positive, alpha-beta T cell differentiation involved in immune response",0,0,0,1,1
+"macromolecule modification",0,0,0,1,1
+"embryo development ending in birth or egg hatching",0,0,0,1,1
+"neutrophil chemotaxis",0,0,0,1,1
+"regulation of hormone levels",0,0,0,1,1
+"positive regulation of lymphocyte proliferation",0,0,0,1,1
+"regulation of phosphorylation",0,0,0,1,1
+"positive regulation of secretion",0,0,0,1,1
+"vesicle-mediated transport",0,0,0,1,1
+"positive regulation of secretion by cell",0,0,0,1,1
+"intrinsic apoptotic signaling pathway",0,0,0,1,1
+"positive regulation of mononuclear cell proliferation",0,0,0,1,1
+"positive regulation of interleukin-1 production",0,0,0,1,1
+"negative regulation of protein metabolic process",0,0,0,1,1
+"interleukin-1-mediated signaling pathway",0,0,0,1,1
+"regulation of myeloid cell differentiation",0,0,0,1,1
+"temperature homeostasis",0,0,0,1,1
+"negative regulation of biosynthetic process",0,0,0,1,1
+"amide transport",0,0,0,1,1
+"negative regulation of MAPK cascade",0,0,0,1,1
+"negative regulation of macromolecule biosynthetic process",0,0,0,1,1
+"cellular response to chemical stress",0,0,0,1,1
+"negative regulation of apoptotic signaling pathway",0,0,0,1,1
+"positive regulation of interleukin-1 beta production",0,0,0,1,1
+"regulation of lymphocyte mediated immunity",0,0,0,1,1
+"regulation of intrinsic apoptotic signaling pathway",0,0,0,1,1
+"leukocyte mediated cytotoxicity",0,0,0,1,1
+"hormone secretion",0,0,0,1,1
+"positive regulation of interleukin-6 production",0,0,0,1,1
+"regulation of protein localization",0,0,0,1,1
+"chordate embryonic development",0,0,0,1,1
+"regulation of response to cytokine stimulus",0,0,0,1,1
+"negative regulation of nucleobase-containing compound metabolic process",0,0,0,1,1
+"negative regulation of cell-cell adhesion",0,0,0,1,1
+"regulation of neutrophil migration",0,0,0,1,1
+"protein transport",0,0,0,1,1
+"reactive oxygen species metabolic process",0,0,0,1,1
+"regulation of extrinsic apoptotic signaling pathway",0,0,0,1,1
+"regulation of reactive oxygen species metabolic process",0,0,0,1,1
+"regulation of phagocytosis",0,0,0,1,1
+"positive regulation of production of molecular mediator of immune response",0,0,0,1,1
+"protein modification process",0,0,0,1,1
+"cellular homeostasis",0,0,0,1,1
+"response to temperature stimulus",0,0,0,1,1
+"T cell mediated immunity",0,0,0,1,1
+"toll-like receptor signaling pathway",0,0,0,1,1
+"protein localization to extracellular region",0,0,0,1,1
+"regionalization",0,0,0,1,1
+"anterior/posterior pattern specification",0,0,0,1,1
+"peptide transport",0,0,0,1,1
+"neuroinflammatory response",0,0,0,1,1
+"cell killing",0,0,0,1,1
+"regulation of phosphate metabolic process",0,0,0,1,1
+"protein secretion",0,0,0,1,1
+"regulation of hormone secretion",0,0,0,1,1
+"establishment of protein localization",0,0,0,1,1
+"T cell receptor signaling pathway",0,0,0,1,1
+"regulation of alpha-beta T cell activation",0,0,0,1,1
+"regulation of protein phosphorylation",0,0,0,1,1
+"regulation of phosphorus metabolic process",0,0,0,1,1
+"establishment of protein localization to extracellular region",0,0,0,1,1
+"cellular response to nitrogen compound",0,0,0,1,1
+"regulation of protein transport",0,0,0,1,1
+"regulation of peptide transport",0,0,0,1,1
+"positive regulation of leukocyte mediated immunity",0,0,0,1,1
+"positive regulation of response to cytokine stimulus",0,0,0,1,1
+"regulation of lymphocyte apoptotic process",0,0,0,1,1
+"positive regulation of tumor necrosis factor superfamily cytokine production",0,0,0,1,1
+"negative regulation of defense response",0,0,0,1,1
+"mast cell activation",0,0,0,1,1
+"negative regulation of RNA metabolic process",0,0,0,1,1
+"interleukin-8 production",0,0,0,1,1
+"regulation of interleukin-8 production",0,0,0,1,1
+"intracellular chemical homeostasis",0,0,0,1,1
+"collagen biosynthetic process",0,0,0,1,1
+"regulation of T cell proliferation",0,0,0,1,1
+"defense response to bacterium",0,0,0,1,1
+"regulation of establishment of protein localization",0,0,0,1,1
+"negative regulation of interleukin-12 production",0,0,0,1,1
+"osteoclast differentiation",0,0,0,1,1
+"positive regulation of lymphocyte differentiation",0,0,0,1,1
+"regulation of CD4-positive, alpha-beta T cell activation",0,0,0,1,1
+"neutrophil activation",0,0,0,1,1
+"gland development",0,0,0,1,1
+"pattern specification process",0,0,0,1,1
+"negative regulation of DNA-templated transcription",0,0,0,1,1
+"regulation of peptide secretion",0,0,0,1,1
+"chemokine production",0,0,0,1,1
+"regulation of chemokine production",0,0,0,1,1
+"peptide secretion",0,0,0,1,1
+"T cell proliferation",0,0,0,1,1
+"negative regulation of RNA biosynthetic process",0,0,0,1,1
+"positive regulation of T cell differentiation",0,0,0,1,1
+"regulation of lymphocyte differentiation",0,0,0,1,1
+"positive regulation of apoptotic signaling pathway",0,0,0,1,1
+"skeletal system morphogenesis",0,0,0,1,1
+"regulation of leukocyte apoptotic process",0,0,0,1,1
+"neutrophil mediated cytotoxicity",0,0,0,1,1
+"mitotic cell cycle",0,0,0,1,1
+"response to radiation",0,0,0,1,1
+"positive regulation of tumor necrosis factor production",0,0,0,1,1
+"monoatomic cation transmembrane transport",0,0,0,1,1
+"response to fungus",0,0,0,1,1
+"epithelial to mesenchymal transition",0,0,0,1,1
+"monoatomic ion transmembrane transport",0,0,0,1,1
+"T cell cytokine production",0,0,0,1,1
+"regulation of T cell cytokine production",0,0,0,1,1
+"positive regulation of smooth muscle cell proliferation",0,0,0,1,1
+"positive regulation of neutrophil migration",0,0,0,1,1
+"rRNA processing",0,0,0,1,1
+"regulation of neutrophil mediated cytotoxicity",0,0,0,1,1
+"small molecule metabolic process",0,0,0,1,1
+"glial cell activation",0,0,0,1,1
+"regulation of T cell differentiation",0,0,0,1,1
+"response to heat",0,0,0,1,1
+"cold-induced thermogenesis",0,0,0,1,1
+"defense response to fungus",0,0,0,1,1
+"smooth muscle cell proliferation",0,0,0,1,1
+"regulation of protein secretion",0,0,0,1,1
+"positive regulation of protein modification process",0,0,0,1,1
+"response to osmotic stress",0,0,0,1,1
+"inorganic cation transmembrane transport",0,0,0,1,1
+"peptidyl-amino acid modification",0,0,0,1,1
+"response to reactive oxygen species",0,0,0,1,1
+"negative regulation of transcription by RNA polymerase II",0,0,0,1,1
+"interleukin-12 production",0,0,0,1,1
+"regulation of interleukin-12 production",0,0,0,1,1
+"regulation of organic acid transport",0,0,0,1,1
+"Fc-gamma receptor signaling pathway",0,0,0,1,1
+"positive regulation of chemokine production",0,0,0,1,1
+"regulation of cytokine-mediated signaling pathway",0,0,0,1,1
+"collagen metabolic process",0,0,0,1,1
+"regulated exocytosis",0,0,0,1,1
+"regulation of smooth muscle cell proliferation",0,0,0,1,1
+"regulation of myeloid leukocyte mediated immunity",0,0,0,1,1
+"cellular response to hormone stimulus",0,0,0,1,1
+"natural killer cell mediated immunity",0,0,0,1,1
+"positive regulation of phagocytosis",0,0,0,1,1
+"response to insulin",0,0,0,1,1
+"calcium ion transport",0,0,0,1,1
+"small molecule biosynthetic process",0,0,0,1,1
+"rRNA metabolic process",0,0,0,1,1
+"regulation of T cell mediated immunity",0,0,0,1,1
+"cell cycle process",0,0,0,1,1
+"regulation of heterotypic cell-cell adhesion",0,0,0,1,1
+"Fc receptor signaling pathway",0,0,0,1,1
+"positive regulation of CD4-positive, alpha-beta T cell activation",0,0,0,1,1
+"JNK cascade",0,0,0,1,1
+"exocytosis",0,0,0,1,1
+"regulation of transmembrane transport",0,0,0,1,1
+"CD4-positive, alpha-beta T cell cytokine production",0,0,0,1,1
+"monoatomic ion homeostasis",0,0,0,1,1
+"regulation of pattern recognition receptor signaling pathway",0,0,0,1,1
+"leukocyte apoptotic process",0,0,0,1,1
+"positive regulation of B cell proliferation",0,0,0,1,1
+"monoatomic cation homeostasis",0,0,0,1,1
+"regulation of collagen biosynthetic process",0,0,0,1,1
+"myeloid cell activation involved in immune response",0,0,0,1,1
+"regulation of nitric oxide metabolic process",0,0,0,1,1
+"peptide hormone secretion",0,0,0,1,1
+"regulation of transferase activity",0,0,0,1,1
+"B cell activation",0,0,0,1,1
+"negative regulation of protein processing",0,0,0,1,1
+"negative regulation of protein maturation",0,0,0,1,1
+"catabolic process",0,0,0,1,1
+"lipopolysaccharide-mediated signaling pathway",0,0,0,1,1
+"interleukin-2 production",0,0,0,1,1
+"regulation of interleukin-2 production",0,0,0,1,1
+"regulation of endocytosis",0,0,0,1,1
+"lymphocyte apoptotic process",0,0,0,1,1
+"granulocyte activation",0,0,0,1,1
+"muscle cell proliferation",0,0,0,1,1
+"negative regulation of immune effector process",0,0,0,1,1
+"negative regulation of cell activation",0,0,0,1,1
+"B cell proliferation",0,0,0,1,1
+"regulation of muscle system process",0,0,0,1,1
+"regulation of peptide hormone secretion",0,0,0,1,1
+"positive regulation of extrinsic apoptotic signaling pathway",0,0,0,1,1
+"ribosomal small subunit biogenesis",0,0,0,1,1
+"negative regulation of hormone secretion",0,0,0,1,1
+"cytokine production involved in inflammatory response",0,0,0,1,1
+"regulation of cytokine production involved in inflammatory response",0,0,0,1,1
+"positive regulation of endocytosis",0,0,0,1,1
+"regulation of molecular function",0,0,0,1,1
+"negative regulation of secretion",0,0,0,1,1
+"positive regulation of nitric oxide metabolic process",0,0,0,1,1
+"negative regulation of leukocyte activation",0,0,0,1,1
+"regulation of blood circulation",0,0,0,1,1
+"positive regulation of alpha-beta T cell activation",0,0,0,1,1
+"regulation of muscle cell apoptotic process",0,0,0,1,1
+"protein complex oligomerization",0,0,0,1,1
+"T-helper 17 type immune response",0,0,0,1,1
+"regulation of nitric oxide biosynthetic process",0,0,0,1,1
+"regulation of cold-induced thermogenesis",0,0,0,1,1
+"mesenchymal cell differentiation",0,0,0,1,1
+"regulation of protein kinase activity",0,0,0,1,1
+"positive regulation of cytokine-mediated signaling pathway",0,0,0,1,1
+"T-helper 1 cell differentiation",0,0,0,1,1
+"regulation of kinase activity",0,0,0,1,1
+"cellular response to peptide hormone stimulus",0,0,0,1,1
+"negative regulation of lymphocyte activation",0,0,0,1,1
+"positive regulation of miRNA metabolic process",0,0,0,1,1
+"inorganic ion transmembrane transport",0,0,0,1,1
+"inorganic ion homeostasis",0,0,0,1,1
+"T-helper 2 cell differentiation",0,0,0,1,1
+"regulation of fat cell differentiation",0,0,0,1,1
+"positive regulation of acute inflammatory response",0,0,0,1,1
+"regulation of T-helper 1 type immune response",0,0,0,1,1
+"regulation of T-helper cell differentiation",0,0,0,1,1
+"dendritic cell differentiation",0,0,0,1,1
+"organelle organization",0,0,0,1,1
+"positive regulation of T cell proliferation",0,0,0,1,1
+"negative regulation of intrinsic apoptotic signaling pathway",0,0,0,1,1
+"positive regulation of reactive oxygen species metabolic process",0,0,0,1,1
+"response to oxidative stress",0,0,0,1,1
+"negative regulation of protein modification process",0,0,0,1,1
+"reproductive process",0,0,0,1,1
+"astrocyte development",0,0,0,1,1
+"leukotriene metabolic process",0,0,0,1,1
+"regulation of collagen metabolic process",0,0,0,1,1
+"regulation of mitotic cell cycle",0,0,0,1,1
+"regulation of B cell proliferation",0,0,0,1,1
+"regulation of reproductive process",0,0,0,1,1
+"mammary gland alveolus development",0,0,0,1,1
+"mammary gland lobule development",0,0,0,1,1
+"positive regulation of cytosolic calcium ion concentration",0,0,0,1,1
+"negative regulation of establishment of protein localization",0,0,0,1,1
+"regulation of insulin secretion",0,0,0,1,1
+"positive regulation of adaptive immune response",0,0,0,1,1
+"negative regulation of secretion by cell",0,0,0,1,1
+"regulation of protein modification by small protein conjugation or removal",0,0,0,1,1
+"detection of external biotic stimulus",0,0,0,1,1
+"regulation of B cell activation",0,0,0,1,1
+"muscle cell apoptotic process",0,0,0,1,1
+"microglial cell activation",0,0,0,1,1
+"positive regulation of nitric oxide biosynthetic process",0,0,0,1,1
+"potassium ion import across plasma membrane",0,0,0,1,1
+"cell surface pattern recognition receptor signaling pathway",0,0,0,1,1
+"positive regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains",0,0,0,1,1
+"neutrophil-mediated killing of symbiont cell",0,0,0,1,1
+"mitotic cell cycle process",0,0,0,1,1
+"regulation of granulocyte chemotaxis",0,0,0,1,1
+"p38MAPK cascade",0,0,0,1,1
+"lung vasculature development",0,0,0,1,1
+"regulation of cell cycle process",0,0,0,1,1
+"negative regulation of inflammatory response",0,0,0,1,1
+"embryonic organ development",0,0,0,1,1
+"positive regulation of T cell cytokine production",0,0,0,1,1
+"positive regulation of interleukin-10 production",0,0,0,1,1
+"regulation of JNK cascade",0,0,0,1,1
+"response to type II interferon",0,0,0,1,1
+"regulation of post-translational protein modification",0,0,0,1,1
+"cellular response to oxidative stress",0,0,0,1,1
+"mitotic cell cycle phase transition",0,0,0,1,1
+"regulation of metal ion transport",0,0,0,1,1
+"insulin secretion",0,0,0,1,1
+"cellular response to interleukin-17",0,0,0,1,1
+"negative regulation of phosphorylation",0,0,0,1,1
+"peptidyl-tyrosine phosphorylation",0,0,0,1,1
+"positive regulation of protein localization",0,0,0,1,1
+"epithelial cell differentiation",0,0,0,1,1
+"MHC class II biosynthetic process",0,0,0,1,1
+"embryonic organ morphogenesis",0,0,0,1,1
+"negative regulation of organic acid transport",0,0,0,1,1
+"in utero embryonic development",0,0,0,1,1
+"regulation of regulated secretory pathway",0,0,0,1,1
+"regulation of nuclear division",0,0,0,1,1
+"response to organophosphorus",0,0,0,1,1
+"response to virus",0,0,0,1,1
+"negative regulation of tumor necrosis factor superfamily cytokine production",0,0,0,1,1
+"peptidyl-tyrosine modification",0,0,0,1,1
+"type 2 immune response",0,0,0,1,1
+"regulation of lipid biosynthetic process",0,0,0,1,1
+"positive regulation of phosphorylation",0,0,0,1,1
+"regulation of epithelial cell differentiation",0,0,0,1,1
+"negative regulation of ERK1 and ERK2 cascade",0,0,0,1,1
+"nitric oxide metabolic process",0,0,0,1,1
+"regulation of protein ubiquitination",0,0,0,1,1
+"leukocyte activation involved in inflammatory response",0,0,0,1,1
+"negative regulation of protein phosphorylation",0,0,0,1,1
+"regulation of CD4-positive, alpha-beta T cell differentiation",0,0,0,1,1
+"natural killer cell mediated cytotoxicity",0,0,0,1,1
+"detection of biotic stimulus",0,0,0,1,1
+"regulation of macrophage activation",0,0,0,1,1
+"reactive nitrogen species metabolic process",0,0,0,1,1
+"positive regulation of cell cycle",0,0,0,1,1
+"nitric oxide biosynthetic process",0,0,0,1,1
+"cell fate commitment",0,0,0,1,1
+"intracellular receptor signaling pathway",0,0,0,1,1
+"regulation of neutrophil mediated killing of symbiont cell",0,0,0,1,1
+"positive regulation of neutrophil mediated cytotoxicity",0,0,0,1,1
+"negative regulation of interleukin-1 beta production",0,0,0,1,1
+"triglyceride metabolic process",0,0,0,1,1
+"regulation of myeloid leukocyte differentiation",0,0,0,1,1
+"positive regulation of T-helper cell differentiation",0,0,0,1,1
+"regulation of leukocyte mediated cytotoxicity",0,0,0,1,1
+"regulation of cellular response to stress",0,0,0,1,1
+"positive regulation of interleukin-2 production",0,0,0,1,1
+"positive regulation of B cell activation",0,0,0,1,1
+"regulation of non-canonical NF-kappaB signal transduction",0,0,0,1,1
+"B cell receptor signaling pathway",0,0,0,1,1
+"negative regulation of lymphocyte apoptotic process",0,0,0,1,1
+"positive regulation of miRNA transcription",0,0,0,1,1
+"negative regulation of establishment of protein localization to mitochondrion",0,0,0,1,1
+"negative regulation of hemopoiesis",0,0,0,1,1
+"auditory behavior",0,0,0,1,1
+"detection of molecule of bacterial origin",0,0,0,1,1
+"protein import into nucleus",0,0,0,1,1
+"interleukin-13 production",0,0,0,1,1
+"regulation of interleukin-13 production",0,0,0,1,1
+"regulation of platelet activation",0,0,0,1,1
+"regulation of type 2 immune response",0,0,0,1,1
+"regulation of syncytium formation by plasma membrane fusion",0,0,0,1,1
+"negative regulation of leukocyte cell-cell adhesion",0,0,0,1,1
+"superoxide metabolic process",0,0,0,1,1
+"positive regulation of lymphocyte mediated immunity",0,0,0,1,1
+"response to interleukin-17",0,0,0,1,1
+"blastocyst development",0,0,0,1,1
+"positive regulation of nuclear division",0,0,0,1,1
+"icosanoid transport",0,0,0,1,1
+"superoxide anion generation",0,0,0,1,1
+"positive regulation of NF-kappaB transcription factor activity",0,0,0,1,1
+"regulation of cell killing",0,0,0,1,1
+"positive regulation of growth",0,0,0,1,1
+"positive regulation of lipid biosynthetic process",0,0,0,1,1
+"innate immune response activating cell surface receptor signaling pathway",0,0,0,1,1
+"positive regulation of peptide secretion",0,0,0,1,1
+"response to purine-containing compound",0,0,0,1,1
+"regulation of peptidyl-tyrosine phosphorylation",0,0,0,1,1
+"intracellular monoatomic ion homeostasis",0,0,0,1,1
+"alcohol metabolic process",0,0,0,1,1
+"muscle cell migration",0,0,0,1,1
+"heart development",0,0,0,1,1
+"negative regulation of adaptive immune response",0,0,0,1,1
+"formation of primary germ layer",0,0,0,1,1
+"negative regulation of transferase activity",0,0,0,1,1
+"MyD88-dependent toll-like receptor signaling pathway",0,0,0,1,1
+"response to peptidoglycan",0,0,0,1,1
+"negative regulation of leukocyte apoptotic process",0,0,0,1,1
+"positive regulation of leukocyte adhesion to vascular endothelial cell",0,0,0,1,1
+"positive regulation of cell cycle process",0,0,0,1,1
+"protein localization to nucleus",0,0,0,1,1
+"negative regulation of leukocyte differentiation",0,0,0,1,1
+"inorganic cation import across plasma membrane",0,0,0,1,1
+"inorganic ion import across plasma membrane",0,0,0,1,1
+"positive regulation of cold-induced thermogenesis",0,0,0,1,1
+"regulation of p38MAPK cascade",0,0,0,1,1
+"negative regulation of tumor necrosis factor production",0,0,0,1,1
+"cytoplasmic pattern recognition receptor signaling pathway",0,0,0,1,1
+"regulation of leukocyte adhesion to vascular endothelial cell",0,0,0,1,1
+"intracellular glucose homeostasis",0,0,0,1,1
+"regulation of extracellular matrix constituent secretion",0,0,0,1,1
+"intracellular protein transport",0,0,0,1,1
+"mammary gland development",0,0,0,1,1
+"import into nucleus",0,0,0,1,1
+"hematopoietic progenitor cell differentiation",0,0,0,1,1
+"heart morphogenesis",0,0,0,1,1
+"alpha-beta T cell proliferation",0,0,0,1,1
+"regulation of T cell apoptotic process",0,0,0,1,1
+"lipid biosynthetic process",0,0,0,1,1
+"regulation of lipid metabolic process",0,0,0,1,1
+"macrophage differentiation",0,0,0,1,1
+"carbohydrate metabolic process",0,0,0,1,1
+"positive regulation of myeloid cell differentiation",0,0,0,1,1
+"multi-organism reproductive process",0,0,0,1,1
+"positive regulation of p38MAPK cascade",0,0,0,1,1
+"negative regulation of non-canonical NF-kappaB signal transduction",0,0,0,1,1
+"cellular response to nutrient levels",0,0,0,1,1
+"antifungal innate immune response",0,0,0,1,1
+"positive regulation of epithelial cell proliferation",0,0,0,1,1
+"interleukin-17 production",0,0,0,1,1
+"regulation of interleukin-17 production",0,0,0,1,1
+"cell cycle phase transition",0,0,0,1,1
+"regulation of exocytosis",0,0,0,1,1
+"acute inflammatory response to antigenic stimulus",0,0,0,1,1
+"negative regulation of JNK cascade",0,0,0,1,1
+"negative regulation of myeloid cell differentiation",0,0,0,1,1
+"regulation of catabolic process",0,0,0,1,1
+"response to glucose",0,0,0,1,1
+"arachidonate metabolite production involved in inflammatory response",0,0,0,1,1
+"vestibular reflex",0,0,0,1,1
+"syncytium formation by plasma membrane fusion",0,0,0,1,1
+"cell-cell fusion",0,0,0,1,1
+"cellular response to osmotic stress",0,0,0,1,1
+"phospholipase C-activating G protein-coupled receptor signaling pathway",0,0,0,1,1
+"regulation of response to osmotic stress",0,0,0,1,1
+"extracellular matrix constituent secretion",0,0,0,1,1
+"regulation of small molecule metabolic process",0,0,0,1,1
+"regulation of leukocyte degranulation",0,0,0,1,1
+"macromolecule catabolic process",0,0,0,1,1
+"regulation of natural killer cell mediated immunity",0,0,0,1,1
+"regulation of alpha-beta T cell differentiation",0,0,0,1,1
+"tissue remodeling",0,0,0,1,1
+"positive regulation of lipid metabolic process",0,0,0,1,1
+"negative regulation of mitotic cell cycle phase transition",0,0,0,1,1
+"response to amphetamine",0,0,0,1,1
+"positive regulation of CD4-positive, alpha-beta T cell differentiation",0,0,0,1,1
+"regulation of neutrophil chemotaxis",0,0,0,1,1
+"negative regulation of phosphorus metabolic process",0,0,0,1,1
+"negative regulation of phosphate metabolic process",0,0,0,1,1
+"homotypic cell-cell adhesion",0,0,0,1,1
+"cell surface receptor signaling pathway via STAT",0,0,0,1,1
+"interleukin-10 production",0,0,0,1,1
+"regulation of interleukin-10 production",0,0,0,1,1
+"regulation of cell morphogenesis",0,0,0,1,1
+"intracellular monoatomic cation homeostasis",0,0,0,1,1
+"extrinsic apoptotic signaling pathway via death domain receptors",0,0,0,1,1
+"T cell differentiation in thymus",0,0,0,1,1
+"syncytium formation",0,0,0,1,1
+"cellular response to carbohydrate stimulus",0,0,0,1,1
+"negative regulation of heterotypic cell-cell adhesion",0,0,0,1,1
+"fat pad development",0,0,0,1,1
+"regulation of vascular wound healing",0,0,0,1,1
+"regulation of cell-cell adhesion involved in gastrulation",0,0,0,1,1
+"negative regulation of fatty acid transport",0,0,0,1,1
+"leukotriene production involved in inflammatory response",0,0,0,1,1
+"folate import across plasma membrane",0,0,0,1,1
+"activated CD8-positive, alpha-beta T cell apoptotic process",0,0,0,1,1
+"regulation of activated CD8-positive, alpha-beta T cell apoptotic process",0,0,0,1,1
+"regulation of L-arginine import across plasma membrane",0,0,0,1,1
+"cellular response to reactive oxygen species",0,0,0,1,1
+"developmental process involved in reproduction",0,0,0,1,1
+"endocrine process",0,0,0,1,1
+"peptidyl-serine modification",0,0,0,1,1
+"regulation of fatty acid transport",0,0,0,1,1
+"T cell selection",0,0,0,1,1
+"positive regulation of myeloid leukocyte mediated immunity",0,0,0,1,1
+"respiratory burst",0,0,0,1,1
+"mechanosensory behavior",0,0,0,1,1
+"toll-like receptor 2 signaling pathway",0,0,0,1,1
+"regulation of MHC class II biosynthetic process",0,0,0,1,1
+"cellular response to insulin stimulus",0,0,0,1,1
+"response to amine",0,0,0,1,1
+"amino acid import across plasma membrane",0,0,0,1,1
+"regulation of alpha-beta T cell proliferation",0,0,0,1,1
+"regulation of steroid metabolic process",0,0,0,1,1
+"astrocyte activation",0,0,0,1,1
+"regulation of myoblast fusion",0,0,0,1,1
+"rhythmic process",0,0,0,1,1
+"antigen processing and presentation",0,0,0,1,1
+"reproductive structure development",0,0,0,1,1
+"amine transport",0,0,0,1,1
+"positive regulation of T cell mediated immunity",0,0,0,1,1
+"negative regulation of gene expression",0,0,0,1,1
+"neuromuscular process",0,0,0,1,1
+"cellular response to heat",0,0,0,1,1
+"cellular response to virus",0,0,0,1,1
+"positive regulation of macrophage activation",0,0,0,1,1
+"negative regulation of T cell apoptotic process",0,0,0,1,1
+"homeostasis of number of cells",0,0,0,1,1
+"protein homooligomerization",0,0,0,1,1
+"positive regulation of interleukin-8 production",0,0,0,1,1
+"negative regulation of reproductive process",0,0,0,1,1
+"negative regulation of cell cycle",0,0,0,1,1
+"positive regulation of protein modification by small protein conjugation or removal",0,0,0,1,1
+"release of cytochrome c from mitochondria",0,0,0,1,1
+"heart contraction",0,0,0,1,1
+"positive regulation of T-helper 1 type immune response",0,0,0,1,1
+"neutrophil degranulation",0,0,0,1,1
+"positive regulation of myoblast fusion",0,0,0,1,1
+"positive regulation of post-translational protein modification",0,0,0,1,1
+"mast cell degranulation",0,0,0,1,1
+"regulation of amino acid transport",0,0,0,1,1
+"neutrophil activation involved in immune response",0,0,0,1,1
+"positive regulation of humoral immune response",0,0,0,1,1
+"negative regulation of receptor signaling pathway via STAT",0,0,0,1,1
+"natural killer cell degranulation",0,0,0,1,1
+"cell-cell adhesion involved in gastrulation",0,0,0,1,1
+"T-helper 17 cell differentiation",0,0,0,1,1
+"positive regulation of complement activation",0,0,0,1,1
+"macrophage inflammatory protein-1 alpha production",0,0,0,1,1
+"regulation of macrophage inflammatory protein 1 alpha production",0,0,0,1,1
+"regulation of intrinsic apoptotic signaling pathway in response to osmotic stress",0,0,0,1,1
+"reproductive system development",0,0,0,1,1
+"G1/S transition of mitotic cell cycle",0,0,0,1,1
+"negative regulation of response to biotic stimulus",0,0,0,1,1
+"positive T cell selection",0,0,0,1,1
+"organic acid transmembrane transport",0,0,0,1,1
+"interferon-alpha production",0,0,0,1,1
+"regulation of interferon-alpha production",0,0,0,1,1
+"inflammatory response to wounding",0,0,0,1,1
+"negative regulation of catabolic process",0,0,0,1,1
+"amino acid transport",0,0,0,1,1
+"brown fat cell differentiation",0,0,0,1,1
+"response to fatty acid",0,0,0,1,1
+"camera-type eye development",0,0,0,1,1
+"response to xenobiotic stimulus",0,0,0,1,1
+"cellular component biogenesis",0,0,0,1,1
+"regulation of synapse assembly",0,0,0,1,1
+"cellular response to glucose stimulus",0,0,0,1,1
+"response to cAMP",0,0,0,1,1
+"chronic inflammatory response",0,0,0,1,1
+"positive regulation of interleukin-4 production",0,0,0,1,1
+"positive regulation of syncytium formation by plasma membrane fusion",0,0,0,1,1
+"positive regulation of cytokine production involved in inflammatory response",0,0,0,1,1
+"mast cell mediated immunity",0,0,0,1,1
+"response to interleukin-18",0,0,0,1,1
+"T cell apoptotic process",0,0,0,1,1
+"glucose homeostasis",0,0,0,1,1
+"negative regulation of interleukin-6 production",0,0,0,1,1
+"xenobiotic transport",0,0,0,1,1
+"carbohydrate homeostasis",0,0,0,1,1
+"apoptotic mitochondrial changes",0,0,0,1,1
+"bone resorption",0,0,0,1,1
+"steroid metabolic process",0,0,0,1,1
+"cell surface receptor signaling pathway via JAK-STAT",0,0,0,1,1
+"signal transduction by p53 class mediator",0,0,0,1,1
+"positive regulation of protein phosphorylation",0,0,0,1,1
+"positive regulation of JNK cascade",0,0,0,1,1
+"negative regulation of muscle adaptation",0,0,0,1,1
+"positive regulation of MHC class II biosynthetic process",0,0,0,1,1
+"amino sugar biosynthetic process",0,0,0,1,1
+"negative regulation of wound healing",0,0,0,1,1
+"regulation of miRNA metabolic process",0,0,0,1,1
+"cellular response to hexose stimulus",0,0,0,1,1
+"detection of abiotic stimulus",0,0,0,1,1
+"regulation of receptor signaling pathway via STAT",0,0,0,1,1
+"regulation of heart contraction",0,0,0,1,1
+"endothelial cell differentiation",0,0,0,1,1
+"glucose metabolic process",0,0,0,1,1
+"regulation of cytoplasmic pattern recognition receptor signaling pathway",0,0,0,1,1
+"negative regulation of leukocyte migration",0,0,0,1,1
+"acute-phase response",0,0,0,1,1
+"icosanoid secretion",0,0,0,1,1
+"regulation of erythrocyte differentiation",0,0,0,1,1
+"negative regulation of alpha-beta T cell activation",0,0,0,1,1
+"regulation of reactive oxygen species biosynthetic process",0,0,0,1,1
+"detection of external stimulus",0,0,0,1,1
+"negative regulation of protein transport",0,0,0,1,1
+"intrinsic apoptotic signaling pathway in response to DNA damage",0,0,0,1,1
+"heart process",0,0,0,1,1
+"regulation of mitotic cell cycle phase transition",0,0,0,1,1
+"regulation of vasoconstriction",0,0,0,1,1
+"negative regulation of canonical NF-kappaB signal transduction",0,0,0,1,1
+"female pregnancy",0,0,0,1,1
+"phagocytosis, recognition",0,0,0,1,1
+"sodium ion homeostasis",0,0,0,1,1
+"positive regulation of organelle organization",0,0,0,1,1
+"negative regulation of lymphocyte mediated immunity",0,0,0,1,1
+"regulation of striated muscle cell apoptotic process",0,0,0,1,1
+"reactive oxygen species biosynthetic process",0,0,0,1,1
+"mast cell activation involved in immune response",0,0,0,1,1
+"cellular response to monosaccharide stimulus",0,0,0,1,1
+"response to yeast",0,0,0,1,1
+"regulation of amino acid import across plasma membrane",0,0,0,1,1
+"negative regulation of collagen biosynthetic process",0,0,0,1,1
+"vascular wound healing",0,0,0,1,1
+"detection of other organism",0,0,0,1,1
+"regulation of amino acid transmembrane transport",0,0,0,1,1
+"cellular response to hydrogen peroxide",0,0,0,1,1
+"T-helper 1 cell cytokine production",0,0,0,1,1
+"regulation of killing of cells of another organism",0,0,0,1,1
+"L-arginine import across plasma membrane",0,0,0,1,1
+"regulation of defense response to fungus",0,0,0,1,1
+"regulation of T-helper 1 cell cytokine production",0,0,0,1,1
+"positive regulation of T-helper 1 cell cytokine production",0,0,0,1,1
+"positive regulation of protein secretion",0,0,0,1,1
+"positive regulation of protein ubiquitination",0,0,0,1,1
+"negative regulation of extrinsic apoptotic signaling pathway",0,0,0,1,1
+"positive regulation of vasoconstriction",0,0,0,1,1
+"cholesterol metabolic process",0,0,0,1,1
+"negative regulation of endocytosis",0,0,0,1,1
+"mature B cell differentiation involved in immune response",0,0,0,1,1
+"platelet aggregation",0,0,0,1,1
+"negative regulation of protein kinase activity",0,0,0,1,1
+"response to interleukin-6",0,0,0,1,1
+"secondary alcohol metabolic process",0,0,0,1,1
+"positive regulation of interferon-alpha production",0,0,0,1,1
+"positive regulation of interleukin-17 production",0,0,0,1,1
+"positive regulation of sprouting angiogenesis",0,0,0,1,1
+"B cell differentiation",0,0,0,1,1
+"anatomical structure maturation",0,0,0,1,1
+"cellular response to type II interferon",0,0,0,1,1
+"fever generation",0,0,0,1,1
+"regulation of T-helper 2 cell differentiation",0,0,0,1,1
+"regulation of fibrinolysis",0,0,0,1,1
+"neutrophil-mediated killing of bacterium",0,0,0,1,1
+"positive regulation of extrinsic apoptotic signaling pathway via death domain receptors",0,0,0,1,1
+"positive regulation of protein transport",0,0,0,1,1
+"muscle contraction",0,0,0,1,1
+"ovarian cumulus expansion",0,0,0,1,1
+"glossopharyngeal nerve development",0,0,0,1,1
+"glossopharyngeal nerve morphogenesis",0,0,0,1,1
+"detection of bacterial lipoprotein",0,0,0,1,1
+"hypotonic salinity response",0,0,0,1,1
+"cytotoxic T cell degranulation",0,0,0,1,1
+"negative regulation of JUN kinase activity",0,0,0,1,1
+"positive regulation of neutrophil mediated killing of symbiont cell",0,0,0,1,1
+"cellular hypotonic salinity response",0,0,0,1,1
+"negative regulation of skeletal muscle satellite cell proliferation",0,0,0,1,1
+"striated muscle cell differentiation",0,0,0,1,1
+"negative regulation of leukocyte mediated immunity",0,0,0,1,1
+"proximal/distal pattern formation",0,0,0,1,1
+"peptidyl-serine phosphorylation",0,0,0,1,1
+"negative regulation of collagen metabolic process",0,0,0,1,1
+"negative regulation of receptor signaling pathway via JAK-STAT",0,0,0,1,1
+"positive regulation of protein polyubiquitination",0,0,0,1,1
+"nucleocytoplasmic transport",0,0,0,1,1
+"nuclear transport",0,0,0,1,1
+"negative regulation of innate immune response",0,0,0,1,1
+"striated muscle contraction",0,0,0,1,1
+"monocarboxylic acid biosynthetic process",0,0,0,1,1
+"negative regulation of G protein-coupled receptor signaling pathway",0,0,0,1,1
+"leukocyte homeostasis",0,0,0,1,1
+"regulation of cell shape",0,0,0,1,1
+"response to light stimulus",0,0,0,1,1
+"low-density lipoprotein particle clearance",0,0,0,1,1
+"GTP metabolic process",0,0,0,1,1
+"regulation of platelet aggregation",0,0,0,1,1
+"cell cycle G1/S phase transition",0,0,0,1,1
+"regulation of muscle organ development",0,0,0,1,1
+"ovulation cycle",0,0,0,1,1
+"negative regulation of adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains",0,0,0,1,1
+"positive regulation of hormone secretion",0,0,0,1,1
+"acylglycerol metabolic process",0,0,0,1,1
+"monosaccharide metabolic process",0,0,0,1,1
+"cellular response to metal ion",0,0,0,1,1
+"lymphocyte migration",0,0,0,1,1
+"regulation of miRNA transcription",0,0,0,1,1
+"protein localization to organelle",0,0,0,1,1
+"positive regulation of muscle cell apoptotic process",0,0,0,1,1
+"regulation of toll-like receptor signaling pathway",0,0,0,1,1
+"negative regulation of protein secretion",0,0,0,1,1
+"insulin receptor signaling pathway",0,0,0,1,1
+"dicarboxylic acid transport",0,0,0,1,1
+"regulation of antigen receptor-mediated signaling pathway",0,0,0,1,1
+"positive regulation of alpha-beta T cell differentiation",0,0,0,1,1
+"neutral lipid metabolic process",0,0,0,1,1
+"endocrine hormone secretion",0,0,0,1,1
+"smooth muscle cell migration",0,0,0,1,1
+"sprouting angiogenesis",0,0,0,1,1
+"hypotonic response",0,0,0,1,1
+"negative regulation of interleukin-8 production",0,0,0,1,1
+"positive regulation of interleukin-13 production",0,0,0,1,1
+"interleukin-18-mediated signaling pathway",0,0,0,1,1
+"hemoglobin biosynthetic process",0,0,0,1,1
+"vascular associated smooth muscle cell apoptotic process",0,0,0,1,1
+"regulation of vascular associated smooth muscle cell apoptotic process",0,0,0,1,1
+"intrinsic apoptotic signaling pathway in response to osmotic stress",0,0,0,1,1
+"ERBB2-EGFR signaling pathway",0,0,0,1,1
+"cellular response to peptidoglycan",0,0,0,1,1
+"regulation of interleukin-1-mediated signaling pathway",0,0,0,1,1
+"regulation of MAP kinase activity",0,0,0,1,1
+"embryo implantation",0,0,0,1,1
+"regulation of receptor signaling pathway via JAK-STAT",0,0,0,1,1
+"negative regulation of kinase activity",0,0,0,1,1
+"multi-multicellular organism process",0,0,0,1,1
+"hexose metabolic process",0,0,0,1,1
+"biological process involved in symbiotic interaction",0,0,0,1,1
+"positive regulation of collagen biosynthetic process",0,0,0,1,1
+"regulation of T-helper 17 type immune response",0,0,0,1,1
+"myotube differentiation",0,0,0,1,1
+"negative regulation of T cell activation",0,0,0,1,1
+"cell fate specification",0,0,0,1,1
+"striated muscle cell apoptotic process",0,0,0,1,1
+"positive regulation of peptide hormone secretion",0,0,0,1,1
+"regulation of G2/M transition of mitotic cell cycle",0,0,0,1,1
+"sterol metabolic process",0,0,0,1,1
+"ribosomal large subunit biogenesis",0,0,0,1,1
+"positive regulation of regulated secretory pathway",0,0,0,1,1
+"tissue homeostasis",0,0,0,1,1
+"anatomical structure homeostasis",0,0,0,1,1
+"stress-activated protein kinase signaling cascade",0,0,0,1,1
+"regulation of fatty acid biosynthetic process",0,0,0,1,1
+"negative regulation of natural killer cell mediated immunity",0,0,0,1,1
+"negative regulation of extrinsic apoptotic signaling pathway via death domain receptors",0,0,0,1,1
+"ketone metabolic process",0,0,0,1,1
+"positive regulation of osteoblast differentiation",0,0,0,1,1
+"miRNA transcription",0,0,0,1,1
+"extrinsic apoptotic signaling pathway in absence of ligand",0,0,0,1,1
+"regulation of osteoclast differentiation",0,0,0,1,1
+"regulation of antigen processing and presentation",0,0,0,1,1
+"maintenance of blood-brain barrier",0,0,0,1,1
+"regulation of meiotic nuclear division",0,0,0,1,1
+"cellular response to interleukin-6",0,0,0,1,1
+"ear development",0,0,0,1,1
+"mitotic nuclear division",0,0,0,1,1
+"regulation of ketone metabolic process",0,0,0,1,1
+"platelet-derived growth factor receptor signaling pathway",0,0,0,1,1
+"regulation of muscle contraction",0,0,0,1,1
+"odontogenesis",0,0,0,1,1
+"natural killer cell activation",0,0,0,1,1
+"cellular response to interleukin-18",0,0,0,1,1
+"regulation of rRNA processing",0,0,0,1,1
+"mammary gland epithelium development",0,0,0,1,1
+"killing of cells of another organism",0,0,0,1,1
+"nephron epithelium development",0,0,0,1,1
+"disruption of cell in another organism",0,0,0,1,1
+"regulation of cell cycle G2/M phase transition",0,0,0,1,1
+"myotube cell development",0,0,0,1,1
+"regulation of hormone metabolic process",0,0,0,1,1
+"regulation of epidermal cell differentiation",0,0,0,1,1
+"myeloid leukocyte cytokine production",0,0,0,1,1
+"regulation of cholesterol metabolic process",0,0,0,1,1
+"regulation of G protein-coupled receptor signaling pathway",0,0,0,1,1
+"gonad development",0,0,0,1,1
+"decidualization",0,0,0,1,1
+"regulation of protein polyubiquitination",0,0,0,1,1
+"regulation of homotypic cell-cell adhesion",0,0,0,1,1
+"regulation of neuroinflammatory response",0,0,0,1,1
+"negative regulation of cytokine production involved in inflammatory response",0,0,0,1,1
+"negative regulation of CD4-positive, alpha-beta T cell activation",0,0,0,1,1
+"carboxylic acid transmembrane transport",0,0,0,1,1
+"vacuolar localization",0,0,0,1,1
+"response to chemokine",0,0,0,1,1
+"cellular response to chemokine",0,0,0,1,1
+"signal transduction in absence of ligand",0,0,0,1,1
+"cell surface toll-like receptor signaling pathway",0,0,0,1,1
+"calcium ion transmembrane transport",0,0,0,1,1
+"positive regulation of small molecule metabolic process",0,0,0,1,1
+"steroid biosynthetic process",0,0,0,1,1
+"response to ionizing radiation",0,0,0,1,1
+"UDP-N-acetylglucosamine biosynthetic process",0,0,0,1,1
+"negative regulation of fibrinolysis",0,0,0,1,1
+"nucleotide-binding oligomerization domain containing 1 signaling pathway",0,0,0,1,1
+"positive regulation of rRNA processing",0,0,0,1,1
+"cellular response to nerve growth factor stimulus",0,0,0,1,1
+"sex differentiation",0,0,0,1,1
+"positive regulation of endothelial cell apoptotic process",0,0,0,1,1
+"regulation of T cell receptor signaling pathway",0,0,0,1,1
+"regulation of calcium ion transport",0,0,0,1,1
+"positive regulation of extracellular matrix constituent secretion",0,0,0,1,1
+"negative regulation of skeletal muscle cell proliferation",0,0,0,1,1
+"negative regulation of icosanoid secretion",0,0,0,1,1
+"regulation of MyD88-dependent toll-like receptor signaling pathway",0,0,0,1,1
+"granulocyte colony-stimulating factor signaling pathway",0,0,0,1,1
+"recognition of apoptotic cell",0,0,0,1,1
+"positive regulation of MHC class I biosynthetic process",0,0,0,1,1
+"positive regulation of killing of cells of another organism",0,0,0,1,1
+"regulation of cell differentiation involved in embryonic placenta development",0,0,0,1,1
+"cardiac fibroblast cell differentiation",0,0,0,1,1
+"cardiac fibroblast cell development",0,0,0,1,1
+"negative regulation of vascular wound healing",0,0,0,1,1
+"neutrophil-mediated killing of fungus",0,0,0,1,1
+"cellular response to corticotropin-releasing hormone stimulus",0,0,0,1,1
+"folate transmembrane transport",0,0,0,1,1
+"regulation of leukocyte adhesion to arterial endothelial cell",0,0,0,1,1
+"positive regulation of type I interferon production",0,0,0,1,1
+"cellular response to starvation",0,0,0,1,1
+"positive regulation of collagen metabolic process",0,0,0,1,1
+"positive regulation of myeloid leukocyte cytokine production involved in immune response",0,0,0,1,1
+"development of primary sexual characteristics",0,0,0,1,1
+"blastocyst formation",0,0,0,1,1
+"regulation of endocrine process",0,0,0,1,1
+"biological process involved in interaction with symbiont",0,0,0,1,1
+"maturation of SSU-rRNA from tricistronic rRNA transcript (SSU-rRNA, 5.8S rRNA, LSU-rRNA)",0,0,0,1,1
+"triglyceride catabolic process",0,0,0,1,1
+"interleukin-4 production",0,0,0,1,1
+"regulation of interleukin-4 production",0,0,0,1,1
+"positive regulation of glial cell proliferation",0,0,0,1,1
+"muscle organ morphogenesis",0,0,0,1,1
+"response to manganese ion",0,0,0,1,1
+"actin filament polymerization",0,0,0,1,1
+"inner ear development",0,0,0,1,1
+"response to starvation",0,0,0,1,1
+"positive regulation of stress-activated MAPK cascade",0,0,0,1,1
+"negative regulation of T-helper cell differentiation",0,0,0,1,1
+"positive regulation of stress-activated protein kinase signaling cascade",0,0,0,1,1
+"positive regulation of morphogenesis of an epithelium",0,0,0,1,1
+"carboxylic acid biosynthetic process",0,0,0,1,1
+"actin polymerization or depolymerization",0,0,0,1,1
+"negative regulation of alpha-beta T cell differentiation",0,0,0,1,1
+"smooth muscle tissue development",0,0,0,1,1
+"protein catabolic process",0,0,0,1,1
+"embryonic skeletal system morphogenesis",0,0,0,1,1
+"regulation of fatty acid metabolic process",0,0,0,1,1
+"response to nerve growth factor",0,0,0,1,1
+"calcium ion homeostasis",0,0,0,1,1
+"negative regulation of catalytic activity",0,0,0,1,1
+"G2/M transition of mitotic cell cycle",0,0,0,1,1
+"neuromuscular process controlling balance",0,0,0,1,1
+"positive regulation of DNA-binding transcription factor activity",0,0,0,1,1
+"positive regulation of intrinsic apoptotic signaling pathway",0,0,0,1,1
+"negative regulation of MAP kinase activity",0,0,0,1,1
+"learned vocalization behavior or vocal learning",0,0,0,1,1
+"regulation of odontoblast differentiation",0,0,0,1,1
+"response to mineralocorticoid",0,0,0,1,1
+"cellular response to amyloid-beta",0,0,0,1,1
+"skeletal muscle tissue regeneration",0,0,0,1,1
+"detection of mechanical stimulus involved in sensory perception",0,0,0,1,1
+"blood vessel endothelial cell migration",0,0,0,1,1
+"lymphocyte homeostasis",0,0,0,1,1
+"positive regulation of type 2 immune response",0,0,0,1,1
+"positive regulation of macrophage derived foam cell differentiation",0,0,0,1,1
+"detection of bacterium",0,0,0,1,1
+"regulation of CD8-positive, alpha-beta T cell activation",0,0,0,1,1
+"neurotransmitter transport",0,0,0,1,1
+"regulation of mitotic nuclear division",0,0,0,1,1
+"modulation of process of another organism",0,0,0,1,1
+"organ induction",0,0,0,1,1
+"ovulation",0,0,0,1,1
+"regulation of icosanoid secretion",0,0,0,1,1
+"negative regulation of interleukin-2 production",0,0,0,1,1
+"type II interferon-mediated signaling pathway",0,0,0,1,1
+"regulation of CD4-positive, alpha-beta T cell proliferation",0,0,0,1,1
+"nuclear division",0,0,0,1,1
+"miRNA metabolic process",0,0,0,1,1
+"positive regulation of exocytosis",0,0,0,1,1
+"epidermal cell differentiation",0,0,0,1,1
+"regulation of type I interferon production",0,0,0,1,1
+"type I interferon production",0,0,0,1,1
+"negative regulation of mitotic cell cycle",0,0,0,1,1
+"renal system process involved in regulation of systemic arterial blood pressure",0,0,0,1,1
+"positive regulation of leukocyte degranulation",0,0,0,1,1
+"positive regulation of cell growth",0,0,0,1,1
+"embryonic skeletal system development",0,0,0,1,1
+"bone development",0,0,0,1,1
+"icosanoid biosynthetic process",0,0,0,1,1
+"regulation of meiotic cell cycle",0,0,0,1,1
+"lipid export from cell",0,0,0,1,1
+"vasodilation",0,0,0,1,1
+"response to dsRNA",0,0,0,1,1
+"animal organ formation",0,0,0,1,1
+"organic acid biosynthetic process",0,0,0,1,1
+"B cell activation involved in immune response",0,0,0,1,1
+"bone remodeling",0,0,0,1,1
+"regulation of postsynapse organization",0,0,0,1,1
+"regulation of humoral immune response",0,0,0,1,1
+"killing by host of symbiont cells",0,0,0,1,1
+"mature B cell differentiation",0,0,0,1,1
+"macrophage cytokine production",0,0,0,1,1
+"regulation of macrophage cytokine production",0,0,0,1,1
+"positive regulation of synapse assembly",0,0,0,1,1
+"maintenance of location in cell",0,0,0,1,1
+"negative regulation of insulin secretion",0,0,0,1,1
+"mesoderm formation",0,0,0,1,1
+"regulation of steroid biosynthetic process",0,0,0,1,1
+"regulation of signal transduction by p53 class mediator",0,0,0,1,1
+"regulation of animal organ morphogenesis",0,0,0,1,1
+"maintenance of location",0,0,0,1,1
+"regulation of DNA metabolic process",0,0,0,1,1
+"positive regulation of systemic arterial blood pressure",0,0,0,1,1
+"intracellular sodium ion homeostasis",0,0,0,1,1
+"CD4-positive, alpha-beta T cell proliferation",0,0,0,1,1
+"positive regulation of alpha-beta T cell proliferation",0,0,0,1,1
+"angiogenesis involved in wound healing",0,0,0,1,1
+"negative regulation of leukocyte mediated cytotoxicity",0,0,0,1,1
+"regulation of smooth muscle cell apoptotic process",0,0,0,1,1
+"CD8-positive, alpha-beta T cell activation",0,0,0,1,1
+"animal organ maturation",0,0,0,1,1
+"organophosphate metabolic process",0,0,0,1,1
+"regulation of cell cycle phase transition",0,0,0,1,1
+"regulation of developmental growth",0,0,0,1,1
+"erythrocyte homeostasis",0,0,0,1,1
+"complement receptor mediated signaling pathway",0,0,0,1,1
+"pyrimidine deoxyribonucleoside monophosphate metabolic process",0,0,0,1,1
+"positive regulation of peptidyl-tyrosine phosphorylation",0,0,0,1,1
+"regulation of type B pancreatic cell proliferation",0,0,0,1,1
+"positive regulation of T-helper 17 type immune response",0,0,0,1,1
+"B-1 B cell homeostasis",0,0,0,1,1
+"leukocyte migration involved in immune response",0,0,0,1,1
+"fructose 2,6-bisphosphate metabolic process",0,0,0,1,1
+"detection of lipopolysaccharide",0,0,0,1,1
+"Fc-epsilon receptor signaling pathway",0,0,0,1,1
+"response to corticotropin-releasing hormone",0,0,0,1,1
+"fused antrum stage",0,0,0,1,1
+"leukocyte adhesion to arterial endothelial cell",0,0,0,1,1
+"negative regulation of protein targeting to mitochondrion",0,0,0,1,1
+"negative regulation of interleukin-1-mediated signaling pathway",0,0,0,1,1
+"ureteric bud morphogenesis",0,0,0,1,1
+"carbohydrate biosynthetic process",0,0,0,1,1
+"erythrocyte differentiation",0,0,0,1,1
+"negative regulation of natural killer cell activation",0,0,0,1,1
+"positive regulation of T cell differentiation in thymus",0,0,0,1,1
+"positive regulation of heterotypic cell-cell adhesion",0,0,0,1,1
+"T-helper 2 cell cytokine production",0,0,0,1,1
+"negative regulation of peptidyl-tyrosine phosphorylation",0,0,0,1,1
+"thyroid hormone transport",0,0,0,1,1
+"manganese ion transmembrane transport",0,0,0,1,1
+"regulation of cellular response to osmotic stress",0,0,0,1,1
+"non-canonical inflammasome complex assembly",0,0,0,1,1
+"regulation of T-helper 2 cell cytokine production",0,0,0,1,1
+"positive regulation of CD4-positive, alpha-beta T cell proliferation",0,0,0,1,1
+"regulation of actin polymerization or depolymerization",0,0,0,1,1
+"cell cycle G2/M phase transition",0,0,0,1,1
+"positive regulation of establishment of protein localization",0,0,0,1,1
+"regulation of insulin receptor signaling pathway",0,0,0,1,1
+"follicular dendritic cell activation",0,0,0,1,1
+"follicular dendritic cell differentiation",0,0,0,1,1
+"rhombomere 3 morphogenesis",0,0,0,1,1
+"detection of triacyl bacterial lipopeptide",0,0,0,1,1
+"glial cell-derived neurotrophic factor production",0,0,0,1,1
+"ITP biosynthetic process",0,0,0,1,1
+"methotrexate transport",0,0,0,1,1
+"vestibular receptor cell morphogenesis",0,0,0,1,1
+"regulation of neutrophil mediated killing of bacterium",0,0,0,1,1
+"regulation of neutrophil mediated killing of gram-negative bacterium",0,0,0,1,1
+"regulation of glial cell-derived neurotrophic factor production",0,0,0,1,1
+"positive regulation of glial cell-derived neurotrophic factor production",0,0,0,1,1
+"negative regulation of endothelial cell development",0,0,0,1,1
+"negative regulation of establishment of endothelial barrier",0,0,0,1,1
+"negative regulation of gap junction assembly",0,0,0,1,1
+"positive regulation of hepatocyte apoptotic process",0,0,0,1,1
+"positive regulation of response to macrophage colony-stimulating factor",0,0,0,1,1
+"positive regulation of cellular response to macrophage colony-stimulating factor stimulus",0,0,0,1,1
+"pyroptosome complex assembly",0,0,0,1,1
+"negative regulation of activated CD8-positive, alpha-beta T cell apoptotic process",0,0,0,1,1
+"fibronectin fibril organization",0,0,0,1,1
+"DNA double-strand break attachment to nuclear envelope",0,0,0,1,1
+"regulation of neurotransmitter transport",0,0,0,1,1
+"pyroptotic inflammatory response",0,0,0,1,1
+"response to angiotensin",0,0,0,1,1
+"smooth muscle cell apoptotic process",0,0,0,1,1
+"regulation of keratinocyte differentiation",0,0,0,1,1
+"necroptotic process",0,0,0,1,1
+"regulation of epidermis development",0,0,0,1,1
+"artery development",0,0,0,1,1
+"regulation of macrophage derived foam cell differentiation",0,0,0,1,1
+"regulation of mast cell activation",0,0,0,1,1
+"dendritic cell migration",0,0,0,1,1
+"regulation of hormone biosynthetic process",0,0,0,1,1
+"negative regulation of phagocytosis",0,0,0,1,1
+"detection of temperature stimulus involved in sensory perception of pain",0,0,0,1,1
+"response to protozoan",0,0,0,1,1
+"polyol metabolic process",0,0,0,1,1
+"tumor necrosis factor-mediated signaling pathway",0,0,0,1,1
+"positive regulation of reproductive process",0,0,0,1,1
+"protein autophosphorylation",0,0,0,1,1
+"endoderm formation",0,0,0,1,1
+"negative regulation of myeloid leukocyte differentiation",0,0,0,1,1
+"osteoblast development",0,0,0,1,1
+"Fc receptor mediated stimulatory signaling pathway",0,0,0,1,1
+"negative regulation of leukocyte chemotaxis",0,0,0,1,1
+"cellular response to vascular endothelial growth factor stimulus",0,0,0,1,1
+"regulation of natural killer cell mediated cytotoxicity",0,0,0,1,1
+"neuron maturation",0,0,0,1,1
+"positive regulation of endothelial cell migration",0,0,0,1,1
+"carbohydrate derivative metabolic process",0,0,0,1,1
+"lysosome localization",0,0,0,1,1
+"regulation of actin filament length",0,0,0,1,1
+"negative regulation of lipid transport",0,0,0,1,1
+"regulation of superoxide metabolic process",0,0,0,1,1
+"positive regulation of developmental growth",0,0,0,1,1
+"regulation of monoatomic ion transmembrane transport",0,0,0,1,1
+"positive regulation of vascular associated smooth muscle cell proliferation",0,0,0,1,1
+"mesoderm development",0,0,0,1,1
+"oxoacid metabolic process",0,0,0,1,1
+"fatty acid biosynthetic process",0,0,0,1,1
+"regulation of intracellular protein transport",0,0,0,1,1
+"nephron development",0,0,0,1,1
+"inflammatory response to antigenic stimulus",0,0,0,1,1
+"positive regulation of myeloid leukocyte differentiation",0,0,0,1,1
+"mesoderm morphogenesis",0,0,0,1,1
+"regulation of vascular associated smooth muscle cell proliferation",0,0,0,1,1
+"ear morphogenesis",0,0,0,1,1
+"disruption of anatomical structure in another organism",0,0,0,1,1
+"regulation of heart rate",0,0,0,1,1
+"regulation of amine transport",0,0,0,1,1
+"organelle localization",0,0,0,1,1
+"heat generation",0,0,0,1,1
+"positive regulation of superoxide anion generation",0,0,0,1,1
+"iron ion transmembrane transport",0,0,0,1,1
+"negative regulation of CD4-positive, alpha-beta T cell differentiation",0,0,0,1,1
+"negative regulation of steroid metabolic process",0,0,0,1,1
+"regulation of cellular response to oxidative stress",0,0,0,1,1
+"nephron epithelium morphogenesis",0,0,0,1,1
+"proteoglycan metabolic process",0,0,0,1,1
+"odontogenesis of dentin-containing tooth",0,0,0,1,1
+"humoral immune response mediated by circulating immunoglobulin",0,0,0,1,1
+"body morphogenesis",0,0,0,1,1
+"positive regulation of organic acid transport",0,0,0,1,1
+"branching involved in ureteric bud morphogenesis",0,0,0,1,1
+"regulation of cardiac muscle cell apoptotic process",0,0,0,1,1
+"negative regulation of protein ubiquitination",0,0,0,1,1
+"detection of mechanical stimulus",0,0,0,1,1
+"myeloid cell homeostasis",0,0,0,1,1
+"glycerolipid metabolic process",0,0,0,1,1
+"inner ear morphogenesis",0,0,0,1,1
+"release of sequestered calcium ion into cytosol",0,0,0,1,1
+"cardiocyte differentiation",0,0,0,1,1
+"antral ovarian follicle growth",0,0,0,1,1
+"wound healing involved in inflammatory response",0,0,0,1,1
+"MyD88-independent toll-like receptor signaling pathway",0,0,0,1,1
+"UDP-N-acetylglucosamine metabolic process",0,0,0,1,1
+"Toll signaling pathway",0,0,0,1,1
+"regulation of skeletal muscle satellite cell proliferation",0,0,0,1,1
+"positive regulation of interleukin-5 production",0,0,0,1,1
+"regulation of T-helper 1 cell differentiation",0,0,0,1,1
+"cellular hypotonic response",0,0,0,1,1
+"alcohol biosynthetic process",0,0,0,1,1
+"polysaccharide metabolic process",0,0,0,1,1
+"cell maturation",0,0,0,1,1
+"mesonephric tubule morphogenesis",0,0,0,1,1
+"amino sugar metabolic process",0,0,0,1,1
+"positive regulation of mitotic nuclear division",0,0,0,1,1
+"regulation of release of cytochrome c from mitochondria",0,0,0,1,1
+"response to vitamin D",0,0,0,1,1
+"type B pancreatic cell proliferation",0,0,0,1,1
+"positive regulation of pattern recognition receptor signaling pathway",0,0,0,1,1
+"negative regulation of sequestering of calcium ion",0,0,0,1,1
+"cardiac muscle contraction",0,0,0,1,1
+"lung alveolus development",0,0,0,1,1
+"nucleobase-containing compound catabolic process",0,0,0,1,1
+"positive regulation of lipid storage",0,0,0,1,1
+"hemoglobin metabolic process",0,0,0,1,1
+"prostaglandin secretion",0,0,0,1,1
+"positive regulation of meiotic nuclear division",0,0,0,1,1
+"T-helper 17 cell lineage commitment",0,0,0,1,1
+"regulation of steroid hormone biosynthetic process",0,0,0,1,1
+"negative regulation of release of cytochrome c from mitochondria",0,0,0,1,1
+"establishment of organelle localization",0,0,0,1,1
+"positive regulation of catabolic process",0,0,0,1,1
+"smooth muscle cell differentiation",0,0,0,1,1
+"immune system development",0,0,0,1,1
+"female sex differentiation",0,0,0,1,1
+"regulation of neural precursor cell proliferation",0,0,0,1,1
+"positive regulation of vascular endothelial growth factor production",0,0,0,1,1
+"negative regulation of D-glucose transmembrane transport",0,0,0,1,1
+"ossification involved in bone maturation",0,0,0,1,1
+"negative regulation of natural killer cell mediated cytotoxicity",0,0,0,1,1
+"positive regulation of macrophage cytokine production",0,0,0,1,1
+"positive regulation of neutrophil chemotaxis",0,0,0,1,1
+"organic acid metabolic process",0,0,0,1,1
+"nephron morphogenesis",0,0,0,1,1
+"regulation of viral process",0,0,0,1,1
+"developmental maturation",0,0,0,1,1
+"negative regulation of antigen processing and presentation",0,0,0,1,1
+"CMP catabolic process",0,0,0,1,1
+"regulation of long-chain fatty acid import across plasma membrane",0,0,0,1,1
+"folic acid transport",0,0,0,1,1
+"response to bacterial lipoprotein",0,0,0,1,1
+"positive regulation of immature T cell proliferation",0,0,0,1,1
+"positive regulation of immature T cell proliferation in thymus",0,0,0,1,1
+"TRIF-dependent toll-like receptor signaling pathway",0,0,0,1,1
+"MHC class I biosynthetic process",0,0,0,1,1
+"regulation of MHC class I biosynthetic process",0,0,0,1,1
+"positive regulation of T-helper 2 cell differentiation",0,0,0,1,1
+"negative regulation of skeletal muscle tissue development",0,0,0,1,1
+"positive regulation of odontoblast differentiation",0,0,0,1,1
+"positive regulation of opsonization",0,0,0,1,1
+"negative regulation of cardiac muscle hypertrophy in response to stress",0,0,0,1,1
+"negative regulation of CD8-positive, alpha-beta T cell activation",0,0,0,1,1
+"maturation of SSU-rRNA",0,0,0,1,1
+"activin receptor signaling pathway",0,0,0,1,1
+"negative regulation of cell cycle phase transition",0,0,0,1,1
+"negative regulation of lipid metabolic process",0,0,0,1,1
+"carboxylic acid metabolic process",0,0,0,1,1
+"negative regulation of G1/S transition of mitotic cell cycle",0,0,0,1,1
+"myeloid dendritic cell activation",0,0,0,1,1
+"vascular endothelial growth factor production",0,0,0,1,1
+"positive regulation of animal organ morphogenesis",0,0,0,1,1
+"regulation of sequestering of calcium ion",0,0,0,1,1
+"adipose tissue development",0,0,0,1,1
+"negative regulation of protein modification by small protein conjugation or removal",0,0,0,1,1
+"negative regulation of cell cycle process",0,0,0,1,1
+"embryonic placenta development",0,0,0,1,1
+"positive regulation of glucose metabolic process",0,0,0,1,1
+"interferon-beta production",0,0,0,1,1
+"regulation of interferon-beta production",0,0,0,1,1
+"positive regulation of transmembrane receptor protein serine/threonine kinase signaling pathway",0,0,0,1,1
+"regulation of protein serine/threonine kinase activity",0,0,0,1,1
+"response to amyloid-beta",0,0,0,1,1
+"mast cell chemotaxis",0,0,0,1,1
+"manganese ion transport",0,0,0,1,1
+"positive regulation of platelet activation",0,0,0,1,1
+"cartilage morphogenesis",0,0,0,1,1
+"regulation of protein tyrosine kinase activity",0,0,0,1,1
+"mRNA modification",0,0,0,1,1
+"vitamin transmembrane transport",0,0,0,1,1
+"detection of mechanical stimulus involved in sensory perception of sound",0,0,0,1,1
+"regulation of leukocyte tethering or rolling",0,0,0,1,1
+"nucleotide-sugar biosynthetic process",0,0,0,1,1
+"positive regulation of striated muscle cell apoptotic process",0,0,0,1,1
+"macrophage derived foam cell differentiation",0,0,0,1,1
+"bile acid and bile salt transport",0,0,0,1,1
+"prostaglandin transport",0,0,0,1,1
+"positive regulation of fatty acid biosynthetic process",0,0,0,1,1
+"regulation of skeletal muscle tissue development",0,0,0,1,1
+"uterus development",0,0,0,1,1
+"ovulation cycle process",0,0,0,1,1
+"regulation of glial cell proliferation",0,0,0,1,1
+"regulation of postsynapse assembly",0,0,0,1,1
+"vascular associated smooth muscle cell proliferation",0,0,0,1,1
+"specification of animal organ identity",0,0,0,1,1
+"developmental induction",0,0,0,1,1
+"negative regulation of type II interferon production",0,0,0,1,1
+"sequestering of calcium ion",0,0,0,1,1
+"muscle adaptation",0,0,0,1,1
+"cell division",0,0,0,1,1
+"circadian regulation of gene expression",0,0,0,1,1
+"T cell migration",0,0,0,1,1
+"multicellular organism growth",0,0,0,1,1
+"response to activity",0,0,0,1,1
+"icosanoid metabolic process",0,0,0,1,1
+"immunoglobulin production",0,0,0,1,1
+"TORC1 signaling",0,0,0,1,1
+"acidic amino acid transport",0,0,0,1,1
+"regulation of tissue remodeling",0,0,0,1,1
+"regulation of multicellular organism growth",0,0,0,1,1
+"regulation of striated muscle tissue development",0,0,0,1,1
+"granulocyte differentiation",0,0,0,1,1
+"stress-activated MAPK cascade",0,0,0,1,1
+"regulation of bone remodeling",0,0,0,1,1
+"face development",0,0,0,1,1
+"negative regulation of lipid localization",0,0,0,1,1
+"skin development",0,0,0,1,1
+"negative regulation of T cell mediated immunity",0,0,0,1,1
+"regulation of animal organ formation",0,0,0,1,1
+"regulation of superoxide anion generation",0,0,0,1,1
+"mammary gland epithelial cell proliferation",0,0,0,1,1
+"ionotropic glutamate receptor signaling pathway",0,0,0,1,1
+"detection of temperature stimulus involved in sensory perception",0,0,0,1,1
+"positive regulation of meiotic cell cycle",0,0,0,1,1
+"cell fate commitment involved in formation of primary germ layer",0,0,0,1,1
+"coronary vasculature morphogenesis",0,0,0,1,1
+"bone maturation",0,0,0,1,1
+"epidermal growth factor receptor signaling pathway",0,0,0,1,1
+"cellular response to unfolded protein",0,0,0,1,1
+"negative regulation of cell killing",0,0,0,1,1
+"positive regulation of multicellular organism growth",0,0,0,1,1
+"cellular response to calcium ion",0,0,0,1,1
+"response to alcohol",0,0,0,1,1
+"lactate metabolic process",0,0,0,1,1
+"opsonization",0,0,0,1,1
+"fibrinolysis",0,0,0,1,1
+"carbohydrate phosphorylation",0,0,0,1,1
+"gland morphogenesis",0,0,0,1,1
+"receptor internalization",0,0,0,1,1
+"regulation of bone resorption",0,0,0,1,1
+"programmed necrotic cell death",0,0,0,1,1
+"positive regulation of insulin secretion",0,0,0,1,1
+"regulation of striated muscle contraction",0,0,0,1,1
+"endothelial cell development",0,0,0,1,1
+"cardiac muscle cell apoptotic process",0,0,0,1,1
+"hormone biosynthetic process",0,0,0,1,1
+"calcium ion transmembrane import into cytosol",0,0,0,1,1
+"ovulation from ovarian follicle",0,0,0,1,1
+"negative regulation of type 2 immune response",0,0,0,1,1
+"leukotriene biosynthetic process",0,0,0,1,1
+"negative regulation of circadian rhythm",0,0,0,1,1
+"positive regulation of leukocyte tethering or rolling",0,0,0,1,1
+"response to endothelin",0,0,0,1,1
+"calcium ion import",0,0,0,1,1
+"natural killer cell cytokine production",0,0,0,1,1
+"regulation of natural killer cell cytokine production",0,0,0,1,1
+"dCMP catabolic process",0,0,0,1,1
+"pyrimidine ribonucleoside monophosphate catabolic process",0,0,0,1,1
+"negative regulation of cardiac muscle adaptation",0,0,0,1,1
+"vocal learning",0,0,0,1,1
+"positive regulation of T-helper 1 cell differentiation",0,0,0,1,1
+"dCMP metabolic process",0,0,0,1,1
+"monocyte aggregation",0,0,0,1,1
+"neutrophil-mediated killing of gram-negative bacterium",0,0,0,1,1
+"thymocyte migration",0,0,0,1,1
+"imitative learning",0,0,0,1,1
+"positive regulation of protein K63-linked ubiquitination",0,0,0,1,1
+"positive regulation of neuroepithelial cell differentiation",0,0,0,1,1
+"regulation of dendritic cell differentiation",0,0,0,1,1
+"cardiac muscle hypertrophy",0,0,0,1,1
+"cardiac cell development",0,0,0,1,1
+"female gonad development",0,0,0,1,1
+"glutamate secretion",0,0,0,1,1
+"defense response to protozoan",0,0,0,1,1
+"detection of stimulus involved in sensory perception of pain",0,0,0,1,1
+"regulation of cardiac muscle cell contraction",0,0,0,1,1
+"defense response to virus",0,0,0,1,1
+"female gamete generation",0,0,0,1,1
+"cellular response to decreased oxygen levels",0,0,0,1,1
+"mesodermal cell differentiation",0,0,0,1,1
+"positive regulation of granulocyte chemotaxis",0,0,0,1,1
+"foam cell differentiation",0,0,0,1,1
+"positive regulation of cell cycle G2/M phase transition",0,0,0,1,1
+"negative regulation of DNA biosynthetic process",0,0,0,1,1
+"regulation of lipid storage",0,0,0,1,1
+"positive regulation of steroid metabolic process",0,0,0,1,1
+"regulation of muscle tissue development",0,0,0,1,1
+"negative regulation of post-translational protein modification",0,0,0,1,1
+"negative regulation of peptide hormone secretion",0,0,0,1,1
+"L-alpha-amino acid transmembrane transport",0,0,0,1,1
+"RNA modification",0,0,0,1,1
+"establishment of protein localization to organelle",0,0,0,1,1
+"kidney morphogenesis",0,0,0,1,1
+"neurotransmitter secretion",0,0,0,1,1
+"TOR signaling",0,0,0,1,1
+"signal release from synapse",0,0,0,1,1
+"pyrimidine deoxyribonucleotide metabolic process",0,0,0,1,1
+"response to muscle stretch",0,0,0,1,1
+"locomotory behavior",0,0,0,1,1
+"carbohydrate transport",0,0,0,1,1
+"endocrine system development",0,0,0,1,1
+"unsaturated fatty acid biosynthetic process",0,0,0,1,1
+"glutamate receptor signaling pathway",0,0,0,1,1
+"amino acid transmembrane transport",0,0,0,1,1
+"hexose biosynthetic process",0,0,0,1,1
+"organic cation transport",0,0,0,1,1
+"maternal placenta development",0,0,0,1,1
+"central nervous system neuron axonogenesis",0,0,0,1,1
+"ruffle assembly",0,0,0,1,1
+"aorta development",0,0,0,1,1
+"amyloid precursor protein metabolic process",0,0,0,1,1
+"myoblast fusion",0,0,0,1,1
+"protein O-linked glycosylation via xylose",0,0,0,1,1
+"negative regulation of protein localization",0,0,0,1,1
+"regulation of vascular permeability involved in acute inflammatory response",0,0,0,1,1
+"negative regulation of antigen processing and presentation of peptide or polysaccharide antigen via MHC class II",0,0,0,1,1
+"immune response-inhibiting cell surface receptor signaling pathway",0,0,0,1,1
+"glycine catabolic process",0,0,0,1,1
+"substance P catabolic process",0,0,0,1,1
+"glycine decarboxylation via glycine cleavage system",0,0,0,1,1
+"rhombomere morphogenesis",0,0,0,1,1
+"negative regulation of toll-like receptor 3 signaling pathway",0,0,0,1,1
+"brain segmentation",0,0,0,1,1
+"urokinase plasminogen activator signaling pathway",0,0,0,1,1
+"type III interferon-mediated signaling pathway",0,0,0,1,1
+"positive regulation of dopamine uptake involved in synaptic transmission",0,0,0,1,1
+"positive regulation of catecholamine uptake involved in synaptic transmission",0,0,0,1,1
+"vestibular receptor cell differentiation",0,0,0,1,1
+"vestibular receptor cell development",0,0,0,1,1
+"cell proliferation involved in mesonephros development",0,0,0,1,1
+"detection of bacterial lipopeptide",0,0,0,1,1
+"neutrophil-mediated killing of gram-positive bacterium",0,0,0,1,1
+"regulation of neutrophil mediated killing of fungus",0,0,0,1,1
+"positive regulation of neutrophil mediated killing of fungus",0,0,0,1,1
+"cellular response to type III interferon",0,0,0,1,1
+"negative regulation of macrophage inflammatory protein 1 alpha production",0,0,0,1,1
+"positive regulation of macrophage inflammatory protein 1 alpha production",0,0,0,1,1
+"response to triacyl bacterial lipopeptide",0,0,0,1,1
+"cellular response to triacyl bacterial lipopeptide",0,0,0,1,1
+"ammonium ion metabolic process",0,0,0,1,1
+"negative regulation of arachidonate secretion",0,0,0,1,1
+"regulation of intrinsic apoptotic signaling pathway in response to osmotic stress by p53 class mediator",0,0,0,1,1
+"positive regulation of leukocyte adhesion to arterial endothelial cell",0,0,0,1,1
+"ceramide phosphoethanolamine metabolic process",0,0,0,1,1
+"positive regulation of inhibitory synapse assembly",0,0,0,1,1
+"positive regulation of endothelial tube morphogenesis",0,0,0,1,1
+"intrinsic apoptotic signaling pathway in response to osmotic stress by p53 class mediator",0,0,0,1,1
+"positive regulation of interleukin-18-mediated signaling pathway",0,0,0,1,1
+"small GTPase-mediated signal transduction",0,0,0,1,1
+"antigen processing and presentation of exogenous peptide antigen",0,0,0,1,1
+"regulation of B cell apoptotic process",0,0,0,1,1
+"positive regulation of lipid catabolic process",0,0,0,1,1
+"development of primary female sexual characteristics",0,0,0,1,1
+"organophosphate catabolic process",0,0,0,1,1
+"positive regulation of carbohydrate metabolic process",0,0,0,1,1
+"fructose 6-phosphate metabolic process",0,0,0,1,1
+"CD40 signaling pathway",0,0,0,1,1
+"bone mineralization involved in bone maturation",0,0,0,1,1
+"regulation of ATP-dependent activity",0,0,0,1,1
+"nose development",0,0,0,1,1
+"positive regulation of macrophage differentiation",0,0,0,1,1
+"dTMP metabolic process",0,0,0,1,1
+"relaxation of cardiac muscle",0,0,0,1,1
+"negative regulation of neuroinflammatory response",0,0,0,1,1
+"positive regulation of epithelial cell differentiation",0,0,0,1,1
+"cellular response to amino acid starvation",0,0,0,1,1
+"positive regulation of protein kinase activity",0,0,0,1,1
+"regulation of alcohol biosynthetic process",0,0,0,1,1
+"nephron tubule morphogenesis",0,0,0,1,1
+"striated muscle cell development",0,0,0,1,1
+"negative regulation of peptide secretion",0,0,0,1,1
+"regulation of protein stability",0,0,0,1,1
+"B cell apoptotic process",0,0,0,1,1
+"positive regulation of steroid biosynthetic process",0,0,0,1,1
+"positive regulation of interleukin-12 production",0,0,0,1,1
+"neutral lipid catabolic process",0,0,0,1,1
+"acylglycerol catabolic process",0,0,0,1,1
+"lymphocyte chemotaxis",0,0,0,1,1
+"response to tumor cell",0,0,0,1,1
+"digestive tract morphogenesis",0,0,0,1,1
+"regulation of neuroblast proliferation",0,0,0,1,1
+"T-helper cell lineage commitment",0,0,0,1,1
+"positive regulation of macrophage chemotaxis",0,0,0,1,1
+"wound healing, spreading of epidermal cells",0,0,0,1,1
+"myeloid dendritic cell differentiation",0,0,0,1,1
+"regulation of renal system process",0,0,0,1,1
+"positive regulation of reactive oxygen species biosynthetic process",0,0,0,1,1
+"striated muscle hypertrophy",0,0,0,1,1
+"cellular response to radiation",0,0,0,1,1
+"protein export from nucleus",0,0,0,1,1
+"maternal process involved in female pregnancy",0,0,0,1,1
+"negative regulation of cell cycle G1/S phase transition",0,0,0,1,1
+"B cell mediated immunity",0,0,0,1,1
+"prostaglandin biosynthetic process",0,0,0,1,1
+"detection of temperature stimulus",0,0,0,1,1
+"thyroid gland development",0,0,0,1,1
+"regulation of mast cell degranulation",0,0,0,1,1
+"prostanoid biosynthetic process",0,0,0,1,1
+"positive regulation of leukocyte apoptotic process",0,0,0,1,1
+"negative regulation of endothelial cell apoptotic process",0,0,0,1,1
+"regulation of actin filament polymerization",0,0,0,1,1
+"positive regulation of endothelial cell proliferation",0,0,0,1,1
+"response to unfolded protein",0,0,0,1,1
+"cellular response to topologically incorrect protein",0,0,0,1,1
+"connective tissue replacement involved in inflammatory response wound healing",0,0,0,1,1
+"germinal center B cell differentiation",0,0,0,1,1
+"osmosensory signaling pathway",0,0,0,1,1
+"negative regulation of glutamate secretion",0,0,0,1,1
+"lactate biosynthetic process",0,0,0,1,1
+"rhombomere development",0,0,0,1,1
+"regulation of JUN kinase activity",0,0,0,1,1
+"regulation of mast cell chemotaxis",0,0,0,1,1
+"establishment of Sertoli cell barrier",0,0,0,1,1
+"neuroblast migration",0,0,0,1,1
+"regulation of long-chain fatty acid import into cell",0,0,0,1,1
+"positive regulation of ferroptosis",0,0,0,1,1
+"positive regulation of extracellular matrix assembly",0,0,0,1,1
+"regulation of opsonization",0,0,0,1,1
+"regulation of matrix metallopeptidase secretion",0,0,0,1,1
+"regulation of epithelial tube formation",0,0,0,1,1
+"positive regulation of epithelial tube formation",0,0,0,1,1
+"matrix metallopeptidase secretion",0,0,0,1,1
+"positive regulation of T-helper 2 cell cytokine production",0,0,0,1,1
+"organelle fission",0,0,0,1,1
+"ruffle organization",0,0,0,1,1
+"regulation of proteolysis",0,0,0,1,1
+"B cell homeostasis",0,0,0,1,1
+"negative regulation of chemotaxis",0,0,0,1,1
+"autophagy",0,0,0,1,1
+"process utilizing autophagic mechanism",0,0,0,1,1
+"muscle hypertrophy",0,0,0,1,1
+"regulation of carbohydrate biosynthetic process",0,0,0,1,1
+"polyol biosynthetic process",0,0,0,1,1
+"sphingolipid metabolic process",0,0,0,1,1
+"Ras protein signal transduction",0,0,0,1,1
+"regulation of muscle adaptation",0,0,0,1,1
+"positive regulation of monoatomic ion transport",0,0,0,1,1
+"keratinocyte differentiation",0,0,0,1,1
+"activation of membrane attack complex",0,0,0,1,1
+"renal system process involved in regulation of blood volume",0,0,0,1,1
+"negative regulation of receptor internalization",0,0,0,1,1
+"dendritic cell cytokine production",0,0,0,1,1
+"regulation of dendritic cell cytokine production",0,0,0,1,1
+"sphingosine-1-phosphate receptor signaling pathway",0,0,0,1,1
+"translational termination",0,0,0,1,1
+"regulation of skeletal muscle cell proliferation",0,0,0,1,1
+"gap junction assembly",0,0,0,1,1
+"intracellular monoatomic anion homeostasis",0,0,0,1,1
+"regulation of heat generation",0,0,0,1,1
+"regulation of prostaglandin secretion",0,0,0,1,1
+"regulation of immature T cell proliferation",0,0,0,1,1
+"vitamin D metabolic process",0,0,0,1,1
+"mast cell migration",0,0,0,1,1
+"spontaneous synaptic transmission",0,0,0,1,1
+"regulation of trophoblast cell migration",0,0,0,1,1
+"regulation of complement activation",0,0,0,1,1
+"positive regulation of hormone metabolic process",0,0,0,1,1
+"negative regulation of amide metabolic process",0,0,0,1,1
+"protein refolding",0,0,0,1,1
+"positive regulation of striated muscle tissue development",0,0,0,1,1
+"positive regulation of muscle organ development",0,0,0,1,1
+"3'-UTR-mediated mRNA stabilization",0,0,0,1,1
+"positive regulation of muscle tissue development",0,0,0,1,1
+"regulation of establishment of protein localization to mitochondrion",0,0,0,1,1
+"positive regulation of fatty acid transport",0,0,0,1,1
+"response to interferon-alpha",0,0,0,1,1
+"viral process",0,0,0,1,1
+"positive regulation of muscle contraction",0,0,0,1,1
+"intracellular calcium ion homeostasis",0,0,0,1,1
+"regulation of TORC1 signaling",0,0,0,1,1
+"ovarian follicle development",0,0,0,1,1
+"negative regulation of viral process",0,0,0,1,1
+"chemokine-mediated signaling pathway",0,0,0,1,1
+"response to testosterone",0,0,0,1,1
+"plasma lipoprotein particle clearance",0,0,0,1,1
+"regulatory T cell differentiation",0,0,0,1,1
+"establishment of spindle orientation",0,0,0,1,1
+"dopaminergic neuron differentiation",0,0,0,1,1
+"proteoglycan biosynthetic process",0,0,0,1,1
+"animal organ regeneration",0,0,0,1,1
+"canonical inflammasome complex assembly",0,0,0,1,1
+"cellular response to alcohol",0,0,0,1,1
+"regulation of TOR signaling",0,0,0,1,1
+"endoderm development",0,0,0,1,1
+"regulation of DNA biosynthetic process",0,0,0,1,1
