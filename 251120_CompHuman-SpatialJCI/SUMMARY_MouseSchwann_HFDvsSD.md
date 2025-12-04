@@ -1,7 +1,7 @@
 # Mouse∩Schwann Analysis: HFDvsSD (Disease Model)
 ## Conserved Genes Between Mouse scRNA-seq and Human Schwann Spatial Transcriptomics
 
-**Date:** December 3, 2025
+**Date:** December 4, 2025
 **Comparison:** HFD vs Standard Diet (Disease Model)
 **Focus:** Mouse∩Schwann overlap (excluding JCI bulk RNA-seq)
 
@@ -47,6 +47,16 @@ High-fat diet (HFD) induces **13-21 conserved genes** between mouse peripheral n
 - **Signaling (4 genes):** Chp2, Dclk3, Rnd3, Sema7a
 - **Metabolism (3 genes):** Cpe, Fxyd3, Slc7a2
 
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_majorSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_majorSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_majorSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_majorSC_enrichment/Venn_Diagram.png`
+
+---
+
 ### aggSC (21 genes)
 
 **Complete Gene List:**
@@ -90,6 +100,16 @@ Chp2, Fxyd3, Mbp, Sema7a, Slc7a2, Txnip (plus Col1a1)
 
 ---
 
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_aggSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_aggSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_aggSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_aggSC_enrichment/Venn_Diagram.png`
+
+---
+
 ## Pathway Enrichment Analysis
 
 ### majorSC Top Pathways
@@ -111,6 +131,16 @@ Chp2, Fxyd3, Mbp, Sema7a, Slc7a2, Txnip (plus Col1a1)
 - Response to ROS (hydrogen peroxide, reactive oxygen species)
 - Response to glucose/hexose/monosaccharide (diabetic hyperglycemia)
 - Steroid hormone response (metabolic dysregulation)
+
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_majorSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_majorSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_majorSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/HFDvsSD_majorSC_enrichment/Venn_Diagram.png`
+
+---
 
 ### aggSC Top Pathways
 

@@ -1,7 +1,7 @@
 # Mouse∩Schwann Analysis: DREXvsHFD (Combined Diet + Exercise Intervention)
 ## Conserved Genes Between Mouse scRNA-seq and Human Schwann Spatial Transcriptomics
 
-**Date:** December 3, 2025
+**Date:** December 4, 2025
 **Comparison:** DREX (Diet Restriction + Exercise) vs HFD (Combined Therapeutic Intervention)
 **Focus:** Mouse∩Schwann overlap (excluding JCI bulk RNA-seq)
 
@@ -47,6 +47,16 @@ Combined diet restriction + exercise (DREX) shows **16-21 conserved genes** with
 **Developmental/Regulatory (2 genes):**
 15. **Tle2** - Transducin-like enhancer of split 2 (transcriptional repressor)
 16. **Mmp15** - Matrix metallopeptidase 15 (ECM remodeling, but regulatory)
+
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_majorSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_majorSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_majorSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_majorSC_enrichment/Venn_Diagram.png`
+
+---
 
 ### aggSC (21 genes)
 
@@ -113,6 +123,16 @@ Combined diet restriction + exercise (DREX) shows **16-21 conserved genes** with
 
 ---
 
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_aggSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_aggSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_aggSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_aggSC_enrichment/Venn_Diagram.png`
+
+---
+
 ## Pathway Enrichment Analysis
 
 ### majorSC Top Pathways (16 genes)
@@ -138,6 +158,16 @@ Combined diet restriction + exercise (DREX) shows **16-21 conserved genes** with
 - ALL top pathways relate to neurons, projections, myelination
 - **Cranial nerve organization** unique to DREX
 - Complete **myelination triad** (positive regulation, myelination, ensheathment)
+
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_majorSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_majorSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_majorSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DREXvsHFD_majorSC_enrichment/Venn_Diagram.png`
+
+---
 
 ### aggSC Top Pathways (21 genes)
 

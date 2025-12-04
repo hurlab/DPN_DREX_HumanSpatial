@@ -30,8 +30,8 @@ pacman::p_load(
 ################################################################################
 # Settings
 ################################################################################
-enrichment_root <- "Output_JCI/Enrichment_Analysis"
-output_root <- "Output_JCI/Pathway_Overlap_Heatmaps"
+enrichment_root <- "Output_JCI/00_DEGoverlap_Enrichment_Analysis"
+output_root <- "Output_JCI/08_Pathway_Overlap_Heatmaps"
 dir.create(output_root, showWarnings = FALSE, recursive = TRUE)
 
 # Datasets to compare

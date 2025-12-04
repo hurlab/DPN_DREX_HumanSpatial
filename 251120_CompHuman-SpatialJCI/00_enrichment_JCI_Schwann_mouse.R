@@ -6,7 +6,7 @@
 # - Filters for specific comparisons: HFDvsSD, DRvsHFD, EXvsHFD, DREXvsHFD
 # - Builds overlap/unique gene sets per mouse comparison
 # - Runs GO/KEGG enrichment using richR only (with builtin=FALSE for KEGG)
-# - Writes gene lists and enrichment tables to Output_JCI/Enrichment_Analysis/
+# - Writes gene lists and enrichment tables to Output_JCI/00_DEGoverlap_Enrichment_Analysis/
 ################################################################################
 
 if (requireNamespace("rstudioapi", quietly = TRUE) && rstudioapi::isAvailable()) {
@@ -184,7 +184,7 @@ map_to_entrez <- function(symbols) {
 }
 
 # Function to create aggSC (aggregate of mySC + nmSC + ImmSC)
-create_aggSC_files <- function(input_dirs, output_dir = "temp_aggSC") {
+create_aggSC_files <- function(input_dirs, output_dir = "DEGs_aggSC") {
   dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
   for (input_dir in input_dirs) {
@@ -316,7 +316,7 @@ if (requireNamespace("richR", quietly = TRUE)) {
 # Create aggSC files (aggregate of mySC + nmSC + ImmSC)
 ################################################################################
 message("Creating aggSC (aggregate Schwann cell) files...")
-aggSC_dir <- create_aggSC_files(mouse_deg_dirs, output_dir = "temp_aggSC")
+aggSC_dir <- create_aggSC_files(mouse_deg_dirs, output_dir = "DEGs_aggSC")
 
 # Add aggSC directory to processing list
 mouse_deg_dirs_with_agg <- c(mouse_deg_dirs, aggSC_dir)
@@ -402,7 +402,7 @@ for (input_dir in mouse_deg_dirs_with_agg) {
       JCI_only       = jci_only
     )
 
-    per_out <- file.path(output_root, "Enrichment_Analysis", paste0(base, "_enrichment"))
+    per_out <- file.path(output_root, "00_DEGoverlap_Enrichment_Analysis", paste0(base, "_enrichment"))
     dir.create(per_out, showWarnings = FALSE, recursive = TRUE)
 
     # Save gene lists
@@ -493,7 +493,7 @@ if (length(all_summaries) > 0) {
   
   openxlsx::saveWorkbook(wb, file.path(output_root, "Master_Enrichment_Summary.xlsx"), overwrite = TRUE)
   message("\nEnrichment summary written to ", output_root)
-  message("Enrichment analysis results saved to ", file.path(output_root, "Enrichment_Analysis/"))
+  message("Enrichment analysis results saved to ", file.path(output_root, "00_DEGoverlap_Enrichment_Analysis/"))
 } else {
   message("No summaries generated.")
 }

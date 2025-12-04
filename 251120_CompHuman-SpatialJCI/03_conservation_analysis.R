@@ -23,8 +23,8 @@ pacman::p_load(
 ################################################################################
 # Settings
 ################################################################################
-enrichment_root <- "Output_JCI/Enrichment_Analysis"
-output_dir <- "Output_JCI/Conservation_Analysis"
+enrichment_root <- "Output_JCI/00_DEGoverlap_Enrichment_Analysis"
+output_dir <- "Output_JCI/03_Conservation_Analysis"
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 # Cell types to analyze

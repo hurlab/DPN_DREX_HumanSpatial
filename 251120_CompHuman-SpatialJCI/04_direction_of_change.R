@@ -31,12 +31,12 @@ jci_deg_sheet    <- "deseq2_results"
 mouse_deg_dirs <- c("../DEG", "../DEG_Major")
 
 # Add aggSC directory if it exists
-aggSC_dir <- "temp_aggSC"
+aggSC_dir <- "DEGs_aggSC"
 if (dir.exists(aggSC_dir)) {
   mouse_deg_dirs <- c(mouse_deg_dirs, aggSC_dir)
 }
 
-output_dir <- "Output_JCI/Direction_Analysis"
+output_dir <- "Output_JCI/04_Direction_Analysis"
 dir.create(output_dir, showWarnings = FALSE, recursive = TRUE)
 
 # Schwann cell types

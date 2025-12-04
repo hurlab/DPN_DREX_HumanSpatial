@@ -1,7 +1,7 @@
 # Mouse∩Schwann Analysis: DRvsHFD (Diet Restriction Intervention)
 ## Conserved Genes Between Mouse scRNA-seq and Human Schwann Spatial Transcriptomics
 
-**Date:** December 3, 2025
+**Date:** December 4, 2025
 **Comparison:** Diet Restriction vs HFD (Therapeutic Intervention)
 **Focus:** Mouse∩Schwann overlap (excluding JCI bulk RNA-seq)
 
@@ -48,6 +48,16 @@ Diet restriction (DR) after HFD induces **17-19 conserved genes** between mouse 
 - **NEW in DR intervention (2):** Fam107a, Mlip
 - **RESOLVED from disease (3):** Col3a1, Dclk3, Rnd3, Txnip (no longer appear)
 
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Venn_Diagram.png`
+
+---
+
 ### aggSC (19 genes)
 
 **Complete Gene List:**
@@ -78,6 +88,16 @@ Diet restriction (DR) after HFD induces **17-19 conserved genes** between mouse 
 
 ---
 
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_aggSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_aggSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_aggSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_aggSC_enrichment/Venn_Diagram.png`
+
+---
+
 ## Pathway Enrichment Analysis
 
 ### majorSC Top Pathways
@@ -97,6 +117,16 @@ Diet restriction (DR) after HFD induces **17-19 conserved genes** between mouse 
 - Cell adhesion/negative regulation (Schwann-axon contact modulation)
 - Growth regulation (controlling proliferation)
 - Aldehyde response (lipid metabolism/oxidative stress sequel)
+
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Venn_Diagram.png`
+
+---
 
 ### aggSC Top Pathways
 
@@ -215,6 +245,16 @@ Diet restriction (DR) after HFD induces **17-19 conserved genes** between mouse 
 - Attempt to optimize Schwann-axon contact
 - Prevention of pathological adhesion
 - Tissue remodeling control
+
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/DRvsHFD_majorSC_enrichment/Venn_Diagram.png`
+
+---
 
 ### aggSC Cell Adhesion Network (10 genes)
 

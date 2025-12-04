@@ -30,12 +30,12 @@ jci_deg_sheet    <- "deseq2_results"
 mouse_deg_dirs <- c("../DEG", "../DEG_Major")
 
 # Add aggSC directory if it exists
-aggSC_dir <- "temp_aggSC"
+aggSC_dir <- "DEGs_aggSC"
 if (dir.exists(aggSC_dir)) {
   mouse_deg_dirs <- c(mouse_deg_dirs, aggSC_dir)
 }
 
-output_root    <- "Output_JCI/Bioenergetic_Focus"
+output_root    <- "Output_JCI/06_Bioenergetic_Focus"
 
 # Cell type and comparison filters
 schwann_cell_types <- c("mySC", "nmSC", "ImmSC", "majorSC", "aggSC")

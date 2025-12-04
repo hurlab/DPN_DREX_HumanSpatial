@@ -1,7 +1,7 @@
 # Mouse∩Schwann Analysis: EXvsHFD (Exercise Intervention)
 ## Conserved Genes Between Mouse scRNA-seq and Human Schwann Spatial Transcriptomics
 
-**Date:** December 3, 2025
+**Date:** December 4, 2025
 **Comparison:** Exercise vs HFD (Therapeutic Intervention)
 **Focus:** Mouse∩Schwann overlap (excluding JCI bulk RNA-seq)
 
@@ -69,6 +69,16 @@ Exercise after HFD induces **THE LARGEST conserved gene set** with **37 genes in
 36. **Scube1** - Signal peptide, CUB domain, EGF-like 1
 37. **Slc2a1** - Solute carrier family 2 member 1 (glucose transporter)
 
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_majorSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_majorSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_majorSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_majorSC_enrichment/Venn_Diagram.png`
+
+---
+
 ### aggSC (20 genes)
 
 **Key Genes:**
@@ -129,6 +139,16 @@ Exercise after HFD induces **THE LARGEST conserved gene set** with **37 genes in
 
 ---
 
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_aggSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_aggSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_aggSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_aggSC_enrichment/Venn_Diagram.png`
+
+---
+
 ## Pathway Enrichment Analysis
 
 ### majorSC Top Pathways (37 genes)
@@ -153,6 +173,16 @@ Exercise after HFD induces **THE LARGEST conserved gene set** with **37 genes in
 
 **Critical Myelin Pathway:**
 - **Positive regulation of myelination** (p=8.0e-06): Egr2, Mag, S100b
+
+
+
+#### Related Output Files:
+- Gene list: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_majorSC_enrichment/Overlap_MS_Genes.csv`
+- GO enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_majorSC_enrichment/Overlap_MS_richR_GO.csv`
+- KEGG enrichment: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_majorSC_enrichment/Overlap_MS_richR_KEGG.csv`
+- Venn diagram: `Output_JCI/00_DEGoverlap_Enrichment_Analysis/EXvsHFD_majorSC_enrichment/Venn_Diagram.png`
+
+---
 
 ### aggSC Top Pathways (20 genes)
 

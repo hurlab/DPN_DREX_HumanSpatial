@@ -36,8 +36,8 @@ library(STRINGdb)
 # Settings
 ################################################################################
 schwann_deg_path <- "./DEGs_JCI_DPN/SchwannDEG_Severe-Moderate_noMito.csv"
-mouse_deg_dirs <- c("../DEG_Major", "temp_aggSC")
-output_root <- "Output_JCI/PPI_Network_Analysis"
+mouse_deg_dirs <- c("../DEG_Major", "DEGs_aggSC")
+output_root <- "Output_JCI/07_PPI_Network_Analysis"
 dir.create(output_root, showWarnings = FALSE, recursive = TRUE)
 
 # Focus on specific cell types
