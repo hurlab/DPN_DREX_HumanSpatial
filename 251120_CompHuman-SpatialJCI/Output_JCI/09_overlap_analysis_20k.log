@@ -1,0 +1,995 @@
+Loading data...
+  Ortholog mapping: 16857 human-mouse gene pairs
+    Human Schwann DEGs: 228 -> Mouse orthologs: 194 
+
+Found 63 mouse DEG files
+  Loading: DREXvsDR_majorEndo.csv 
+    Genes: 191 
+  Loading: DREXvsDR_majorFib.csv 
+    Genes: 308 
+  Loading: DREXvsDR_majorMac.csv 
+    Genes: 108 
+  Loading: DREXvsDR_majorPericytes.csv 
+    Genes: 70 
+  Loading: DREXvsDR_majorPerineurial.csv 
+    Genes: 430 
+  Loading: DREXvsDR_majorSC.csv 
+    Genes: 2726 
+  Loading: DREXvsDR_majorSMC.csv 
+    Genes: 430 
+  Loading: DREXvsHFD_majorEndo.csv 
+    Genes: 266 
+  Loading: DREXvsHFD_majorFib.csv 
+    Genes: 234 
+  Loading: DREXvsHFD_majorMac.csv 
+    Genes: 123 
+  Loading: DREXvsHFD_majorPericytes.csv 
+    Genes: 101 
+  Loading: DREXvsHFD_majorPerineurial.csv 
+    Genes: 371 
+  Loading: DREXvsHFD_majorSC.csv 
+    Genes: 1023 
+  Loading: DREXvsHFD_majorSMC.csv 
+    Genes: 1794 
+  Loading: DRvsDREX_majorEndo.csv 
+    Genes: 191 
+  Loading: DRvsDREX_majorFib.csv 
+    Genes: 308 
+  Loading: DRvsDREX_majorMac.csv 
+    Genes: 108 
+  Loading: DRvsDREX_majorPericytes.csv 
+    Genes: 70 
+  Loading: DRvsDREX_majorPerineurial.csv 
+    Genes: 430 
+  Loading: DRvsDREX_majorSC.csv 
+    Genes: 2726 
+  Loading: DRvsDREX_majorSMC.csv 
+    Genes: 430 
+  Loading: DRvsEX_majorEndo.csv 
+    Genes: 104 
+  Loading: DRvsEX_majorFib.csv 
+    Genes: 548 
+  Loading: DRvsEX_majorMac.csv 
+    Genes: 107 
+  Loading: DRvsEX_majorPericytes.csv 
+    Genes: 60 
+  Loading: DRvsEX_majorPerineurial.csv 
+    Genes: 582 
+  Loading: DRvsEX_majorSC.csv 
+    Genes: 1001 
+  Loading: DRvsEX_majorSMC.csv 
+    Genes: 1066 
+  Loading: DRvsHFD_majorEndo.csv 
+    Genes: 91 
+  Loading: DRvsHFD_majorFib.csv 
+    Genes: 175 
+  Loading: DRvsHFD_majorMac.csv 
+    Genes: 103 
+  Loading: DRvsHFD_majorPericytes.csv 
+    Genes: 58 
+  Loading: DRvsHFD_majorPerineurial.csv 
+    Genes: 191 
+  Loading: DRvsHFD_majorSC.csv 
+    Genes: 825 
+  Loading: DRvsHFD_majorSMC.csv 
+    Genes: 1674 
+  Loading: DRvsSD_majorEndo.csv 
+    Genes: 209 
+  Loading: DRvsSD_majorFib.csv 
+    Genes: 528 
+  Loading: DRvsSD_majorMac.csv 
+    Genes: 375 
+  Loading: DRvsSD_majorPericytes.csv 
+    Genes: 58 
+  Loading: DRvsSD_majorPerineurial.csv 
+    Genes: 643 
+  Loading: DRvsSD_majorSC.csv 
+    Genes: 692 
+  Loading: DRvsSD_majorSMC.csv 
+    Genes: 572 
+  Loading: EXvsDREX_majorEndo.csv 
+    Genes: 419 
+  Loading: EXvsDREX_majorFib.csv 
+    Genes: 624 
+  Loading: EXvsDREX_majorMac.csv 
+    Genes: 138 
+  Loading: EXvsDREX_majorPericytes.csv 
+    Genes: 182 
+  Loading: EXvsDREX_majorPerineurial.csv 
+    Genes: 1138 
+  Loading: EXvsDREX_majorSC.csv 
+    Genes: 3939 
+  Loading: EXvsDREX_majorSMC.csv 
+    Genes: 1007 
+  Loading: EXvsHFD_majorEndo.csv 
+    Genes: 187 
+  Loading: EXvsHFD_majorFib.csv 
+    Genes: 321 
+  Loading: EXvsHFD_majorMac.csv 
+    Genes: 121 
+  Loading: EXvsHFD_majorPericytes.csv 
+    Genes: 74 
+  Loading: EXvsHFD_majorPerineurial.csv 
+    Genes: 419 
+  Loading: EXvsHFD_majorSC.csv 
+    Genes: 2371 
+  Loading: EXvsHFD_majorSMC.csv 
+    Genes: 305 
+  Loading: HFDvsSD_majorEndo.csv 
+    Genes: 333 
+  Loading: HFDvsSD_majorFib.csv 
+    Genes: 604 
+  Loading: HFDvsSD_majorMac.csv 
+    Genes: 302 
+  Loading: HFDvsSD_majorPericytes.csv 
+    Genes: 112 
+  Loading: HFDvsSD_majorPerineurial.csv 
+    Genes: 604 
+  Loading: HFDvsSD_majorSC.csv 
+    Genes: 416 
+  Loading: HFDvsSD_majorSMC.csv 
+    Genes: 1947 
+
+Defining mouse background gene universe...
+  Detected genes in data: 7099 
+  Background size (genome): 20000 
+  Human Schwann genes (mapped to mouse): 194 
+  Schwann genes in mouse background: 110 (56.7%)
+
+Calculating overlap significance...
+
+ 1 / 63 : DREXvsDR_majorEndo 
+  Mouse DEGs: 191 
+  Overlap with Schwann: 5 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 5 
+  Expected: 1.05 ± 1.02 
+  Z-score: 3.88 
+  P-value: 5.17e-05 
+  Enrichment: 4.76 x
+
+ 2 / 63 : DREXvsDR_majorFib 
+  Mouse DEGs: 308 
+  Overlap with Schwann: 7 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 7 
+  Expected: 1.69 ± 1.29 
+  Z-score: 4.12 
+  P-value: 1.9e-05 
+  Enrichment: 4.13 x
+
+ 3 / 63 : DREXvsDR_majorMac 
+  Mouse DEGs: 108 
+  Overlap with Schwann: 2 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 2 
+  Expected: 0.59 ± 0.77 
+  Z-score: 1.83 
+  P-value: 0.0333 
+  Enrichment: 3.37 x
+
+ 4 / 63 : DREXvsDR_majorPericytes 
+  Mouse DEGs: 70 
+  Overlap with Schwann: 1 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 1 
+  Expected: 0.38 ± 0.62 
+  Z-score: 1 
+  P-value: 0.16 
+  Enrichment: 2.6 x
+
+ 5 / 63 : DREXvsDR_majorPerineurial 
+  Mouse DEGs: 430 
+  Overlap with Schwann: 15 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 15 
+  Expected: 2.37 ± 1.52 
+  Z-score: 8.33 
+  P-value: 4.09e-17 
+  Enrichment: 6.34 x
+
+ 6 / 63 : DREXvsDR_majorSC 
+  Mouse DEGs: 2726 
+  Overlap with Schwann: 37 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 37 
+  Expected: 14.99 ± 3.59 
+  Z-score: 6.13 
+  P-value: 4.33e-10 
+  Enrichment: 2.47 x
+
+ 7 / 63 : DREXvsDR_majorSMC 
+  Mouse DEGs: 430 
+  Overlap with Schwann: 1 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 1 
+  Expected: 2.37 ± 1.52 
+  Z-score: -0.9 
+  P-value: 0.816 
+  Enrichment: 0.42 x
+
+ 8 / 63 : DREXvsHFD_majorEndo 
+  Mouse DEGs: 266 
+  Overlap with Schwann: 8 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 8 
+  Expected: 1.46 ± 1.2 
+  Z-score: 5.46 
+  P-value: 2.44e-08 
+  Enrichment: 5.47 x
+
+ 9 / 63 : DREXvsHFD_majorFib 
+  Mouse DEGs: 234 
+  Overlap with Schwann: 16 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 16 
+  Expected: 1.29 ± 1.12 
+  Z-score: 13.08 
+  P-value: 2.1e-39 
+  Enrichment: 12.43 x
+
+ 10 / 63 : DREXvsHFD_majorMac 
+  Mouse DEGs: 123 
+  Overlap with Schwann: 0 
+  Skipping (no overlap)
+
+ 11 / 63 : DREXvsHFD_majorPericytes 
+  Mouse DEGs: 101 
+  Overlap with Schwann: 3 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 3 
+  Expected: 0.56 ± 0.74 
+  Z-score: 3.3 
+  P-value: 0.000488 
+  Enrichment: 5.4 x
+
+ 12 / 63 : DREXvsHFD_majorPerineurial 
+  Mouse DEGs: 371 
+  Overlap with Schwann: 10 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 10 
+  Expected: 2.04 ± 1.41 
+  Z-score: 5.64 
+  P-value: 8.51e-09 
+  Enrichment: 4.9 x
+
+ 13 / 63 : DREXvsHFD_majorSC 
+  Mouse DEGs: 1023 
+  Overlap with Schwann: 16 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 16 
+  Expected: 5.63 ± 2.3 
+  Z-score: 4.5 
+  P-value: 3.37e-06 
+  Enrichment: 2.84 x
+
+ 14 / 63 : DREXvsHFD_majorSMC 
+  Mouse DEGs: 1794 
+  Overlap with Schwann: 30 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 30 
+  Expected: 9.87 ± 2.99 
+  Z-score: 6.74 
+  P-value: 8.13e-12 
+  Enrichment: 3.04 x
+
+ 15 / 63 : DRvsDREX_majorEndo 
+  Mouse DEGs: 191 
+  Overlap with Schwann: 5 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 5 
+  Expected: 1.05 ± 1.02 
+  Z-score: 3.88 
+  P-value: 5.17e-05 
+  Enrichment: 4.76 x
+
+ 16 / 63 : DRvsDREX_majorFib 
+  Mouse DEGs: 308 
+  Overlap with Schwann: 7 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 7 
+  Expected: 1.69 ± 1.29 
+  Z-score: 4.12 
+  P-value: 1.9e-05 
+  Enrichment: 4.13 x
+
+ 17 / 63 : DRvsDREX_majorMac 
+  Mouse DEGs: 108 
+  Overlap with Schwann: 2 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 2 
+  Expected: 0.59 ± 0.77 
+  Z-score: 1.83 
+  P-value: 0.0333 
+  Enrichment: 3.37 x
+
+ 18 / 63 : DRvsDREX_majorPericytes 
+  Mouse DEGs: 70 
+  Overlap with Schwann: 1 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 1 
+  Expected: 0.38 ± 0.62 
+  Z-score: 1 
+  P-value: 0.16 
+  Enrichment: 2.6 x
+
+ 19 / 63 : DRvsDREX_majorPerineurial 
+  Mouse DEGs: 430 
+  Overlap with Schwann: 15 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 15 
+  Expected: 2.37 ± 1.52 
+  Z-score: 8.33 
+  P-value: 4.09e-17 
+  Enrichment: 6.34 x
+
+ 20 / 63 : DRvsDREX_majorSC 
+  Mouse DEGs: 2726 
+  Overlap with Schwann: 37 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 37 
+  Expected: 14.99 ± 3.59 
+  Z-score: 6.13 
+  P-value: 4.33e-10 
+  Enrichment: 2.47 x
+
+ 21 / 63 : DRvsDREX_majorSMC 
+  Mouse DEGs: 430 
+  Overlap with Schwann: 1 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 1 
+  Expected: 2.37 ± 1.52 
+  Z-score: -0.9 
+  P-value: 0.816 
+  Enrichment: 0.42 x
+
+ 22 / 63 : DRvsEX_majorEndo 
+  Mouse DEGs: 104 
+  Overlap with Schwann: 6 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 6 
+  Expected: 0.57 ± 0.75 
+  Z-score: 7.22 
+  P-value: 2.69e-13 
+  Enrichment: 10.49 x
+
+ 23 / 63 : DRvsEX_majorFib 
+  Mouse DEGs: 548 
+  Overlap with Schwann: 13 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 13 
+  Expected: 3.01 ± 1.71 
+  Z-score: 5.85 
+  P-value: 2.48e-09 
+  Enrichment: 4.31 x
+
+ 24 / 63 : DRvsEX_majorMac 
+  Mouse DEGs: 107 
+  Overlap with Schwann: 1 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 1 
+  Expected: 0.59 ± 0.76 
+  Z-score: 0.54 
+  P-value: 0.295 
+  Enrichment: 1.7 x
+
+ 25 / 63 : DRvsEX_majorPericytes 
+  Mouse DEGs: 60 
+  Overlap with Schwann: 1 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 1 
+  Expected: 0.33 ± 0.57 
+  Z-score: 1.17 
+  P-value: 0.121 
+  Enrichment: 3.03 x
+
+ 26 / 63 : DRvsEX_majorPerineurial 
+  Mouse DEGs: 582 
+  Overlap with Schwann: 8 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 8 
+  Expected: 3.2 ± 1.76 
+  Z-score: 2.73 
+  P-value: 0.00317 
+  Enrichment: 2.5 x
+
+ 27 / 63 : DRvsEX_majorSC 
+  Mouse DEGs: 1001 
+  Overlap with Schwann: 18 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 18 
+  Expected: 5.51 ± 2.28 
+  Z-score: 5.48 
+  P-value: 2.15e-08 
+  Enrichment: 3.27 x
+
+ 28 / 63 : DRvsEX_majorSMC 
+  Mouse DEGs: 1066 
+  Overlap with Schwann: 19 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 19 
+  Expected: 5.86 ± 2.35 
+  Z-score: 5.59 
+  P-value: 1.13e-08 
+  Enrichment: 3.24 x
+
+ 29 / 63 : DRvsHFD_majorEndo 
+  Mouse DEGs: 91 
+  Overlap with Schwann: 5 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 5 
+  Expected: 0.5 ± 0.7 
+  Z-score: 6.39 
+  P-value: 8.18e-11 
+  Enrichment: 9.99 x
+
+ 30 / 63 : DRvsHFD_majorFib 
+  Mouse DEGs: 175 
+  Overlap with Schwann: 8 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 8 
+  Expected: 0.96 ± 0.97 
+  Z-score: 7.22 
+  P-value: 2.51e-13 
+  Enrichment: 8.31 x
+
+ 31 / 63 : DRvsHFD_majorMac 
+  Mouse DEGs: 103 
+  Overlap with Schwann: 1 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 1 
+  Expected: 0.57 ± 0.75 
+  Z-score: 0.58 
+  P-value: 0.281 
+  Enrichment: 1.77 x
+
+ 32 / 63 : DRvsHFD_majorPericytes 
+  Mouse DEGs: 58 
+  Overlap with Schwann: 2 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 2 
+  Expected: 0.32 ± 0.56 
+  Z-score: 2.99 
+  P-value: 0.0014 
+  Enrichment: 6.27 x
+
+ 33 / 63 : DRvsHFD_majorPerineurial 
+  Mouse DEGs: 191 
+  Overlap with Schwann: 3 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 3 
+  Expected: 1.05 ± 1.02 
+  Z-score: 1.92 
+  P-value: 0.0277 
+  Enrichment: 2.86 x
+
+ 34 / 63 : DRvsHFD_majorSC 
+  Mouse DEGs: 825 
+  Overlap with Schwann: 17 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 17 
+  Expected: 4.54 ± 2.08 
+  Z-score: 5.99 
+  P-value: 1.04e-09 
+  Enrichment: 3.75 x
+
+ 35 / 63 : DRvsHFD_majorSMC 
+  Mouse DEGs: 1674 
+  Overlap with Schwann: 26 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 26 
+  Expected: 9.21 ± 2.9 
+  Z-score: 5.8 
+  P-value: 3.37e-09 
+  Enrichment: 2.82 x
+
+ 36 / 63 : DRvsSD_majorEndo 
+  Mouse DEGs: 209 
+  Overlap with Schwann: 3 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 3 
+  Expected: 1.15 ± 1.06 
+  Z-score: 1.74 
+  P-value: 0.0409 
+  Enrichment: 2.61 x
+
+ 37 / 63 : DRvsSD_majorFib 
+  Mouse DEGs: 528 
+  Overlap with Schwann: 12 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 12 
+  Expected: 2.9 ± 1.68 
+  Z-score: 5.42 
+  P-value: 2.91e-08 
+  Enrichment: 4.13 x
+
+ 38 / 63 : DRvsSD_majorMac 
+  Mouse DEGs: 375 
+  Overlap with Schwann: 2 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 2 
+  Expected: 2.06 ± 1.42 
+  Z-score: -0.04 
+  P-value: 0.518 
+  Enrichment: 0.97 x
+
+ 39 / 63 : DRvsSD_majorPericytes 
+  Mouse DEGs: 58 
+  Overlap with Schwann: 2 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 2 
+  Expected: 0.32 ± 0.56 
+  Z-score: 2.99 
+  P-value: 0.0014 
+  Enrichment: 6.27 x
+
+ 40 / 63 : DRvsSD_majorPerineurial 
+  Mouse DEGs: 643 
+  Overlap with Schwann: 14 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 14 
+  Expected: 3.54 ± 1.85 
+  Z-score: 5.67 
+  P-value: 7.09e-09 
+  Enrichment: 3.96 x
+
+ 41 / 63 : DRvsSD_majorSC 
+  Mouse DEGs: 692 
+  Overlap with Schwann: 11 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 11 
+  Expected: 3.81 ± 1.91 
+  Z-score: 3.76 
+  P-value: 8.38e-05 
+  Enrichment: 2.89 x
+
+ 42 / 63 : DRvsSD_majorSMC 
+  Mouse DEGs: 572 
+  Overlap with Schwann: 4 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 4 
+  Expected: 3.15 ± 1.74 
+  Z-score: 0.49 
+  P-value: 0.312 
+  Enrichment: 1.27 x
+
+ 43 / 63 : EXvsDREX_majorEndo 
+  Mouse DEGs: 419 
+  Overlap with Schwann: 13 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 13 
+  Expected: 2.3 ± 1.5 
+  Z-score: 7.14 
+  P-value: 4.67e-13 
+  Enrichment: 5.64 x
+
+ 44 / 63 : EXvsDREX_majorFib 
+  Mouse DEGs: 624 
+  Overlap with Schwann: 22 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 22 
+  Expected: 3.43 ± 1.82 
+  Z-score: 10.21 
+  P-value: 8.87e-25 
+  Enrichment: 6.41 x
+
+ 45 / 63 : EXvsDREX_majorMac 
+  Mouse DEGs: 138 
+  Overlap with Schwann: 0 
+  Skipping (no overlap)
+
+ 46 / 63 : EXvsDREX_majorPericytes 
+  Mouse DEGs: 182 
+  Overlap with Schwann: 5 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 5 
+  Expected: 1 ± 0.99 
+  Z-score: 4.03 
+  P-value: 2.83e-05 
+  Enrichment: 5 x
+
+ 47 / 63 : EXvsDREX_majorPerineurial 
+  Mouse DEGs: 1138 
+  Overlap with Schwann: 22 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 22 
+  Expected: 6.26 ± 2.42 
+  Z-score: 6.5 
+  P-value: 4.11e-11 
+  Enrichment: 3.51 x
+
+ 48 / 63 : EXvsDREX_majorSC 
+  Mouse DEGs: 3939 
+  Overlap with Schwann: 43 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 43 
+  Expected: 21.66 ± 4.16 
+  Z-score: 5.13 
+  P-value: 1.46e-07 
+  Enrichment: 1.98 x
+
+ 49 / 63 : EXvsDREX_majorSMC 
+  Mouse DEGs: 1007 
+  Overlap with Schwann: 20 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 20 
+  Expected: 5.54 ± 2.29 
+  Z-score: 6.32 
+  P-value: 1.28e-10 
+  Enrichment: 3.61 x
+
+ 50 / 63 : EXvsHFD_majorEndo 
+  Mouse DEGs: 187 
+  Overlap with Schwann: 8 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 8 
+  Expected: 1.03 ± 1.01 
+  Z-score: 6.93 
+  P-value: 2.17e-12 
+  Enrichment: 7.78 x
+
+ 51 / 63 : EXvsHFD_majorFib 
+  Mouse DEGs: 321 
+  Overlap with Schwann: 10 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 10 
+  Expected: 1.77 ± 1.31 
+  Z-score: 6.26 
+  P-value: 1.87e-10 
+  Enrichment: 5.66 x
+
+ 52 / 63 : EXvsHFD_majorMac 
+  Mouse DEGs: 121 
+  Overlap with Schwann: 0 
+  Skipping (no overlap)
+
+ 53 / 63 : EXvsHFD_majorPericytes 
+  Mouse DEGs: 74 
+  Overlap with Schwann: 4 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 4 
+  Expected: 0.41 ± 0.64 
+  Z-score: 5.66 
+  P-value: 7.66e-09 
+  Enrichment: 9.83 x
+
+ 54 / 63 : EXvsHFD_majorPerineurial 
+  Mouse DEGs: 419 
+  Overlap with Schwann: 7 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 7 
+  Expected: 2.3 ± 1.5 
+  Z-score: 3.13 
+  P-value: 0.000861 
+  Enrichment: 3.04 x
+
+ 55 / 63 : EXvsHFD_majorSC 
+  Mouse DEGs: 2371 
+  Overlap with Schwann: 37 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 37 
+  Expected: 13.04 ± 3.38 
+  Z-score: 7.09 
+  P-value: 6.89e-13 
+  Enrichment: 2.84 x
+
+ 56 / 63 : EXvsHFD_majorSMC 
+  Mouse DEGs: 305 
+  Overlap with Schwann: 4 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 4 
+  Expected: 1.68 ± 1.28 
+  Z-score: 1.81 
+  P-value: 0.035 
+  Enrichment: 2.38 x
+
+ 57 / 63 : HFDvsSD_majorEndo 
+  Mouse DEGs: 333 
+  Overlap with Schwann: 8 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 8 
+  Expected: 1.83 ± 1.34 
+  Z-score: 4.61 
+  P-value: 2.02e-06 
+  Enrichment: 4.37 x
+
+ 58 / 63 : HFDvsSD_majorFib 
+  Mouse DEGs: 604 
+  Overlap with Schwann: 16 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 16 
+  Expected: 3.32 ± 1.79 
+  Z-score: 7.08 
+  P-value: 7.07e-13 
+  Enrichment: 4.82 x
+
+ 59 / 63 : HFDvsSD_majorMac 
+  Mouse DEGs: 302 
+  Overlap with Schwann: 3 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 3 
+  Expected: 1.66 ± 1.28 
+  Z-score: 1.05 
+  P-value: 0.147 
+  Enrichment: 1.81 x
+
+ 60 / 63 : HFDvsSD_majorPericytes 
+  Mouse DEGs: 112 
+  Overlap with Schwann: 3 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 3 
+  Expected: 0.62 ± 0.78 
+  Z-score: 3.05 
+  P-value: 0.00113 
+  Enrichment: 4.87 x
+
+ 61 / 63 : HFDvsSD_majorPerineurial 
+  Mouse DEGs: 604 
+  Overlap with Schwann: 12 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 12 
+  Expected: 3.32 ± 1.79 
+  Z-score: 4.85 
+  P-value: 6.23e-07 
+  Enrichment: 3.61 x
+
+ 62 / 63 : HFDvsSD_majorSC 
+  Mouse DEGs: 416 
+  Overlap with Schwann: 13 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 13 
+  Expected: 2.29 ± 1.49 
+  Z-score: 7.18 
+  P-value: 3.58e-13 
+  Enrichment: 5.68 x
+
+ 63 / 63 : HFDvsSD_majorSMC 
+  Mouse DEGs: 1947 
+  Overlap with Schwann: 25 
+  Using analytical hypergeometric formula (background: 20000 genes)
+  Observed: 25 
+  Expected: 10.71 ± 3.1 
+  Z-score: 4.61 
+  P-value: 2.02e-06 
+  Enrichment: 2.33 x
+
+Creating summary table...
+
+Overlap Significance Summary:
+ Comparison        Cell_Type Mouse_DEGs Schwann_Genes Background_Size
+   DREXvsDR        majorEndo        191           110           20000
+   DREXvsDR         majorFib        308           110           20000
+   DREXvsDR         majorMac        108           110           20000
+   DREXvsDR   majorPericytes         70           110           20000
+   DREXvsDR majorPerineurial        430           110           20000
+   DREXvsDR          majorSC       2726           110           20000
+   DREXvsDR         majorSMC        430           110           20000
+  DREXvsHFD        majorEndo        266           110           20000
+  DREXvsHFD         majorFib        234           110           20000
+  DREXvsHFD   majorPericytes        101           110           20000
+  DREXvsHFD majorPerineurial        371           110           20000
+  DREXvsHFD          majorSC       1023           110           20000
+  DREXvsHFD         majorSMC       1794           110           20000
+   DRvsDREX        majorEndo        191           110           20000
+   DRvsDREX         majorFib        308           110           20000
+   DRvsDREX         majorMac        108           110           20000
+   DRvsDREX   majorPericytes         70           110           20000
+   DRvsDREX majorPerineurial        430           110           20000
+   DRvsDREX          majorSC       2726           110           20000
+   DRvsDREX         majorSMC        430           110           20000
+     DRvsEX        majorEndo        104           110           20000
+     DRvsEX         majorFib        548           110           20000
+     DRvsEX         majorMac        107           110           20000
+     DRvsEX   majorPericytes         60           110           20000
+     DRvsEX majorPerineurial        582           110           20000
+     DRvsEX          majorSC       1001           110           20000
+     DRvsEX         majorSMC       1066           110           20000
+    DRvsHFD        majorEndo         91           110           20000
+    DRvsHFD         majorFib        175           110           20000
+    DRvsHFD         majorMac        103           110           20000
+    DRvsHFD   majorPericytes         58           110           20000
+    DRvsHFD majorPerineurial        191           110           20000
+    DRvsHFD          majorSC        825           110           20000
+    DRvsHFD         majorSMC       1674           110           20000
+     DRvsSD        majorEndo        209           110           20000
+     DRvsSD         majorFib        528           110           20000
+     DRvsSD         majorMac        375           110           20000
+     DRvsSD   majorPericytes         58           110           20000
+     DRvsSD majorPerineurial        643           110           20000
+     DRvsSD          majorSC        692           110           20000
+     DRvsSD         majorSMC        572           110           20000
+   EXvsDREX        majorEndo        419           110           20000
+   EXvsDREX         majorFib        624           110           20000
+   EXvsDREX   majorPericytes        182           110           20000
+   EXvsDREX majorPerineurial       1138           110           20000
+   EXvsDREX          majorSC       3939           110           20000
+   EXvsDREX         majorSMC       1007           110           20000
+    EXvsHFD        majorEndo        187           110           20000
+    EXvsHFD         majorFib        321           110           20000
+    EXvsHFD   majorPericytes         74           110           20000
+    EXvsHFD majorPerineurial        419           110           20000
+    EXvsHFD          majorSC       2371           110           20000
+    EXvsHFD         majorSMC        305           110           20000
+    HFDvsSD        majorEndo        333           110           20000
+    HFDvsSD         majorFib        604           110           20000
+    HFDvsSD         majorMac        302           110           20000
+    HFDvsSD   majorPericytes        112           110           20000
+    HFDvsSD majorPerineurial        604           110           20000
+    HFDvsSD          majorSC        416           110           20000
+    HFDvsSD         majorSMC       1947           110           20000
+ Observed_Overlap Expected_Mean Expected_SD Z_score  P_value Enrichment_Fold
+                5          1.05        1.02    3.88 5.17e-05            4.76
+                7          1.69        1.29    4.12 1.90e-05            4.13
+                2          0.59        0.77    1.83 3.33e-02            3.37
+                1          0.38        0.62    1.00 1.60e-01            2.60
+               15          2.37        1.52    8.33 4.09e-17            6.34
+               37         14.99        3.59    6.13 4.33e-10            2.47
+                1          2.37        1.52   -0.90 8.16e-01            0.42
+                8          1.46        1.20    5.46 2.44e-08            5.47
+               16          1.29        1.12   13.08 2.10e-39           12.43
+                3          0.56        0.74    3.30 4.88e-04            5.40
+               10          2.04        1.41    5.64 8.51e-09            4.90
+               16          5.63        2.30    4.50 3.37e-06            2.84
+               30          9.87        2.99    6.74 8.13e-12            3.04
+                5          1.05        1.02    3.88 5.17e-05            4.76
+                7          1.69        1.29    4.12 1.90e-05            4.13
+                2          0.59        0.77    1.83 3.33e-02            3.37
+                1          0.38        0.62    1.00 1.60e-01            2.60
+               15          2.37        1.52    8.33 4.09e-17            6.34
+               37         14.99        3.59    6.13 4.33e-10            2.47
+                1          2.37        1.52   -0.90 8.16e-01            0.42
+                6          0.57        0.75    7.22 2.69e-13           10.49
+               13          3.01        1.71    5.85 2.48e-09            4.31
+                1          0.59        0.76    0.54 2.95e-01            1.70
+                1          0.33        0.57    1.17 1.21e-01            3.03
+                8          3.20        1.76    2.73 3.17e-03            2.50
+               18          5.51        2.28    5.48 2.15e-08            3.27
+               19          5.86        2.35    5.59 1.13e-08            3.24
+                5          0.50        0.70    6.39 8.18e-11            9.99
+                8          0.96        0.97    7.22 2.51e-13            8.31
+                1          0.57        0.75    0.58 2.81e-01            1.77
+                2          0.32        0.56    2.99 1.40e-03            6.27
+                3          1.05        1.02    1.92 2.77e-02            2.86
+               17          4.54        2.08    5.99 1.04e-09            3.75
+               26          9.21        2.90    5.80 3.37e-09            2.82
+                3          1.15        1.06    1.74 4.09e-02            2.61
+               12          2.90        1.68    5.42 2.91e-08            4.13
+                2          2.06        1.42   -0.04 5.18e-01            0.97
+                2          0.32        0.56    2.99 1.40e-03            6.27
+               14          3.54        1.85    5.67 7.09e-09            3.96
+               11          3.81        1.91    3.76 8.38e-05            2.89
+                4          3.15        1.74    0.49 3.12e-01            1.27
+               13          2.30        1.50    7.14 4.67e-13            5.64
+               22          3.43        1.82   10.21 8.87e-25            6.41
+                5          1.00        0.99    4.03 2.83e-05            5.00
+               22          6.26        2.42    6.50 4.11e-11            3.51
+               43         21.66        4.16    5.13 1.46e-07            1.98
+               20          5.54        2.29    6.32 1.28e-10            3.61
+                8          1.03        1.01    6.93 2.17e-12            7.78
+               10          1.77        1.31    6.26 1.87e-10            5.66
+                4          0.41        0.64    5.66 7.66e-09            9.83
+                7          2.30        1.50    3.13 8.61e-04            3.04
+               37         13.04        3.38    7.09 6.89e-13            2.84
+                4          1.68        1.28    1.81 3.50e-02            2.38
+                8          1.83        1.34    4.61 2.02e-06            4.37
+               16          3.32        1.79    7.08 7.07e-13            4.82
+                3          1.66        1.28    1.05 1.47e-01            1.81
+                3          0.62        0.78    3.05 1.13e-03            4.87
+               12          3.32        1.79    4.85 6.23e-07            3.61
+               13          2.29        1.49    7.18 3.58e-13            5.68
+               25         10.71        3.10    4.61 2.02e-06            2.33
+ Percent_of_Mouse Percent_of_Schwann Significance
+             2.62               4.55          ***
+             2.27               6.36          ***
+             1.85               1.82            *
+             1.43               0.91           ns
+             3.49              13.64          ***
+             1.36              33.64          ***
+             0.23               0.91           ns
+             3.01               7.27          ***
+             6.84              14.55          ***
+             2.97               2.73          ***
+             2.70               9.09          ***
+             1.56              14.55          ***
+             1.67              27.27          ***
+             2.62               4.55          ***
+             2.27               6.36          ***
+             1.85               1.82            *
+             1.43               0.91           ns
+             3.49              13.64          ***
+             1.36              33.64          ***
+             0.23               0.91           ns
+             5.77               5.45          ***
+             2.37              11.82          ***
+             0.93               0.91           ns
+             1.67               0.91           ns
+             1.37               7.27           **
+             1.80              16.36          ***
+             1.78              17.27          ***
+             5.49               4.55          ***
+             4.57               7.27          ***
+             0.97               0.91           ns
+             3.45               1.82           **
+             1.57               2.73            *
+             2.06              15.45          ***
+             1.55              23.64          ***
+             1.44               2.73            *
+             2.27              10.91          ***
+             0.53               1.82           ns
+             3.45               1.82           **
+             2.18              12.73          ***
+             1.59              10.00          ***
+             0.70               3.64           ns
+             3.10              11.82          ***
+             3.53              20.00          ***
+             2.75               4.55          ***
+             1.93              20.00          ***
+             1.09              39.09          ***
+             1.99              18.18          ***
+             4.28               7.27          ***
+             3.12               9.09          ***
+             5.41               3.64          ***
+             1.67               6.36          ***
+             1.56              33.64          ***
+             1.31               3.64            *
+             2.40               7.27          ***
+             2.65              14.55          ***
+             0.99               2.73           ns
+             2.68               2.73           **
+             1.99              10.91          ***
+             3.12              11.82          ***
+             1.28              22.73          ***
+
+Saved summary to: Output_JCI/09_Overlap_Significance/Overlap_Significance_Summary.csv 
+
+Creating visualizations...
+
+Visualizations saved to: Output_JCI/09_Overlap_Significance 
+
+================================================================================
+STATISTICAL SIGNIFICANCE SUMMARY
+================================================================================
+
+Background Gene Universe: 7099 mouse genes
+Human Schwann Genes (mouse orthologs): 194 
+
+Overall Statistics:
+  Total comparisons: 60 
+  Significant (p<0.05): 50 
+  Highly significant (p<0.01): 45 
+  Very highly significant (p<0.001): 41 
+
+Top 5 Most Significant Overlaps (by Z-score):
+ Comparison        Cell_Type Observed_Overlap Z_score  P_value Enrichment_Fold
+  DREXvsHFD         majorFib               16   13.08 2.10e-39           12.43
+   EXvsDREX         majorFib               22   10.21 8.87e-25            6.41
+   DREXvsDR majorPerineurial               15    8.33 4.09e-17            6.34
+   DRvsDREX majorPerineurial               15    8.33 4.09e-17            6.34
+     DRvsEX        majorEndo                6    7.22 2.69e-13           10.49
+
+Top 5 Highest Enrichment:
+ Comparison      Cell_Type Observed_Overlap Z_score Enrichment_Fold
+  DREXvsHFD       majorFib               16   13.08           12.43
+     DRvsEX      majorEndo                6    7.22           10.49
+    DRvsHFD      majorEndo                5    6.39            9.99
+    EXvsHFD majorPericytes                4    5.66            9.83
+    DRvsHFD       majorFib                8    7.22            8.31
+
+By Comparison Group:
+# A tibble: 9 × 5
+  Comparison Mean_Zscore Mean_Enrichment N_Significant N_Total
+  <chr>            <dbl>           <dbl>         <int>   <int>
+1 DREXvsDR          3.48            3.44             5       7
+2 DREXvsHFD         6.45            5.68             6       6
+3 DRvsDREX          3.48            3.44             5       7
+4 DRvsEX            4.08            4.08             5       7
+5 DRvsHFD           4.41            5.11             6       7
+6 DRvsSD            2.86            3.16             5       7
+7 EXvsDREX          6.56            4.36             6       6
+8 EXvsHFD           5.15            5.26             6       6
+9 HFDvsSD           4.63            3.93             6       7
+
+================================================================================
+Analysis complete!
+Output directory: Output_JCI/09_Overlap_Significance 
+================================================================================

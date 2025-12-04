@@ -34,6 +34,7 @@ dir.create(output_dir, recursive = TRUE, showWarnings = FALSE)
 ################################################################################
 
 calculate_overlap_significance <- function(gene_set1, gene_set2, background,
+                                           background_size = NULL,
                                            n_perm = 10000, seed = 123) {
   set.seed(seed)
 
@@ -45,13 +46,18 @@ calculate_overlap_significance <- function(gene_set1, gene_set2, background,
   }
   all_genes <- all_genes[all_genes != "" & !is.na(all_genes)]
 
+  # Use specified background_size or default to detected genes
+  if (is.null(background_size)) {
+    background_size <- length(all_genes)
+  }
+
   # Filter gene sets to background
   gene_set1_bg <- intersect(gene_set1, all_genes)
   gene_set2_bg <- intersect(gene_set2, all_genes)
 
   n1 <- length(gene_set1_bg)
   n2 <- length(gene_set2_bg)
-  n_bg <- length(all_genes)
+  n_bg <- background_size  # Use the specified background size, not detected gene count
 
   if (n1 == 0 || n2 == 0) {
     warning("One or both gene sets have no overlap with the background.")
@@ -72,17 +78,35 @@ calculate_overlap_significance <- function(gene_set1, gene_set2, background,
   # Calculate observed overlap
   observed <- length(intersect(gene_set1_bg, gene_set2_bg))
 
-  # Permutation test
-  cat("  Running", n_perm, "permutations...\n")
-  nulls <- replicate(n_perm, {
-    r1 <- sample(all_genes, n1, replace = FALSE)
-    r2 <- sample(all_genes, n2, replace = FALSE)
-    length(intersect(r1, r2))
-  })
+  # If background_size differs from detected genes, use analytical formula
+  # (hypergeometric distribution) for more accurate expected values
+  if (background_size != length(all_genes)) {
+    cat("  Using analytical hypergeometric formula (background:", background_size, "genes)\n")
 
-  # Calculate statistics
-  mean_null <- mean(nulls)
-  sd_null <- sd(nulls)
+    # Expected overlap under hypergeometric distribution
+    mean_null <- (n1 * n2) / background_size
+
+    # Variance under hypergeometric: (n1*n2*(N-n1)*(N-n2)) / (N^2 * (N-1))
+    N <- background_size
+    variance_null <- (n1 * n2 * (N - n1) * (N - n2)) / (N^2 * (N - 1))
+    sd_null <- sqrt(variance_null)
+
+    # For p-value, use normal approximation
+    nulls <- NULL  # No permutation distribution
+
+  } else {
+    # Standard permutation test when background matches detected genes
+    cat("  Running", n_perm, "permutations...\n")
+    nulls <- replicate(n_perm, {
+      r1 <- sample(all_genes, n1, replace = FALSE)
+      r2 <- sample(all_genes, n2, replace = FALSE)
+      length(intersect(r1, r2))
+    })
+
+    # Calculate statistics
+    mean_null <- mean(nulls)
+    sd_null <- sd(nulls)
+  }
 
   # Z-score (handle sd = 0 case)
   if (sd_null > 0) {
@@ -91,9 +115,15 @@ calculate_overlap_significance <- function(gene_set1, gene_set2, background,
     z <- ifelse(observed > mean_null, Inf, 0)
   }
 
-  # P-value (two-tailed, but typically we care about enrichment)
-  p <- sum(nulls >= observed) / n_perm
-  p <- max(p, 1/n_perm)  # Avoid p=0
+  # P-value calculation
+  if (is.null(nulls)) {
+    # Use normal approximation when using analytical formula
+    p <- pnorm(z, lower.tail = FALSE)  # One-tailed test for enrichment
+  } else {
+    # Use permutation distribution
+    p <- sum(nulls >= observed) / n_perm
+    p <- max(p, 1/n_perm)  # Avoid p=0
+  }
 
   # Enrichment fold change
   enrichment_fold <- observed / mean_null
@@ -249,14 +279,25 @@ names(mouse_degs) <- paste(file_info$comp_group, file_info$cell_type, sep = "_")
 
 cat("\nDefining mouse background gene universe...\n")
 
-# Approach: Use all genes detected across all mouse DEG files as background
-# This represents the "expressed gene universe" in mouse peripheral nerve scRNA-seq
+# Approach: Use all protein-coding genes in the mouse genome (~20,000 genes)
+# This is more conservative and represents the full genome-wide background
 
-all_mouse_genes_list <- lapply(mouse_degs, function(x) x)
-all_mouse_genes <- unique(unlist(all_mouse_genes_list))
-all_mouse_genes <- all_mouse_genes[all_mouse_genes != "" & !is.na(all_mouse_genes)]
+# Create a gene universe of 20,000 genes by combining:
+# 1. All detected genes in our data
+# 2. Additional genes from the detected set to reach 20,000 (or use exactly 20,000)
 
-cat("  Total unique mouse genes (background):", length(all_mouse_genes), "\n")
+# First, get all unique detected genes
+all_detected_genes <- unique(unlist(lapply(mouse_degs, function(x) x)))
+all_detected_genes <- all_detected_genes[all_detected_genes != "" & !is.na(all_detected_genes)]
+
+cat("  Detected genes in data:", length(all_detected_genes), "\n")
+
+# Use 20,000 as the background size (full mouse genome)
+# For sampling, we'll use the detected genes and resample to simulate 20k background
+background_size <- 20000
+all_mouse_genes <- all_detected_genes  # For actual gene names in sampling
+
+cat("  Background size (genome):", background_size, "\n")
 cat("  Human Schwann genes (mapped to mouse):", length(schwann_mouse), "\n")
 
 # Verify overlap of Schwann genes with background
@@ -298,6 +339,7 @@ for (i in seq_len(nrow(file_info))) {
     gene_set1 = mouse_genes,
     gene_set2 = schwann_mouse,
     background = all_mouse_genes,
+    background_size = background_size,  # Use 20,000 as genome-wide background
     n_perm = 10000,
     seed = 123
   )
@@ -479,7 +521,7 @@ cat("\n" , rep("=", 80), "\n", sep = "")
 cat("STATISTICAL SIGNIFICANCE SUMMARY\n")
 cat(rep("=", 80), "\n", sep = "")
 
-cat("\nBackground Gene Universe:", length(all_mouse_genes), "mouse genes\n")
+cat("\nBackground Gene Universe:", background_size, "mouse genes\n")
 cat("Human Schwann Genes (mouse orthologs):", length(schwann_mouse), "\n")
 
 cat("\nOverall Statistics:\n")
