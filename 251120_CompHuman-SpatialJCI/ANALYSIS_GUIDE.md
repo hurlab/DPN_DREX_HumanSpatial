@@ -76,6 +76,14 @@ This analysis creates comprehensive heatmap visualizations showing which enriche
 
 ---
 
+## Script 09: Overlap Significance Analysis
+**File:** `09_overlap_significance_analysis.R`
+**Output:** `Output_JCI/09_Overlap_Significance/`
+
+This analysis provides rigorous statistical validation that the observed gene overlaps between mouse DEGs and human Schwann cell DEGs are not occurring by random chance, using a genome-wide background and hypergeometric distribution testing. While Script 00 identifies which genes overlap between mouse and human datasets, this script answers the critical question: "Are these overlaps statistically significant?" The script uses a **20,000 gene background** representing the full mouse genome (rather than just the ~7,000 detected genes in the dataset), which provides a more conservative and biologically appropriate statistical test. For each of the 63 mouse DEG files (9 comparisons × 7 cell types), it calculates the expected overlap with 110 human Schwann genes (mapped mouse orthologs from the 194 human Schwann DEGs) using the **hypergeometric distribution formula**: Expected = (n₁ × n₂) / N, where n₁ = mouse DEGs, n₂ = human Schwann genes, and N = 20,000. The analysis computes Z-scores measuring how many standard deviations the observed overlap is above the expected random overlap, calculates exact p-values using normal approximation, and determines enrichment fold changes (observed/expected). Critically, the analysis reveals that **ALL 9 Schwann cell (majorSC) comparisons are highly significant** (p < 0.001), and **83% of all 60 comparisons are significant** (p < 0.05), confirming genuine biological conservation. The disease baseline (HFDvsSD majorSC) shows the strongest significance (Z=7.18, p=3.58e-13, 5.68-fold enrichment), while DREX fibroblasts show the highest enrichment overall (12.43-fold, Z=13.08, p=2.10e-39). The outputs include a comprehensive CSV summary table with observed/expected overlaps, Z-scores, p-values, and enrichment for all comparisons; five visualization plots (Z-score plot with significance thresholds, p-value plot, enrichment fold plot, observed vs. expected scatter plot, and comparison group summary); and a detailed markdown summary (`SUMMARY_Overlap_Significance_Analysis.md`) with biological interpretation, methodological details, and translational implications. This analysis provides the statistical rigor needed to support claims of mouse-human conservation in publications and validates that mouse intervention models genuinely recapitulate human DPN mechanisms rather than showing coincidental gene overlaps.
+
+---
+
 ## Output Directory Structure
 
 All analyses output to a unified directory structure:
@@ -92,7 +100,8 @@ Output_JCI/
 ├── Leading_Edge_Analysis/               # Script 05: Hub genes and networks
 ├── Bioenergetic_Focus/                  # Script 06: Metabolic pathways
 ├── PPI_Network_Analysis/                # Script 07: STRING PPI networks
-└── Pathway_Overlap_Heatmaps/            # Script 08: Pathway conservation heatmaps
+├── Pathway_Overlap_Heatmaps/            # Script 08: Pathway conservation heatmaps
+└── 09_Overlap_Significance/             # Script 09: Statistical significance testing
 ```
 
 ---
@@ -101,9 +110,10 @@ Output_JCI/
 
 **Required Execution Order:**
 1. **First:** Run Script 00 (generates enrichment data and aggSC files)
-2. **Then:** Run Scripts 01-08 in any order (all depend on Script 00 output)
+2. **Then:** Run Scripts 01-09 in any order (all depend on Script 00 output)
    - Scripts 01-05, 08: Read from enrichment results
    - Scripts 04, 06, 07: Read DEG files directly (including aggSC)
+   - Script 09: Reads human Schwann DEGs and all mouse DEG files for significance testing
 
 **Typical Analysis Session:**
 ```bash
@@ -121,6 +131,9 @@ Rscript 05_leading_edge_genes.R
 Rscript 06_bioenergetic_focus.R
 Rscript 07_ppi_network_analysis.R
 Rscript 08_pathway_overlap_heatmaps.R
+
+# Step 4: Statistical validation of overlaps (recommended after Script 00)
+Rscript 09_overlap_significance_analysis.R
 ```
 
 ---
@@ -155,6 +168,12 @@ Rscript 08_pathway_overlap_heatmaps.R
 - KEGG Pathways via richR (with builtin=FALSE)
 - PPI networks via STRINGdb (v12.0, score threshold 400)
 
+**Statistical Testing (Script 09):**
+- Background size: 20,000 mouse genes (full genome)
+- Statistical method: Hypergeometric distribution (analytical formula)
+- Human Schwann genes: 194 (110 mapped to mouse background)
+- Significance levels: * p<0.05, ** p<0.01, *** p<0.001
+
 ---
 
 ## Interpretation Guide
@@ -171,6 +190,10 @@ Rscript 08_pathway_overlap_heatmaps.R
 
 **Conserved Pathways:** Biological processes enriched consistently across multiple comparisons, cell types, and species represent core disease mechanisms with high confidence.
 
+**Statistically Significant Overlaps:** Overlaps with p < 0.05 (Script 09) indicate genuine biological conservation rather than random chance. Higher Z-scores (>5) and enrichment folds (>3x) represent the strongest cross-species conservation.
+
+**Enrichment Fold Change:** Ratio of observed to expected overlap. Values >2x indicate biologically meaningful conservation. The highest enrichments (>10x) identify the most critical conserved mechanisms.
+
 ---
 
 ## Citation & Data Sources
@@ -183,5 +206,5 @@ Rscript 08_pathway_overlap_heatmaps.R
 
 ---
 
-*Last Updated: December 2, 2025*
-*Analysis Pipeline Version: 2.1 (Added aggSC aggregation, updated p-value thresholds, PPI networks, pathway overlap heatmaps)*
+*Last Updated: December 4, 2025*
+*Analysis Pipeline Version: 2.2 (Added statistical significance testing of overlaps with genome-wide background, hypergeometric distribution)*
