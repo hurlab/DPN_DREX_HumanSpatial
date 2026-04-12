@@ -1,0 +1,4 @@
+"Annot","Term","Annotated","Significant","RichFactor","FoldEnrichment","zscore","Pvalue","Padj","GeneID","ko","Level3","Level2","Level1","neg_log10_padj"
+"04110","Cell cycle",157,5,0.0318471337579618,5.84614539863826,4.52728959574767,0.00159704665478265,0.229974718288701,"Mad2l1,Pcna,Rbl1,Ywhab,Zbtb17","04110","Cell cycle","Cell growth and death","Cellular Processes",0.638319904465893
+"00563","Glycosylphosphatidylinositol (GPI)-anchor biosynthesis",30,2,0.0666666666666667,12.2379310344828,4.56169069659157,0.0115046049360876,0.659314664180472,"Pigk,Pigu","00563","Glycosylphosphatidylinositol (GPI)-anchor biosynthesis","Glycan biosynthesis and metabolism","Metabolism",0.180907264766177
+"04350","TGF-beta signaling pathway",112,3,0.0267857142857143,4.91702586206897,3.08409632541187,0.0230062931734344,0.659314664180472,"Rbl1,Rock1,Id2","04350","TGF-beta signaling pathway","Signal transduction","Environmental Information Processing",0.180907264766177
